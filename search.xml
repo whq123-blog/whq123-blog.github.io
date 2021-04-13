@@ -1,161 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>下阶段学习路线</title>
-      <link href="2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
-      <url>2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
-      
-        <content type="html"><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p><p>英文:</p><p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p><p>中文：</p><p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p><h3 id="2、时间序列基线预测"><a href="#2、时间序列基线预测" class="headerlink" title="2、时间序列基线预测"></a>2、时间序列基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p><p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p><h3 id="3、Multichannel-CNN"><a href="#3、Multichannel-CNN" class="headerlink" title="3、Multichannel CNN"></a>3、Multichannel CNN</h3><p>How to Develop a Multichannel CNN Model for Text Classification</p><p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p><p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p><h3 id="4、Deep-Convolutional-Neural-Network"><a href="#4、Deep-Convolutional-Neural-Network" class="headerlink" title="4、Deep Convolutional Neural Network"></a>4、Deep Convolutional Neural Network</h3><p>Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</p><p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p><h3 id="5、Mask-R-CNN"><a href="#5、Mask-R-CNN" class="headerlink" title="5、Mask R-CNN"></a>5、Mask R-CNN</h3><p>How to Use Mask R-CNN in Keras for Object Detection in Photographs</p><p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p><h3 id="6、人脸识别的例子"><a href="#6、人脸识别的例子" class="headerlink" title="6、人脸识别的例子"></a>6、人脸识别的例子</h3><p><a href="https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/">https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/</a></p><h3 id="7、End"><a href="#7、End" class="headerlink" title="7、End"></a>7、End</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>FAQ</title>
+    <url>/2021/04/13/FAQ/</url>
+    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
+<li>cannot GET categories / cannot GET tags</li>
+</ul>
+<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
+<ul>
+<li>如何使用无后台评论API–Valine</li>
+</ul>
+<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
+<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
+<ul>
+<li>寻找合适的【Hexo主题】框架</li>
+</ul>
+<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<ul>
+<li> 8个顶级图标网站【favicon.ico】</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
+<p>推送到github总是443</p>
+<p><font color=grey>方法一：更换网络或使用国外节点</font></p>
+<p><font color=grey>方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
       <categories>
-          
-          <category> 人工智能 </category>
-          
+        <category>说明类文档</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 机器学习 </tag>
-            
-            <tag> 深度学习 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>FAQ</title>
-      <link href="2021/04/13/FAQ/"/>
-      <url>2021/04/13/FAQ/</url>
-      
-        <content type="html"><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul><li>cannot GET categories / cannot GET tags</li></ul><p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p><ul><li>如何使用无后台评论API–Valine</li></ul><p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p><p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p><ul><li>寻找合适的【Hexo主题】框架</li></ul><p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p><ul><li> 8个顶级图标网站【favicon.ico】</li></ul><p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p><p>推送到github总是443</p><p><font color=grey>方法一：更换网络或使用国外节点</font></p><p><font color=grey>方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
+      <tags>
+        <tag>FAQ</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/04/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="TAGS"><a href="#TAGS" class="headerlink" title="TAGS"></a>TAGS</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">//multi</span><br><span class="line">tags: 标题1</span><br><span class="line">//mono</span><br><span class="line">tags: [标题1,标题2,标题3]</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
       <categories>
-          
-          <category> 说明类文档 </category>
-          
+        <category>说明类文档</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> FAQ </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>英语阅读</title>
-      <link href="2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/"/>
-      <url>2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
-      
-        <content type="html"><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color=red>先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）<br>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p><p><font color=grey>在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>]]></content>
-      
-      
+      <tags>
+        <tag>入门指令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>下阶段学习路线</title>
+    <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
+<p>英文:</p>
+<p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p>
+<p>中文：</p>
+<p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p>
+<h3 id="2、时间序列基线预测"><a href="#2、时间序列基线预测" class="headerlink" title="2、时间序列基线预测"></a>2、时间序列基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p>
+<p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p>
+<h3 id="3、Multichannel-CNN"><a href="#3、Multichannel-CNN" class="headerlink" title="3、Multichannel CNN"></a>3、Multichannel CNN</h3><p>How to Develop a Multichannel CNN Model for Text Classification</p>
+<p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p>
+<p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p>
+<h3 id="4、Deep-Convolutional-Neural-Network"><a href="#4、Deep-Convolutional-Neural-Network" class="headerlink" title="4、Deep Convolutional Neural Network"></a>4、Deep Convolutional Neural Network</h3><p>Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<h3 id="5、Mask-R-CNN"><a href="#5、Mask-R-CNN" class="headerlink" title="5、Mask R-CNN"></a>5、Mask R-CNN</h3><p>How to Use Mask R-CNN in Keras for Object Detection in Photographs</p>
+<p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p>
+<h3 id="6、人脸识别的例子"><a href="#6、人脸识别的例子" class="headerlink" title="6、人脸识别的例子"></a>6、人脸识别的例子</h3><p><a href="https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/">https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/</a></p>
+<h3 id="7、End"><a href="#7、End" class="headerlink" title="7、End"></a>7、End</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>
+]]></content>
       <categories>
-          
-          <category> 英语 </category>
-          
+        <category>人工智能</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 阅读 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>单词有没背，我吐了</title>
-      <link href="2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/"/>
-      <url>2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-      
-        <content type="html"><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p><p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>]]></content>
-      
-      
+      <tags>
+        <tag>机器学习</tag>
+        <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
+]]></content>
       <categories>
-          
-          <category> 生活 </category>
-          
+        <category>生活</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 杂记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我的第一篇github博文</title>
-      <link href="2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
-      <url>2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-      
-        <content type="html"><![CDATA[<p> 面试学弟，</p><p>舍友中午面试没睡午觉</p><p>机器学习作业没写</p><p>困啊…</p><p>单词60个，冲</p>]]></content>
-      
-      
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇github博文</title>
+    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<p> 面试学弟，</p>
+<p>舍友中午面试没睡午觉</p>
+<p>机器学习作业没写</p>
+<p>困啊…</p>
+<p>单词60个，冲</p>
+]]></content>
       <categories>
-          
-          <category> 生活 </category>
-          
+        <category>生活</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 杂记 </tag>
-            
-            <tag> 水文 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="2021/04/11/hello-world/"/>
-      <url>2021/04/11/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="TAGS"><a href="#TAGS" class="headerlink" title="TAGS"></a>TAGS</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//multi</span><br><span class="line">tags: 标题1</span><br><span class="line">//mono</span><br><span class="line">tags: [标题1,标题2,标题3]</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
+      <tags>
+        <tag>杂记</tag>
+        <tag>水文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语阅读</title>
+    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color=red>先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）<br>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
+<p><font color=grey>在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+]]></content>
       <categories>
-          
-          <category> 说明类文档 </category>
-          
+        <category>英语</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 入门指令 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>阅读</tag>
+      </tags>
+  </entry>
 </search>
