@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">130</span>
+            <span class="post-count">166</span>
         </span>
     </span>
 
@@ -116,7 +116,13 @@
 <p><a target="_blank" rel="noopener" href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
 <p>推送到github总是443</p>
 <p><font color=grey>方法一：更换网络或使用国外节点</font></p>
-<p><font color=grey>方法二：<a target="_blank" rel="noopener" href="http://www.github.com/xxx.git">http://www.github.com/xxx.git</a> 改成 git://<a target="_blank" rel="noopener" href="http://www.github.com/xxx.%EF%BC%88%E7%9B%AE%E5%89%8D%E6%B2%A1%E8%AF%95%E8%BF%87%EF%BC%89">www.github.com/xxx.（目前没试过）</a></font></p>
+<p><font color=grey>方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p>
+<figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+
+
+
+
  
       <!-- reward -->
       
