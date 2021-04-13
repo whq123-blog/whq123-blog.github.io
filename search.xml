@@ -29,16 +29,31 @@
       </tags>
   </entry>
   <entry>
-    <title>英语阅读</title>
-    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
-    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color=red>先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）<br>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
-<p><font color=grey>在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+    <title>FAQ</title>
+    <url>/2021/04/13/FAQ/</url>
+    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
+<li>cannot GET categories / cannot GET tags</li>
+</ul>
+<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
+<ul>
+<li>如何使用无后台评论API–Valine</li>
+</ul>
+<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
+<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
+<ul>
+<li>寻找合适的【Hexo主题】框架</li>
+</ul>
+<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<ul>
+<li> 8个顶级图标网站【favicon.ico】</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
 ]]></content>
       <categories>
-        <category>英语</category>
+        <category>说明类文档</category>
       </categories>
       <tags>
-        <tag>阅读</tag>
+        <tag>FAQ</tag>
       </tags>
   </entry>
   <entry>
@@ -69,6 +84,19 @@
       <tags>
         <tag>杂记</tag>
         <tag>水文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语阅读</title>
+    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color=red>先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）<br>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
+<p><font color=grey>在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
 </search>
