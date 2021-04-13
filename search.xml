@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>FAQ</title>
+    <url>/2021/04/13/FAQ/</url>
+    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
+<li>cannot GET categories / cannot GET tags</li>
+</ul>
+<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
+<ul>
+<li>如何使用无后台评论API–Valine</li>
+</ul>
+<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
+<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
+<ul>
+<li>寻找合适的【Hexo主题】框架</li>
+</ul>
+<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<ul>
+<li> 8个顶级图标网站【favicon.ico】</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
+<p>推送到github总是443</p>
+<p><font color=grey>方法一：更换网络或使用国外节点</font></p>
+<p><font color=grey>方法二：<a href="http://www.github.com/xxx.git">http://www.github.com/xxx.git</a> 改成 git://<a href="http://www.github.com/xxx.%EF%BC%88%E7%9B%AE%E5%89%8D%E6%B2%A1%E8%AF%95%E8%BF%87%EF%BC%89">www.github.com/xxx.（目前没试过）</a></font></p>
+]]></content>
+      <categories>
+        <category>说明类文档</category>
+      </categories>
+      <tags>
+        <tag>FAQ</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/04/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -29,31 +60,27 @@
       </tags>
   </entry>
   <entry>
-    <title>FAQ</title>
-    <url>/2021/04/13/FAQ/</url>
-    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
-<li>cannot GET categories / cannot GET tags</li>
-</ul>
-<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
-<ul>
-<li>如何使用无后台评论API–Valine</li>
-</ul>
-<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
-<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
-<ul>
-<li>寻找合适的【Hexo主题】框架</li>
-</ul>
-<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
-<ul>
-<li> 8个顶级图标网站【favicon.ico】</li>
-</ul>
-<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
+    <title>下阶段学习路线</title>
+    <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[<h3 id="1、"><a href="#1、" class="headerlink" title="1、"></a>1、</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
+<h3 id="2、"><a href="#2、" class="headerlink" title="2、"></a>2、</h3><p>英文:</p>
+<p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p>
+<p>中文：</p>
+<p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p>
+<h3 id="3、如何使用Python进行时间序列预测的基线预测"><a href="#3、如何使用Python进行时间序列预测的基线预测" class="headerlink" title="3、如何使用Python进行时间序列预测的基线预测"></a>3、如何使用Python进行时间序列预测的基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p>
+<p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p>
+<h3 id="4、"><a href="#4、" class="headerlink" title="4、"></a>4、</h3><p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p>
+<h3 id="5、How-to-Develop-a-Multichannel-CNN-Model-for-Text-Classification"><a href="#5、How-to-Develop-a-Multichannel-CNN-Model-for-Text-Classification" class="headerlink" title="5、How to Develop a Multichannel CNN Model for Text Classification"></a>5、How to Develop a Multichannel CNN Model for Text Classification</h3><p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p>
+<h3 id="6、Deep-Convolutional-Neural-Network-for-Sentiment-Analysis-Text-Classification"><a href="#6、Deep-Convolutional-Neural-Network-for-Sentiment-Analysis-Text-Classification" class="headerlink" title="6、Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)"></a>6、Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</h3><p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<h3 id="7、How-to-Use-Mask-R-CNN-in-Keras-for-Object-Detection-in-Photographs"><a href="#7、How-to-Use-Mask-R-CNN-in-Keras-for-Object-Detection-in-Photographs" class="headerlink" title="7、How to Use Mask R-CNN in Keras for Object Detection in Photographs"></a>7、How to Use Mask R-CNN in Keras for Object Detection in Photographs</h3><p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p>
+<h3 id="8、"><a href="#8、" class="headerlink" title="8、"></a>8、</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>
 ]]></content>
       <categories>
-        <category>说明类文档</category>
+        <category>人工智能</category>
       </categories>
       <tags>
-        <tag>FAQ</tag>
+        <tag>机器学习</tag>
+        <tag>深度学习</tag>
       </tags>
   </entry>
   <entry>
