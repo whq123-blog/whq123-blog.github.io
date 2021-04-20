@@ -139,7 +139,24 @@
       </tags>
   </entry>
   <entry>
-    <title>吐槽常微分方程</title>
+    <title>我的第一篇github博文</title>
+    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<p> 面试学弟，</p>
+<p>舍友中午面试没睡午觉</p>
+<p>机器学习作业没写</p>
+<p>困啊…</p>
+<p>单词60个，冲</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+        <tag>水文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>吐槽，常微分方程</title>
     <url>/2021/04/20/%E5%90%90%E6%A7%BD%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
     <content><![CDATA[<p>离开了一元微积分，我的记忆更模糊了。</p>
 <p>在没有网课的条件下，啃了课本理论一顿，便去做题，</p>
@@ -173,6 +190,9 @@
 <hr>
 <p>8、求 <strong>特解</strong> 的时候，把结果留到了ln表示的那一步（经常会有1/y 1/x），带入 x、y 特值后，发现分母为零，或者等式一边直接无穷，说明什么？</p>
 <p>【答】不代表没有解，也不代表你错了，向下，将ln去掉后，再带入特值，||甚至化成 y=[…]的形式时，就一切正常了。</p>
+<hr>
+<p>9、关于C在运算过程中要不要变的问题</p>
+<p>【答】 在求解一个微分方程的通解/特解的过程，C难免要乘个系数，除个常数，这个时候都可以让C保持不变。</p>
 <hr>
 ]]></content>
       <categories>
@@ -210,41 +230,6 @@
       </tags>
   </entry>
   <entry>
-    <title>末春，夏将至</title>
-    <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
-    <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
-<p>差点离开这个美丽的人间，</p>
-<p>淄博，</p>
-<p>跟北京今天都破27℃，</p>
-<p>校园里的同学齐刷刷的大白裤衩，上身短袖，或配上短裙，</p>
-<p>在烈日的照耀下，我去往信息楼，，，</p>
-<p>宛然入夏。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇github博文</title>
-    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-    <content><![CDATA[<p> 面试学弟，</p>
-<p>舍友中午面试没睡午觉</p>
-<p>机器学习作业没写</p>
-<p>困啊…</p>
-<p>单词60个，冲</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-        <tag>水文</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>每日安排</title>
     <url>/2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
@@ -264,6 +249,24 @@
       </categories>
       <tags>
         <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>末春，夏将至</title>
+    <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
+    <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
+<p>差点离开这个美丽的人间，</p>
+<p>淄博，</p>
+<p>跟北京今天都破27℃，</p>
+<p>校园里的同学齐刷刷的大白裤衩，上身短袖，或配上短裙，</p>
+<p>在烈日的照耀下，我去往信息楼，，，</p>
+<p>宛然入夏。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
