@@ -45,6 +45,36 @@
       </tags>
   </entry>
   <entry>
+    <title>下阶段学习路线</title>
+    <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
+<p>英文:</p>
+<p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p>
+<p>中文：</p>
+<p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p>
+<span id="more"></span>
+
+<h3 id="2、时间序列基线预测"><a href="#2、时间序列基线预测" class="headerlink" title="2、时间序列基线预测"></a>2、时间序列基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p>
+<p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p>
+<h3 id="3、Multichannel-CNN"><a href="#3、Multichannel-CNN" class="headerlink" title="3、Multichannel CNN"></a>3、Multichannel CNN</h3><p>How to Develop a Multichannel CNN Model for Text Classification</p>
+<p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p>
+<p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p>
+<h3 id="4、Deep-Convolutional-Neural-Network"><a href="#4、Deep-Convolutional-Neural-Network" class="headerlink" title="4、Deep Convolutional Neural Network"></a>4、Deep Convolutional Neural Network</h3><p>Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<h3 id="5、Mask-R-CNN"><a href="#5、Mask-R-CNN" class="headerlink" title="5、Mask R-CNN"></a>5、Mask R-CNN</h3><p>How to Use Mask R-CNN in Keras for Object Detection in Photographs</p>
+<p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p>
+<h3 id="6、人脸识别的例子"><a href="#6、人脸识别的例子" class="headerlink" title="6、人脸识别的例子"></a>6、人脸识别的例子</h3><p><a href="https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/">https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/</a></p>
+<h3 id="7、End"><a href="#7、End" class="headerlink" title="7、End"></a>7、End</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>
+]]></content>
+      <categories>
+        <category>人工智能</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/04/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -79,33 +109,16 @@
       </tags>
   </entry>
   <entry>
-    <title>下阶段学习路线</title>
-    <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
-    <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
-<p>英文:</p>
-<p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p>
-<p>中文：</p>
-<p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p>
-<span id="more"></span>
-
-<h3 id="2、时间序列基线预测"><a href="#2、时间序列基线预测" class="headerlink" title="2、时间序列基线预测"></a>2、时间序列基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p>
-<p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p>
-<h3 id="3、Multichannel-CNN"><a href="#3、Multichannel-CNN" class="headerlink" title="3、Multichannel CNN"></a>3、Multichannel CNN</h3><p>How to Develop a Multichannel CNN Model for Text Classification</p>
-<p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p>
-<p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p>
-<h3 id="4、Deep-Convolutional-Neural-Network"><a href="#4、Deep-Convolutional-Neural-Network" class="headerlink" title="4、Deep Convolutional Neural Network"></a>4、Deep Convolutional Neural Network</h3><p>Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<h3 id="5、Mask-R-CNN"><a href="#5、Mask-R-CNN" class="headerlink" title="5、Mask R-CNN"></a>5、Mask R-CNN</h3><p>How to Use Mask R-CNN in Keras for Object Detection in Photographs</p>
-<p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p>
-<h3 id="6、人脸识别的例子"><a href="#6、人脸识别的例子" class="headerlink" title="6、人脸识别的例子"></a>6、人脸识别的例子</h3><p><a href="https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/">https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/</a></p>
-<h3 id="7、End"><a href="#7、End" class="headerlink" title="7、End"></a>7、End</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
 ]]></content>
       <categories>
-        <category>人工智能</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>机器学习</tag>
-        <tag>深度学习</tag>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -123,19 +136,6 @@
       </categories>
       <tags>
         <tag>长难句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>单词有没背，我吐了</title>
-    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
-<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -185,6 +185,23 @@
       </tags>
   </entry>
   <entry>
+    <title>我的第一篇github博文</title>
+    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<p> 面试学弟，</p>
+<p>舍友中午面试没睡午觉</p>
+<p>机器学习作业没写</p>
+<p>困啊…</p>
+<p>单词60个，冲</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+        <tag>水文</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>既纠结，又可惜</title>
     <url>/2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/</url>
     <content><![CDATA[<hr>
@@ -227,23 +244,6 @@
       </categories>
       <tags>
         <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇github博文</title>
-    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-    <content><![CDATA[<p> 面试学弟，</p>
-<p>舍友中午面试没睡午觉</p>
-<p>机器学习作业没写</p>
-<p>困啊…</p>
-<p>单词60个，冲</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-        <tag>水文</tag>
       </tags>
   </entry>
   <entry>
