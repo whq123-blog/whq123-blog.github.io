@@ -1,311 +1,539 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search> 
-  
-  
-    
-    <entry>
-      <title>吐槽，常微分方程</title>
-      <link href="2021/04/20/%E5%90%90%E6%A7%BD%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/"/>
-      <url>2021/04/20/%E5%90%90%E6%A7%BD%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
-      
-        <content type="html"><![CDATA[<p>离开了一元微积分，我的记忆更模糊了。</p><p>在没有网课的条件下，啃了课本理论一顿，便去做题，</p><p>这TM……</p><p>指导书上的题目都啃完了，怎么系统测试题这么离谱？</p><p>以下，关于我对该章的 <strong>puzzle</strong></p><p> →</p><hr><p><font size="4">1、<strong>通解</strong> ，是不是都长了一个样？</font></p><p>【答】非也，c的位置可能因为解题步骤的差异（同一个方法下），在分子，在分母，结果整体差一个正负，这都是一个C可以弥补的话，就可以容忍。</p><p>【补答】非也，一个微分方程如果用不同方法（比如用齐次方程（u = x/y ）、伯努利方程），就会得到两个不同的通解，傻傻地找了50分钟错误，┭┮﹏┭┮，想哭泣。</p><hr><p><font size="4">2、<strong>通解</strong> ，自己的结果和答案差距很大，c变换位置或者符号都弥补不了说明什么？</font></p><p>【答】你做错了，可能是哪里看错了，照着错误步骤走了下去。</p><hr><p><font size="4">3、使用 <strong>lnC</strong> 的原因？</font></p><p>【答】 往往是为了求特解时，在最后一步（lnY = lnf(x)+ lnC）时，更加方便地将ln去掉，换成C，你试试，麻烦不哭你。</p><hr><p><font size="4">4、<strong>特解</strong>， 是不是和通解一样，化去y’ ，只剩下 y 与 x 的方程就可？</font></p><p>【答】目前见过的答案都很牛p，全部都是 y = [c与x的组合] ,耗子尾汁。</p><hr><p><font size="4">5、方程变形时，移到<strong>分母</strong>的多项式是否讨论不为0？</font></p><p>【答】不必考虑。</p><hr><p><font size="4">6、解出来不定积分是否要再后面加上一个C ？  ∫1/x dx 还加绝对值吗？</font></p><p>【答】不加，微分方程只求一个原函数；绝对值也不加，一切从简。</p><hr><p><font size="4">7、一道题4遍能做出来4种结果是什么情况？每次这里也漏，那里也看错…</font></p><p>【答】滴个眼药水，休息一下，缓解一下眼疲劳，此刻往往附有书写潦草，不耐烦的迹象。真心需要休息了。</p><hr><p><font size="4">8、求 <strong>特解</strong> 的时候，把结果留到了ln表示的那一步（经常会有1/y 1/x），带入 x、y 特值后，发现分母为零，或者等式一边直接无穷，说明什么？</font></p><p>【答】不代表没有解，也不代表你错了，向下，将ln去掉后，再带入特值，||甚至化成 y=[…]的形式时，就一切正常了。</p><hr><p><font size="4">9、关于C在运算过程中要不要变的问题</font></p><p>【答】 在求解一个微分方程的通解/特解的过程，C难免要乘个系数，除个常数，这个时候都可以让C保持不变。</p><hr><p><font size="4">10、y = ∫C<sub>1</sub> * x +C<sub>1</sub>/3 * x<sup>3</sup> +C<sub>2</sub> </font> ,第二个有C<sub>1</sub>的地方可以整合掉系数吗？</p><p>【答】不可以，尤其是后面要求求解特值时，会出现误差，显然，这两个位置的C<sub>1</sub>已经符合某种倍数关系，不能忽视这种关系。</p><hr><p><font size="4">11、在二次微分方程降阶过程中，y’’ = f(x,y’) 不考虑 p=0，而在 y’’ = f(y,y’)中，要考虑p=0的情况，这怎么说。</font></p><p>【答】进一步讲，x不显露的那种情况下，考虑p=0，好吧，还是不太懂。</p>]]></content>
-      
-      
+<search>
+  <entry>
+    <title>FAQ</title>
+    <url>/2021/04/13/FAQ/</url>
+    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
+<li>cannot GET categories / cannot GET tags</li>
+</ul>
+<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
+<ul>
+<li>如何使用无后台评论API–Valine</li>
+</ul>
+<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
+<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
+<span id="more"></span>
+
+<ul>
+<li>寻找合适的【Hexo主题】框架</li>
+</ul>
+<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<ul>
+<li> 8个顶级图标网站【favicon.ico】</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
+<p>推送到github总是443</p>
+<p><font color="grey">方法一：更换网络或使用国外节点</font></p>
+<p><font color="grey">方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+<p><font color="grey">方法三：开手机热点，贼好用（贼都说好用了，推荐）</font></p>
+<ul>
+<li>md文档上传并附带照片</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/f72aaad7b852">https://www.jianshu.com/p/f72aaad7b852</a></p>
+<ul>
+<li>md文档RGB查询</li>
+</ul>
+<p><a href="https://bj.96weixin.com/tools/rgb">https://bj.96weixin.com/tools/rgb</a></p>
+]]></content>
       <categories>
-          
-          <category> 数学 </category>
-          
+        <category>说明类文档</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 杂记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>末春，夏将至</title>
-      <link href="2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/"/>
-      <url>2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p><p>差点离开这个美丽的人间，</p><p>淄博，</p><p>跟北京今天都破27℃，</p><p>校园里的同学齐刷刷的大白裤衩，上身短袖，或配上短裙，</p><p>在烈日的照耀下，我去往信息楼，，，</p><p>宛然入夏。</p>]]></content>
-      
-      
+      <tags>
+        <tag>FAQ</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>下阶段学习路线</title>
+    <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
+<p>英文:</p>
+<p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p>
+<p>中文：</p>
+<p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p>
+<span id="more"></span>
+
+<h3 id="2、时间序列基线预测"><a href="#2、时间序列基线预测" class="headerlink" title="2、时间序列基线预测"></a>2、时间序列基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p>
+<p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p>
+<h3 id="3、Multichannel-CNN"><a href="#3、Multichannel-CNN" class="headerlink" title="3、Multichannel CNN"></a>3、Multichannel CNN</h3><p>How to Develop a Multichannel CNN Model for Text Classification</p>
+<p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p>
+<p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p>
+<h3 id="4、Deep-Convolutional-Neural-Network"><a href="#4、Deep-Convolutional-Neural-Network" class="headerlink" title="4、Deep Convolutional Neural Network"></a>4、Deep Convolutional Neural Network</h3><p>Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<h3 id="5、Mask-R-CNN"><a href="#5、Mask-R-CNN" class="headerlink" title="5、Mask R-CNN"></a>5、Mask R-CNN</h3><p>How to Use Mask R-CNN in Keras for Object Detection in Photographs</p>
+<p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p>
+<h3 id="6、人脸识别的例子"><a href="#6、人脸识别的例子" class="headerlink" title="6、人脸识别的例子"></a>6、人脸识别的例子</h3><p><a href="https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/">https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/</a></p>
+<h3 id="7、End"><a href="#7、End" class="headerlink" title="7、End"></a>7、End</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>
+]]></content>
       <categories>
-          
-          <category> 生活 </category>
-          
+        <category>人工智能</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 日记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>每日安排</title>
-      <link href="2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/"/>
-      <url>2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
-      
-        <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">  <script id="hbeData" type="hbeData" data-hmacdigest="c5b67de500902adfdce8712a1bbd5d1b86f49bbcc82b29da84eada49dd67dc68">864cb16dec9f54c6b2ab440ca95f2b2787879dca1efffda258336d5eb9aa067f262866d181fa9287dee76c8394375c8c53f945d46fc083fea341fbca93c1444a83ed0391d0166f2e384461044bb7917405c0826dc7f5124938f2da22f31d99754b1252847679323b1893883be609ad95c147e68901a5a69655ba3061eacf5dddbf4d981e1c62c7030c14916bd3f06b5d33618ced679dfe2ce4804003b5896aad978cc3a1fbbed04a410f333961899b5de5d23d25feb0f6de83d345daafded0744502188198844d4bbb74f2b59ec2ec1d3975ee2188f83c48476cf34cf2d94e32ea55a54a73fbce3beee13ee32fa89205bfb3de4d0dfd0678cbf24c9b8cbbf57c01c4def5f105333a0ad3b027a606200de735a2c7c30372e39bcf76711db7d2e8efdcd240536ee2326e7311dd44c8bdab2d23e6d99d2cab530060561333df3f3d10b8e39e465c81a1c7d0615d66a99fffd97df279fd0806be90586500dd0ac97bf434a6de1c7b242c92344e23d9421b533fee85d7d633012be6d373d78102f2e7df02afee9da4f78bb17558936e1515c23e9f6e3ec1bf544469addeee57c0890dcbe776442734993e620ae31d091981a65a5baefe51a4a9e32b42d45b573fe231be41e7d87ca618554ed3734aa363e6a8153dd6a60b517189c443fd927c9d70aca0556e4c827be44de384170241ba0fbe85a3a397f2f349089fadc87ae62dc477690ab2becf5625f3c4bcfcba7caa65707a5604340b9c590d9ad3056558b769d21443fb472d309890c63155766e8dd97f941611ea4c931edbc8a68315bd5c599f750fa5d734e851d847bf18e4831f5cbcc1a922494ba36f1183bc86cb18f21cdb67969004318ccf251b05ada18f4d5b3462ef854d148ba1c7d7246129cae324f32a6553a5362c63f9998c363b3745135010bb57a2227cfddfaab241540452857dfbc3025a3f3c5ef6d86d02793f998961623b358508a4002acfd13ba213d6cf7970ccbcc4e7920c8cbc0ccff51a27a934faf42ec8ed08e424d5a63a902c1dacaeb85e0a9dceae359819e1abacfdbe582c23d07189da26ccd4be6136d83d5256d29806c641045cb402c35084011868c3bf4def573e0c8e14842a576c6c29386c688f8529ea6071e07c3012b274d1295edbe3b99d9c5cf5277fe67e36088300075ec458560ade85cf8fbe61095dba71c0b97cce60165473fc359b29e11e784963b8</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      
-      
+      <tags>
+        <tag>机器学习</tag>
+        <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/04/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<span id="more"></span>
+
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="TAGS"><a href="#TAGS" class="headerlink" title="TAGS"></a>TAGS</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">//multi</span><br><span class="line">tags: 标题1</span><br><span class="line">//mono</span><br><span class="line">tags: [标题1,标题2,标题3]</span><br></pre></td></tr></table></figure>
+
+<h3 id="TIPS"><a href="#TIPS" class="headerlink" title="TIPS"></a>TIPS</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1、写md文档、修改主题的_config.xml是不需要重启服务的</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
       <categories>
-          
-          <category> 生活 </category>
-          
+        <category>说明类文档</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 杂记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>两个典型长难句</title>
-      <link href="2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/"/>
-      <url>2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
-      
-        <content type="html"><![CDATA[<p><strong>分析长难句步骤：</strong></p><p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p><p>2、再找谓语动词（连词数量 = 谓语动词-1）</p><p>3、确定主干，进而确定其他成分</p><p><strong>举两个栗子：</strong></p><p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>]]></content>
-      
-      
+      <tags>
+        <tag>入门指令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
+]]></content>
       <categories>
-          
-          <category> 英语 </category>
-          
+        <category>生活</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 长难句 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>既纠结，又可惜</title>
-      <link href="2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/"/>
-      <url>2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/</url>
-      
-        <content type="html"><![CDATA[<hr><p>进一步完善我的blog，有一个在线admin或许更方便，这与github Page的静态概念似乎有些冲突，当初看中github page的原因就是长期部署，免费，我都是本地在源码环境（命令行方式）下 <strong>new</strong> 一个 <strong>post</strong> ，本地 <strong>edit</strong>，再<strong>deploy</strong>，是程序员最爱的的朴实无华style。</p><p><strong>csdn</strong>的习惯催生着我对在线编辑的探索，结果是很amazing啊，确实实现了，也确实让我纠结了，<strong>他是个本地在线编辑器</strong>，说白了，本地有了个人机交互界面，这哪里有我Typora用起来香啊。</p><span id="more"></span><p>在进一步，然这个本地在线编辑能够远程访问，不就近似为远程编辑了，构想</p><hr><p><font color="#00BFFF">  <strong>[本地]</strong> （【本地】——访问———–→【在线编辑器】——–编辑、推送） </font> → <font color="#FF4500">【github】———发布</font></p><p><font color="#00BFFF">【本地】</font>——访问    → <font color="#FF4500">  <strong>[远端]</strong> （【在线编辑器】——–编辑、推送————→【github】———发布）</font></p><hr><p>挺好的，挺好的，就是得费点钱，局域网扔个博客在线编辑器，也就一个屋子里使用（类似：打开了，并没有完全打开，#手动滑稽），so 能想到的也就扔到服务器上了，这样一来，都能访问到，问题解决了，结束了，</p><p>是这样的吗？</p><p>回过头来看，我当初选择github的初衷——–为了免费，为了长期发布，取代我的服务器，</p><p>这下我又跟服务器扯上关系了，那么我又将生活到服务器选购，项目迁移，部署的日子中了，往复循环，</p><p><strong>甚至，有自己的服务器，就完全可以开放一个端口，直接对外发布得了，github都省了…</strong></p><p>思虑再三，<strong>本地在线编辑admin</strong>和<strong>命令行+Typora</strong>相比，前者对我来说属实鸡肋，在线编辑就真的不能远程有免费的方案吗，如果答案是否定的那么它确实不香。</p>]]></content>
-      
-      
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>吐槽，常微分方程</title>
+    <url>/2021/04/20/%E5%90%90%E6%A7%BD%E5%B8%B8%E5%BE%AE%E5%88%86%E6%96%B9%E7%A8%8B/</url>
+    <content><![CDATA[<p>离开了一元微积分，我的记忆更模糊了。</p>
+<p>在没有网课的条件下，啃了课本理论一顿，便去做题，</p>
+<p>这TM……</p>
+<p>指导书上的题目都啃完了，怎么系统测试题这么离谱？</p>
+<p>以下，关于我对该章的 <strong>puzzle</strong></p>
+<p> →</p>
+<hr>
+<p><font size="4">1、<strong>通解</strong> ，是不是都长了一个样？</font></p>
+<p>【答】非也，c的位置可能因为解题步骤的差异（同一个方法下），在分子，在分母，结果整体差一个正负，这都是一个C可以弥补的话，就可以容忍。</p>
+<p>【补答】非也，一个微分方程如果用不同方法（比如用齐次方程（u = x/y ）、伯努利方程），就会得到两个不同的通解，傻傻地找了50分钟错误，┭┮﹏┭┮，想哭泣。</p>
+<hr>
+<p><font size="4">2、<strong>通解</strong> ，自己的结果和答案差距很大，c变换位置或者符号都弥补不了说明什么？</font></p>
+<p>【答】你做错了，可能是哪里看错了，照着错误步骤走了下去。</p>
+<hr>
+<p><font size="4">3、使用 <strong>lnC</strong> 的原因？</font></p>
+<p>【答】 往往是为了求特解时，在最后一步（lnY = lnf(x)+ lnC）时，更加方便地将ln去掉，换成C，你试试，麻烦不哭你。</p>
+<hr>
+<p><font size="4">4、<strong>特解</strong>， 是不是和通解一样，化去y’ ，只剩下 y 与 x 的方程就可？</font></p>
+<p>【答】目前见过的答案都很牛p，全部都是 y = [c与x的组合] ,耗子尾汁。</p>
+<hr>
+<p><font size="4">5、方程变形时，移到<strong>分母</strong>的多项式是否讨论不为0？</font></p>
+<p>【答】不必考虑。</p>
+<hr>
+<p><font size="4">6、解出来不定积分是否要再后面加上一个C ？  ∫1/x dx 还加绝对值吗？</font></p>
+<p>【答】不加，微分方程只求一个原函数；绝对值也不加，一切从简。</p>
+<hr>
+<p><font size="4">7、一道题4遍能做出来4种结果是什么情况？每次这里也漏，那里也看错…</font></p>
+<p>【答】滴个眼药水，休息一下，缓解一下眼疲劳，此刻往往附有书写潦草，不耐烦的迹象。真心需要休息了。</p>
+<hr>
+<p><font size="4">8、求 <strong>特解</strong> 的时候，把结果留到了ln表示的那一步（经常会有1/y 1/x），带入 x、y 特值后，发现分母为零，或者等式一边直接无穷，说明什么？</font></p>
+<p>【答】不代表没有解，也不代表你错了，向下，将ln去掉后，再带入特值，||甚至化成 y=[…]的形式时，就一切正常了。</p>
+<hr>
+<p><font size="4">9、关于C在运算过程中要不要变的问题</font></p>
+<p>【答】 在求解一个微分方程的通解/特解的过程，C难免要乘个系数，除个常数，这个时候都可以让C保持不变。</p>
+<hr>
+<p><font size="4">10、y = ∫C<sub>1</sub> * x +C<sub>1</sub>/3 * x<sup>3</sup> +C<sub>2</sub> </font> ,第二个有C<sub>1</sub>的地方可以整合掉系数吗？</p>
+<p>【答】不可以，尤其是后面要求求解特值时，会出现误差，显然，这两个位置的C<sub>1</sub>已经符合某种倍数关系，不能忽视这种关系。</p>
+<hr>
+<p><font size="4">11、在二次微分方程降阶过程中，y’’ = f(x,y’) 不考虑 p=0，而在 y’’ = f(y,y’)中，要考虑p=0的情况，这怎么说。</font></p>
+<p>【答】进一步讲，x不显露的那种情况下，考虑p=0，好吧，还是不太懂。</p>
+]]></content>
       <categories>
-          
-          <category> 说明类文档 </category>
-          
+        <category>数学</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 提醒 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>轮滑小记</title>
-      <link href="2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/"/>
-      <url>2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/</url>
-      
-        <content type="html"><![CDATA[<p><img src="/2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/1.jpg" alt="1"></p><p><font color="#8470FF">个人拙见，<strong>滑</strong>是轮滑的要领。</font></p><ul><li><input checked disabled type="checkbox"> :完成  </li><li><input disabled type="checkbox"> ：尚未达标</li></ul><h3 id="Tip："><a href="#Tip：" class="headerlink" title="Tip："></a>Tip：</h3><hr><ul><li><input checked disabled type="checkbox"> 1.<strong>滑行</strong></li><li>屈膝，大角度滑，找到滑的感觉和节奏</li><li><font color="#00BFFF">【问题】左腿压韧，注意滑一脚后往外一下</font></li><li>双脚要蹬起来，力度不够</li><li>膝盖可以再弯一点</li><li>滑行转弯时身体要前倾，右脚外搭以此为中心，身体带动左脚滑弧</li><li><font color="#00BFFF">【问题】现在停下来要外八字（起步还有力）</font></li><li>直行，水平蹬.不要后蹬，太丑<span id="more"></span></li></ul><hr><ul><li><input checked disabled type="checkbox"> 2.<strong>T刹</strong></li><li>学姐，那种踢刹虽然会拐弯，还行吧</li><li>另一种T刹，前腿弯曲至顶到鞋前盖，用力，身体向左前方倾</li><li>后脚与前脚留有一定距离，脚尖向上颠，脚后跟用力压住（整个过程需要腰的灵活）</li><li><font color="#00BFFF">【问题】压韧，所以要时常做压外韧练习</font></li></ul><hr><ul><li><input checked disabled type="checkbox"> 3.<strong>双鱼</strong></li><li>那不有腿就行</li></ul><hr><ul><li><input checked disabled type="checkbox"> 4.<strong>正剪和倒剪</strong></li><li>关键就是一种节奏感，有缓有急，<strong>倒剪</strong>就是画弧，就能做好</li><li>倒剪，注意 身子直起来，头向肩后方看，腿下压，这样就不会歪了</li></ul><hr><ul><li><input checked disabled type="checkbox"> 5.<strong>正蛇</strong></li><li>注意，前脚提供发力，后脚跟的时候留有一定空隙 ，并且两脚的动作不同步，正剪的步伐，双鱼的姿态，两手伸平伸平伸直！腿下压</li></ul><hr><ul><li><input checked disabled type="checkbox"> 6.<strong>压弯道</strong></li><li>左手后背，右手外张</li><li>左腿弯曲，右腿伸直，抬到左腿前面，画圆</li></ul><hr><ul><li><input checked disabled type="checkbox"> 7.<strong>sun</strong></li><li>上身张开才不会越滑越急，转圈要定住圆心自然的滑，而不是用力地扭过去，不要看桩</li></ul><hr><ul><li><input checked disabled type="checkbox"> 8.<strong>volt</strong></li><li>转的关键是两个腿加紧，这样重心可以掌控在点轮上</li></ul><hr><ul><li><input checked disabled type="checkbox"> 9.<strong>double 点轮</strong></li><li>靠右脚为动力做倒剪的轨迹，左脚下去后单轮压外刃支撑变换方向，显的很流畅</li></ul><hr><ul><li><input checked disabled type="checkbox"> 10.<strong>后单脚</strong></li><li>右脚直角一直不动，作为方向辅助甩，作家为主动力使劲扭身子尽量直，倒蛇高速，，！！放开甩（我师父是这么坑我的）</li></ul><hr><ul><li><input checked disabled type="checkbox"> 11.<strong>volt</strong></li><li>转的时候，后脚滑到左脚左侧一点点位置，就是说交叉一下，你就可以实现先靠近转的点，再点轮了，点轮时两膝盖夹紧</li></ul><hr><ul><li><input checked disabled type="checkbox"> 12.<strong>X步</strong></li><li>纯扭腰，要把右脚扭到最大程度</li><li>关键在于摆臂动作</li></ul><hr><ul><li><input checked disabled type="checkbox"> 13.<strong>蛇步</strong></li><li>一个空一个蛇步，五个轮子的话，前脚单轮，感觉要使劲扭</li></ul><hr><ul><li><input disabled type="checkbox"> 14.<strong>蛇形转圈</strong></li><li>上身先转，手要低于肩部高于腰部，好看(｡･ω･｡)ﾉ♡，平时多练对转圈动作有好处，转过去，朝着回来转一圈</li></ul><hr><ul><li><input checked disabled type="checkbox"> 15.<strong>反倒尼</strong></li><li>右脚走蛇步，左脚切</li></ul><hr><ul><li><input checked disabled type="checkbox"> 16.<strong>小汽车</strong></li><li>几乎要坐在轮子上，然后直着身子过四个大桩即可</li></ul><hr><ul><li><input checked disabled type="checkbox"> 17.<strong>玛丽转</strong></li><li>双腿稍曲，慢慢的初速度，转</li></ul><hr><ul><li><input checked disabled type="checkbox"> 18.<strong>倒八字</strong></li><li>有视频</li></ul><hr><ul><li><input checked disabled type="checkbox"> 19.<strong>漂移</strong></li><li>漂移的时候后脚中心不要在脚后跟上</li></ul><hr><ul><li><input checked disabled type="checkbox"> 20.<strong>右单脚</strong></li><li>原地起步，练脚力，从每个桩右侧向左侧发力，单脚要回蹲</li></ul><hr><ul><li><input checked disabled type="checkbox"> 21.<strong>combo</strong></li><li>大桩 小汽车 蟹步波浪 z蟹…</li><li>小庄 小马跳 蛇步…</li><li>中桩 摆脱僵硬感 ，展开双手即可…</li></ul><hr><ul><li><input disabled type="checkbox"> 22.<strong>天鹅蟹</strong></li><li>自己的左脚不灵活，把它放上面</li><li>尤其是右脚，起来的时候要压韧，用左脚顶住右脚</li></ul><hr><ul><li><input checked disabled type="checkbox"> 23.<strong>tocross【旋转类】</strong></li><li>旋转动作一律用上身带动去转最简单做出来</li><li>可以提高其他动作的流畅感，奶牛的起步，剪过去，点轮，重复，越流畅越好</li></ul><hr><ul><li><input disabled type="checkbox"> 24.<strong>crab【跳跃类】</strong></li><li>表演的时候要控制表情，不然人家看到的是你板着脸，同志，不帅不骚好吧，正大睁大眼睛也好！</li></ul><hr><ul><li><input checked disabled type="checkbox"> 25.<strong>total cross</strong></li><li>crazy 上，右脚先剪过桩，左脚再反韧，左脚外圈，右脚内圈，画圈，点轮点住，crazy 后半部分不上，也就是奶牛最后一步</li></ul><hr><ul><li><input checked disabled type="checkbox"> 26.<strong>j turn</strong></li><li>crazy 上去以后，右脚往后收，带着左脚转小圈，然后左脚转到桩上以后，两脚下蹲，在桩前左脚外点，左脚在桩前，右脚在桩后画圈</li></ul><hr><ul><li><input disabled type="checkbox"> 27.<strong>Z蟹</strong></li><li>向右滑右脚在前，然后右脚要向前压韧，提供转向空间，速度越够转向越流畅</li></ul><hr><ul><li><input checked disabled type="checkbox"> 28.<strong>双轮倒蛇</strong></li><li>重心在后脚，两脚间距不宜过大</li></ul><hr><ul><li><input disabled type="checkbox"> 29.<strong>小马跳</strong></li><li>哔哩哔哩 天策轮滑</li></ul><hr><ul><li><input checked disabled type="checkbox"> 30.<strong>内蟹</strong></li><li>内八字横向绕桩再加压韧</li><li>可能 crazy 起步然后蟹步重心，靠一只脚带着，呈坐姿过桩</li></ul><hr><ul><li><p><input checked disabled type="checkbox">  31.<strong>双轮蟹</strong></p></li><li><p>这是我学会的最后一个动作</p></li></ul><hr>]]></content>
-      
-      
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>既纠结，又可惜</title>
+    <url>/2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/</url>
+    <content><![CDATA[<hr>
+<p>进一步完善我的blog，有一个在线admin或许更方便，这与github Page的静态概念似乎有些冲突，当初看中github page的原因就是长期部署，免费，我都是本地在源码环境（命令行方式）下 <strong>new</strong> 一个 <strong>post</strong> ，本地 <strong>edit</strong>，再<strong>deploy</strong>，是程序员最爱的的朴实无华style。</p>
+<p><strong>csdn</strong>的习惯催生着我对在线编辑的探索，结果是很amazing啊，确实实现了，也确实让我纠结了，<strong>他是个本地在线编辑器</strong>，说白了，本地有了个人机交互界面，这哪里有我Typora用起来香啊。</p>
+<span id="more"></span>
+
+<p>在进一步，然这个本地在线编辑能够远程访问，不就近似为远程编辑了，构想</p>
+<hr>
+<p><font color="#00BFFF">  <strong>[本地]</strong> （【本地】——访问———–→【在线编辑器】——–编辑、推送） </font> → <font color="#FF4500">【github】———发布</font></p>
+<p><font color="#00BFFF">【本地】</font>——访问    → <font color="#FF4500">  <strong>[远端]</strong> （【在线编辑器】——–编辑、推送————→【github】———发布）</font></p>
+<hr>
+<p>挺好的，挺好的，就是得费点钱，局域网扔个博客在线编辑器，也就一个屋子里使用（类似：打开了，并没有完全打开，#手动滑稽），so 能想到的也就扔到服务器上了，这样一来，都能访问到，问题解决了，结束了，</p>
+<p>是这样的吗？</p>
+<p>回过头来看，我当初选择github的初衷——–为了免费，为了长期发布，取代我的服务器，</p>
+<p>这下我又跟服务器扯上关系了，那么我又将生活到服务器选购，项目迁移，部署的日子中了，往复循环，</p>
+<p><strong>甚至，有自己的服务器，就完全可以开放一个端口，直接对外发布得了，github都省了…</strong></p>
+<p>思虑再三，<strong>本地在线编辑admin</strong>和<strong>命令行+Typora</strong>相比，前者对我来说属实鸡肋，在线编辑就真的不能远程有免费的方案吗，如果答案是否定的那么它确实不香。</p>
+]]></content>
       <categories>
-          
-          <category> 爱好 </category>
-          
+        <category>说明类文档</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 轮滑 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>下阶段学习路线</title>
-      <link href="2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
-      <url>2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
-      
-        <content type="html"><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p><p>英文:</p><p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p><p>中文：</p><p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p><span id="more"></span><h3 id="2、时间序列基线预测"><a href="#2、时间序列基线预测" class="headerlink" title="2、时间序列基线预测"></a>2、时间序列基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p><p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p><h3 id="3、Multichannel-CNN"><a href="#3、Multichannel-CNN" class="headerlink" title="3、Multichannel CNN"></a>3、Multichannel CNN</h3><p>How to Develop a Multichannel CNN Model for Text Classification</p><p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p><p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p><h3 id="4、Deep-Convolutional-Neural-Network"><a href="#4、Deep-Convolutional-Neural-Network" class="headerlink" title="4、Deep Convolutional Neural Network"></a>4、Deep Convolutional Neural Network</h3><p>Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</p><p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p><h3 id="5、Mask-R-CNN"><a href="#5、Mask-R-CNN" class="headerlink" title="5、Mask R-CNN"></a>5、Mask R-CNN</h3><p>How to Use Mask R-CNN in Keras for Object Detection in Photographs</p><p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p><h3 id="6、人脸识别的例子"><a href="#6、人脸识别的例子" class="headerlink" title="6、人脸识别的例子"></a>6、人脸识别的例子</h3><p><a href="https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/">https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/</a></p><h3 id="7、End"><a href="#7、End" class="headerlink" title="7、End"></a>7、End</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>]]></content>
-      
-      
+      <tags>
+        <tag>提醒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>两个典型长难句</title>
+    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
+    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
+<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
+<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
+<p>3、确定主干，进而确定其他成分</p>
+<p><strong>举两个栗子：</strong></p>
+<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
+]]></content>
       <categories>
-          
-          <category> 人工智能 </category>
-          
+        <category>英语</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 机器学习 </tag>
-            
-            <tag> 深度学习 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>FAQ</title>
-      <link href="2021/04/13/FAQ/"/>
-      <url>2021/04/13/FAQ/</url>
-      
-        <content type="html"><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul><li>cannot GET categories / cannot GET tags</li></ul><p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p><ul><li>如何使用无后台评论API–Valine</li></ul><p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p><p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p><span id="more"></span><ul><li>寻找合适的【Hexo主题】框架</li></ul><p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p><ul><li> 8个顶级图标网站【favicon.ico】</li></ul><p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p><p>推送到github总是443</p><p><font color="grey">方法一：更换网络或使用国外节点</font></p><p><font color="grey">方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure><p><font color="grey">方法三：开手机热点，贼好用（贼都说好用了，推荐）</font></p><ul><li>md文档上传并附带照片</li></ul><p><a href="https://www.jianshu.com/p/f72aaad7b852">https://www.jianshu.com/p/f72aaad7b852</a></p><ul><li>md文档RGB查询</li></ul><p><a href="https://bj.96weixin.com/tools/rgb">https://bj.96weixin.com/tools/rgb</a></p>]]></content>
-      
-      
+      <tags>
+        <tag>长难句</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇github博文</title>
+    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<p> 面试学弟，</p>
+<p>舍友中午面试没睡午觉</p>
+<p>机器学习作业没写</p>
+<p>困啊…</p>
+<p>单词60个，冲</p>
+]]></content>
       <categories>
-          
-          <category> 说明类文档 </category>
-          
+        <category>生活</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> FAQ </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>英语阅读</title>
-      <link href="2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/"/>
-      <url>2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
-      
-        <content type="html"><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p><span id="more"></span><p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p><p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>]]></content>
-      
-      
+      <tags>
+        <tag>杂记</tag>
+        <tag>水文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>末春，夏将至</title>
+    <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
+    <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
+<p>差点离开这个美丽的人间，</p>
+<p>淄博，</p>
+<p>跟北京今天都破27℃，</p>
+<p>校园里的同学齐刷刷的大白裤衩，上身短袖，或配上短裙，</p>
+<p>在烈日的照耀下，我去往信息楼，，，</p>
+<p>宛然入夏。</p>
+]]></content>
       <categories>
-          
-          <category> 英语 </category>
-          
+        <category>生活</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 阅读 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>单词有没背，我吐了</title>
-      <link href="2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/"/>
-      <url>2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-      
-        <content type="html"><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p><p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>]]></content>
-      
-      
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日安排</title>
+    <url>/2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c5b67de500902adfdce8712a1bbd5d1b86f49bbcc82b29da84eada49dd67dc68">864cb16dec9f54c6b2ab440ca95f2b2787879dca1efffda258336d5eb9aa067f262866d181fa9287dee76c8394375c8c53f945d46fc083fea341fbca93c1444a83ed0391d0166f2e384461044bb7917405c0826dc7f5124938f2da22f31d99754b1252847679323b1893883be609ad95c147e68901a5a69655ba3061eacf5dddbf4d981e1c62c7030c14916bd3f06b5d33618ced679dfe2ce4804003b5896aad978cc3a1fbbed04a410f333961899b5de5d23d25feb0f6de83d345daafded0744502188198844d4bbb74f2b59ec2ec1d3975ee2188f83c48476cf34cf2d94e32ea55a54a73fbce3beee13ee32fa89205bfb3de4d0dfd0678cbf24c9b8cbbf57c01c4def5f105333a0ad3b027a606200de735a2c7c30372e39bcf76711db7d2e8efdcd240536ee2326e7311dd44c8bdab2d23e6d99d2cab530060561333df3f3d10b8e39e465c81a1c7d0615d66a99fffd97df279fd0806be90586500dd0ac97bf434a6de1c7b242c92344e23d9421b533fee85d7d633012be6d373d78102f2e7df02afee9da4f78bb17558936e1515c23e9f6e3ec1bf544469addeee57c0890dcbe776442734993e620ae31d091981a65a5baefe51a4a9e32b42d45b573fe231be41e7d87ca618554ed3734aa363e6a8153dd6a60b517189c443fd927c9d70aca0556e4c827be44de384170241ba0fbe85a3a397f2f349089fadc87ae62dc477690ab2becf5625f3c4bcfcba7caa65707a5604340b9c590d9ad3056558b769d21443fb472d309890c63155766e8dd97f941611ea4c931edbc8a68315bd5c599f750fa5d734e851d847bf18e4831f5cbcc1a922494ba36f1183bc86cb18f21cdb67969004318ccf251b05ada18f4d5b3462ef854d148ba1c7d7246129cae324f32a6553a5362c63f9998c363b3745135010bb57a2227cfddfaab241540452857dfbc3025a3f3c5ef6d86d02793f998961623b358508a4002acfd13ba213d6cf7970ccbcc4e7920c8cbc0ccff51a27a934faf42ec8ed08e424d5a63a902c1dacaeb85e0a9dceae359819e1abacfdbe582c23d07189da26ccd4be6136d83d5256d29806c641045cb402c35084011868c3bf4def573e0c8e14842a576c6c29386c688f8529ea6071e07c3012b274d1295edbe3b99d9c5cf5277fe67e36088300075ec458560ade85cf8fbe61095dba71c0b97cce60165473fc359b29e11e784963b8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
       <categories>
-          
-          <category> 生活 </category>
-          
+        <category>生活</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 杂记 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我的第一篇github博文</title>
-      <link href="2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/"/>
-      <url>2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-      
-        <content type="html"><![CDATA[<p> 面试学弟，</p><p>舍友中午面试没睡午觉</p><p>机器学习作业没写</p><p>困啊…</p><p>单词60个，冲</p>]]></content>
-      
-      
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语阅读</title>
+    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
+<span id="more"></span>
+
+<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
+<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+]]></content>
       <categories>
-          
-          <category> 生活 </category>
-          
+        <category>英语</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 杂记 </tag>
-            
-            <tag> 水文 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>Hello World</title>
-      <link href="2021/04/11/hello-world/"/>
-      <url>2021/04/11/hello-world/</url>
-      
-        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><span id="more"></span><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p><h3 id="TAGS"><a href="#TAGS" class="headerlink" title="TAGS"></a>TAGS</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">//multi</span><br><span class="line">tags: 标题1</span><br><span class="line">//mono</span><br><span class="line">tags: [标题1,标题2,标题3]</span><br></pre></td></tr></table></figure><h3 id="TIPS"><a href="#TIPS" class="headerlink" title="TIPS"></a>TIPS</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">1、写md文档、修改主题的_config.xml是不需要重启服务的</span><br></pre></td></tr></table></figure>]]></content>
-      
-      
+      <tags>
+        <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>轮滑小记</title>
+    <url>/2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/</url>
+    <content><![CDATA[<p><img src="/2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/1.jpg" alt="1"></p>
+<p><font color="#8470FF">个人拙见，<strong>滑</strong>是轮滑的要领。</font></p>
+<ul>
+<li><input checked disabled type="checkbox"> :完成  </li>
+<li><input disabled type="checkbox"> ：尚未达标</li>
+</ul>
+<h3 id="Tip："><a href="#Tip：" class="headerlink" title="Tip："></a>Tip：</h3><hr>
+<ul>
+<li><input checked disabled type="checkbox"> 1.<strong>滑行</strong></li>
+<li>屈膝，大角度滑，找到滑的感觉和节奏</li>
+<li><font color="#00BFFF">【问题】左腿压韧，注意滑一脚后往外一下</font></li>
+<li>双脚要蹬起来，力度不够</li>
+<li>膝盖可以再弯一点</li>
+<li>滑行转弯时身体要前倾，右脚外搭以此为中心，身体带动左脚滑弧</li>
+<li><font color="#00BFFF">【问题】现在停下来要外八字（起步还有力）</font></li>
+<li>直行，水平蹬.不要后蹬，太丑<span id="more"></span></li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 2.<strong>T刹</strong></li>
+<li>学姐，那种踢刹虽然会拐弯，还行吧</li>
+<li>另一种T刹，前腿弯曲至顶到鞋前盖，用力，身体向左前方倾</li>
+<li>后脚与前脚留有一定距离，脚尖向上颠，脚后跟用力压住（整个过程需要腰的灵活）</li>
+<li><font color="#00BFFF">【问题】压韧，所以要时常做压外韧练习</font></li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 3.<strong>双鱼</strong></li>
+<li>那不有腿就行</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 4.<strong>正剪和倒剪</strong></li>
+<li>关键就是一种节奏感，有缓有急，<strong>倒剪</strong>就是画弧，就能做好</li>
+<li>倒剪，注意 身子直起来，头向肩后方看，腿下压，这样就不会歪了</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 5.<strong>正蛇</strong></li>
+<li>注意，前脚提供发力，后脚跟的时候留有一定空隙 ，并且两脚的动作不同步，正剪的步伐，双鱼的姿态，两手伸平伸平伸直！腿下压</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 6.<strong>压弯道</strong></li>
+<li>左手后背，右手外张</li>
+<li>左腿弯曲，右腿伸直，抬到左腿前面，画圆</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 7.<strong>sun</strong></li>
+<li>上身张开才不会越滑越急，转圈要定住圆心自然的滑，而不是用力地扭过去，不要看桩</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 8.<strong>volt</strong></li>
+<li>转的关键是两个腿加紧，这样重心可以掌控在点轮上</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 9.<strong>double 点轮</strong></li>
+<li>靠右脚为动力做倒剪的轨迹，左脚下去后单轮压外刃支撑变换方向，显的很流畅</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 10.<strong>后单脚</strong></li>
+<li>右脚直角一直不动，作为方向辅助甩，作家为主动力使劲扭身子尽量直，倒蛇高速，，！！放开甩（我师父是这么坑我的）</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 11.<strong>volt</strong></li>
+<li>转的时候，后脚滑到左脚左侧一点点位置，就是说交叉一下，你就可以实现先靠近转的点，再点轮了，点轮时两膝盖夹紧</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 12.<strong>X步</strong></li>
+<li>纯扭腰，要把右脚扭到最大程度</li>
+<li>关键在于摆臂动作</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 13.<strong>蛇步</strong></li>
+<li>一个空一个蛇步，五个轮子的话，前脚单轮，感觉要使劲扭</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 14.<strong>蛇形转圈</strong></li>
+<li>上身先转，手要低于肩部高于腰部，好看(｡･ω･｡)ﾉ♡，平时多练对转圈动作有好处，转过去，朝着回来转一圈</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 15.<strong>反倒尼</strong></li>
+<li>右脚走蛇步，左脚切</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 16.<strong>小汽车</strong></li>
+<li>几乎要坐在轮子上，然后直着身子过四个大桩即可</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 17.<strong>玛丽转</strong></li>
+<li>双腿稍曲，慢慢的初速度，转</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 18.<strong>倒八字</strong></li>
+<li>有视频</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 19.<strong>漂移</strong></li>
+<li>漂移的时候后脚中心不要在脚后跟上</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 20.<strong>右单脚</strong></li>
+<li>原地起步，练脚力，从每个桩右侧向左侧发力，单脚要回蹲</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 21.<strong>combo</strong></li>
+<li>大桩 小汽车 蟹步波浪 z蟹…</li>
+<li>小庄 小马跳 蛇步…</li>
+<li>中桩 摆脱僵硬感 ，展开双手即可…</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 22.<strong>天鹅蟹</strong></li>
+<li>自己的左脚不灵活，把它放上面</li>
+<li>尤其是右脚，起来的时候要压韧，用左脚顶住右脚</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 23.<strong>tocross【旋转类】</strong></li>
+<li>旋转动作一律用上身带动去转最简单做出来</li>
+<li>可以提高其他动作的流畅感，奶牛的起步，剪过去，点轮，重复，越流畅越好</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 24.<strong>crab【跳跃类】</strong></li>
+<li>表演的时候要控制表情，不然人家看到的是你板着脸，同志，不帅不骚好吧，正大睁大眼睛也好！</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 25.<strong>total cross</strong></li>
+<li>crazy 上，右脚先剪过桩，左脚再反韧，左脚外圈，右脚内圈，画圈，点轮点住，crazy 后半部分不上，也就是奶牛最后一步</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 26.<strong>j turn</strong></li>
+<li>crazy 上去以后，右脚往后收，带着左脚转小圈，然后左脚转到桩上以后，两脚下蹲，在桩前左脚外点，左脚在桩前，右脚在桩后画圈</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 27.<strong>Z蟹</strong></li>
+<li>向右滑右脚在前，然后右脚要向前压韧，提供转向空间，速度越够转向越流畅</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 28.<strong>双轮倒蛇</strong></li>
+<li>重心在后脚，两脚间距不宜过大</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 29.<strong>小马跳</strong></li>
+<li>哔哩哔哩 天策轮滑</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 30.<strong>内蟹</strong></li>
+<li>内八字横向绕桩再加压韧</li>
+<li>可能 crazy 起步然后蟹步重心，靠一只脚带着，呈坐姿过桩</li>
+</ul>
+<hr>
+<ul>
+<li><p><input checked disabled type="checkbox">  31.<strong>双轮蟹</strong></p>
+</li>
+<li><p>这是我学会的最后一个动作</p>
+</li>
+</ul>
+<hr>
+]]></content>
       <categories>
-          
-          <category> 说明类文档 </category>
-          
+        <category>爱好</category>
       </categories>
-      
-      
-        <tags>
-            
-            <tag> 入门指令 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-  
-  
+      <tags>
+        <tag>轮滑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Word embedding</title>
+    <url>/2021/04/22/Word-embedding/</url>
+    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
+<p>word2vec-神经网络语言模型</p>
+<p>1.安装好NLTK-data包</p>
+<hr>
+<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
+<hr>
+<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>5.更先进的模型–BERT:</p>
+<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
+<hr>
+<p>6.目前最先进的模型：</p>
+<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>word embedding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于马克思主义的宿舍人际关系分析</title>
+    <url>/2021/04/23/%E5%9F%BA%E4%BA%8E%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E7%9A%84%E5%AE%BF%E8%88%8D%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<p>每次回到宿舍，都是一股子由内而外的酸臭味，</p>
+<p>依旧让人压抑，静静地将房门关上。</p>
+<p>来到宿舍三年了，从大一一直到大三的下学期，除了那个最有思想的那个舍友离开了学校，</p>
+<p>其他人一点没变，但每个人身上的粉饰也都掉的差不多了，</p>
+<p>我认同，每个人都会有共性，也会有特性的。下面</p>
+<p>就拿一个宿舍来说， 似乎是，一个学校，一个学院，一个系，一个班里关系最密切的一个群体，一个大学里最重要的是舍友，这句话听说过吧？</p>
+<p>大一一来到学校，第一批认识的人，平时吃饭和上课都在一个教室里，在一个屋子里玩耍，者够密切吧，培养的感情也够浓厚吧。</p>
+<p>大二了，各自参加了社团，有的入了学生会，有的埋头于协会的训练，有的恋爱了，大家渐渐得有了分化，各自不同。但是公共课和专业课仍然是紧密相关，课程的频率也是出奇的高。在这样的环境下，我们<strong>同一性</strong>有了更进一步的发展。</p>
+<p>大三全年，专业课方向划分，各自去了不同的教室，每周的课程也松松散散。在考研和工作的不同观点上，引导着我们去往不同的方向。分歧渐渐产生了，大家都是有资历的老学长，老油条了，互相的了解也足够了，渐渐地本性也就不知不觉的隐现出来，或许是装得太累了，或许是心大。</p>
+<p>我有一个舍友甲，相处还不错，一开始保持有一段距离，这个时候也就是有好感还不错的印象，比较简单。后面渐渐地熟了，一起吃饭，一起起床，闲聊，帮他带饭，,,无话不谈。后面他说要考研，突然有一天，异常早期，这很奇怪，而且没有任何招呼，敏感的直觉告诉我，原来我们并不是无话不谈，平时说的也是家长里短没有的废话，除了打发时间，就是为了不让自己表现得尴尬罢了。</p>
+<p>后来还是一起吃饭，有东西一起分享，蝇头小利，让我迷失了对接下来的判断，大三寒假，我也想早起，早期去忙自己的项目，后来，就不一起起床了，有点竞争的感觉，谁起得晚难受，而且我觉得没有必要什么都说，这在其他舍友眼里是反感的，他们喜欢认真地时候不被打扰，我热爱项目的学习，一位最近常常有了突破而乐不思蜀（宿舍），我也就很少和他交流什么了。下学习开学初，我保持一样的热情，打招呼，他已经懒得表示什么了，indifferent，一点不差，果然时间可以冲淡一切，这半年我依旧把重心偏于自己忠实的事情，也就跟他他闲聊了，毕竟热脸贴冷屁股我做不到，而且他一直板着个臭脸，他开始转移方向，和另一个舍友乙密切起来，无外乎，相同的游戏爱好，这点是我不能做到的。每天我洗漱，他就等我洗漱完，吃饭的时候都是乙舍友叫我们，不然绝不会一起吃，就算是三个人一起吃，也不会互相说话，因为我对他的臭脸不感兴趣。某周丢垃圾丢到满满的塞不进去的垃圾桶里，我说了他，貌似关系更糟了，当然我也没有想着去改善什么，我要考研，空闲时间睡睡觉，看看剧，做做项目，做做运动，不比看那一张臭脸强？每次回到宿舍，只有那两个舍友回来时，才开始闲聊，聊聊自己怎么牛b，挺会无视人的。他可以在宿舍里装作看不见你，我的耐心消磨殆尽，也早就断绝和他一切不必要的沟通了。</p>
+<p>现在连吃饭也不会等你了，毕竟谁会在乎个没有共同利益的人呢。</p>
+<p>和甲的距离太近，难以维持，时间的摧残，这就是<strong>同一性</strong>太强，进而带来的<strong>斗争性</strong>太尖锐吧。</p>
+<p>说起来乙，喜怒无常，心情好的时候，特别好说话，心情差的时候，说话很难听，很楞，大概就是心大吧，这样的人保持距离就能有很好的关系，保持关系很好的还有丙，一直有着不远不近的距离。而对甲，句子之交淡如水，小人之交甘若醴，细细品味，一起吃喝玩乐建立起来的关系，不过小人之交罢了。</p>
+<p>写下这些，我便是想告诉自己，自己正在走脱离同一性，以求消除斗争性的道路，这条路我看不清，同时也是对人性有了更甚的感触。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
 </search>
