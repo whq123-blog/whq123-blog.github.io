@@ -45,23 +45,6 @@
       </tags>
   </entry>
   <entry>
-    <title>两个典型长难句</title>
-    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
-    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
-<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
-<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
-<p>3、确定主干，进而确定其他成分</p>
-<p><strong>举两个栗子：</strong></p>
-<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>长难句</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Word embedding</title>
     <url>/2021/04/22/Word-embedding/</url>
     <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
@@ -88,36 +71,6 @@
       </categories>
       <tags>
         <tag>word embedding</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>下阶段学习路线</title>
-    <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
-    <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
-<p>英文:</p>
-<p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p>
-<p>中文：</p>
-<p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p>
-<span id="more"></span>
-
-<h3 id="2、时间序列基线预测"><a href="#2、时间序列基线预测" class="headerlink" title="2、时间序列基线预测"></a>2、时间序列基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p>
-<p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p>
-<h3 id="3、Multichannel-CNN"><a href="#3、Multichannel-CNN" class="headerlink" title="3、Multichannel CNN"></a>3、Multichannel CNN</h3><p>How to Develop a Multichannel CNN Model for Text Classification</p>
-<p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p>
-<p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p>
-<h3 id="4、Deep-Convolutional-Neural-Network"><a href="#4、Deep-Convolutional-Neural-Network" class="headerlink" title="4、Deep Convolutional Neural Network"></a>4、Deep Convolutional Neural Network</h3><p>Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<h3 id="5、Mask-R-CNN"><a href="#5、Mask-R-CNN" class="headerlink" title="5、Mask R-CNN"></a>5、Mask R-CNN</h3><p>How to Use Mask R-CNN in Keras for Object Detection in Photographs</p>
-<p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p>
-<h3 id="6、人脸识别的例子"><a href="#6、人脸识别的例子" class="headerlink" title="6、人脸识别的例子"></a>6、人脸识别的例子</h3><p><a href="https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/">https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/</a></p>
-<h3 id="7、End"><a href="#7、End" class="headerlink" title="7、End"></a>7、End</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>
-]]></content>
-      <categories>
-        <category>人工智能</category>
-      </categories>
-      <tags>
-        <tag>机器学习</tag>
-        <tag>深度学习</tag>
       </tags>
   </entry>
   <entry>
@@ -152,6 +105,53 @@
       </categories>
       <tags>
         <tag>入门指令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>下阶段学习路线</title>
+    <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
+<p>英文:</p>
+<p> <a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/</a></p>
+<p>中文：</p>
+<p><a href="https://blog.csdn.net/Together_CZ/article/details/84891772">https://blog.csdn.net/Together_CZ/article/details/84891772</a></p>
+<span id="more"></span>
+
+<h3 id="2、时间序列基线预测"><a href="#2、时间序列基线预测" class="headerlink" title="2、时间序列基线预测"></a>2、时间序列基线预测</h3><p>How to Make Baseline Predictions for Time Series Forecasting with Python</p>
+<p><a href="http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/">http://machinelearningmastery.com/persistence-time-series-forecasting-with-python/</a></p>
+<h3 id="3、Multichannel-CNN"><a href="#3、Multichannel-CNN" class="headerlink" title="3、Multichannel CNN"></a>3、Multichannel CNN</h3><p>How to Develop a Multichannel CNN Model for Text Classification</p>
+<p><a href="https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search">https://machinelearningmastery.com/?s=multichannel+CNN+Model&amp;post_type=post&amp;submit=Search</a></p>
+<p><a href="https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/">https://machinelearningmastery.com/develop-n-gram-multichannel-convolutional-neural-network-sentiment-analysis/</a></p>
+<h3 id="4、Deep-Convolutional-Neural-Network"><a href="#4、Deep-Convolutional-Neural-Network" class="headerlink" title="4、Deep Convolutional Neural Network"></a>4、Deep Convolutional Neural Network</h3><p>Deep Convolutional Neural Network for Sentiment Analysis (Text Classification)</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<h3 id="5、Mask-R-CNN"><a href="#5、Mask-R-CNN" class="headerlink" title="5、Mask R-CNN"></a>5、Mask R-CNN</h3><p>How to Use Mask R-CNN in Keras for Object Detection in Photographs</p>
+<p><a href="https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/">https://machinelearningmastery.com/how-to-perform-object-detection-in-photographs-with-mask-r-cnn-in-keras/</a> </p>
+<h3 id="6、人脸识别的例子"><a href="#6、人脸识别的例子" class="headerlink" title="6、人脸识别的例子"></a>6、人脸识别的例子</h3><p><a href="https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/">https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/</a></p>
+<h3 id="7、End"><a href="#7、End" class="headerlink" title="7、End"></a>7、End</h3><p>课上说道过，传统的机器模型很多已不再使用（用来解决实际问题，），提到过最新的某个模型Bert在当前应用广泛…</p>
+]]></content>
+      <categories>
+        <category>人工智能</category>
+      </categories>
+      <tags>
+        <tag>机器学习</tag>
+        <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>两个典型长难句</title>
+    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
+    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
+<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
+<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
+<p>3、确定主干，进而确定其他成分</p>
+<p><strong>举两个栗子：</strong></p>
+<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>长难句</tag>
       </tags>
   </entry>
   <entry>
@@ -219,6 +219,39 @@
       </tags>
   </entry>
   <entry>
+    <title>基于马克思主义的宿舍人际关系分析</title>
+    <url>/2021/04/23/%E5%9F%BA%E4%BA%8E%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E7%9A%84%E5%AE%BF%E8%88%8D%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<p>每次回到宿舍，都是一股子由内而外的酸臭味，</p>
+<p>依旧让人压抑，但还是静静地将房门关上…</p>
+<p>来到宿舍三年了，从大一一直到大三的下学期，除了那个最有思想的那个舍友离开了学校，</p>
+<p>其他人一点没变，但每个人身上的粉饰也都掉的差不多了，</p>
+<p>我认同，每个人都会有共性，也会有特性的。下面</p>
+<p>就拿一个宿舍来说， 似乎是，一个学校，一个学院，一个系，一个班里关系最密切的一个群体，一个大学里最重要的是舍友，这句话听说过吧？</p>
+<p>大一一来到学校，第一批认识的人，平时吃饭和上课都在一个教室里，在一个屋子里玩耍，者够密切吧，培养的感情也够浓厚吧。</p>
+<p>大二了，各自参加了社团，有的入了学生会，有的埋头于协会的训练，有的恋爱了，大家渐渐得有了分化，各自不同。但是公共课和专业课仍然是紧密相关，课程的频率也是出奇的高。在这样的环境下，我们 <strong>同一性</strong> 有了更进一步的发展。</p>
+<p>大三全年，专业课方向划分，各自去了不同的教室，每周的课程也松松散散。在考研和工作的不同观点上，引导着我们去往不同的方向。分歧渐渐产生了，大家都是有资历的老学长，老油条了，互相的了解也足够了，渐渐地本性也就不知不觉的隐现出来，或许是装得太累了，或许是心大。</p>
+<p>我有一个舍友甲，相处还不错，一开始保持有一段距离，这个时候也就是有好感还不错的印象，比较简单。后面渐渐地熟了，一起吃饭，一起起床，闲聊，帮他带饭，,,无话不谈。后面他说要考研，突然有一天，异常早期，这很奇怪，而且没有任何招呼，敏感的直觉告诉我，原来我们并不是无话不谈，平时说的也是家长里短没有的废话，除了打发时间，就是为了不让自己表现得尴尬罢了。</p>
+<p>后来还是一起吃饭，有东西一起分享，蝇头小利，让我迷失了对接下来的判断，大三寒假，我也想早起，早期去忙自己的项目，后来，就不一起起床了，有点竞争的感觉，谁起得晚难受，而且我觉得没有必要什么都说，这在其他舍友眼里是反感的，他们喜欢认真地时候不被打扰，我热爱项目的学习，一位最近常常有了突破而乐不思蜀（宿舍），我也就很少和他交流什么了。下学习开学初，我保持一样的热情，打招呼，他已经懒得表示什么了，indifferent，一点不差，果然时间可以冲淡一切，这半年我依旧把重心偏于自己忠实的事情，也就跟他他闲聊了，毕竟热脸贴冷屁股我做不到，而且他一直板着个臭脸，他开始转移方向，和另一个舍友乙密切起来，无外乎，相同的游戏爱好，这点是我不能做到的。每天我洗漱，他就等我洗漱完，吃饭的时候都是乙舍友叫我们，不然绝不会一起吃，就算是三个人一起吃，也不会互相说话，因为我对他的臭脸不感兴趣。某周丢垃圾丢到满满的塞不进去的垃圾桶里，我说了他，貌似关系更糟了，当然我也没有想着去改善什么，我要考研，空闲时间睡睡觉，看看剧，做做项目，做做运动，不比看那一张臭脸强？每次回到宿舍，只有那两个舍友回来时，才开始闲聊，聊聊自己怎么牛b（这就是我对他认知中，最大的 <strong>个性</strong> ，“口头禅，，，，xxxx不就行了,”懂的人一听就是p话，不能很好地决绝问题，还瞎提方案，哦，还是一个包袱挺重的一个家伙），挺会无视人的。他可以在宿舍里装作看不见你，我的耐心消磨殆尽，也早就断绝和他一切不必要的沟通了。</p>
+<p>现在连吃饭也不会等你了，毕竟谁会在乎个没有共同利益的人呢。</p>
+<p>和甲的距离太近，难以维持，时间的摧残， 体现着种种<strong>共性</strong> ，尖锐的 <strong>斗争性</strong> 再也难以掩盖，我们终将难逃 <strong>对立统一规律</strong>。</p>
+<p>说起来乙，喜怒无常，心情好的时候，特别好说话，心情差的时候，说话很难听，很楞，大概就是心大吧，这样的人保持距离就能有很好的关系，保持关系很好的还有丙，一直有着不远不近的距离。而对甲，句子之交淡如水，小人之交甘若醴，细细品味，一起吃喝玩乐建立起来的关系，不过小人之交罢了。</p>
+<p>“万物皆有两端，独中又自有对”，</p>
+<p>摆脱这种压抑，重心回到自己，最起码，要做好快乐的自己，某人云，既已无瓜葛，这厮与老子何干。</p>
+<p>写下这些，我便是想告诉自己，</p>
+<p>自己正在走脱离同一性，以求消除斗争性的道路，这条路我看不清，大家彼此排斥、相互分离，</p>
+<p>同时也使我对人性有了更甚的感触。</p>
+<p>感谢，由内而外散发酸臭味的那位舍友，以及</p>
+<p>干湿衣服放一起、垃圾不倒扔地上并对此莫不关心的所有舍友们，，是你们让我学会了如何用自私去保护自己。</p>
+<p>走出宿舍，最近下了一场雨，空气格外清新。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇github博文</title>
     <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
     <content><![CDATA[<p> 面试学弟，</p>
@@ -263,35 +296,6 @@
       </tags>
   </entry>
   <entry>
-    <title>基于马克思主义的宿舍人际关系分析</title>
-    <url>/2021/04/23/%E5%9F%BA%E4%BA%8E%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E7%9A%84%E5%AE%BF%E8%88%8D%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%88%86%E6%9E%90/</url>
-    <content><![CDATA[<p>每次回到宿舍，都是一股子由内而外的酸臭味，</p>
-<p>依旧让人压抑，但还是静静地将房门关上…</p>
-<p>来到宿舍三年了，从大一一直到大三的下学期，除了那个最有思想的那个舍友离开了学校，</p>
-<p>其他人一点没变，但每个人身上的粉饰也都掉的差不多了，</p>
-<p>我认同，每个人都会有共性，也会有特性的。下面</p>
-<p>就拿一个宿舍来说， 似乎是，一个学校，一个学院，一个系，一个班里关系最密切的一个群体，一个大学里最重要的是舍友，这句话听说过吧？</p>
-<p>大一一来到学校，第一批认识的人，平时吃饭和上课都在一个教室里，在一个屋子里玩耍，者够密切吧，培养的感情也够浓厚吧。</p>
-<p>大二了，各自参加了社团，有的入了学生会，有的埋头于协会的训练，有的恋爱了，大家渐渐得有了分化，各自不同。但是公共课和专业课仍然是紧密相关，课程的频率也是出奇的高。在这样的环境下，我们<strong>同一性</strong>有了更进一步的发展。</p>
-<p>大三全年，专业课方向划分，各自去了不同的教室，每周的课程也松松散散。在考研和工作的不同观点上，引导着我们去往不同的方向。分歧渐渐产生了，大家都是有资历的老学长，老油条了，互相的了解也足够了，渐渐地本性也就不知不觉的隐现出来，或许是装得太累了，或许是心大。</p>
-<p>我有一个舍友甲，相处还不错，一开始保持有一段距离，这个时候也就是有好感还不错的印象，比较简单。后面渐渐地熟了，一起吃饭，一起起床，闲聊，帮他带饭，,,无话不谈。后面他说要考研，突然有一天，异常早期，这很奇怪，而且没有任何招呼，敏感的直觉告诉我，原来我们并不是无话不谈，平时说的也是家长里短没有的废话，除了打发时间，就是为了不让自己表现得尴尬罢了。</p>
-<p>后来还是一起吃饭，有东西一起分享，蝇头小利，让我迷失了对接下来的判断，大三寒假，我也想早起，早期去忙自己的项目，后来，就不一起起床了，有点竞争的感觉，谁起得晚难受，而且我觉得没有必要什么都说，这在其他舍友眼里是反感的，他们喜欢认真地时候不被打扰，我热爱项目的学习，一位最近常常有了突破而乐不思蜀（宿舍），我也就很少和他交流什么了。下学习开学初，我保持一样的热情，打招呼，他已经懒得表示什么了，indifferent，一点不差，果然时间可以冲淡一切，这半年我依旧把重心偏于自己忠实的事情，也就跟他他闲聊了，毕竟热脸贴冷屁股我做不到，而且他一直板着个臭脸，他开始转移方向，和另一个舍友乙密切起来，无外乎，相同的游戏爱好，这点是我不能做到的。每天我洗漱，他就等我洗漱完，吃饭的时候都是乙舍友叫我们，不然绝不会一起吃，就算是三个人一起吃，也不会互相说话，因为我对他的臭脸不感兴趣。某周丢垃圾丢到满满的塞不进去的垃圾桶里，我说了他，貌似关系更糟了，当然我也没有想着去改善什么，我要考研，空闲时间睡睡觉，看看剧，做做项目，做做运动，不比看那一张臭脸强？每次回到宿舍，只有那两个舍友回来时，才开始闲聊，聊聊自己怎么牛b（这就是我对他认知中，最大的个性，“口头禅，，，，xxxx不就行了,”懂的人一听就是p话，不能很好地决绝问题，还瞎提方案，哦，还是一个包袱挺重的一个家伙），挺会无视人的。他可以在宿舍里装作看不见你，我的耐心消磨殆尽，也早就断绝和他一切不必要的沟通了。</p>
-<p>现在连吃饭也不会等你了，毕竟谁会在乎个没有共同利益的人呢。</p>
-<p>和甲的距离太近，难以维持，时间的摧残，这就是<strong>同一性</strong>太强，进而带来的<strong>斗争性</strong>太尖锐吧。</p>
-<p>说起来乙，喜怒无常，心情好的时候，特别好说话，心情差的时候，说话很难听，很楞，大概就是心大吧，这样的人保持距离就能有很好的关系，保持关系很好的还有丙，一直有着不远不近的距离。而对甲，句子之交淡如水，小人之交甘若醴，细细品味，一起吃喝玩乐建立起来的关系，不过小人之交罢了。</p>
-<p>前面巫山不是云，摆脱这种压抑，重心回到自己，最起码，要做好快乐的自己，某人云，既已无瓜葛，这厮与老子何干。</p>
-<p>写下这些，我便是想告诉自己，自己正在走脱离同一性，以求消除斗争性的道路，这条路我看不清，同时也是对人性有了更甚的感触。</p>
-<p>感谢，那由内而外散发酸臭味的那位舍友，以及干湿衣服放一起、垃圾不倒扔地上并对此莫不关心的所有舍友们，，是你们让我学会了如何用自私去保护自己。</p>
-<p>走出宿舍，最近下了一场雨，空气格外清新。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>末春，夏将至</title>
     <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
     <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
@@ -329,22 +333,6 @@
       </categories>
       <tags>
         <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语阅读</title>
-    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
-    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
-<span id="more"></span>
-
-<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
-<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -537,6 +525,22 @@
       </categories>
       <tags>
         <tag>轮滑</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语阅读</title>
+    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
+<span id="more"></span>
+
+<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
+<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
 </search>
