@@ -37,3 +37,7 @@
     transform: translateX(0);
   }
 }
+::selection {
+  background: #8968cd;
+  color: #fff;
+}

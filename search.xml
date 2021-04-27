@@ -36,6 +36,10 @@
 <li>md文档RGB查询</li>
 </ul>
 <p><a href="https://bj.96weixin.com/tools/rgb">https://bj.96weixin.com/tools/rgb</a></p>
+<ul>
+<li> Hexo（CSS样式自定义）</li>
+</ul>
+<p><a href="https://www.pianshen.com/article/4686790693/">https://www.pianshen.com/article/4686790693/</a></p>
 ]]></content>
       <categories>
         <category>说明类文档</category>
@@ -108,6 +112,23 @@
       </tags>
   </entry>
   <entry>
+    <title>两个典型长难句</title>
+    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
+    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
+<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
+<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
+<p>3、确定主干，进而确定其他成分</p>
+<p><strong>举两个栗子：</strong></p>
+<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>长难句</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>下阶段学习路线</title>
     <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
     <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
@@ -135,23 +156,6 @@
       <tags>
         <tag>机器学习</tag>
         <tag>深度学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>两个典型长难句</title>
-    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
-    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
-<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
-<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
-<p>3、确定主干，进而确定其他成分</p>
-<p><strong>举两个栗子：</strong></p>
-<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>长难句</tag>
       </tags>
   </entry>
   <entry>
@@ -253,41 +257,6 @@
       </tags>
   </entry>
   <entry>
-    <title>末春，夏将至</title>
-    <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
-    <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
-<p>差点离开这个美丽的人间，</p>
-<p>淄博，</p>
-<p>跟北京今天都破27℃，</p>
-<p>校园里的同学齐刷刷的大白裤衩，上身短袖，或配上短裙，</p>
-<p>在烈日的照耀下，我去往信息楼，，，</p>
-<p>宛然入夏。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇github博文</title>
-    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-    <content><![CDATA[<p> 面试学弟，</p>
-<p>舍友中午面试没睡午觉</p>
-<p>机器学习作业没写</p>
-<p>困啊…</p>
-<p>单词60个，冲</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-        <tag>水文</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>既纠结，又可惜</title>
     <url>/2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/</url>
     <content><![CDATA[<hr>
@@ -312,6 +281,57 @@
       </categories>
       <tags>
         <tag>提醒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇github博文</title>
+    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<p> 面试学弟，</p>
+<p>舍友中午面试没睡午觉</p>
+<p>机器学习作业没写</p>
+<p>困啊…</p>
+<p>单词60个，冲</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+        <tag>水文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>末春，夏将至</title>
+    <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
+    <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
+<p>差点离开这个美丽的人间，</p>
+<p>淄博，</p>
+<p>跟北京今天都破27℃，</p>
+<p>校园里的同学齐刷刷的大白裤衩，上身短袖，或配上短裙，</p>
+<p>在烈日的照耀下，我去往信息楼，，，</p>
+<p>宛然入夏。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语阅读</title>
+    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
+<span id="more"></span>
+
+<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
+<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -526,22 +546,6 @@
       </categories>
       <tags>
         <tag>轮滑</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语阅读</title>
-    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
-    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
-<span id="more"></span>
-
-<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
-<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
