@@ -54,35 +54,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Word embedding</title>
-    <url>/2021/04/22/Word-embedding/</url>
-    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
-<p>word2vec-神经网络语言模型</p>
-<p>1.安装好NLTK-data包</p>
-<hr>
-<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
-<hr>
-<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-<p>5.更先进的模型–BERT:</p>
-<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
-<hr>
-<p>6.目前最先进的模型：</p>
-<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-]]></content>
-      <categories>
-        <category>机器学习</category>
-      </categories>
-      <tags>
-        <tag>word embedding</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2021/04/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -117,6 +88,52 @@
       </tags>
   </entry>
   <entry>
+    <title>两个典型长难句</title>
+    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
+    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
+<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
+<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
+<p>3、确定主干，进而确定其他成分</p>
+<p><strong>举两个栗子：</strong></p>
+<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>长难句</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Word embedding</title>
+    <url>/2021/04/22/Word-embedding/</url>
+    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
+<p>word2vec-神经网络语言模型</p>
+<p>1.安装好NLTK-data包</p>
+<hr>
+<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
+<hr>
+<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>5.更先进的模型–BERT:</p>
+<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
+<hr>
+<p>6.目前最先进的模型：</p>
+<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>word embedding</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>一个典型长难句翻译</title>
     <url>/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/</url>
     <content><![CDATA[<p><img src="/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/fy.jpg" alt="fy"></p>
@@ -125,8 +142,8 @@
         <category>英语</category>
       </categories>
       <tags>
-        <tag>翻译</tag>
         <tag>长难句</tag>
+        <tag>翻译</tag>
         <tag>多从句</tag>
         <tag>英语一</tag>
       </tags>
@@ -159,36 +176,6 @@
       <tags>
         <tag>机器学习</tag>
         <tag>深度学习</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>两个典型长难句</title>
-    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
-    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
-<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
-<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
-<p>3、确定主干，进而确定其他成分</p>
-<p><strong>举两个栗子：</strong></p>
-<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>长难句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>单词有没背，我吐了</title>
-    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
-<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -237,6 +224,19 @@
 ]]></content>
       <categories>
         <category>数学</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
       </categories>
       <tags>
         <tag>杂记</tag>
@@ -335,20 +335,14 @@
       </tags>
   </entry>
   <entry>
-    <title>每日安排</title>
-    <url>/2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c5b67de500902adfdce8712a1bbd5d1b86f49bbcc82b29da84eada49dd67dc68">864cb16dec9f54c6b2ab440ca95f2b2787879dca1efffda258336d5eb9aa067f262866d181fa9287dee76c8394375c8c53f945d46fc083fea341fbca93c1444a83ed0391d0166f2e384461044bb7917405c0826dc7f5124938f2da22f31d99754b1252847679323b1893883be609ad95c147e68901a5a69655ba3061eacf5dddbf4d981e1c62c7030c14916bd3f06b5d33618ced679dfe2ce4804003b5896aad978cc3a1fbbed04a410f333961899b5de5d23d25feb0f6de83d345daafded0744502188198844d4bbb74f2b59ec2ec1d3975ee2188f83c48476cf34cf2d94e32ea55a54a73fbce3beee13ee32fa89205bfb3de4d0dfd0678cbf24c9b8cbbf57c01c4def5f105333a0ad3b027a606200de735a2c7c30372e39bcf76711db7d2e8efdcd240536ee2326e7311dd44c8bdab2d23e6d99d2cab530060561333df3f3d10b8e39e465c81a1c7d0615d66a99fffd97df279fd0806be90586500dd0ac97bf434a6de1c7b242c92344e23d9421b533fee85d7d633012be6d373d78102f2e7df02afee9da4f78bb17558936e1515c23e9f6e3ec1bf544469addeee57c0890dcbe776442734993e620ae31d091981a65a5baefe51a4a9e32b42d45b573fe231be41e7d87ca618554ed3734aa363e6a8153dd6a60b517189c443fd927c9d70aca0556e4c827be44de384170241ba0fbe85a3a397f2f349089fadc87ae62dc477690ab2becf5625f3c4bcfcba7caa65707a5604340b9c590d9ad3056558b769d21443fb472d309890c63155766e8dd97f941611ea4c931edbc8a68315bd5c599f750fa5d734e851d847bf18e4831f5cbcc1a922494ba36f1183bc86cb18f21cdb67969004318ccf251b05ada18f4d5b3462ef854d148ba1c7d7246129cae324f32a6553a5362c63f9998c363b3745135010bb57a2227cfddfaab241540452857dfbc3025a3f3c5ef6d86d02793f998961623b358508a4002acfd13ba213d6cf7970ccbcc4e7920c8cbc0ccff51a27a934faf42ec8ed08e424d5a63a902c1dacaeb85e0a9dceae359819e1abacfdbe582c23d07189da26ccd4be6136d83d5256d29806c641045cb402c35084011868c3bf4def573e0c8e14842a576c6c29386c688f8529ea6071e07c3012b274d1295edbe3b99d9c5cf5277fe67e36088300075ec458560ade85cf8fbe61095dba71c0b97cce60165473fc359b29e11e784963b8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    <title>数学我选二</title>
+    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
+    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
+<p>今天来聊一聊分部积分，这是第n次重温了，</p>
+<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
+<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
+<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
+]]></content>
       <categories>
         <category>生活</category>
       </categories>
@@ -372,6 +366,28 @@
       </categories>
       <tags>
         <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日安排</title>
+    <url>/2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c5b67de500902adfdce8712a1bbd5d1b86f49bbcc82b29da84eada49dd67dc68">864cb16dec9f54c6b2ab440ca95f2b2787879dca1efffda258336d5eb9aa067f262866d181fa9287dee76c8394375c8c53f945d46fc083fea341fbca93c1444a83ed0391d0166f2e384461044bb7917405c0826dc7f5124938f2da22f31d99754b1252847679323b1893883be609ad95c147e68901a5a69655ba3061eacf5dddbf4d981e1c62c7030c14916bd3f06b5d33618ced679dfe2ce4804003b5896aad978cc3a1fbbed04a410f333961899b5de5d23d25feb0f6de83d345daafded0744502188198844d4bbb74f2b59ec2ec1d3975ee2188f83c48476cf34cf2d94e32ea55a54a73fbce3beee13ee32fa89205bfb3de4d0dfd0678cbf24c9b8cbbf57c01c4def5f105333a0ad3b027a606200de735a2c7c30372e39bcf76711db7d2e8efdcd240536ee2326e7311dd44c8bdab2d23e6d99d2cab530060561333df3f3d10b8e39e465c81a1c7d0615d66a99fffd97df279fd0806be90586500dd0ac97bf434a6de1c7b242c92344e23d9421b533fee85d7d633012be6d373d78102f2e7df02afee9da4f78bb17558936e1515c23e9f6e3ec1bf544469addeee57c0890dcbe776442734993e620ae31d091981a65a5baefe51a4a9e32b42d45b573fe231be41e7d87ca618554ed3734aa363e6a8153dd6a60b517189c443fd927c9d70aca0556e4c827be44de384170241ba0fbe85a3a397f2f349089fadc87ae62dc477690ab2becf5625f3c4bcfcba7caa65707a5604340b9c590d9ad3056558b769d21443fb472d309890c63155766e8dd97f941611ea4c931edbc8a68315bd5c599f750fa5d734e851d847bf18e4831f5cbcc1a922494ba36f1183bc86cb18f21cdb67969004318ccf251b05ada18f4d5b3462ef854d148ba1c7d7246129cae324f32a6553a5362c63f9998c363b3745135010bb57a2227cfddfaab241540452857dfbc3025a3f3c5ef6d86d02793f998961623b358508a4002acfd13ba213d6cf7970ccbcc4e7920c8cbc0ccff51a27a934faf42ec8ed08e424d5a63a902c1dacaeb85e0a9dceae359819e1abacfdbe582c23d07189da26ccd4be6136d83d5256d29806c641045cb402c35084011868c3bf4def573e0c8e14842a576c6c29386c688f8529ea6071e07c3012b274d1295edbe3b99d9c5cf5277fe67e36088300075ec458560ade85cf8fbe61095dba71c0b97cce60165473fc359b29e11e784963b8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -608,22 +624,6 @@
 <p>关于 <strong>度</strong> 的事情想再多说一点，大家都会放松，做一个有趣的比喻，</p>
 <p>短期合适的放松（清空内存重启后的电脑），长期放松（硬盘格式化），</p>
 <p>不断学习的真谛不太懂（高中、大学都这么说，但都在强调这一点），以前只理解表面意思，盲目性不间断、长时间去做一件事（高CPU的电脑），好多时间都被低效浪费。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学我选二</title>
-    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
-    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
-<p>今天来聊一聊分部积分，这是第n次重温了，</p>
-<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
-<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
-<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
 ]]></content>
       <categories>
         <category>生活</category>
