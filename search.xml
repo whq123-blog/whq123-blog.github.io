@@ -54,6 +54,35 @@
       </tags>
   </entry>
   <entry>
+    <title>Word embedding</title>
+    <url>/2021/04/22/Word-embedding/</url>
+    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
+<p>word2vec-神经网络语言模型</p>
+<p>1.安装好NLTK-data包</p>
+<hr>
+<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
+<hr>
+<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>5.更先进的模型–BERT:</p>
+<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
+<hr>
+<p>6.目前最先进的模型：</p>
+<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>word embedding</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/04/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -88,52 +117,6 @@
       </tags>
   </entry>
   <entry>
-    <title>两个典型长难句</title>
-    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
-    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
-<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
-<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
-<p>3、确定主干，进而确定其他成分</p>
-<p><strong>举两个栗子：</strong></p>
-<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>长难句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Word embedding</title>
-    <url>/2021/04/22/Word-embedding/</url>
-    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
-<p>word2vec-神经网络语言模型</p>
-<p>1.安装好NLTK-data包</p>
-<hr>
-<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
-<hr>
-<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-<p>5.更先进的模型–BERT:</p>
-<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
-<hr>
-<p>6.目前最先进的模型：</p>
-<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-]]></content>
-      <categories>
-        <category>机器学习</category>
-      </categories>
-      <tags>
-        <tag>word embedding</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>一个典型长难句翻译</title>
     <url>/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/</url>
     <content><![CDATA[<p><img src="/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/fy.jpg" alt="fy"></p>
@@ -142,8 +125,8 @@
         <category>英语</category>
       </categories>
       <tags>
-        <tag>长难句</tag>
         <tag>翻译</tag>
+        <tag>长难句</tag>
         <tag>多从句</tag>
         <tag>英语一</tag>
       </tags>
@@ -176,6 +159,36 @@
       <tags>
         <tag>机器学习</tag>
         <tag>深度学习</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>两个典型长难句</title>
+    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
+    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
+<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
+<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
+<p>3、确定主干，进而确定其他成分</p>
+<p><strong>举两个栗子：</strong></p>
+<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>长难句</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -224,19 +237,6 @@
 ]]></content>
       <categories>
         <category>数学</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>单词有没背，我吐了</title>
-    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
-<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
       </categories>
       <tags>
         <tag>杂记</tag>
@@ -295,33 +295,6 @@
       </tags>
   </entry>
   <entry>
-    <title>既纠结，又可惜</title>
-    <url>/2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/</url>
-    <content><![CDATA[<hr>
-<p>进一步完善我的blog，有一个在线admin或许更方便，这与github Page的静态概念似乎有些冲突，当初看中github page的原因就是长期部署，免费，我都是本地在源码环境（命令行方式）下 <strong>new</strong> 一个 <strong>post</strong> ，本地 <strong>edit</strong>，再<strong>deploy</strong>，是程序员最爱的的朴实无华style。</p>
-<p><strong>csdn</strong>的习惯催生着我对在线编辑的探索，结果是很amazing啊，确实实现了，也确实让我纠结了，<strong>他是个本地在线编辑器</strong>，说白了，本地有了个人机交互界面，这哪里有我Typora用起来香啊。</p>
-<span id="more"></span>
-
-<p>在进一步，然这个本地在线编辑能够远程访问，不就近似为远程编辑了，构想</p>
-<hr>
-<p><font color="#00BFFF">  <strong>[本地]</strong> （【本地】——访问———–→【在线编辑器】——–编辑、推送） </font> → <font color="#FF4500">【github】———发布</font></p>
-<p><font color="#00BFFF">【本地】</font>——访问    → <font color="#FF4500">  <strong>[远端]</strong> （【在线编辑器】——–编辑、推送————→【github】———发布）</font></p>
-<hr>
-<p>挺好的，挺好的，就是得费点钱，局域网扔个博客在线编辑器，也就一个屋子里使用（类似：打开了，并没有完全打开，#手动滑稽），so 能想到的也就扔到服务器上了，这样一来，都能访问到，问题解决了，结束了，</p>
-<p>是这样的吗？</p>
-<p>回过头来看，我当初选择github的初衷——–为了免费，为了长期发布，取代我的服务器，</p>
-<p>这下我又跟服务器扯上关系了，那么我又将生活到服务器选购，项目迁移，部署的日子中了，往复循环，</p>
-<p><strong>甚至，有自己的服务器，就完全可以开放一个端口，直接对外发布得了，github都省了…</strong></p>
-<p>思虑再三，<strong>本地在线编辑admin</strong>和<strong>命令行+Typora</strong>相比，前者对我来说属实鸡肋，在线编辑就真的不能远程有免费的方案吗，如果答案是否定的那么它确实不香。</p>
-]]></content>
-      <categories>
-        <category>说明类文档</category>
-      </categories>
-      <tags>
-        <tag>提醒</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数学我选二</title>
     <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
     <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
@@ -353,6 +326,33 @@
       </categories>
       <tags>
         <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>既纠结，又可惜</title>
+    <url>/2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/</url>
+    <content><![CDATA[<hr>
+<p>进一步完善我的blog，有一个在线admin或许更方便，这与github Page的静态概念似乎有些冲突，当初看中github page的原因就是长期部署，免费，我都是本地在源码环境（命令行方式）下 <strong>new</strong> 一个 <strong>post</strong> ，本地 <strong>edit</strong>，再<strong>deploy</strong>，是程序员最爱的的朴实无华style。</p>
+<p><strong>csdn</strong>的习惯催生着我对在线编辑的探索，结果是很amazing啊，确实实现了，也确实让我纠结了，<strong>他是个本地在线编辑器</strong>，说白了，本地有了个人机交互界面，这哪里有我Typora用起来香啊。</p>
+<span id="more"></span>
+
+<p>在进一步，然这个本地在线编辑能够远程访问，不就近似为远程编辑了，构想</p>
+<hr>
+<p><font color="#00BFFF">  <strong>[本地]</strong> （【本地】——访问———–→【在线编辑器】——–编辑、推送） </font> → <font color="#FF4500">【github】———发布</font></p>
+<p><font color="#00BFFF">【本地】</font>——访问    → <font color="#FF4500">  <strong>[远端]</strong> （【在线编辑器】——–编辑、推送————→【github】———发布）</font></p>
+<hr>
+<p>挺好的，挺好的，就是得费点钱，局域网扔个博客在线编辑器，也就一个屋子里使用（类似：打开了，并没有完全打开，#手动滑稽），so 能想到的也就扔到服务器上了，这样一来，都能访问到，问题解决了，结束了，</p>
+<p>是这样的吗？</p>
+<p>回过头来看，我当初选择github的初衷——–为了免费，为了长期发布，取代我的服务器，</p>
+<p>这下我又跟服务器扯上关系了，那么我又将生活到服务器选购，项目迁移，部署的日子中了，往复循环，</p>
+<p><strong>甚至，有自己的服务器，就完全可以开放一个端口，直接对外发布得了，github都省了…</strong></p>
+<p>思虑再三，<strong>本地在线编辑admin</strong>和<strong>命令行+Typora</strong>相比，前者对我来说属实鸡肋，在线编辑就真的不能远程有免费的方案吗，如果答案是否定的那么它确实不香。</p>
+]]></content>
+      <categories>
+        <category>说明类文档</category>
+      </categories>
+      <tags>
+        <tag>提醒</tag>
       </tags>
   </entry>
   <entry>
