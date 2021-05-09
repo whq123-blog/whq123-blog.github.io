@@ -54,40 +54,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Hello World</title>
-    <url>/2021/04/11/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<span id="more"></span>
-
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-<h3 id="TAGS"><a href="#TAGS" class="headerlink" title="TAGS"></a>TAGS</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">//multi</span><br><span class="line">tags: 标题1</span><br><span class="line">//mono</span><br><span class="line">tags: [标题1,标题2,标题3]</span><br></pre></td></tr></table></figure>
-
-<h3 id="TIPS"><a href="#TIPS" class="headerlink" title="TIPS"></a>TIPS</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1、写md文档、修改主题的_config.xml是不需要重启服务的</span><br></pre></td></tr></table></figure>
-
-
-
-
-
-]]></content>
-      <categories>
-        <category>说明类文档</category>
-      </categories>
-      <tags>
-        <tag>入门指令</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Word embedding</title>
     <url>/2021/04/22/Word-embedding/</url>
     <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
@@ -129,6 +95,40 @@
         <tag>长难句</tag>
         <tag>多从句</tag>
         <tag>英语一</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2021/04/11/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<span id="more"></span>
+
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h3 id="TAGS"><a href="#TAGS" class="headerlink" title="TAGS"></a>TAGS</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">//multi</span><br><span class="line">tags: 标题1</span><br><span class="line">//mono</span><br><span class="line">tags: [标题1,标题2,标题3]</span><br></pre></td></tr></table></figure>
+
+<h3 id="TIPS"><a href="#TIPS" class="headerlink" title="TIPS"></a>TIPS</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">1、写md文档、修改主题的_config.xml是不需要重启服务的</span><br></pre></td></tr></table></figure>
+
+
+
+
+
+]]></content>
+      <categories>
+        <category>说明类文档</category>
+      </categories>
+      <tags>
+        <tag>入门指令</tag>
       </tags>
   </entry>
   <entry>
@@ -295,22 +295,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数学我选二</title>
-    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
-    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
-<p>今天来聊一聊分部积分，这是第n次重温了，</p>
-<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
-<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
-<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>既纠结，又可惜</title>
     <url>/2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/</url>
     <content><![CDATA[<hr>
@@ -335,6 +319,22 @@
       </categories>
       <tags>
         <tag>提醒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学我选二</title>
+    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
+    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
+<p>今天来聊一聊分部积分，这是第n次重温了，</p>
+<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
+<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
+<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -378,6 +378,22 @@
       </tags>
   </entry>
   <entry>
+    <title>英语阅读</title>
+    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
+<span id="more"></span>
+
+<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
+<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>脱胎换骨</title>
     <url>/2021/05/09/%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8/</url>
     <content><![CDATA[<p>从一开始 一脸懵的华为云 ，</p>
@@ -409,22 +425,6 @@
       </categories>
       <tags>
         <tag>阶段性总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语阅读</title>
-    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
-    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
-<span id="more"></span>
-
-<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
-<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
