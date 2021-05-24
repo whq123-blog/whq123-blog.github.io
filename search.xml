@@ -822,6 +822,7 @@
 <li><a href="https://docs.python.org/zh-cn/3/library/turtle.html">turtle — 海龟绘图 — Python 3.8.2 文档</a></li>
 <li><a href="https://www.scikitlearn.com.cn/">sklearn 中文文档 - sklearn</a></li>
 <li><a href="https://keras.io/zh/layers/about-keras-layers/">关于 Keras 网络层 - Keras 中文文档</a></li>
+<li><a href="https://www.bootcss.com/">Bootstrap中文网</a></li>
 <li></li>
 </ul>
 <h2 id="学习资源"><a href="#学习资源" class="headerlink" title="学习资源"></a>学习资源</h2><hr>
@@ -911,6 +912,8 @@
 </li>
 <li><p><a href="https://hexo.io/themes/">Themes | Hexo</a></p>
 </li>
+<li><p><a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a></p>
+</li>
 <li></li>
 </ul>
 <h2 id="旁门左道"><a href="#旁门左道" class="headerlink" title="旁门左道"></a>旁门左道</h2><hr>
@@ -981,6 +984,37 @@
       <tags>
         <tag>warning</tag>
         <tag>Miscellaneous notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>是该给你的思想减减负了</title>
+    <url>/2021/05/24/%E6%98%AF%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F%E4%BA%86/</url>
+    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
+<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
+<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
+<p>时间和精力是有限的，</p>
+<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
+<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
+<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
+<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
+<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
+<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
+<p>逛淘宝 *****</p>
+<p>听小说 ****</p>
+<p>写博客 ***</p>
+<p>玩游戏 *</p>
+<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
+<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
+<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
+<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
+<p>在能承受最坏代价的前提下多尝试，</p>
+<p>对自己高要求，</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
 </search>
