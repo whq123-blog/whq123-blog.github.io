@@ -1,6 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Disaster</title>
+    <url>/2021/05/21/Disaster/</url>
+    <content><![CDATA[<p>1、手机</p>
+<p>2、熬夜</p>
+<p>3、状态</p>
+<p>4、压力调节</p>
+<p>5、体态</p>
+<p>6、计划执行效率低下</p>
+<p>7、运动 - -</p>
+<p>8、学习积极性 - -</p>
+<p>9、英语训练 - -</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>warning</tag>
+        <tag>Miscellaneous notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>FAQ</title>
     <url>/2021/04/13/FAQ/</url>
     <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
@@ -54,50 +75,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Word embedding</title>
-    <url>/2021/04/22/Word-embedding/</url>
-    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
-<p>word2vec-神经网络语言模型</p>
-<p>1.安装好NLTK-data包</p>
-<hr>
-<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
-<hr>
-<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-<p>5.更先进的模型–BERT:</p>
-<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
-<hr>
-<p>6.目前最先进的模型：</p>
-<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-]]></content>
-      <categories>
-        <category>机器学习</category>
-      </categories>
-      <tags>
-        <tag>word embedding</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个典型长难句翻译</title>
-    <url>/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/</url>
-    <content><![CDATA[<p><img src="/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/fy.jpg" alt="fy"></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>翻译</tag>
-        <tag>长难句</tag>
-        <tag>多从句</tag>
-        <tag>英语一</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2021/04/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -132,6 +109,68 @@
       </tags>
   </entry>
   <entry>
+    <title>Word embedding</title>
+    <url>/2021/04/22/Word-embedding/</url>
+    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
+<p>word2vec-神经网络语言模型</p>
+<p>1.安装好NLTK-data包</p>
+<hr>
+<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
+<hr>
+<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>5.更先进的模型–BERT:</p>
+<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
+<hr>
+<p>6.目前最先进的模型：</p>
+<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>word embedding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构到了</title>
+    <url>/2021/05/12/think-then-go/</url>
+    <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
+<p>机器学习大作业得交了，IT项目管理考试要来了，并行计算大作业也下来了，这周忙碌命啊</p>
+<p>英语，失宠好久了，自从核心词汇和基础词汇过了一遍，每天零零散散地刷一套在线题目（20），记了很多笔记，貌似也没重视起来，进度…进度…进度，你的语法题什么时候开始啊也别等到周末了，那个时候计划永远赶不上变换，贼难安排，每周周五的时候吧，拿出半天，看看英语（在线学习系统词组笔记、iPad记录的形近词汇、纸质笔记本上的单词语法、） </p>
+<p>等等，今天数据结构的书也到了，二手的，卖家出于好心，把题也给做了。。408 3月初开始，这周就要 renew 了，散装英语在自己博客秀一把，不过分吧。</p>
+<p>宇哥，你的视频是我学现代唯一的依靠了，跟着你走，我做题踏实多了，课本都没你讲的好，不过多吐槽了，赶快跟你学完，线代我都今天下载完成了。</p>
+<p>不说了，不说了，把之前留下来的英语问题收收尾。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+        <tag>阶段性总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个典型长难句翻译</title>
+    <url>/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/</url>
+    <content><![CDATA[<p><img src="/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/fy.jpg" alt="fy"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>翻译</tag>
+        <tag>长难句</tag>
+        <tag>多从句</tag>
+        <tag>英语一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>下阶段学习路线</title>
     <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
     <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
@@ -162,19 +201,6 @@
       </tags>
   </entry>
   <entry>
-    <title>单词有没背，我吐了</title>
-    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
-<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>两个典型长难句</title>
     <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
     <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
@@ -189,6 +215,19 @@
       </categories>
       <tags>
         <tag>长难句</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -265,6 +304,187 @@
       </tags>
   </entry>
   <entry>
+    <title>宝藏网址，看这里就够了</title>
+    <url>/2021/05/19/%E5%AE%9D%E8%97%8F%E7%BD%91%E5%9D%80%EF%BC%8C%E7%9C%8B%E8%BF%99%E9%87%8C%E5%B0%B1%E5%A4%9F%E4%BA%86/</url>
+    <content><![CDATA[<h2 id="文档-手册"><a href="#文档-手册" class="headerlink" title="文档/手册"></a>文档/手册</h2><hr>
+<ul>
+<li><a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL :: MySQL 8.0 Reference Manual</a></li>
+<li><a href="https://docs.python.org/zh-cn/3/library/turtle.html">turtle — 海龟绘图 — Python 3.8.2 文档</a></li>
+<li><a href="https://www.scikitlearn.com.cn/">sklearn 中文文档 - sklearn</a></li>
+<li><a href="https://keras.io/zh/layers/about-keras-layers/">关于 Keras 网络层 - Keras 中文文档</a></li>
+<li><a href="https://www.bootcss.com/">Bootstrap中文网</a></li>
+<li></li>
+</ul>
+<h2 id="学习资源"><a href="#学习资源" class="headerlink" title="学习资源"></a>学习资源</h2><hr>
+<h5 id="各种语言教程"><a href="#各种语言教程" class="headerlink" title="各种语言教程"></a>各种语言教程</h5><ul>
+<li><a href="https://www.liaoxuefeng.com/">首页 - 廖雪峰的官方网站</a></li>
+<li></li>
+</ul>
+<h5 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h5><ul>
+<li><a href="https://study.163.com/course/courseLearn.htm?courseId=1004572025&from=study#/learn/video?lessonId=1049049317&courseId=1004572025">十天学会PHP（第六版） - 网易云课堂</a></li>
+<li><a href="https://study.163.com/course/courseLearn.htm?courseId=1004732045#/learn/video?lessonId=1049773418&courseId=1004732045">入门后进阶：更强大的留言板 - 网易云课堂</a></li>
+<li><a href="http://www.itheima.com/special/hmphpzly/?jingjia-heima-php-xin-pc-xitongxuexiphp">黑马程序员PHP培训班_优质PHP培训教程_PHP开发培训课程推荐</a></li>
+<li><a href="http://yun.itheima.com/map/23.html?a5&tdsourcetag=s_pcqq_aiomsg">PHP视频教程完整版_PHP视频教程从入门到精通_黑马程序员</a></li>
+<li></li>
+</ul>
+<h5 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h5><ul>
+<li><a href="http://www.python3.vip/">| 白月黑羽教Python</a></li>
+<li><a href="https://python123.io/index/turtles/colleges">Python123</a></li>
+<li><a href="http://sdlg.alphacoding.cn/">AlphaCoding院校版 - alphacoding-web</a></li>
+<li></li>
+</ul>
+<h5 id="实现小型编译器"><a href="#实现小型编译器" class="headerlink" title="实现小型编译器"></a>实现小型编译器</h5><ul>
+<li><a href="https://pandolia.net/tinyc/">自己动手写编译器 — 自己动手写编译器</a></li>
+</ul>
+<h5 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h5><ul>
+<li><a href="https://learngitbranching.js.org/">Learn Git Branching</a></li>
+<li><a href="https://www.progit.cn/">Pro Git 中文版（第二版）</a></li>
+<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a></li>
+<li></li>
+</ul>
+<h5 id="轮滑"><a href="#轮滑" class="headerlink" title="轮滑"></a>轮滑</h5><ul>
+<li><a href="https://space.bilibili.com/30839640?from=search&seid=11173422905792384920">淼哥轮滑的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili</a></li>
+</ul>
+<h2 id="下载类资源"><a href="#下载类资源" class="headerlink" title="下载类资源"></a>下载类资源</h2><hr>
+<ul>
+<li><a href="http://npm.taobao.org/mirrors/chromedriver/">ChromeDriver Mirror</a></li>
+<li><a href="http://ms.sdut.edu.cn/download.html">正版软件管理与服务平台(山东理工大学)</a></li>
+<li><a href="https://www.nocmd.com/740.html">VMware Workstation Pro v15.5.1 官方版+激活密钥-NoCmd</a></li>
+<li><a href="http://www.1ppt.com/xiazai/zongjie/ppt_zongjie_2.html">工作总结PPT_工作总结PPT模板免费下载 - 第一PPT</a></li>
+<li><a href="http://www.ypppt.com/moban/lunwen/">毕业论文答辩PPT模板_毕业设计论文答辩PPT模板下载 - 优品PPT</a></li>
+<li><a href="http://www.php.cn/xiazai/">PHP中文网：一切建站资源免费下载</a></li>
+<li><a href="http://pic.netbian.com/index_13.html">最新4K壁纸_最新4K桌面壁纸_彼岸图网</a></li>
+<li><a href="https://ab.algoux.org/">Algo Bootstrap</a></li>
+<li><a href="https://dev.mysql.com/downloads/file/?id=494993">MySQL :: Begin Your Download</a></li>
+<li><a href="https://www.graviti.cn/open-datasets?utm_campaign=%E7%99%BE%E5%BA%A6%E6%8E%A8%E5%B9%BF&utm_medium=%E7%99%BE%E5%BA%A6&utm_source=%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2&gio_link_id=LPd5Xgeo&searchBy=weather">公开数据集，数据集免费下载，图片数据集 | Graviti 格物钛</a></li>
+<li><a href="https://www.xp.cn/">小皮面板(phpstudy) - 让天下没有难配的服务器环境！</a></li>
+<li><a href="https://studygolang.com/dl">Go下载 - Go语言中文网 - Golang中文社区</a></li>
+<li></li>
+</ul>
+<h2 id="—在线办公-查询"><a href="#—在线办公-查询" class="headerlink" title="—在线办公/查询"></a>—在线办公/查询</h2><ul>
+<li><a href="https://www.processon.com/">ProcessOn - 免费在线作图，思维导图，流程图，实时协作</a></li>
+<li><a href="https://icons8.com/icons/">Free Vector Icons — Download 172,300 icons (SVG, PNG)</a></li>
+<li><a href="https://icons8.com/icons/set/steam">Steam Icons - Free Download, PNG and SVG</a></li>
+<li><a href="https://bj.96weixin.com/tools/rgb">RGB颜色对照表 - 96微信编辑器</a></li>
+<li><a href="https://www.wondercv.com/cvs/47JNlMw/editor">超级简历WonderCV - HR推荐简历模板,智能简历制作工具,专业中英文简历模板免费下载</a></li>
+<li><a href="https://www.quword.com/ciyuan/s/embark">embark的词源_embark的由来_同根词_同源词_趣词词源字典</a></li>
+<li><a href="https://www.dxsbb.com/news/2867.html">2021-2022计算机科学与技术考研学校排名_大学生必备网</a></li>
+<li><a href="http://www.diugai.com/list.php">免费logo设计-logo在线制作-丢盖网</a></li>
+<li><a href="https://www.lunwengo.net/">论文狗查重_免费论文查重入口_免费论文检测网站_一键智能降重修改 – 论文狗免费论文检测平台</a></li>
+<li><a href="http://product.cnmo.com/compare_s57_p1624147_1625144_1625121_1625063_1625065.html">【荣耀Play、荣耀Play4、荣耀Play4Pro、荣耀Play4T、荣耀Play4TPro】对比参数配置_手机中国</a></li>
+<li></li>
+</ul>
+<h2 id="快捷通道"><a href="#快捷通道" class="headerlink" title="快捷通道"></a>快捷通道</h2><hr>
+<p><font color="grey">这表示我懒得给它归类，这里只提供入口</font></p>
+<ul>
+<li><a href="http://cet-bm.neea.edu.cn/">全国大学英语四、六级考试报名网</a></li>
+<li><a href="https://passport.neea.edu.cn/Home/login?userCode=1870893649@qq.com">ETEST通行证</a></li>
+<li><a href="https://www.aliyun.com/activity/daily/cloud">上云必备——海量产品新用户专享优惠 ECS 96.9元/年</a></li>
+<li><a href="https://up.woozooo.com/mydisk.php">蓝奏云</a></li>
+<li><a href="https://outlook.live.com/mail/0/inbox">邮件 - z xc - Outlook</a></li>
+<li><a href="http://sdxy.gov.cn/edit/index">国家企业信用信息公示系统</a></li>
+<li><a href="https://yz.chsi.com.cn/zsml/querySchAction.do?ssdm=37&dwmc=%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6(%E5%8D%8E%E4%B8%9C)&mldm=&mlmc=&yjxkdm=0812&xxfs=&zymc=">硕士专业目录_中国研究生招生信息网</a></li>
+<li><a href="https://www.kaggle.com/c/machine-learning-on-thursday/overview">波士顿房价预测 | Kaggle</a></li>
+<li><a href="https://cloudstudio.net/">Cloud Studio - 开启云端开发模式 WebIDE</a></li>
+<li><a href="https://www.jsdelivr.com/">CDN加速</a></li>
+</ul>
+<h2 id="框架-模板"><a href="#框架-模板" class="headerlink" title="框架/模板"></a>框架/模板</h2><hr>
+<ul>
+<li><p><a href="https://www.layui.com/">Layui - 经典模块化前端 UI 框架</a></p>
+</li>
+<li><p><a href="https://html5up.net/">HTML5 UP! Responsive HTML5 and CSS3 Site Templates</a></p>
+</li>
+<li><p><a href="https://html5up.net/dimension">Dimension | HTML5 UP</a></p>
+</li>
+<li><p><a href="https://echarts.apache.org/zh/index.html">Apache ECharts (incubating)</a></p>
+</li>
+<li><p><a href="http://sc.chinaz.com/jiaoben/caidanhaohang.html">菜单导航 -query导航条_jquery菜单</a></p>
+</li>
+<li><p><a href="https://hexo.io/themes/">Themes | Hexo</a></p>
+</li>
+<li><p><a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a></p>
+</li>
+<li></li>
+</ul>
+<h2 id="旁门左道"><a href="#旁门左道" class="headerlink" title="旁门左道"></a>旁门左道</h2><hr>
+<ul>
+<li><a href="https://www.php.cn/tool/phpstorm/408348.html">正版phpstorm免费激活步骤（图文详解）-phpstorm-PHP中文网</a></li>
+<li><a href="https://shimo.im/docs/ccyCWjdCWrhYJHhT/read">JetBrains 2020.2 版本 全家桶激活补丁</a></li>
+<li><a href="https://www.jb51.net/article/196141.htm">最新WebStorm2020.2注册码永久激活(激活到2089年)[原创]_其它综合_脚本之家</a></li>
+<li><a href="https://freemycloud.net/user">用户中心 — 闪电</a></li>
+<li><a href="https://situcloud.ml/user##">首页 — 司徒云</a></li>
+<li><a href="http://www.app-superfast.com/zh/">superfast</a></li>
+<li><a href="https://yunduanxin.net/info/8616742264298/">中国电话号码 +8616742264298,在线接收短信验证码 - 云短信</a></li>
+<li><a href="https://www.materialtools.com/?page=1">云短信 - 在线短信接收</a></li>
+<li><a href="https://greasyfork.org/zh-CN/scripts?q=%E6%8A%A2%E7%A5%A8">用户脚本</a></li>
+<li><a href="https://www.123xpg.com/?temp=0.12806757181131045">小苹果活动助手 - 大空白’blog - CF活动助手,逆战活动助手,最新游戏活动装备道具一键轻松领取</a></li>
+<li><a href="https://www.nocmd.com/740.html">VMware Workstation Pro v15.5.1 官方版+激活密钥-NoCmd</a></li>
+<li><a href="http://www.zdfans.com/html/31668.html">破解版下载网址 - zd423</a></li>
+<li></li>
+</ul>
+<h2 id="有象征意义的网站"><a href="#有象征意义的网站" class="headerlink" title="有象征意义的网站"></a>有象征意义的网站</h2><hr>
+<ul>
+<li><a href="https://www.tiobe.com/tiobe-index/">TIOBE 排行榜</a></li>
+<li><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html">Data Structure Visualization</a></li>
+<li></li>
+</ul>
+<h2 id="个人需求-喜好"><a href="#个人需求-喜好" class="headerlink" title="个人需求/喜好"></a>个人需求/喜好</h2><hr>
+<ul>
+<li><a href="https://www.sohu.com/a/166369014_99985043">自己搭建一个云盘！只要半个小时！全平台支持！</a></li>
+<li><a href="https://dl.3dmgame.com/pc/60667.html">鬼泣4：特别版 3DM简体中文免安装版下载_鬼泣4：特别版 中文版下载_单机游戏下载大全中文版下载_3DM单机</a></li>
+<li><a href="http://159.75.5.166/admin/">后台管理中心</a></li>
+<li><a href="https://www.jianshu.com/p/c9c719821198">51个css时间轴 - 简书</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程 - 知乎</a></li>
+<li><a href="https://cloud.tencent.com/developer/article/1151858?from=information.detail.%E8%85%BE%E8%AE%AF%E4%BA%91%E5%85%8B%E9%9A%86%E6%9C%8D%E5%8A%A1%E5%99%A8">腾讯云无缝切换服务器 - 云+社区 - 腾讯云</a></li>
+<li><a href="https://blog.csdn.net/weixin_42831477/article/details/81589325?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">(10条消息)windows下MySQL免安装版配置教程mysql-8.0.12-winx64.zip版本_慕容雪_的博客-CSDN博客</a></li>
+<li><a href="https://www.xp.cn/wenda/394.html">phpstudy v8.0创建本地站点域名教程（图文） - phpStudy交流社区</a></li>
+<li><a href="https://www.cnblogs.com/yuwensong/p/11474032.html">Linux下安装java及配置(yum安装) - 天道酬勤，坚持！ - 博客园</a></li>
+<li><a href="https://dreamer.blue/blog/?tdsourcetag=s_pcqq_aiomsg">bLue’s blog</a></li>
+<li><a href="https://www.xp.cn/jishu-php-3083.html">PhpStudy集成环境升级MySQL数据库版本详解 - phpStudy技术文章</a></li>
+<li><a href="https://www.jb51.net/article/145282.htm">通过jquery的ajax请求本地的json文件方法_jquery_脚本之家</a></li>
+<li></li>
+</ul>
+<hr>
+]]></content>
+      <categories>
+        <category>收录整理</category>
+      </categories>
+      <tags>
+        <tag>实用</tag>
+        <tag>工具类</tag>
+        <tag>便捷</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>朋友，美好的生活在让你剁手</title>
+    <url>/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/</url>
+    <content><![CDATA[<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232837.jpg"></p>
+<h4 id="慵懒的上午"><a href="#慵懒的上午" class="headerlink" title="慵懒的上午"></a>慵懒的上午</h4><p>开启我的便携灯</p>
+<p>起床，9点，一看，嘿，都在！</p>
+<h4 id="奋斗的中午，"><a href="#奋斗的中午，" class="headerlink" title="奋斗的中午，"></a>奋斗的中午，</h4><p>疲于奔波在各大科目周作业、大作业上，没有午觉，</p>
+<h4 id="积极的下午"><a href="#积极的下午" class="headerlink" title="积极的下午"></a>积极的下午</h4><p>数据结构看了3章，好吧挺简单的没什么好说的，</p>
+<p>解决了win10下红警2【黑屏、右下角不完全显示】。win7兼容打开，ra2.ini 中  Video 下面修改分辨率为1366 X 768（win7时代的主流分辨率），千万别外传，这是咱兄弟之间的秘密，</p>
+<p>用了一下超声波洗牙器，（前几天怀疑自己得了牙结石），不太会呀，换成牙刷头，还真的刷挺干净，口气清新多了，</p>
+<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232431.jpg"></p>
+<p>啊对，还洗了个澡，睡了30min回笼#￥%&amp;……觉，巴适。</p>
+<h4 id="奇幻的晚上，"><a href="#奇幻的晚上，" class="headerlink" title="奇幻的晚上，"></a>奇幻的晚上，</h4><p>第一尝试在走廊用网线上网，</p>
+<p>第一次尝试笔记本满电腾讯会议能开多久，<font color="grey">用平板吧，笔记本撑死2小时</font></p>
+<p>第一次在黑暗的环境中拿手机闪光灯看书、记笔记，</p>
+<h4 id="哭泣的半夜"><a href="#哭泣的半夜" class="headerlink" title="哭泣的半夜"></a>哭泣的半夜</h4><p>数学还没结束，下周必须干完现代，我说的，xxx也拦不住，<strong>数学、专业课进度堪忧</strong>。</p>
+<p>说好的洗衣服，还在那里摊着，下次一定，下次一定。</p>
+<p>新鲜的笔记，只能明天整理了，还有几道题，逆置呢，还得再看看。</p>
+<p>《马克思》，我今晚一定看好吧，</p>
+<p>想运动来着，默默地瞅了一眼体重秤，</p>
+<p>该给 明天做个计划，比如结束现代。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇github博文</title>
     <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
     <content><![CDATA[<p> 面试学弟，</p>
@@ -295,6 +515,45 @@
       </tags>
   </entry>
   <entry>
+    <title>数学我选二</title>
+    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
+    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
+<p>今天来聊一聊分部积分，这是第n次重温了，</p>
+<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
+<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
+<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>灵魂拷问</title>
+    <url>/2021/05/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<p>1、链表中，常用尾插法，那么对于头插法的要求是掌握还是理解？</p>
+<p>​    【答】都要掌握，</p>
+<p>2、顺序栈和队列平时用的更多，链式的也要重视还是理解即可？</p>
+<p>​    【答】今天总结的基础方法都要掌握（天勤：除非题目明确使用链式，否则尽量避免链式）</p>
+<p>3、做题时（王道），是先做客观题（初期），还是综合应用题一起看？</p>
+<p>​    【答】先把天勤全部过一遍（客观题+综合题），王道作为第二轮，还有一个1800那本书，可以作为第三轮</p>
+<p>4、逻辑结构定义方式上，天勤链队和自己的不太有出入，，到时候按照自己来也是可以的？（例如：天勤P58）</p>
+<p>​    【答】手写的会是，伪代码，只要体现的是正确的思想，就是可以的，<strong>多练习手写伪代码</strong></p>
+<p>5、快排，nlogn怎么来的？</p>
+<p>​        【答】哔哩哔哩搜索吧，，，这个贯穿数据结构全部学习，所有算法都可以考察这个，<strong>时空复杂度、题目刷起来</strong>。</p>
+<p>6、天勤先不看题了，做题的时候一起吧？</p>
+<p>​    【答】学完一章，课后做章节。</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>答疑讨论1-3</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>既纠结，又可惜</title>
     <url>/2021/04/15/%E6%97%A2%E7%BA%A0%E7%BB%93%EF%BC%8C%E5%8F%88%E5%8F%AF%E6%83%9C/</url>
     <content><![CDATA[<hr>
@@ -322,13 +581,28 @@
       </tags>
   </entry>
   <entry>
-    <title>数学我选二</title>
-    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
-    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
-<p>今天来聊一聊分部积分，这是第n次重温了，</p>
-<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
-<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
-<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
+    <title>是该给你的思想减减负了</title>
+    <url>/2021/05/24/%E6%98%AF%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F%E4%BA%86/</url>
+    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
+<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
+<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
+<p>时间和精力是有限的，</p>
+<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
+<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
+<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
+<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
+<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
+<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
+<p>逛淘宝 *****</p>
+<p>听小说 ****</p>
+<p>写博客 ***</p>
+<p>玩游戏 *</p>
+<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
+<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
+<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
+<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
+<p>在能承受最坏代价的前提下多尝试，</p>
+<p>对自己高要求，</p>
 ]]></content>
       <categories>
         <category>生活</category>
@@ -741,280 +1015,6 @@
       </categories>
       <tags>
         <tag>线性代数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构到了</title>
-    <url>/2021/05/12/think-then-go/</url>
-    <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
-<p>机器学习大作业得交了，IT项目管理考试要来了，并行计算大作业也下来了，这周忙碌命啊</p>
-<p>英语，失宠好久了，自从核心词汇和基础词汇过了一遍，每天零零散散地刷一套在线题目（20），记了很多笔记，貌似也没重视起来，进度…进度…进度，你的语法题什么时候开始啊也别等到周末了，那个时候计划永远赶不上变换，贼难安排，每周周五的时候吧，拿出半天，看看英语（在线学习系统词组笔记、iPad记录的形近词汇、纸质笔记本上的单词语法、） </p>
-<p>等等，今天数据结构的书也到了，二手的，卖家出于好心，把题也给做了。。408 3月初开始，这周就要 renew 了，散装英语在自己博客秀一把，不过分吧。</p>
-<p>宇哥，你的视频是我学现代唯一的依靠了，跟着你走，我做题踏实多了，课本都没你讲的好，不过多吐槽了，赶快跟你学完，线代我都今天下载完成了。</p>
-<p>不说了，不说了，把之前留下来的英语问题收收尾。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-        <tag>阶段性总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>朋友，美好的生活在让你剁手</title>
-    <url>/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/</url>
-    <content><![CDATA[<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232837.jpg"></p>
-<h4 id="慵懒的上午"><a href="#慵懒的上午" class="headerlink" title="慵懒的上午"></a>慵懒的上午</h4><p>开启我的便携灯</p>
-<p>起床，9点，一看，嘿，都在！</p>
-<h4 id="奋斗的中午，"><a href="#奋斗的中午，" class="headerlink" title="奋斗的中午，"></a>奋斗的中午，</h4><p>疲于奔波在各大科目周作业、大作业上，没有午觉，</p>
-<h4 id="积极的下午"><a href="#积极的下午" class="headerlink" title="积极的下午"></a>积极的下午</h4><p>数据结构看了3章，好吧挺简单的没什么好说的，</p>
-<p>解决了win10下红警2【黑屏、右下角不完全显示】。win7兼容打开，ra2.ini 中  Video 下面修改分辨率为1366 X 768（win7时代的主流分辨率），千万别外传，这是咱兄弟之间的秘密，</p>
-<p>用了一下超声波洗牙器，（前几天怀疑自己得了牙结石），不太会呀，换成牙刷头，还真的刷挺干净，口气清新多了，</p>
-<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232431.jpg"></p>
-<p>啊对，还洗了个澡，睡了30min回笼#￥%&amp;……觉，巴适。</p>
-<h4 id="奇幻的晚上，"><a href="#奇幻的晚上，" class="headerlink" title="奇幻的晚上，"></a>奇幻的晚上，</h4><p>第一尝试在走廊用网线上网，</p>
-<p>第一次尝试笔记本满电腾讯会议能开多久，<font color="grey">用平板吧，笔记本撑死2小时</font></p>
-<p>第一次在黑暗的环境中拿手机闪光灯看书、记笔记，</p>
-<h4 id="哭泣的半夜"><a href="#哭泣的半夜" class="headerlink" title="哭泣的半夜"></a>哭泣的半夜</h4><p>数学还没结束，下周必须干完现代，我说的，xxx也拦不住，<strong>数学、专业课进度堪忧</strong>。</p>
-<p>说好的洗衣服，还在那里摊着，下次一定，下次一定。</p>
-<p>新鲜的笔记，只能明天整理了，还有几道题，逆置呢，还得再看看。</p>
-<p>《马克思》，我今晚一定看好吧，</p>
-<p>想运动来着，默默地瞅了一眼体重秤，</p>
-<p>该给 明天做个计划，比如结束现代。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>灵魂拷问</title>
-    <url>/2021/05/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<p>1、链表中，常用尾插法，那么对于头插法的要求是掌握还是理解？</p>
-<p>​    【答】都要掌握，</p>
-<p>2、顺序栈和队列平时用的更多，链式的也要重视还是理解即可？</p>
-<p>​    【答】今天总结的基础方法都要掌握（天勤：除非题目明确使用链式，否则尽量避免链式）</p>
-<p>3、做题时（王道），是先做客观题（初期），还是综合应用题一起看？</p>
-<p>​    【答】先把天勤全部过一遍（客观题+综合题），王道作为第二轮，还有一个1800那本书，可以作为第三轮</p>
-<p>4、逻辑结构定义方式上，天勤链队和自己的不太有出入，，到时候按照自己来也是可以的？（例如：天勤P58）</p>
-<p>​    【答】手写的会是，伪代码，只要体现的是正确的思想，就是可以的，<strong>多练习手写伪代码</strong></p>
-<p>5、快排，nlogn怎么来的？</p>
-<p>​        【答】哔哩哔哩搜索吧，，，这个贯穿数据结构全部学习，所有算法都可以考察这个，<strong>时空复杂度、题目刷起来</strong>。</p>
-<p>6、天勤先不看题了，做题的时候一起吧？</p>
-<p>​    【答】学完一章，课后做章节。</p>
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>答疑讨论1-3</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>宝藏网址，看这里就够了</title>
-    <url>/2021/05/19/%E5%AE%9D%E8%97%8F%E7%BD%91%E5%9D%80%EF%BC%8C%E7%9C%8B%E8%BF%99%E9%87%8C%E5%B0%B1%E5%A4%9F%E4%BA%86/</url>
-    <content><![CDATA[<h2 id="文档-手册"><a href="#文档-手册" class="headerlink" title="文档/手册"></a>文档/手册</h2><hr>
-<ul>
-<li><a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL :: MySQL 8.0 Reference Manual</a></li>
-<li><a href="https://docs.python.org/zh-cn/3/library/turtle.html">turtle — 海龟绘图 — Python 3.8.2 文档</a></li>
-<li><a href="https://www.scikitlearn.com.cn/">sklearn 中文文档 - sklearn</a></li>
-<li><a href="https://keras.io/zh/layers/about-keras-layers/">关于 Keras 网络层 - Keras 中文文档</a></li>
-<li><a href="https://www.bootcss.com/">Bootstrap中文网</a></li>
-<li></li>
-</ul>
-<h2 id="学习资源"><a href="#学习资源" class="headerlink" title="学习资源"></a>学习资源</h2><hr>
-<h5 id="各种语言教程"><a href="#各种语言教程" class="headerlink" title="各种语言教程"></a>各种语言教程</h5><ul>
-<li><a href="https://www.liaoxuefeng.com/">首页 - 廖雪峰的官方网站</a></li>
-<li></li>
-</ul>
-<h5 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h5><ul>
-<li><a href="https://study.163.com/course/courseLearn.htm?courseId=1004572025&from=study#/learn/video?lessonId=1049049317&courseId=1004572025">十天学会PHP（第六版） - 网易云课堂</a></li>
-<li><a href="https://study.163.com/course/courseLearn.htm?courseId=1004732045#/learn/video?lessonId=1049773418&courseId=1004732045">入门后进阶：更强大的留言板 - 网易云课堂</a></li>
-<li><a href="http://www.itheima.com/special/hmphpzly/?jingjia-heima-php-xin-pc-xitongxuexiphp">黑马程序员PHP培训班_优质PHP培训教程_PHP开发培训课程推荐</a></li>
-<li><a href="http://yun.itheima.com/map/23.html?a5&tdsourcetag=s_pcqq_aiomsg">PHP视频教程完整版_PHP视频教程从入门到精通_黑马程序员</a></li>
-<li></li>
-</ul>
-<h5 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h5><ul>
-<li><a href="http://www.python3.vip/">| 白月黑羽教Python</a></li>
-<li><a href="https://python123.io/index/turtles/colleges">Python123</a></li>
-<li><a href="http://sdlg.alphacoding.cn/">AlphaCoding院校版 - alphacoding-web</a></li>
-<li></li>
-</ul>
-<h5 id="实现小型编译器"><a href="#实现小型编译器" class="headerlink" title="实现小型编译器"></a>实现小型编译器</h5><ul>
-<li><a href="https://pandolia.net/tinyc/">自己动手写编译器 — 自己动手写编译器</a></li>
-</ul>
-<h5 id="Git"><a href="#Git" class="headerlink" title="Git"></a>Git</h5><ul>
-<li><a href="https://learngitbranching.js.org/">Learn Git Branching</a></li>
-<li><a href="https://www.progit.cn/">Pro Git 中文版（第二版）</a></li>
-<li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a></li>
-<li></li>
-</ul>
-<h5 id="轮滑"><a href="#轮滑" class="headerlink" title="轮滑"></a>轮滑</h5><ul>
-<li><a href="https://space.bilibili.com/30839640?from=search&seid=11173422905792384920">淼哥轮滑的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili</a></li>
-</ul>
-<h2 id="下载类资源"><a href="#下载类资源" class="headerlink" title="下载类资源"></a>下载类资源</h2><hr>
-<ul>
-<li><a href="http://npm.taobao.org/mirrors/chromedriver/">ChromeDriver Mirror</a></li>
-<li><a href="http://ms.sdut.edu.cn/download.html">正版软件管理与服务平台(山东理工大学)</a></li>
-<li><a href="https://www.nocmd.com/740.html">VMware Workstation Pro v15.5.1 官方版+激活密钥-NoCmd</a></li>
-<li><a href="http://www.1ppt.com/xiazai/zongjie/ppt_zongjie_2.html">工作总结PPT_工作总结PPT模板免费下载 - 第一PPT</a></li>
-<li><a href="http://www.ypppt.com/moban/lunwen/">毕业论文答辩PPT模板_毕业设计论文答辩PPT模板下载 - 优品PPT</a></li>
-<li><a href="http://www.php.cn/xiazai/">PHP中文网：一切建站资源免费下载</a></li>
-<li><a href="http://pic.netbian.com/index_13.html">最新4K壁纸_最新4K桌面壁纸_彼岸图网</a></li>
-<li><a href="https://ab.algoux.org/">Algo Bootstrap</a></li>
-<li><a href="https://dev.mysql.com/downloads/file/?id=494993">MySQL :: Begin Your Download</a></li>
-<li><a href="https://www.graviti.cn/open-datasets?utm_campaign=%E7%99%BE%E5%BA%A6%E6%8E%A8%E5%B9%BF&utm_medium=%E7%99%BE%E5%BA%A6&utm_source=%E7%99%BE%E5%BA%A6%E6%90%9C%E7%B4%A2&gio_link_id=LPd5Xgeo&searchBy=weather">公开数据集，数据集免费下载，图片数据集 | Graviti 格物钛</a></li>
-<li><a href="https://www.xp.cn/">小皮面板(phpstudy) - 让天下没有难配的服务器环境！</a></li>
-<li><a href="https://studygolang.com/dl">Go下载 - Go语言中文网 - Golang中文社区</a></li>
-<li></li>
-</ul>
-<h2 id="—在线办公-查询"><a href="#—在线办公-查询" class="headerlink" title="—在线办公/查询"></a>—在线办公/查询</h2><ul>
-<li><a href="https://www.processon.com/">ProcessOn - 免费在线作图，思维导图，流程图，实时协作</a></li>
-<li><a href="https://icons8.com/icons/">Free Vector Icons — Download 172,300 icons (SVG, PNG)</a></li>
-<li><a href="https://icons8.com/icons/set/steam">Steam Icons - Free Download, PNG and SVG</a></li>
-<li><a href="https://bj.96weixin.com/tools/rgb">RGB颜色对照表 - 96微信编辑器</a></li>
-<li><a href="https://www.wondercv.com/cvs/47JNlMw/editor">超级简历WonderCV - HR推荐简历模板,智能简历制作工具,专业中英文简历模板免费下载</a></li>
-<li><a href="https://www.quword.com/ciyuan/s/embark">embark的词源_embark的由来_同根词_同源词_趣词词源字典</a></li>
-<li><a href="https://www.dxsbb.com/news/2867.html">2021-2022计算机科学与技术考研学校排名_大学生必备网</a></li>
-<li><a href="http://www.diugai.com/list.php">免费logo设计-logo在线制作-丢盖网</a></li>
-<li><a href="https://www.lunwengo.net/">论文狗查重_免费论文查重入口_免费论文检测网站_一键智能降重修改 – 论文狗免费论文检测平台</a></li>
-<li><a href="http://product.cnmo.com/compare_s57_p1624147_1625144_1625121_1625063_1625065.html">【荣耀Play、荣耀Play4、荣耀Play4Pro、荣耀Play4T、荣耀Play4TPro】对比参数配置_手机中国</a></li>
-<li></li>
-</ul>
-<h2 id="快捷通道"><a href="#快捷通道" class="headerlink" title="快捷通道"></a>快捷通道</h2><hr>
-<p><font color="grey">这表示我懒得给它归类，这里只提供入口</font></p>
-<ul>
-<li><a href="http://cet-bm.neea.edu.cn/">全国大学英语四、六级考试报名网</a></li>
-<li><a href="https://passport.neea.edu.cn/Home/login?userCode=1870893649@qq.com">ETEST通行证</a></li>
-<li><a href="https://www.aliyun.com/activity/daily/cloud">上云必备——海量产品新用户专享优惠 ECS 96.9元/年</a></li>
-<li><a href="https://up.woozooo.com/mydisk.php">蓝奏云</a></li>
-<li><a href="https://outlook.live.com/mail/0/inbox">邮件 - z xc - Outlook</a></li>
-<li><a href="http://sdxy.gov.cn/edit/index">国家企业信用信息公示系统</a></li>
-<li><a href="https://yz.chsi.com.cn/zsml/querySchAction.do?ssdm=37&dwmc=%E4%B8%AD%E5%9B%BD%E7%9F%B3%E6%B2%B9%E5%A4%A7%E5%AD%A6(%E5%8D%8E%E4%B8%9C)&mldm=&mlmc=&yjxkdm=0812&xxfs=&zymc=">硕士专业目录_中国研究生招生信息网</a></li>
-<li><a href="https://www.kaggle.com/c/machine-learning-on-thursday/overview">波士顿房价预测 | Kaggle</a></li>
-<li><a href="https://cloudstudio.net/">Cloud Studio - 开启云端开发模式 WebIDE</a></li>
-<li><a href="https://www.jsdelivr.com/">CDN加速</a></li>
-</ul>
-<h2 id="框架-模板"><a href="#框架-模板" class="headerlink" title="框架/模板"></a>框架/模板</h2><hr>
-<ul>
-<li><p><a href="https://www.layui.com/">Layui - 经典模块化前端 UI 框架</a></p>
-</li>
-<li><p><a href="https://html5up.net/">HTML5 UP! Responsive HTML5 and CSS3 Site Templates</a></p>
-</li>
-<li><p><a href="https://html5up.net/dimension">Dimension | HTML5 UP</a></p>
-</li>
-<li><p><a href="https://echarts.apache.org/zh/index.html">Apache ECharts (incubating)</a></p>
-</li>
-<li><p><a href="http://sc.chinaz.com/jiaoben/caidanhaohang.html">菜单导航 -query导航条_jquery菜单</a></p>
-</li>
-<li><p><a href="https://hexo.io/themes/">Themes | Hexo</a></p>
-</li>
-<li><p><a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a></p>
-</li>
-<li></li>
-</ul>
-<h2 id="旁门左道"><a href="#旁门左道" class="headerlink" title="旁门左道"></a>旁门左道</h2><hr>
-<ul>
-<li><a href="https://www.php.cn/tool/phpstorm/408348.html">正版phpstorm免费激活步骤（图文详解）-phpstorm-PHP中文网</a></li>
-<li><a href="https://shimo.im/docs/ccyCWjdCWrhYJHhT/read">JetBrains 2020.2 版本 全家桶激活补丁</a></li>
-<li><a href="https://www.jb51.net/article/196141.htm">最新WebStorm2020.2注册码永久激活(激活到2089年)[原创]_其它综合_脚本之家</a></li>
-<li><a href="https://freemycloud.net/user">用户中心 — 闪电</a></li>
-<li><a href="https://situcloud.ml/user##">首页 — 司徒云</a></li>
-<li><a href="http://www.app-superfast.com/zh/">superfast</a></li>
-<li><a href="https://yunduanxin.net/info/8616742264298/">中国电话号码 +8616742264298,在线接收短信验证码 - 云短信</a></li>
-<li><a href="https://www.materialtools.com/?page=1">云短信 - 在线短信接收</a></li>
-<li><a href="https://greasyfork.org/zh-CN/scripts?q=%E6%8A%A2%E7%A5%A8">用户脚本</a></li>
-<li><a href="https://www.123xpg.com/?temp=0.12806757181131045">小苹果活动助手 - 大空白’blog - CF活动助手,逆战活动助手,最新游戏活动装备道具一键轻松领取</a></li>
-<li><a href="https://www.nocmd.com/740.html">VMware Workstation Pro v15.5.1 官方版+激活密钥-NoCmd</a></li>
-<li><a href="http://www.zdfans.com/html/31668.html">破解版下载网址 - zd423</a></li>
-<li></li>
-</ul>
-<h2 id="有象征意义的网站"><a href="#有象征意义的网站" class="headerlink" title="有象征意义的网站"></a>有象征意义的网站</h2><hr>
-<ul>
-<li><a href="https://www.tiobe.com/tiobe-index/">TIOBE 排行榜</a></li>
-<li><a href="https://www.cs.usfca.edu/~galles/visualization/Algorithms.html">Data Structure Visualization</a></li>
-<li></li>
-</ul>
-<h2 id="个人需求-喜好"><a href="#个人需求-喜好" class="headerlink" title="个人需求/喜好"></a>个人需求/喜好</h2><hr>
-<ul>
-<li><a href="https://www.sohu.com/a/166369014_99985043">自己搭建一个云盘！只要半个小时！全平台支持！</a></li>
-<li><a href="https://dl.3dmgame.com/pc/60667.html">鬼泣4：特别版 3DM简体中文免安装版下载_鬼泣4：特别版 中文版下载_单机游戏下载大全中文版下载_3DM单机</a></li>
-<li><a href="http://159.75.5.166/admin/">后台管理中心</a></li>
-<li><a href="https://www.jianshu.com/p/c9c719821198">51个css时间轴 - 简书</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程 - 知乎</a></li>
-<li><a href="https://cloud.tencent.com/developer/article/1151858?from=information.detail.%E8%85%BE%E8%AE%AF%E4%BA%91%E5%85%8B%E9%9A%86%E6%9C%8D%E5%8A%A1%E5%99%A8">腾讯云无缝切换服务器 - 云+社区 - 腾讯云</a></li>
-<li><a href="https://blog.csdn.net/weixin_42831477/article/details/81589325?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">(10条消息)windows下MySQL免安装版配置教程mysql-8.0.12-winx64.zip版本_慕容雪_的博客-CSDN博客</a></li>
-<li><a href="https://www.xp.cn/wenda/394.html">phpstudy v8.0创建本地站点域名教程（图文） - phpStudy交流社区</a></li>
-<li><a href="https://www.cnblogs.com/yuwensong/p/11474032.html">Linux下安装java及配置(yum安装) - 天道酬勤，坚持！ - 博客园</a></li>
-<li><a href="https://dreamer.blue/blog/?tdsourcetag=s_pcqq_aiomsg">bLue’s blog</a></li>
-<li><a href="https://www.xp.cn/jishu-php-3083.html">PhpStudy集成环境升级MySQL数据库版本详解 - phpStudy技术文章</a></li>
-<li><a href="https://www.jb51.net/article/145282.htm">通过jquery的ajax请求本地的json文件方法_jquery_脚本之家</a></li>
-<li></li>
-</ul>
-<hr>
-]]></content>
-      <categories>
-        <category>收录整理</category>
-      </categories>
-      <tags>
-        <tag>实用</tag>
-        <tag>工具类</tag>
-        <tag>便捷</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Disaster</title>
-    <url>/2021/05/21/Disaster/</url>
-    <content><![CDATA[<p>1、手机</p>
-<p>2、熬夜</p>
-<p>3、状态</p>
-<p>4、压力调节</p>
-<p>5、体态</p>
-<p>6、计划执行效率低下</p>
-<p>7、运动 - -</p>
-<p>8、学习积极性 - -</p>
-<p>9、英语训练 - -</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>warning</tag>
-        <tag>Miscellaneous notes</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>是该给你的思想减减负了</title>
-    <url>/2021/05/24/%E6%98%AF%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F%E4%BA%86/</url>
-    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
-<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
-<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
-<p>时间和精力是有限的，</p>
-<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
-<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
-<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
-<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
-<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
-<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
-<p>逛淘宝 *****</p>
-<p>听小说 ****</p>
-<p>写博客 ***</p>
-<p>玩游戏 *</p>
-<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
-<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
-<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
-<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
-<p>在能承受最坏代价的前提下多尝试，</p>
-<p>对自己高要求，</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
       </tags>
   </entry>
 </search>
