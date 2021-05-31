@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">241</span>
+            <span class="post-count">591</span>
         </span>
     </span>
 
@@ -82,7 +82,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">2 min</span>
         </span>
     </span>
 </div>
@@ -98,21 +98,42 @@
     <div class="article-entry" itemprop="articleBody">
        
   <h3 id="linux命令的补充"><a href="#linux命令的补充" class="headerlink" title="linux命令的补充"></a>linux命令的补充</h3><hr>
-<h6 id="（1）查找find"><a href="#（1）查找find" class="headerlink" title="（1）查找find"></a>（1）查找<code>find</code></h6><p><code>find -name &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code> 的文件/目录</p>
+<h3 id="（1）查找find"><a href="#（1）查找find" class="headerlink" title="（1）查找find"></a>（1）查找<code>find</code></h3><p><code>find -name &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code> 的文件/目录</p>
 <p><code>find -iname &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code>的文件/目录 ，不分大小写</p>
 <p><code>find /root -name &#39;hadoop&#39;</code>: 在``/root<code>目录下，查找后缀为</code>.o`的文件</p>
 <p><code>find  -name &#39;*.o&#39;</code>: 当前目录下，查找后缀为<code>.o</code>的文件</p>
 <p><code>find  -iname &#39;*ha*&#39;</code>: 在规定 root 下查找名 包含<code>ha</code>的文件/目录</p>
-<h6 id="（2）管道"><a href="#（2）管道" class="headerlink" title="（2）管道|"></a>（2）管道<code>|</code></h6><p><code>/usr/root |grep hadoop</code>:|左边的输出成为右边的输入</p>
+<h3 id="（2）管道"><a href="#（2）管道" class="headerlink" title="（2）管道|"></a>（2）管道<code>|</code></h3><p><code>/usr/root |grep hadoop</code>:|左边的输出成为右边的输入</p>
 <p><font color="red">用到再说…</font></p>
-<h6 id="3-软连接-gt-符号"><a href="#3-软连接-gt-符号" class="headerlink" title="(3)软连接 -&gt;符号"></a>(3)软连接 <code>-&gt;</code>符号</h6><p>执行<code>ll -n </code>就可以看到<code>lrwxrwxrwx 1 root root   13 5月  31 11:32 tio.o -&gt; /root/1/tio.o</code>后者就是前者的快捷方式</p>
-<h6 id="1-软连接，带着-s"><a href="#1-软连接，带着-s" class="headerlink" title="(1)软连接，带着-s"></a>(1)软连接，带着<code>-s</code></h6><div style="background-color:#1E90FF;"><font color="white">不必重复的占用磁盘空间，文件保持同步</font></div>
+<h3 id="（3）软连接-gt-符号"><a href="#（3）软连接-gt-符号" class="headerlink" title="（3）软连接 -&gt;符号"></a>（3）软连接 <code>-&gt;</code>符号</h3><p>执行<code>ll -n </code>就可以看到<code>lrwxrwxrwx 1 root root   13 5月  31 11:32 tio.o -&gt; /root/1/tio.o</code>后者就是前者的快捷方式</p>
+<p><font color="grey"> 软连接，带着<code>-s</code></font></p>
+<div style="background-color:#1E90FF;"><font color="white">不必重复的占用磁盘空间，文件保持同步</font></div>
 
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln -s /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
 
-<h6 id="2-硬链接-不带-s"><a href="#2-硬链接-不带-s" class="headerlink" title="(2)硬链接,不带-s"></a>(2)硬链接,不带<code>-s</code></h6><div style="background-color:#1E90FF;"><font color="white">占用磁盘空间，文件保持同步</font></div>
+<p><font color="grey">硬链接,不带<code>-s</code></font></p>
+<div style="background-color:#1E90FF;"><font color="white">占用磁盘空间，文件保持同步</font></div>
 
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln  /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="（4）列举ls"><a href="#（4）列举ls" class="headerlink" title="（4）列举ls"></a>（4）列举<code>ls</code></h3><p><code>ll -a</code>:显示隐藏文件</p>
+<p><code>ll -h</code> <code>ll -n</code>：显示更多属性（大小）</p>
+<h3 id="（5）Vim"><a href="#（5）Vim" class="headerlink" title="（5）Vim"></a>（5）Vim</h3><p><code>:%s/java/JAVA/g</code>:<code>%s</code>:全文件开始查找和替换，将<code>java</code>全部替换为<code>JAVA</code>，<code>g</code>：global 全局替换</p>
+<h3 id="（6）权限"><a href="#（6）权限" class="headerlink" title="（6）权限"></a>（6）权限</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">r</span><br><span class="line">w</span><br><span class="line">x：执行权限</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="7-服务启停"><a href="#7-服务启停" class="headerlink" title="(7)服务启停"></a>(7)服务启停</h3><p><code>systemctl status httpd </code>：查看<code>httpd</code>状态</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">systemctl -[start|stop|status|enable|disable|] servername</span><br><span class="line"></span><br><span class="line">enable &#x3D;&gt; 开机默认开启</span><br><span class="line">disable &#x3D;&gt;开机不自启</span><br><span class="line">status &#x3D;&gt;    可以看到</span><br><span class="line"></span><br><span class="line"> Loaded: loaded (&#x2F;usr&#x2F;lib&#x2F;systemd&#x2F;system&#x2F;httpd.service; disabled不自启; vendor preset: disabled)</span><br><span class="line">   Active: inactive (dead)   #当前是关闭状态</span><br><span class="line">     Docs: man:httpd(8)</span><br><span class="line">           man:apachectl(8)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="（8）解压"><a href="#（8）解压" class="headerlink" title="（8）解压"></a>（8）解压</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tar -xzvf xxx</span><br><span class="line">tar -xzvf xxx -C /usr/local       解压到指定路径         习惯上，/usr/local  /usr/opt</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="9-shell编程"><a href="#9-shell编程" class="headerlink" title="(9)shell编程"></a>(9)<code>shell</code>编程</h3><p><code>!#/bin/bash</code>:开头加上，这个注释有啥用，增加可读性？</p>
+<p>应用：多台机器一键安装，</p>
+<p><a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-shell-basic-operators.html">菜鸟</a></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line">环境变量：</span><br><span class="line">局部变量：</span><br><span class="line"></span><br><span class="line">流程控制语句：</span><br><span class="line"></span><br><span class="line">流程控制，使用关系运算符 -</span><br><span class="line">lt  小于 </span><br><span class="line">-gt  大于</span><br><span class="line">-eq  等于</span><br><span class="line">-o  或</span><br><span class="line">-a  且</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">touch dd.txt   #创建文件</span><br><span class="line">bash demo2.sh  #调用另一个脚本</span><br><span class="line">echo &quot;小丛丛 是猪&quot;| cat &gt;&gt; dd.txt   #输出并管道进文件中</span><br><span class="line">read -p &quot;请输入一个数字:&quot; SCORE    #输入</span><br><span class="line">if [ $SCORE -lt 10 -o $SCORE -gt 100 ];then #[] 前后必须有空格隔开  &lt;10 ||&gt;100</span><br><span class="line">	echo &quot;$SCORE小于10 或者大于100&quot;</span><br><span class="line"></span><br><span class="line">fi                                         #if then ....elif... if收尾</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">一个安装例子：</span><br><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">source ..&#x2F;........</span><br><span class="line">$PATH&#x3D;</span><br><span class="line"></span><br><span class="line">source ..&#x2F;.......</span><br><span class="line">$PATH&#x3D;</span><br></pre></td></tr></table></figure>
 
 
 
