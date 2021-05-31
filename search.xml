@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>record</title>
+    <url>/2021/05/31/DBTrainingRecord/</url>
+    <content><![CDATA[<h3 id="linux命令的补充"><a href="#linux命令的补充" class="headerlink" title="linux命令的补充"></a>linux命令的补充</h3><hr>
+<h6 id="（1）查找find"><a href="#（1）查找find" class="headerlink" title="（1）查找find"></a>（1）查找<code>find</code></h6><p><code>find -name &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code> 的文件/目录</p>
+<p><code>find -iname &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code>的文件/目录 ，不分大小写</p>
+<p><code>find /root -name &#39;hadoop&#39;</code>: 在``/root<code>目录下，查找后缀为</code>.o`的文件</p>
+<p><code>find  -name &#39;*.o&#39;</code>: 当前目录下，查找后缀为<code>.o</code>的文件</p>
+<p><code>find  -iname &#39;*ha*&#39;</code>: 在规定 root 下查找名 包含<code>ha</code>的文件/目录</p>
+<h6 id="（2）管道"><a href="#（2）管道" class="headerlink" title="（2）管道|"></a>（2）管道<code>|</code></h6><p><code>/usr/root |grep hadoop</code>:|左边的输出成为右边的输入</p>
+<p><font color="red">用到再说…</font></p>
+<h6 id="3-软连接-gt-符号"><a href="#3-软连接-gt-符号" class="headerlink" title="(3)软连接 -&gt;符号"></a>(3)软连接 <code>-&gt;</code>符号</h6><p>执行<code>ll -n </code>就可以看到<code>lrwxrwxrwx 1 root root   13 5月  31 11:32 tio.o -&gt; /root/1/tio.o</code>后者就是前者的快捷方式</p>
+<h6 id="1-软连接，带着-s"><a href="#1-软连接，带着-s" class="headerlink" title="(1)软连接，带着-s"></a>(1)软连接，带着<code>-s</code></h6><div style="background-color:#1E90FF;"><font color="white">不必重复的占用磁盘空间，文件保持同步</font></div>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ln -s /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
+
+<h6 id="2-硬链接-不带-s"><a href="#2-硬链接-不带-s" class="headerlink" title="(2)硬链接,不带-s"></a>(2)硬链接,不带<code>-s</code></h6><div style="background-color:#1E90FF;"><font color="white">占用磁盘空间，文件保持同步</font></div>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ln  /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
+
+
+
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>数据库实训</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Disaster</title>
     <url>/2021/05/21/Disaster/</url>
     <content><![CDATA[<p>1、手机</p>
@@ -19,6 +49,57 @@
       <tags>
         <tag>warning</tag>
         <tag>Miscellaneous notes</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>FourSeasonsInShanLi</title>
+    <url>/2021/05/27/FourSeasonsInShanLi/</url>
+    <content><![CDATA[<div style="background-color:#CCCCFF ;color:white;"><center><font size="20px">春</font></center></div>
+
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/spring/1-1.jpg"></p>
+<div style="background-color:#228B22 ;color:white;"><center><font size="20px">夏</font></center></div>
+
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-1.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-3.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-5.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-6.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-7.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-8.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-9.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-10.jpg"></p>
+<div style="background-color:#FF7F50 ;color:white;"><center><font size="20px">秋</font></center></div>
+
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/autumn/3-1.jpg"></p>
+<div style="background-color:#00B2EE ;color:white;"><center><font size="20px">冬</font></center></div>
+
+
+
+
+
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-1.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-2.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-3.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-4.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-5.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-6.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-7.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-8.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-9.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-10.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-11.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-12.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-13.jpg"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-14.jpg"></p>
+<div style="background-color:#CCCCFF ;color:white;"><center><font size="20px">梦中</font></center></div>]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -75,6 +156,69 @@
       </tags>
   </entry>
   <entry>
+    <title>GoodNotes</title>
+    <url>/2021/05/30/GoodNotes/</url>
+    <content><![CDATA[<h3 id="笔记整理1——针对理论化应试教育的笔记"><a href="#笔记整理1——针对理论化应试教育的笔记" class="headerlink" title="笔记整理1——针对理论化应试教育的笔记"></a>笔记整理1——针对理论化应试教育的笔记</h3><p><strong>原因：</strong>别人的笔记再有调理，也不是自己的，天然的排斥感，自己记过的是一个同化学习的过程。</p>
+<p><strong>描述：</strong></p>
+<p>1、基础学习时，只记录自己不熟悉的知识点</p>
+<p>2、刷题目时，将错题、好题、自己就是想记下来的题整理到基础的后面【这里要说的是，电子版，直接在新建尾页，非常方面，如果是纸质版，撕开，重加一页，整理到资料册中】。</p>
+<p>3、做真题时，和2做题一样对待。</p>
+<p><strong>特点：</strong>各科通用，</p>
+<p><strong>优点：</strong>内容上有针对性，内容之间有条理性</p>
+<p><strong>缺点：</strong>时间开销大</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Word embedding</title>
+    <url>/2021/04/22/Word-embedding/</url>
+    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
+<p>word2vec-神经网络语言模型</p>
+<p>1.安装好NLTK-data包</p>
+<hr>
+<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
+<hr>
+<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+<p>5.更先进的模型–BERT:</p>
+<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
+<hr>
+<p>6.目前最先进的模型：</p>
+<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
+<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
+<hr>
+]]></content>
+      <categories>
+        <category>机器学习</category>
+      </categories>
+      <tags>
+        <tag>word embedding</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>一个典型长难句翻译</title>
+    <url>/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/</url>
+    <content><![CDATA[<p><img src="/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/fy.jpg" alt="fy"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>翻译</tag>
+        <tag>长难句</tag>
+        <tag>多从句</tag>
+        <tag>英语一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2021/04/11/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -109,35 +253,6 @@
       </tags>
   </entry>
   <entry>
-    <title>Word embedding</title>
-    <url>/2021/04/22/Word-embedding/</url>
-    <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
-<p>word2vec-神经网络语言模型</p>
-<p>1.安装好NLTK-data包</p>
-<hr>
-<p>2.能用gensim中的Word2Vec训练自己语料库中的词嵌入表示<br><a href="https://machinelearningmastery.com/develop-word-embeddings-python-gensim/">https://machinelearningmastery.com/develop-word-embeddings-python-gensim/</a></p>
-<hr>
-<p>3.<a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-<p>4.Deep Convolutional Neural Network for Sentiment Analysis!</p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-<p>5.更先进的模型–BERT:</p>
-<p><a href="https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-4.control">https://blog.csdn.net/weixin_38267719/article/details/94005631?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control&amp;dist_request_id=&amp;depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-4.control</a></p>
-<hr>
-<p>6.目前最先进的模型：</p>
-<p><a href="https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242">https://blog.csdn.net/jclian91/article/details/104826655/?utm_medium=distribute.pc_relevant.none-task-blog-baidujs_title-4&amp;spm=1001.2101.3001.4242</a></p>
-<p><a href="https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/">https://machinelearningmastery.com/develop-word-embedding-model-predicting-movie-review-sentiment/</a></p>
-<hr>
-]]></content>
-      <categories>
-        <category>机器学习</category>
-      </categories>
-      <tags>
-        <tag>word embedding</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数据结构到了</title>
     <url>/2021/05/12/think-then-go/</url>
     <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
@@ -153,21 +268,6 @@
       <tags>
         <tag>杂记</tag>
         <tag>阶段性总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个典型长难句翻译</title>
-    <url>/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/</url>
-    <content><![CDATA[<p><img src="/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/fy.jpg" alt="fy"></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>翻译</tag>
-        <tag>长难句</tag>
-        <tag>多从句</tag>
-        <tag>英语一</tag>
       </tags>
   </entry>
   <entry>
@@ -282,6 +382,35 @@
       </tags>
   </entry>
   <entry>
+    <title>朋友，美好的生活在让你剁手</title>
+    <url>/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/</url>
+    <content><![CDATA[<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232837.jpg"></p>
+<h4 id="慵懒的上午"><a href="#慵懒的上午" class="headerlink" title="慵懒的上午"></a>慵懒的上午</h4><p>开启我的便携灯</p>
+<p>起床，9点，一看，嘿，都在！</p>
+<h4 id="奋斗的中午，"><a href="#奋斗的中午，" class="headerlink" title="奋斗的中午，"></a>奋斗的中午，</h4><p>疲于奔波在各大科目周作业、大作业上，没有午觉，</p>
+<h4 id="积极的下午"><a href="#积极的下午" class="headerlink" title="积极的下午"></a>积极的下午</h4><p>数据结构看了3章，好吧挺简单的没什么好说的，</p>
+<p>解决了win10下红警2【黑屏、右下角不完全显示】。win7兼容打开，ra2.ini 中  Video 下面修改分辨率为1366 X 768（win7时代的主流分辨率），千万别外传，这是咱兄弟之间的秘密，</p>
+<p>用了一下超声波洗牙器，（前几天怀疑自己得了牙结石），不太会呀，换成牙刷头，还真的刷挺干净，口气清新多了，</p>
+<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232431.jpg"></p>
+<p>啊对，还洗了个澡，睡了30min回笼#￥%&amp;……觉，巴适。</p>
+<h4 id="奇幻的晚上，"><a href="#奇幻的晚上，" class="headerlink" title="奇幻的晚上，"></a>奇幻的晚上，</h4><p>第一尝试在走廊用网线上网，</p>
+<p>第一次尝试笔记本满电腾讯会议能开多久，<font color="grey">用平板吧，笔记本撑死2小时</font></p>
+<p>第一次在黑暗的环境中拿手机闪光灯看书、记笔记，</p>
+<h4 id="哭泣的半夜"><a href="#哭泣的半夜" class="headerlink" title="哭泣的半夜"></a>哭泣的半夜</h4><p>数学还没结束，下周必须干完现代，我说的，xxx也拦不住，<strong>数学、专业课进度堪忧</strong>。</p>
+<p>说好的洗衣服，还在那里摊着，下次一定，下次一定。</p>
+<p>新鲜的笔记，只能明天整理了，还有几道题，逆置呢，还得再看看。</p>
+<p>《马克思》，我今晚一定看好吧，</p>
+<p>想运动来着，默默地瞅了一眼体重秤，</p>
+<p>该给 明天做个计划，比如结束现代。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>基于马克思主义的宿舍人际关系分析</title>
     <url>/2021/04/23/%E5%9F%BA%E4%BA%8E%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E7%9A%84%E5%AE%BF%E8%88%8D%E4%BA%BA%E9%99%85%E5%85%B3%E7%B3%BB%E5%88%86%E6%9E%90/</url>
     <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
@@ -301,6 +430,36 @@
       </categories>
       <tags>
         <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇github博文</title>
+    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<p> 面试学弟，</p>
+<p>舍友中午面试没睡午觉</p>
+<p>机器学习作业没写</p>
+<p>困啊…</p>
+<p>单词60个，冲</p>
+<p>测试1</p>
+<iframe src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+<p>测试2</p>
+<iframe height="450" width="800" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+<p>测试3</p>
+<iframe height="225" width="400" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+<p>测试4</p>
+<iframe height="200" width="300" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+<p>测试5</p>
+<iframe height="150" width="300" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  ]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+        <tag>水文</tag>
       </tags>
   </entry>
   <entry>
@@ -458,81 +617,6 @@
       </tags>
   </entry>
   <entry>
-    <title>朋友，美好的生活在让你剁手</title>
-    <url>/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/</url>
-    <content><![CDATA[<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232837.jpg"></p>
-<h4 id="慵懒的上午"><a href="#慵懒的上午" class="headerlink" title="慵懒的上午"></a>慵懒的上午</h4><p>开启我的便携灯</p>
-<p>起床，9点，一看，嘿，都在！</p>
-<h4 id="奋斗的中午，"><a href="#奋斗的中午，" class="headerlink" title="奋斗的中午，"></a>奋斗的中午，</h4><p>疲于奔波在各大科目周作业、大作业上，没有午觉，</p>
-<h4 id="积极的下午"><a href="#积极的下午" class="headerlink" title="积极的下午"></a>积极的下午</h4><p>数据结构看了3章，好吧挺简单的没什么好说的，</p>
-<p>解决了win10下红警2【黑屏、右下角不完全显示】。win7兼容打开，ra2.ini 中  Video 下面修改分辨率为1366 X 768（win7时代的主流分辨率），千万别外传，这是咱兄弟之间的秘密，</p>
-<p>用了一下超声波洗牙器，（前几天怀疑自己得了牙结石），不太会呀，换成牙刷头，还真的刷挺干净，口气清新多了，</p>
-<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232431.jpg"></p>
-<p>啊对，还洗了个澡，睡了30min回笼#￥%&amp;……觉，巴适。</p>
-<h4 id="奇幻的晚上，"><a href="#奇幻的晚上，" class="headerlink" title="奇幻的晚上，"></a>奇幻的晚上，</h4><p>第一尝试在走廊用网线上网，</p>
-<p>第一次尝试笔记本满电腾讯会议能开多久，<font color="grey">用平板吧，笔记本撑死2小时</font></p>
-<p>第一次在黑暗的环境中拿手机闪光灯看书、记笔记，</p>
-<h4 id="哭泣的半夜"><a href="#哭泣的半夜" class="headerlink" title="哭泣的半夜"></a>哭泣的半夜</h4><p>数学还没结束，下周必须干完现代，我说的，xxx也拦不住，<strong>数学、专业课进度堪忧</strong>。</p>
-<p>说好的洗衣服，还在那里摊着，下次一定，下次一定。</p>
-<p>新鲜的笔记，只能明天整理了，还有几道题，逆置呢，还得再看看。</p>
-<p>《马克思》，我今晚一定看好吧，</p>
-<p>想运动来着，默默地瞅了一眼体重秤，</p>
-<p>该给 明天做个计划，比如结束现代。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>我的第一篇github博文</title>
-    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-    <content><![CDATA[<p> 面试学弟，</p>
-<p>舍友中午面试没睡午觉</p>
-<p>机器学习作业没写</p>
-<p>困啊…</p>
-<p>单词60个，冲</p>
-<p>测试1</p>
-<iframe src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-<p>测试2</p>
-<iframe height="450" width="800" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-<p>测试3</p>
-<iframe height="225" width="400" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-<p>测试4</p>
-<iframe height="200" width="300" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-<p>测试5</p>
-<iframe height="150" width="300" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  ]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-        <tag>水文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数学我选二</title>
-    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
-    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
-<p>今天来聊一聊分部积分，这是第n次重温了，</p>
-<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
-<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
-<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>灵魂拷问</title>
     <url>/2021/05/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
     <content><![CDATA[<p>1、链表中，常用尾插法，那么对于头插法的要求是掌握还是理解？</p>
@@ -580,6 +664,22 @@
       </categories>
       <tags>
         <tag>提醒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学我选二</title>
+    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
+    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
+<p>今天来聊一聊分部积分，这是第n次重温了，</p>
+<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
+<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
+<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -701,6 +801,33 @@
       </categories>
       <tags>
         <tag>阶段性总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>马克思喊我去休息</title>
+    <url>/2021/04/25/%E9%A9%AC%E5%85%8B%E6%80%9D%E5%96%8A%E6%88%91%E5%8E%BB%E4%BC%91%E6%81%AF/</url>
+    <content><![CDATA[<p><img src="/2021/04/25/%E9%A9%AC%E5%85%8B%E6%80%9D%E5%96%8A%E6%88%91%E5%8E%BB%E4%BC%91%E6%81%AF/1.jpg" alt="1"></p>
+<p>放松不要等到等周末，周末也不要放纵，</p>
+<p>当前阶段 <strong>主要矛盾</strong> 是学习与娱乐的矛盾，（还有度的感念）</p>
+<p>一周有七天，六七是周末，为什么会有周末？</p>
+<p>我想，周末的存在就是让人有间歇性的休息，换言之，周末是一个充电的时间。</p>
+<p>当然，对于周末的利用，每个人都是不同的，如果你选择将所有的时间集中起来分配，集中去玩，集中去学习了，感觉是很爽的，</p>
+<p>但是也会有逆反很疲劳的那一刻，或早或晚，因人而异，学习的疲劳，他会不断的累加，对我来说是消除疲劳似乎并不容易。我常常会处于一个比较稳定的轻度疲劳状态下，很难走出。</p>
+<p>如果你选择一整天 or 总之就是很长的一段时间，去学习，或者是去玩的话，要么你收不回来心，而且还感觉很累；要么就是我之前说的那种，一直都迷迷糊糊，眼睛无神，那种很糟糕的状态中，一直出不来，</p>
+<p>但如果你上今天上午你运动了，休息了，你要是发自内心的告诉自己，你真的感觉到放松了(//∇//)【注意，不是去解决没做完的事情，这叫减轻精神负担，不能称作放松】，下午再去学习的时候可能会有点遗忘，这个没关系，说明你开始注意到了什么，你的的注意力慢慢恢复，更加集中了，然后你就会发现那些低级错误，现在做的还是一如既往的慢，但最起码所以才相比效率高多了。</p>
+<p>周六上午休息的罪恶感，也基本没了，</p>
+<p>早上、上午、下午、晚上学习，中午、傍晚、夜里休息，</p>
+<p>之前的眼疲劳的问题也明显改善了。</p>
+<p>以此告诫自己适 <strong>度</strong> 用眼。</p>
+<p>关于 <strong>度</strong> 的事情想再多说一点，大家都会放松，做一个有趣的比喻，</p>
+<p>短期合适的放松（清空内存重启后的电脑），长期放松（硬盘格式化），</p>
+<p>不断学习的真谛不太懂（高中、大学都这么说，但都在强调这一点），以前只理解表面意思，盲目性不间断、长时间去做一件事（高CPU的电脑），好多时间都被低效浪费。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -903,33 +1030,6 @@
       </tags>
   </entry>
   <entry>
-    <title>马克思喊我去休息</title>
-    <url>/2021/04/25/%E9%A9%AC%E5%85%8B%E6%80%9D%E5%96%8A%E6%88%91%E5%8E%BB%E4%BC%91%E6%81%AF/</url>
-    <content><![CDATA[<p><img src="/2021/04/25/%E9%A9%AC%E5%85%8B%E6%80%9D%E5%96%8A%E6%88%91%E5%8E%BB%E4%BC%91%E6%81%AF/1.jpg" alt="1"></p>
-<p>放松不要等到等周末，周末也不要放纵，</p>
-<p>当前阶段 <strong>主要矛盾</strong> 是学习与娱乐的矛盾，（还有度的感念）</p>
-<p>一周有七天，六七是周末，为什么会有周末？</p>
-<p>我想，周末的存在就是让人有间歇性的休息，换言之，周末是一个充电的时间。</p>
-<p>当然，对于周末的利用，每个人都是不同的，如果你选择将所有的时间集中起来分配，集中去玩，集中去学习了，感觉是很爽的，</p>
-<p>但是也会有逆反很疲劳的那一刻，或早或晚，因人而异，学习的疲劳，他会不断的累加，对我来说是消除疲劳似乎并不容易。我常常会处于一个比较稳定的轻度疲劳状态下，很难走出。</p>
-<p>如果你选择一整天 or 总之就是很长的一段时间，去学习，或者是去玩的话，要么你收不回来心，而且还感觉很累；要么就是我之前说的那种，一直都迷迷糊糊，眼睛无神，那种很糟糕的状态中，一直出不来，</p>
-<p>但如果你上今天上午你运动了，休息了，你要是发自内心的告诉自己，你真的感觉到放松了(//∇//)【注意，不是去解决没做完的事情，这叫减轻精神负担，不能称作放松】，下午再去学习的时候可能会有点遗忘，这个没关系，说明你开始注意到了什么，你的的注意力慢慢恢复，更加集中了，然后你就会发现那些低级错误，现在做的还是一如既往的慢，但最起码所以才相比效率高多了。</p>
-<p>周六上午休息的罪恶感，也基本没了，</p>
-<p>早上、上午、下午、晚上学习，中午、傍晚、夜里休息，</p>
-<p>之前的眼疲劳的问题也明显改善了。</p>
-<p>以此告诫自己适 <strong>度</strong> 用眼。</p>
-<p>关于 <strong>度</strong> 的事情想再多说一点，大家都会放松，做一个有趣的比喻，</p>
-<p>短期合适的放松（清空内存重启后的电脑），长期放松（硬盘格式化），</p>
-<p>不断学习的真谛不太懂（高中、大学都这么说，但都在强调这一点），以前只理解表面意思，盲目性不间断、长时间去做一件事（高CPU的电脑），好多时间都被低效浪费。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>现代杂记，边写边回忆</title>
     <url>/2021/05/07/%E7%8E%B0%E4%BB%A3%E6%9D%82%E8%AE%B0%EF%BC%8C%E8%BE%B9%E5%86%99%E8%BE%B9%E5%9B%9E%E5%BF%86/</url>
     <content><![CDATA[<hr>
@@ -1017,106 +1117,6 @@
       </categories>
       <tags>
         <tag>线性代数</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>FourSeasonsInShanLi</title>
-    <url>/2021/05/27/FourSeasonsInShanLi/</url>
-    <content><![CDATA[<div style="background-color:#CCCCFF ;color:white;"><center><font size="20px">春</font></center></div>
-
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/spring/1-1.jpg"></p>
-<div style="background-color:#228B22 ;color:white;"><center><font size="20px">夏</font></center></div>
-
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-1.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-3.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-5.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-6.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-7.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-8.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-9.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/summer/2-10.jpg"></p>
-<div style="background-color:#FF7F50 ;color:white;"><center><font size="20px">秋</font></center></div>
-
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/autumn/3-1.jpg"></p>
-<div style="background-color:#00B2EE ;color:white;"><center><font size="20px">冬</font></center></div>
-
-
-
-
-
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-1.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-2.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-3.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-4.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-5.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-6.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-7.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-8.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-9.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-10.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-11.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-12.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-13.jpg"></p>
-<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/winter/4-14.jpg"></p>
-<div style="background-color:#CCCCFF ;color:white;"><center><font size="20px">梦中</font></center></div>]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoodNotes</title>
-    <url>/2021/05/30/GoodNotes/</url>
-    <content><![CDATA[<h3 id="笔记整理1——针对理论化应试教育的笔记"><a href="#笔记整理1——针对理论化应试教育的笔记" class="headerlink" title="笔记整理1——针对理论化应试教育的笔记"></a>笔记整理1——针对理论化应试教育的笔记</h3><p><strong>原因：</strong>别人的笔记再有调理，也不是自己的，天然的排斥感，自己记过的是一个同化学习的过程。</p>
-<p><strong>描述：</strong></p>
-<p>1、基础学习时，只记录自己不熟悉的知识点</p>
-<p>2、刷题目时，将错题、好题、自己就是想记下来的题整理到基础的后面【这里要说的是，电子版，直接在新建尾页，非常方面，如果是纸质版，撕开，重加一页，整理到资料册中】。</p>
-<p>3、做真题时，和2做题一样对待。</p>
-<p><strong>特点：</strong>各科通用，</p>
-<p><strong>优点：</strong>内容上有针对性，内容之间有条理性</p>
-<p><strong>缺点：</strong>时间开销大</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>record</title>
-    <url>/2021/05/31/record/</url>
-    <content><![CDATA[<h3 id="linux命令的补充"><a href="#linux命令的补充" class="headerlink" title="linux命令的补充"></a>linux命令的补充</h3><hr>
-<h6 id="（1）查找find"><a href="#（1）查找find" class="headerlink" title="（1）查找find"></a>（1）查找<code>find</code></h6><p><code>find -name &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code> 的文件/目录</p>
-<p><code>find -iname &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code>的文件/目录 ，不分大小写</p>
-<p><code>find /root -name &#39;hadoop&#39;</code>: 在``/root<code>目录下，查找后缀为</code>.o`的文件</p>
-<p><code>find  -name &#39;*.o&#39;</code>: 当前目录下，查找后缀为<code>.o</code>的文件</p>
-<p><code>find  -iname &#39;*ha*&#39;</code>: 在规定 root 下查找名 包含<code>ha</code>的文件/目录</p>
-<h6 id="（2）管道"><a href="#（2）管道" class="headerlink" title="（2）管道|"></a>（2）管道<code>|</code></h6><p><code>/usr/root |grep hadoop</code>:|左边的输出成为右边的输入</p>
-<p><font color="red">用到再说…</font></p>
-<h6 id="3-软连接-gt-符号"><a href="#3-软连接-gt-符号" class="headerlink" title="(3)软连接 -&gt;符号"></a>(3)软连接 <code>-&gt;</code>符号</h6><p>执行<code>ll -n </code>就可以看到<code>lrwxrwxrwx 1 root root   13 5月  31 11:32 tio.o -&gt; /root/1/tio.o</code>后者就是前者的快捷方式</p>
-<h6 id="1-软连接，带着-s"><a href="#1-软连接，带着-s" class="headerlink" title="(1)软连接，带着-s"></a>(1)软连接，带着<code>-s</code></h6><div style="background-color:#1E90FF;"><font color="white">不必重复的占用磁盘空间，文件保持同步</font></div>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ln -s /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
-
-<h6 id="2-硬链接-不带-s"><a href="#2-硬链接-不带-s" class="headerlink" title="(2)硬链接,不带-s"></a>(2)硬链接,不带<code>-s</code></h6><div style="background-color:#1E90FF;"><font color="white">占用磁盘空间，文件保持同步</font></div>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ln  /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
-
-
-
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>数据库实训</tag>
       </tags>
   </entry>
 </search>
