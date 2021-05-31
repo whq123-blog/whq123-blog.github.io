@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>record</title>
+    <title>DBTrainingRecord</title>
     <url>/2021/05/31/DBTrainingRecord/</url>
     <content><![CDATA[<h3 id="linux命令的补充"><a href="#linux命令的补充" class="headerlink" title="linux命令的补充"></a>linux命令的补充</h3><hr>
 <h6 id="（1）查找find"><a href="#（1）查找find" class="headerlink" title="（1）查找find"></a>（1）查找<code>find</code></h6><p><code>find -name &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code> 的文件/目录</p>
