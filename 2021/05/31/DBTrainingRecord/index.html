@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">600</span>
+            <span class="post-count">799</span>
         </span>
     </span>
 
@@ -82,7 +82,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">2 min</span>
+            <span class="post-count">3 min</span>
         </span>
     </span>
 </div>
@@ -121,6 +121,10 @@
 <h3 id="（4）列举ls"><a href="#（4）列举ls" class="headerlink" title="（4）列举ls"></a>（4）列举<code>ls</code></h3><p><code>ll -a</code>:显示隐藏文件</p>
 <p><code>ll -h</code> <code>ll -n</code>：显示更多属性（大小）</p>
 <h3 id="（5）Vim"><a href="#（5）Vim" class="headerlink" title="（5）Vim"></a>（5）Vim</h3><p><code>:%s/java/JAVA/g</code>:<code>%s</code>:全文件开始查找和替换，将<code>java</code>全部替换为<code>JAVA</code>，<code>g</code>：global 全局替换</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">特别的，</span><br><span class="line">$&#123;system:Java.io.tmpdir&#125; 替换为 &#x2F;usr&#x2F;local&#x2F;hive&#x2F;iotmp</span><br><span class="line">:%s#$&#123;system:Java.io.tmpdir&#125;#&#x2F;usr&#x2F;local&#x2F;hive&#x2F;iotmp#g</span><br><span class="line">用#分隔</span><br></pre></td></tr></table></figure>
+
+
+
 <h3 id="（6）权限"><a href="#（6）权限" class="headerlink" title="（6）权限"></a>（6）权限</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">r</span><br><span class="line">w</span><br><span class="line">x：执行权限</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 
 <h3 id="（7）服务启停"><a href="#（7）服务启停" class="headerlink" title="（7）服务启停"></a>（7）服务启停</h3><p><code>systemctl status httpd </code>：查看<code>httpd</code>状态</p>
@@ -138,6 +142,25 @@
 
 
 <h3 id="（10）系统配置文件"><a href="#（10）系统配置文件" class="headerlink" title="（10）系统配置文件"></a>（10）系统配置文件</h3><p>目录：<code>/etc/hosts</code></p>
+<p>环境变量：<code>/etc/profile</code></p>
+<p><code>source profile</code></p>
+<p>temp:</p>
+<p>1、tar安装hadoop、java：</p>
+<p>​    放java   改名为jdk</p>
+<p>​    hadoop 改名为hadoop</p>
+<p>2、环境变量</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">Java</span></span><br><span class="line">export JAVA_HOME=/usr/local/jdk</span><br><span class="line">export PATH=$PATH:$JAVA_HOME/bin</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash">hadoop</span></span><br><span class="line">export HADOOP_HOME=/usr/local/hadoop</span><br><span class="line">export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+
+<p>hadoop数据操作</p>
+<p>（1）上传，<code>hdfs dfs -put  xxxx /</code>上传xxx到hdfs的根路径下</p>
+<p>（2）列举，<code>hdfs dfs -ls /</code>列举根路径文件</p>
+<p>3、配置hadoop</p>
+<p>​     df port8020</p>
+<p>4、集群格式化（bug）<code>exiting with  stauts 0</code></p>
+<p>但凡格式化，就说明数据全不要了，会生成新的集群id和新块池，和原来的其他节点无法关联。</p>
+<p>解决：每一台节点的<code>/usr/local/hadoop/</code>删除<code>tmp</code>,再启动集群</p>
  
       <!-- reward -->
       
