@@ -488,6 +488,7 @@
 <li><a href="https://www.scikitlearn.com.cn/">sklearn 中文文档 - sklearn</a></li>
 <li><a href="https://keras.io/zh/layers/about-keras-layers/">关于 Keras 网络层 - Keras 中文文档</a></li>
 <li><a href="https://www.bootcss.com/">Bootstrap中文网</a></li>
+<li><a href="http://www.topgoer.com/gin%E6%A1%86%E6%9E%B6/">gin框架 · Go语言中文文档</a></li>
 <li></li>
 </ul>
 <h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;学习资源</font></h2>
@@ -517,7 +518,9 @@
 <li><a href="https://learngitbranching.js.org/">Learn Git Branching</a></li>
 <li><a href="https://www.progit.cn/">Pro Git 中文版（第二版）</a></li>
 <li><a href="https://www.liaoxuefeng.com/wiki/896043488029600">Git教程 - 廖雪峰的官方网站</a></li>
-<li></li>
+</ul>
+<h4 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h4><ul>
+<li> <a href="https://www.runoob.com/mysql/mysql-tutorial.html">MySQL 教程 | 菜鸟教程</a></li>
 </ul>
 <h4 id="Go"><a href="#Go" class="headerlink" title="Go"></a>Go</h4><ul>
 <li><a href="https://www.liwenzhou.com/posts/Go/go_menu/">Go语言学习之路/Go语言教程-李文周</a></li>
@@ -1214,6 +1217,27 @@
       </categories>
       <tags>
         <tag>线性代数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
+    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
+    <content><![CDATA[<p><font size="5px">为了积极响应并行计算那#%￥……&amp;……#￥的号召，也为了毕设铺路…我在狗语言的身上还是下了一点功夫。</font></p>
+<div style="background-color:#FFA07A;"> 
+<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
+<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
+<input type="checkbox"> gin视频正在跟<br><br>
+<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
+<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
+</div>    
+
+
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
 </search>
