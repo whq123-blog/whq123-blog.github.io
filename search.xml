@@ -171,6 +171,46 @@
       </tags>
   </entry>
   <entry>
+    <title>GoodNotes</title>
+    <url>/2021/05/30/GoodNotes/</url>
+    <content><![CDATA[<h3 id="笔记整理1——针对理论化应试教育的笔记"><a href="#笔记整理1——针对理论化应试教育的笔记" class="headerlink" title="笔记整理1——针对理论化应试教育的笔记"></a>笔记整理1——针对理论化应试教育的笔记</h3><p><strong>原因：</strong>别人的笔记再有调理，也不是自己的，天然的排斥感，自己记过的是一个同化学习的过程。</p>
+<p><strong>描述：</strong></p>
+<p>1、基础学习时，只记录自己不熟悉的知识点</p>
+<p>2、刷题目时，将错题、好题、自己就是想记下来的题整理到基础的后面【这里要说的是，电子版，直接在新建尾页，非常方面，如果是纸质版，撕开，重加一页，整理到资料册中】。</p>
+<p>3、做真题时，和2做题一样对待。</p>
+<p><strong>特点：</strong>各科通用，</p>
+<p><strong>优点：</strong>内容上有针对性，内容之间有条理性</p>
+<p><strong>缺点：</strong>时间开销大</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
+    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
+    <content><![CDATA[<p><font size="5px">为了积极响应并行计算那#%￥……&amp;……#￥的号召，也为了毕设铺路…我在狗语言的身上还是下了一点功夫。</font></p>
+<div style="background-color:#FFA07A;"> 
+<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
+<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
+<input type="checkbox"> gin视频正在跟<br><br>
+<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
+<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
+</div>    
+
+
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>FourSeasonsInShanLi</title>
     <url>/2021/05/27/FourSeasonsInShanLi/</url>
     <content><![CDATA[<div style="background-color:#CCCCFF ;color:white;"><center><font size="20px">春</font></center></div>
@@ -222,25 +262,6 @@
       </tags>
   </entry>
   <entry>
-    <title>GoodNotes</title>
-    <url>/2021/05/30/GoodNotes/</url>
-    <content><![CDATA[<h3 id="笔记整理1——针对理论化应试教育的笔记"><a href="#笔记整理1——针对理论化应试教育的笔记" class="headerlink" title="笔记整理1——针对理论化应试教育的笔记"></a>笔记整理1——针对理论化应试教育的笔记</h3><p><strong>原因：</strong>别人的笔记再有调理，也不是自己的，天然的排斥感，自己记过的是一个同化学习的过程。</p>
-<p><strong>描述：</strong></p>
-<p>1、基础学习时，只记录自己不熟悉的知识点</p>
-<p>2、刷题目时，将错题、好题、自己就是想记下来的题整理到基础的后面【这里要说的是，电子版，直接在新建尾页，非常方面，如果是纸质版，撕开，重加一页，整理到资料册中】。</p>
-<p>3、做真题时，和2做题一样对待。</p>
-<p><strong>特点：</strong>各科通用，</p>
-<p><strong>优点：</strong>内容上有针对性，内容之间有条理性</p>
-<p><strong>缺点：</strong>时间开销大</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Word embedding</title>
     <url>/2021/04/22/Word-embedding/</url>
     <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
@@ -270,27 +291,6 @@
       </tags>
   </entry>
   <entry>
-    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
-    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
-    <content><![CDATA[<p><font size="5px">为了积极响应并行计算那#%￥……&amp;……#￥的号召，也为了毕设铺路…我在狗语言的身上还是下了一点功夫。</font></p>
-<div style="background-color:#FFA07A;"> 
-<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
-<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
-<input type="checkbox"> gin视频正在跟<br><br>
-<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
-<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
-</div>    
-
-
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数据结构到了</title>
     <url>/2021/05/12/think-then-go/</url>
     <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
@@ -306,21 +306,6 @@
       <tags>
         <tag>杂记</tag>
         <tag>阶段性总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>一个典型长难句翻译</title>
-    <url>/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/</url>
-    <content><![CDATA[<p><img src="/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/fy.jpg" alt="fy"></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>翻译</tag>
-        <tag>长难句</tag>
-        <tag>多从句</tag>
-        <tag>英语一</tag>
       </tags>
   </entry>
   <entry>
@@ -358,6 +343,21 @@
       </tags>
   </entry>
   <entry>
+    <title>一个典型长难句翻译</title>
+    <url>/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/</url>
+    <content><![CDATA[<p><img src="/2021/04/27/%E4%B8%80%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5%E7%BF%BB%E8%AF%91/fy.jpg" alt="fy"></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>翻译</tag>
+        <tag>长难句</tag>
+        <tag>多从句</tag>
+        <tag>英语一</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>下阶段学习路线</title>
     <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
     <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
@@ -388,6 +388,19 @@
       </tags>
   </entry>
   <entry>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>两个典型长难句</title>
     <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
     <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
@@ -402,48 +415,6 @@
       </categories>
       <tags>
         <tag>长难句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>朋友，美好的生活在让你剁手</title>
-    <url>/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/</url>
-    <content><![CDATA[<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232837.jpg"></p>
-<h4 id="慵懒的上午"><a href="#慵懒的上午" class="headerlink" title="慵懒的上午"></a>慵懒的上午</h4><p>开启我的便携灯</p>
-<p>起床，9点，一看，嘿，都在！</p>
-<h4 id="奋斗的中午，"><a href="#奋斗的中午，" class="headerlink" title="奋斗的中午，"></a>奋斗的中午，</h4><p>疲于奔波在各大科目周作业、大作业上，没有午觉，</p>
-<h4 id="积极的下午"><a href="#积极的下午" class="headerlink" title="积极的下午"></a>积极的下午</h4><p>数据结构看了3章，好吧挺简单的没什么好说的，</p>
-<p>解决了win10下红警2【黑屏、右下角不完全显示】。win7兼容打开，ra2.ini 中  Video 下面修改分辨率为1366 X 768（win7时代的主流分辨率），千万别外传，这是咱兄弟之间的秘密，</p>
-<p>用了一下超声波洗牙器，（前几天怀疑自己得了牙结石），不太会呀，换成牙刷头，还真的刷挺干净，口气清新多了，</p>
-<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232431.jpg"></p>
-<p>啊对，还洗了个澡，睡了30min回笼#￥%&amp;……觉，巴适。</p>
-<h4 id="奇幻的晚上，"><a href="#奇幻的晚上，" class="headerlink" title="奇幻的晚上，"></a>奇幻的晚上，</h4><p>第一尝试在走廊用网线上网，</p>
-<p>第一次尝试笔记本满电腾讯会议能开多久，<font color="grey">用平板吧，笔记本撑死2小时</font></p>
-<p>第一次在黑暗的环境中拿手机闪光灯看书、记笔记，</p>
-<h4 id="哭泣的半夜"><a href="#哭泣的半夜" class="headerlink" title="哭泣的半夜"></a>哭泣的半夜</h4><p>数学还没结束，下周必须干完现代，我说的，xxx也拦不住，<strong>数学、专业课进度堪忧</strong>。</p>
-<p>说好的洗衣服，还在那里摊着，下次一定，下次一定。</p>
-<p>新鲜的笔记，只能明天整理了，还有几道题，逆置呢，还得再看看。</p>
-<p>《马克思》，我今晚一定看好吧，</p>
-<p>想运动来着，默默地瞅了一眼体重秤，</p>
-<p>该给 明天做个计划，比如结束现代。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>单词有没背，我吐了</title>
-    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
-<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -520,33 +491,32 @@
       </tags>
   </entry>
   <entry>
-    <title>我的第一篇github博文</title>
-    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
-    <content><![CDATA[<p> 面试学弟，</p>
-<p>舍友中午面试没睡午觉</p>
-<p>机器学习作业没写</p>
-<p>困啊…</p>
-<p>单词60个，冲</p>
-<p>测试1</p>
-<iframe src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-<p>测试2</p>
-<iframe height="450" width="800" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-<p>测试3</p>
-<iframe height="225" width="400" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-<p>测试4</p>
-<iframe height="200" width="300" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-<p>测试5</p>
-<iframe height="150" width="300" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  ]]></content>
+    <title>朋友，美好的生活在让你剁手</title>
+    <url>/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/</url>
+    <content><![CDATA[<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232837.jpg"></p>
+<h4 id="慵懒的上午"><a href="#慵懒的上午" class="headerlink" title="慵懒的上午"></a>慵懒的上午</h4><p>开启我的便携灯</p>
+<p>起床，9点，一看，嘿，都在！</p>
+<h4 id="奋斗的中午，"><a href="#奋斗的中午，" class="headerlink" title="奋斗的中午，"></a>奋斗的中午，</h4><p>疲于奔波在各大科目周作业、大作业上，没有午觉，</p>
+<h4 id="积极的下午"><a href="#积极的下午" class="headerlink" title="积极的下午"></a>积极的下午</h4><p>数据结构看了3章，好吧挺简单的没什么好说的，</p>
+<p>解决了win10下红警2【黑屏、右下角不完全显示】。win7兼容打开，ra2.ini 中  Video 下面修改分辨率为1366 X 768（win7时代的主流分辨率），千万别外传，这是咱兄弟之间的秘密，</p>
+<p>用了一下超声波洗牙器，（前几天怀疑自己得了牙结石），不太会呀，换成牙刷头，还真的刷挺干净，口气清新多了，</p>
+<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232431.jpg"></p>
+<p>啊对，还洗了个澡，睡了30min回笼#￥%&amp;……觉，巴适。</p>
+<h4 id="奇幻的晚上，"><a href="#奇幻的晚上，" class="headerlink" title="奇幻的晚上，"></a>奇幻的晚上，</h4><p>第一尝试在走廊用网线上网，</p>
+<p>第一次尝试笔记本满电腾讯会议能开多久，<font color="grey">用平板吧，笔记本撑死2小时</font></p>
+<p>第一次在黑暗的环境中拿手机闪光灯看书、记笔记，</p>
+<h4 id="哭泣的半夜"><a href="#哭泣的半夜" class="headerlink" title="哭泣的半夜"></a>哭泣的半夜</h4><p>数学还没结束，下周必须干完现代，我说的，xxx也拦不住，<strong>数学、专业课进度堪忧</strong>。</p>
+<p>说好的洗衣服，还在那里摊着，下次一定，下次一定。</p>
+<p>新鲜的笔记，只能明天整理了，还有几道题，逆置呢，还得再看看。</p>
+<p>《马克思》，我今晚一定看好吧，</p>
+<p>想运动来着，默默地瞅了一眼体重秤，</p>
+<p>该给 明天做个计划，比如结束现代。</p>
+]]></content>
       <categories>
         <category>生活</category>
       </categories>
       <tags>
         <tag>杂记</tag>
-        <tag>水文</tag>
       </tags>
   </entry>
   <entry>
@@ -739,19 +709,33 @@
       </tags>
   </entry>
   <entry>
-    <title>数学我选二</title>
-    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
-    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
-<p>今天来聊一聊分部积分，这是第n次重温了，</p>
-<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
-<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
-<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
-]]></content>
+    <title>我的第一篇github博文</title>
+    <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
+    <content><![CDATA[<p> 面试学弟，</p>
+<p>舍友中午面试没睡午觉</p>
+<p>机器学习作业没写</p>
+<p>困啊…</p>
+<p>单词60个，冲</p>
+<p>测试1</p>
+<iframe src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+<p>测试2</p>
+<iframe height="450" width="800" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+<p>测试3</p>
+<iframe height="225" width="400" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+<p>测试4</p>
+<iframe height="200" width="300" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+<p>测试5</p>
+<iframe height="150" width="300" src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  ]]></content>
       <categories>
         <category>生活</category>
       </categories>
       <tags>
         <tag>杂记</tag>
+        <tag>水文</tag>
       </tags>
   </entry>
   <entry>
@@ -775,6 +759,22 @@
       </categories>
       <tags>
         <tag>答疑讨论1-3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数学我选二</title>
+    <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
+    <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
+<p>今天来聊一聊分部积分，这是第n次重温了，</p>
+<p>反对幂指三，这个顺序  ，我更愿意分成 [反 对 | 幂 | 指 三]</p>
+<p>如果让 <strong>对数、幂函数</strong> 在前面作为u，结果是对它们 降阶， （x<sup>2</sup> -&gt; 2x | ln <sup>x</sup> -&gt; 1/x）是会结束的</p>
+<p>如果求 <strong>指数和三角</strong> 的分部积分，结果是循环的，不会结束的</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -802,6 +802,46 @@
       </categories>
       <tags>
         <tag>提醒</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>末春，夏将至</title>
+    <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
+    <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
+<p>差点离开这个美丽的人间，</p>
+<p>淄博，</p>
+<p>跟北京今天都破27℃，</p>
+<p>校园里的同学齐刷刷的大白裤衩，上身短袖，或配上短裙，</p>
+<p>在烈日的照耀下，我去往信息楼，，，</p>
+<p>宛然入夏。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>日记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>每日安排</title>
+    <url>/2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c5b67de500902adfdce8712a1bbd5d1b86f49bbcc82b29da84eada49dd67dc68">864cb16dec9f54c6b2ab440ca95f2b2787879dca1efffda258336d5eb9aa067f262866d181fa9287dee76c8394375c8c53f945d46fc083fea341fbca93c1444a83ed0391d0166f2e384461044bb7917405c0826dc7f5124938f2da22f31d99754b1252847679323b1893883be609ad95c147e68901a5a69655ba3061eacf5dddbf4d981e1c62c7030c14916bd3f06b5d33618ced679dfe2ce4804003b5896aad978cc3a1fbbed04a410f333961899b5de5d23d25feb0f6de83d345daafded0744502188198844d4bbb74f2b59ec2ec1d3975ee2188f83c48476cf34cf2d94e32ea55a54a73fbce3beee13ee32fa89205bfb3de4d0dfd0678cbf24c9b8cbbf57c01c4def5f105333a0ad3b027a606200de735a2c7c30372e39bcf76711db7d2e8efdcd240536ee2326e7311dd44c8bdab2d23e6d99d2cab530060561333df3f3d10b8e39e465c81a1c7d0615d66a99fffd97df279fd0806be90586500dd0ac97bf434a6de1c7b242c92344e23d9421b533fee85d7d633012be6d373d78102f2e7df02afee9da4f78bb17558936e1515c23e9f6e3ec1bf544469addeee57c0890dcbe776442734993e620ae31d091981a65a5baefe51a4a9e32b42d45b573fe231be41e7d87ca618554ed3734aa363e6a8153dd6a60b517189c443fd927c9d70aca0556e4c827be44de384170241ba0fbe85a3a397f2f349089fadc87ae62dc477690ab2becf5625f3c4bcfcba7caa65707a5604340b9c590d9ad3056558b769d21443fb472d309890c63155766e8dd97f941611ea4c931edbc8a68315bd5c599f750fa5d734e851d847bf18e4831f5cbcc1a922494ba36f1183bc86cb18f21cdb67969004318ccf251b05ada18f4d5b3462ef854d148ba1c7d7246129cae324f32a6553a5362c63f9998c363b3745135010bb57a2227cfddfaab241540452857dfbc3025a3f3c5ef6d86d02793f998961623b358508a4002acfd13ba213d6cf7970ccbcc4e7920c8cbc0ccff51a27a934faf42ec8ed08e424d5a63a902c1dacaeb85e0a9dceae359819e1abacfdbe582c23d07189da26ccd4be6136d83d5256d29806c641045cb402c35084011868c3bf4def573e0c8e14842a576c6c29386c688f8529ea6071e07c3012b274d1295edbe3b99d9c5cf5277fe67e36088300075ec458560ade85cf8fbe61095dba71c0b97cce60165473fc359b29e11e784963b8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -833,24 +873,6 @@
       </categories>
       <tags>
         <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>末春，夏将至</title>
-    <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
-    <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
-<p>差点离开这个美丽的人间，</p>
-<p>淄博，</p>
-<p>跟北京今天都破27℃，</p>
-<p>校园里的同学齐刷刷的大白裤衩，上身短袖，或配上短裙，</p>
-<p>在烈日的照耀下，我去往信息楼，，，</p>
-<p>宛然入夏。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>日记</tag>
       </tags>
   </entry>
   <entry>
@@ -901,28 +923,6 @@
       </categories>
       <tags>
         <tag>阶段性总结</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日安排</title>
-    <url>/2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c5b67de500902adfdce8712a1bbd5d1b86f49bbcc82b29da84eada49dd67dc68">864cb16dec9f54c6b2ab440ca95f2b2787879dca1efffda258336d5eb9aa067f262866d181fa9287dee76c8394375c8c53f945d46fc083fea341fbca93c1444a83ed0391d0166f2e384461044bb7917405c0826dc7f5124938f2da22f31d99754b1252847679323b1893883be609ad95c147e68901a5a69655ba3061eacf5dddbf4d981e1c62c7030c14916bd3f06b5d33618ced679dfe2ce4804003b5896aad978cc3a1fbbed04a410f333961899b5de5d23d25feb0f6de83d345daafded0744502188198844d4bbb74f2b59ec2ec1d3975ee2188f83c48476cf34cf2d94e32ea55a54a73fbce3beee13ee32fa89205bfb3de4d0dfd0678cbf24c9b8cbbf57c01c4def5f105333a0ad3b027a606200de735a2c7c30372e39bcf76711db7d2e8efdcd240536ee2326e7311dd44c8bdab2d23e6d99d2cab530060561333df3f3d10b8e39e465c81a1c7d0615d66a99fffd97df279fd0806be90586500dd0ac97bf434a6de1c7b242c92344e23d9421b533fee85d7d633012be6d373d78102f2e7df02afee9da4f78bb17558936e1515c23e9f6e3ec1bf544469addeee57c0890dcbe776442734993e620ae31d091981a65a5baefe51a4a9e32b42d45b573fe231be41e7d87ca618554ed3734aa363e6a8153dd6a60b517189c443fd927c9d70aca0556e4c827be44de384170241ba0fbe85a3a397f2f349089fadc87ae62dc477690ab2becf5625f3c4bcfcba7caa65707a5604340b9c590d9ad3056558b769d21443fb472d309890c63155766e8dd97f941611ea4c931edbc8a68315bd5c599f750fa5d734e851d847bf18e4831f5cbcc1a922494ba36f1183bc86cb18f21cdb67969004318ccf251b05ada18f4d5b3462ef854d148ba1c7d7246129cae324f32a6553a5362c63f9998c363b3745135010bb57a2227cfddfaab241540452857dfbc3025a3f3c5ef6d86d02793f998961623b358508a4002acfd13ba213d6cf7970ccbcc4e7920c8cbc0ccff51a27a934faf42ec8ed08e424d5a63a902c1dacaeb85e0a9dceae359819e1abacfdbe582c23d07189da26ccd4be6136d83d5256d29806c641045cb402c35084011868c3bf4def573e0c8e14842a576c6c29386c688f8529ea6071e07c3012b274d1295edbe3b99d9c5cf5277fe67e36088300075ec458560ade85cf8fbe61095dba71c0b97cce60165473fc359b29e11e784963b8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
