@@ -171,46 +171,6 @@
       </tags>
   </entry>
   <entry>
-    <title>GoodNotes</title>
-    <url>/2021/05/30/GoodNotes/</url>
-    <content><![CDATA[<h3 id="笔记整理1——针对理论化应试教育的笔记"><a href="#笔记整理1——针对理论化应试教育的笔记" class="headerlink" title="笔记整理1——针对理论化应试教育的笔记"></a>笔记整理1——针对理论化应试教育的笔记</h3><p><strong>原因：</strong>别人的笔记再有调理，也不是自己的，天然的排斥感，自己记过的是一个同化学习的过程。</p>
-<p><strong>描述：</strong></p>
-<p>1、基础学习时，只记录自己不熟悉的知识点</p>
-<p>2、刷题目时，将错题、好题、自己就是想记下来的题整理到基础的后面【这里要说的是，电子版，直接在新建尾页，非常方面，如果是纸质版，撕开，重加一页，整理到资料册中】。</p>
-<p>3、做真题时，和2做题一样对待。</p>
-<p><strong>特点：</strong>各科通用，</p>
-<p><strong>优点：</strong>内容上有针对性，内容之间有条理性</p>
-<p><strong>缺点：</strong>时间开销大</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
-    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
-    <content><![CDATA[<p><font size="5px">为了积极响应并行计算那#%￥……&amp;……#￥的号召，也为了毕设铺路…我在狗语言的身上还是下了一点功夫。</font></p>
-<div style="background-color:#FFA07A;"> 
-<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
-<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
-<input type="checkbox"> gin视频正在跟<br><br>
-<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
-<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
-</div>    
-
-
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>FourSeasonsInShanLi</title>
     <url>/2021/05/27/FourSeasonsInShanLi/</url>
     <content><![CDATA[<div style="background-color:#CCCCFF ;color:white;"><center><font size="20px">春</font></center></div>
@@ -262,6 +222,46 @@
       </tags>
   </entry>
   <entry>
+    <title>GoodNotes</title>
+    <url>/2021/05/30/GoodNotes/</url>
+    <content><![CDATA[<h3 id="笔记整理1——针对理论化应试教育的笔记"><a href="#笔记整理1——针对理论化应试教育的笔记" class="headerlink" title="笔记整理1——针对理论化应试教育的笔记"></a>笔记整理1——针对理论化应试教育的笔记</h3><p><strong>原因：</strong>别人的笔记再有调理，也不是自己的，天然的排斥感，自己记过的是一个同化学习的过程。</p>
+<p><strong>描述：</strong></p>
+<p>1、基础学习时，只记录自己不熟悉的知识点</p>
+<p>2、刷题目时，将错题、好题、自己就是想记下来的题整理到基础的后面【这里要说的是，电子版，直接在新建尾页，非常方面，如果是纸质版，撕开，重加一页，整理到资料册中】。</p>
+<p>3、做真题时，和2做题一样对待。</p>
+<p><strong>特点：</strong>各科通用，</p>
+<p><strong>优点：</strong>内容上有针对性，内容之间有条理性</p>
+<p><strong>缺点：</strong>时间开销大</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
+    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
+    <content><![CDATA[<p><font size="5px">为了积极响应并行计算那#%￥……&amp;……#￥的号召，也为了毕设铺路…我在狗语言的身上还是下了一点功夫。</font></p>
+<div style="background-color:#FFA07A;"> 
+<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
+<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
+<input type="checkbox"> gin视频正在跟<br><br>
+<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
+<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
+</div>    
+
+
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Word embedding</title>
     <url>/2021/04/22/Word-embedding/</url>
     <content><![CDATA[<h3 id="词嵌入"><a href="#词嵌入" class="headerlink" title="词嵌入"></a>词嵌入</h3><p><strong>刷博客、看论文、做实验，从2019年的内容起步学习，之前的都已被淘汰…</strong></p>
@@ -288,24 +288,6 @@
       </categories>
       <tags>
         <tag>word embedding</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构到了</title>
-    <url>/2021/05/12/think-then-go/</url>
-    <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
-<p>机器学习大作业得交了，IT项目管理考试要来了，并行计算大作业也下来了，这周忙碌命啊</p>
-<p>英语，失宠好久了，自从核心词汇和基础词汇过了一遍，每天零零散散地刷一套在线题目（20），记了很多笔记，貌似也没重视起来，进度…进度…进度，你的语法题什么时候开始啊也别等到周末了，那个时候计划永远赶不上变换，贼难安排，每周周五的时候吧，拿出半天，看看英语（在线学习系统词组笔记、iPad记录的形近词汇、纸质笔记本上的单词语法、） </p>
-<p>等等，今天数据结构的书也到了，二手的，卖家出于好心，把题也给做了。。408 3月初开始，这周就要 renew 了，散装英语在自己博客秀一把，不过分吧。</p>
-<p>宇哥，你的视频是我学现代唯一的依靠了，跟着你走，我做题踏实多了，课本都没你讲的好，不过多吐槽了，赶快跟你学完，线代我都今天下载完成了。</p>
-<p>不说了，不说了，把之前留下来的英语问题收收尾。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-        <tag>阶段性总结</tag>
       </tags>
   </entry>
   <entry>
@@ -340,6 +322,24 @@
       </categories>
       <tags>
         <tag>入门指令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数据结构到了</title>
+    <url>/2021/05/12/think-then-go/</url>
+    <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
+<p>机器学习大作业得交了，IT项目管理考试要来了，并行计算大作业也下来了，这周忙碌命啊</p>
+<p>英语，失宠好久了，自从核心词汇和基础词汇过了一遍，每天零零散散地刷一套在线题目（20），记了很多笔记，貌似也没重视起来，进度…进度…进度，你的语法题什么时候开始啊也别等到周末了，那个时候计划永远赶不上变换，贼难安排，每周周五的时候吧，拿出半天，看看英语（在线学习系统词组笔记、iPad记录的形近词汇、纸质笔记本上的单词语法、） </p>
+<p>等等，今天数据结构的书也到了，二手的，卖家出于好心，把题也给做了。。408 3月初开始，这周就要 renew 了，散装英语在自己博客秀一把，不过分吧。</p>
+<p>宇哥，你的视频是我学现代唯一的依靠了，跟着你走，我做题踏实多了，课本都没你讲的好，不过多吐槽了，赶快跟你学完，线代我都今天下载完成了。</p>
+<p>不说了，不说了，把之前留下来的英语问题收收尾。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+        <tag>阶段性总结</tag>
       </tags>
   </entry>
   <entry>
@@ -388,19 +388,6 @@
       </tags>
   </entry>
   <entry>
-    <title>单词有没背，我吐了</title>
-    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
-<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>两个典型长难句</title>
     <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
     <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
@@ -415,6 +402,48 @@
       </categories>
       <tags>
         <tag>长难句</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>朋友，美好的生活在让你剁手</title>
+    <url>/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/</url>
+    <content><![CDATA[<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232837.jpg"></p>
+<h4 id="慵懒的上午"><a href="#慵懒的上午" class="headerlink" title="慵懒的上午"></a>慵懒的上午</h4><p>开启我的便携灯</p>
+<p>起床，9点，一看，嘿，都在！</p>
+<h4 id="奋斗的中午，"><a href="#奋斗的中午，" class="headerlink" title="奋斗的中午，"></a>奋斗的中午，</h4><p>疲于奔波在各大科目周作业、大作业上，没有午觉，</p>
+<h4 id="积极的下午"><a href="#积极的下午" class="headerlink" title="积极的下午"></a>积极的下午</h4><p>数据结构看了3章，好吧挺简单的没什么好说的，</p>
+<p>解决了win10下红警2【黑屏、右下角不完全显示】。win7兼容打开，ra2.ini 中  Video 下面修改分辨率为1366 X 768（win7时代的主流分辨率），千万别外传，这是咱兄弟之间的秘密，</p>
+<p>用了一下超声波洗牙器，（前几天怀疑自己得了牙结石），不太会呀，换成牙刷头，还真的刷挺干净，口气清新多了，</p>
+<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232431.jpg"></p>
+<p>啊对，还洗了个澡，睡了30min回笼#￥%&amp;……觉，巴适。</p>
+<h4 id="奇幻的晚上，"><a href="#奇幻的晚上，" class="headerlink" title="奇幻的晚上，"></a>奇幻的晚上，</h4><p>第一尝试在走廊用网线上网，</p>
+<p>第一次尝试笔记本满电腾讯会议能开多久，<font color="grey">用平板吧，笔记本撑死2小时</font></p>
+<p>第一次在黑暗的环境中拿手机闪光灯看书、记笔记，</p>
+<h4 id="哭泣的半夜"><a href="#哭泣的半夜" class="headerlink" title="哭泣的半夜"></a>哭泣的半夜</h4><p>数学还没结束，下周必须干完现代，我说的，xxx也拦不住，<strong>数学、专业课进度堪忧</strong>。</p>
+<p>说好的洗衣服，还在那里摊着，下次一定，下次一定。</p>
+<p>新鲜的笔记，只能明天整理了，还有几道题，逆置呢，还得再看看。</p>
+<p>《马克思》，我今晚一定看好吧，</p>
+<p>想运动来着，默默地瞅了一眼体重秤，</p>
+<p>该给 明天做个计划，比如结束现代。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -483,35 +512,6 @@
   </div>
 </div>
 <script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>朋友，美好的生活在让你剁手</title>
-    <url>/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/</url>
-    <content><![CDATA[<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232837.jpg"></p>
-<h4 id="慵懒的上午"><a href="#慵懒的上午" class="headerlink" title="慵懒的上午"></a>慵懒的上午</h4><p>开启我的便携灯</p>
-<p>起床，9点，一看，嘿，都在！</p>
-<h4 id="奋斗的中午，"><a href="#奋斗的中午，" class="headerlink" title="奋斗的中午，"></a>奋斗的中午，</h4><p>疲于奔波在各大科目周作业、大作业上，没有午觉，</p>
-<h4 id="积极的下午"><a href="#积极的下午" class="headerlink" title="积极的下午"></a>积极的下午</h4><p>数据结构看了3章，好吧挺简单的没什么好说的，</p>
-<p>解决了win10下红警2【黑屏、右下角不完全显示】。win7兼容打开，ra2.ini 中  Video 下面修改分辨率为1366 X 768（win7时代的主流分辨率），千万别外传，这是咱兄弟之间的秘密，</p>
-<p>用了一下超声波洗牙器，（前几天怀疑自己得了牙结石），不太会呀，换成牙刷头，还真的刷挺干净，口气清新多了，</p>
-<p><img src="/2021/05/16/%E5%89%81%E6%89%8B%E5%90%A7%EF%BC%8C%E6%9C%8B%E5%8F%8B/IMG_20210516_232431.jpg"></p>
-<p>啊对，还洗了个澡，睡了30min回笼#￥%&amp;……觉，巴适。</p>
-<h4 id="奇幻的晚上，"><a href="#奇幻的晚上，" class="headerlink" title="奇幻的晚上，"></a>奇幻的晚上，</h4><p>第一尝试在走廊用网线上网，</p>
-<p>第一次尝试笔记本满电腾讯会议能开多久，<font color="grey">用平板吧，笔记本撑死2小时</font></p>
-<p>第一次在黑暗的环境中拿手机闪光灯看书、记笔记，</p>
-<h4 id="哭泣的半夜"><a href="#哭泣的半夜" class="headerlink" title="哭泣的半夜"></a>哭泣的半夜</h4><p>数学还没结束，下周必须干完现代，我说的，xxx也拦不住，<strong>数学、专业课进度堪忧</strong>。</p>
-<p>说好的洗衣服，还在那里摊着，下次一定，下次一定。</p>
-<p>新鲜的笔记，只能明天整理了，还有几道题，逆置呢，还得再看看。</p>
-<p>《马克思》，我今晚一定看好吧，</p>
-<p>想运动来着，默默地瞅了一眼体重秤，</p>
-<p>该给 明天做个计划，比如结束现代。</p>
-]]></content>
       <categories>
         <category>生活</category>
       </categories>
@@ -613,7 +613,9 @@
 <li><a href="http://www.diugai.com/list.php">免费logo设计-logo在线制作-丢盖网</a></li>
 <li><a href="https://www.lunwengo.net/">论文狗查重_免费论文查重入口_免费论文检测网站_一键智能降重修改 – 论文狗免费论文检测平台</a></li>
 <li><a href="http://product.cnmo.com/compare_s57_p1624147_1625144_1625121_1625063_1625065.html">【荣耀Play、荣耀Play4、荣耀Play4Pro、荣耀Play4T、荣耀Play4TPro】对比参数配置_手机中国</a></li>
-<li></li>
+<li><a href="https://www.onlinedoctranslator.com/zh-CN/">www.onlinedoctranslator翻译【免费|保留文档原格式】</a></li>
+<li><a href="https://www.splitapdf.com/zh/pdfsplitform">PDF分割【免费】</a></li>
+<li><a href="https://www.pdfwordconvert.com/zh/">扫描文本转可编译Word文档【免费】</a></li>
 </ul>
 <h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;快捷通道</font></h2>
 
@@ -740,29 +742,6 @@
       </tags>
   </entry>
   <entry>
-    <title>灵魂拷问</title>
-    <url>/2021/05/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<p>1、链表中，常用尾插法，那么对于头插法的要求是掌握还是理解？</p>
-<p>​    【答】都要掌握，</p>
-<p>2、顺序栈和队列平时用的更多，链式的也要重视还是理解即可？</p>
-<p>​    【答】今天总结的基础方法都要掌握（天勤：除非题目明确使用链式，否则尽量避免链式）</p>
-<p>3、做题时（王道），是先做客观题（初期），还是综合应用题一起看？</p>
-<p>​    【答】先把天勤全部过一遍（客观题+综合题），王道作为第二轮，还有一个1800那本书，可以作为第三轮</p>
-<p>4、逻辑结构定义方式上，天勤链队和自己的不太有出入，，到时候按照自己来也是可以的？（例如：天勤P58）</p>
-<p>​    【答】手写的会是，伪代码，只要体现的是正确的思想，就是可以的，<strong>多练习手写伪代码</strong></p>
-<p>5、快排，nlogn怎么来的？</p>
-<p>​        【答】哔哩哔哩搜索吧，，，这个贯穿数据结构全部学习，所有算法都可以考察这个，<strong>时空复杂度、题目刷起来</strong>。</p>
-<p>6、天勤先不看题了，做题的时候一起吧？</p>
-<p>​    【答】学完一章，课后做章节。</p>
-]]></content>
-      <categories>
-        <category>数据结构</category>
-      </categories>
-      <tags>
-        <tag>答疑讨论1-3</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数学我选二</title>
     <url>/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/</url>
     <content><![CDATA[<p><img src="/2021/05/01/%E6%95%B0%E5%AD%A6%E6%88%91%E9%80%89%E4%BA%8C/IMG_20210501_150343.jpg" alt="IMG_20210501_150343.jpg"></p>
@@ -806,6 +785,60 @@
       </tags>
   </entry>
   <entry>
+    <title>灵魂拷问</title>
+    <url>/2021/05/16/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<p>1、链表中，常用尾插法，那么对于头插法的要求是掌握还是理解？</p>
+<p>​    【答】都要掌握，</p>
+<p>2、顺序栈和队列平时用的更多，链式的也要重视还是理解即可？</p>
+<p>​    【答】今天总结的基础方法都要掌握（天勤：除非题目明确使用链式，否则尽量避免链式）</p>
+<p>3、做题时（王道），是先做客观题（初期），还是综合应用题一起看？</p>
+<p>​    【答】先把天勤全部过一遍（客观题+综合题），王道作为第二轮，还有一个1800那本书，可以作为第三轮</p>
+<p>4、逻辑结构定义方式上，天勤链队和自己的不太有出入，，到时候按照自己来也是可以的？（例如：天勤P58）</p>
+<p>​    【答】手写的会是，伪代码，只要体现的是正确的思想，就是可以的，<strong>多练习手写伪代码</strong></p>
+<p>5、快排，nlogn怎么来的？</p>
+<p>​        【答】哔哩哔哩搜索吧，，，这个贯穿数据结构全部学习，所有算法都可以考察这个，<strong>时空复杂度、题目刷起来</strong>。</p>
+<p>6、天勤先不看题了，做题的时候一起吧？</p>
+<p>​    【答】学完一章，课后做章节。</p>
+]]></content>
+      <categories>
+        <category>数据结构</category>
+      </categories>
+      <tags>
+        <tag>答疑讨论1-3</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>是该给你的思想减减负了</title>
+    <url>/2021/05/24/%E6%98%AF%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F%E4%BA%86/</url>
+    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
+<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
+<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
+<p>时间和精力是有限的，</p>
+<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
+<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
+<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
+<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
+<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
+<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
+<p>逛淘宝 *****</p>
+<p>听小说 ****</p>
+<p>写博客 ***</p>
+<p>玩游戏 *</p>
+<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
+<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
+<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
+<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
+<p>在能承受最坏代价的前提下多尝试，</p>
+<p>对自己高要求，</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>末春，夏将至</title>
     <url>/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/</url>
     <content><![CDATA[<p><img src="/2021/04/19/%E6%9C%AB%E6%98%A5%EF%BC%8C%E5%A4%8F%E5%B0%86%E8%87%B3/1.jpg" alt="1"></p>
@@ -846,53 +879,6 @@
       </tags>
   </entry>
   <entry>
-    <title>是该给你的思想减减负了</title>
-    <url>/2021/05/24/%E6%98%AF%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F%E4%BA%86/</url>
-    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
-<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
-<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
-<p>时间和精力是有限的，</p>
-<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
-<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
-<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
-<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
-<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
-<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
-<p>逛淘宝 *****</p>
-<p>听小说 ****</p>
-<p>写博客 ***</p>
-<p>玩游戏 *</p>
-<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
-<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
-<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
-<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
-<p>在能承受最坏代价的前提下多尝试，</p>
-<p>对自己高要求，</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语阅读</title>
-    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
-    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
-<span id="more"></span>
-
-<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
-<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
-]]></content>
-      <categories>
-        <category>英语</category>
-      </categories>
-      <tags>
-        <tag>阅读</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>脱胎换骨</title>
     <url>/2021/05/09/%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8/</url>
     <content><![CDATA[<p>从一开始 一脸懵的华为云 ，</p>
@@ -924,6 +910,22 @@
       </categories>
       <tags>
         <tag>阶段性总结</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语阅读</title>
+    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
+<span id="more"></span>
+
+<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
+<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+]]></content>
+      <categories>
+        <category>英语</category>
+      </categories>
+      <tags>
+        <tag>阅读</tag>
       </tags>
   </entry>
   <entry>
