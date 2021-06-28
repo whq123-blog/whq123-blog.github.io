@@ -541,15 +541,30 @@
 
 <hr>
 <ul>
+<li>SQL<ul>
 <li><a href="https://dev.mysql.com/doc/refman/8.0/en/">MySQL :: MySQL 8.0 Reference Manual</a></li>
+</ul>
+</li>
+<li>Python<ul>
 <li><a href="https://docs.python.org/zh-cn/3/library/turtle.html">turtle — 海龟绘图 — Python 3.8.2 文档</a></li>
 <li><a href="https://www.scikitlearn.com.cn/">sklearn 中文文档 - sklearn</a></li>
 <li><a href="https://keras.io/zh/layers/about-keras-layers/">关于 Keras 网络层 - Keras 中文文档</a></li>
+<li><a href="https://www.numpy.org.cn/">Numpy 中文文档</a></li>
+<li><a href="https://www.pypandas.cn/">Pandas 中文文档</a></li>
+<li><a href="https://pyecharts.org/#/">Pyecharts文档 百度开源</a></li>
+</ul>
+</li>
+<li>前端<ul>
 <li><a href="https://www.bootcss.com/">Bootstrap中文网</a></li>
-<li><a href="http://www.topgoer.com/gin%E6%A1%86%E6%9E%B6/">gin框架 · Go语言中文文档</a></li>
 <li><a href="http://react.tgwoo.com/">React-Bootstrap</a></li>
-<li><a href="https://code.z01.com/bootstrap-vue/">BootstrapVue-基于VueJS的Bootstrap框架 · 全球最流行的 HTML、CSS 和 JS 工具库</a></li>
 <li><a href="https://reactjs.bootcss.com/docs/getting-started.html">开始 – React | React 中文文档</a></li>
+<li><a href="https://code.z01.com/bootstrap-vue/">BootstrapVue-基于VueJS的Bootstrap框架 · 全球最流行的 HTML、CSS 和 JS 工具库</a></li>
+</ul>
+</li>
+<li>Go<ul>
+<li><a href="http://www.topgoer.com/gin%E6%A1%86%E6%9E%B6/">gin框架 · Go语言中文文档</a></li>
+</ul>
+</li>
 <li></li>
 </ul>
 <h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;学习资源</font></h2>
@@ -679,6 +694,7 @@
 <li><a href="https://www.jb51.net/article/196141.htm">最新WebStorm2020.2注册码永久激活(激活到2089年)[原创]_其它综合_脚本之家</a></li>
 <li><a href="https://freemycloud.net/user">用户中心 — 闪电</a></li>
 <li><a href="https://situcloud.ml/user##">首页 — 司徒云</a></li>
+<li><a href="https://speed.cafecat.club/">咖啡猫加速</a></li>
 <li><a href="http://www.app-superfast.com/zh/">superfast</a></li>
 <li><a href="https://yunduanxin.net/info/8616742264298/">中国电话号码 +8616742264298,在线接收短信验证码 - 云短信</a></li>
 <li><a href="https://www.materialtools.com/?page=1">云短信 - 在线短信接收</a></li>
@@ -686,7 +702,8 @@
 <li><a href="https://www.123xpg.com/?temp=0.12806757181131045">小苹果活动助手 - 大空白’blog - CF活动助手,逆战活动助手,最新游戏活动装备道具一键轻松领取</a></li>
 <li><a href="https://www.nocmd.com/740.html">VMware Workstation Pro v15.5.1 官方版+激活密钥-NoCmd</a></li>
 <li><a href="http://www.zdfans.com/html/31668.html">破解版下载网址 - zd423</a></li>
-<li><a href="https://speed.cafecat.club/">咖啡猫加速</a></li>
+<li><a href="https://sourceforge.net/projects/t-browser/">t-browser Download【洋葱】</a></li>
+<li><a href="http://t-browser.sourceforge.net/index.html">tor 教程</a></li>
 </ul>
 <h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;有象征意义的网站</font></h2>
 
@@ -1258,5 +1275,25 @@
       <tags>
         <tag>线性代数</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>能用就行？</title>
+    <url>/2021/06/26/%E8%83%BD%E7%94%A8%E5%B0%B1%E8%A1%8C%EF%BC%9F/</url>
+    <content><![CDATA[<p>电脑能用就行吗？</p>
+<p>虚拟机起不来，</p>
+<p>内部不够大，还不能扩展，</p>
+<p>我不用就行，进行简单的操作，日常需求也有很高的配置需求</p>
+<p>那…</p>
+<p>省钱最好</p>
+<p>拷贝文件拷半天，</p>
+<p>删除文件也要搜索很久，</p>
+<p>每天都要面对这些问题，是每天，</p>
+<p>那…</p>
+<p>不是省钱的事情了，真的是在浪费时间了</p>
+<p>试问，一个生产工具，达不到基本要求（Label：做好），只能实现（Label：做到），是不是该把他辞了？</p>
+]]></content>
+      <categories>
+        <category>杂记</category>
+      </categories>
   </entry>
 </search>
