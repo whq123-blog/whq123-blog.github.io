@@ -555,22 +555,26 @@
 </ul>
 </li>
 <li>前端<ul>
-<li><a href="https://www.bootcss.com/">Bootstrap中文网</a></li>
-<li><a href="http://react.tgwoo.com/">React-Bootstrap</a></li>
+<li><a href="https://www.runoob.com/jquery/jquery-tutorial.html">jQuery 菜鸟教程</a></li>
 <li><a href="https://reactjs.bootcss.com/docs/getting-started.html">开始 – React | React 中文文档</a></li>
+<li><a href="http://react.tgwoo.com/">React-Bootstrap</a></li>
 <li><a href="https://code.z01.com/bootstrap-vue/">BootstrapVue-基于VueJS的Bootstrap框架 · 全球最流行的 HTML、CSS 和 JS 工具库</a></li>
 </ul>
 </li>
 <li>Go<ul>
 <li><a href="http://www.topgoer.com/gin%E6%A1%86%E6%9E%B6/">gin框架 · Go语言中文文档</a></li>
+<li><a href="https://books.studygolang.com/The-Golang-Standard-Library-by-Example/">简介 · Go语言标准库</a></li>
+<li><a href="https://www.kancloud.cn/shuangdeyu/gin_book/949413">快速入门 · Gin中文文档 · 看云</a></li>
+<li><a href="https://gorm.io/zh_CN/docs/">GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.</a></li>
+<li><a href="https://draveness.me/golang/">Go 语言设计与实现 | Go 语言设计与实现</a></li>
 </ul>
 </li>
 <li></li>
 </ul>
-<h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;学习资源</font></h2>
+<h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;学习教程</font></h2>
 
 <hr>
-<h5 id="各种语言教程"><a href="#各种语言教程" class="headerlink" title="各种语言教程"></a>各种语言教程</h5><ul>
+<h4 id="各种语言教程"><a href="#各种语言教程" class="headerlink" title="各种语言教程"></a>各种语言教程</h4><ul>
 <li><a href="https://www.liaoxuefeng.com/">首页 - 廖雪峰的官方网站</a></li>
 </ul>
 <h4 id="PHP"><a href="#PHP" class="headerlink" title="PHP"></a>PHP</h4><ul>
@@ -598,19 +602,14 @@
 </ul>
 <h4 id="Go"><a href="#Go" class="headerlink" title="Go"></a>Go</h4><ul>
 <li><a href="https://www.liwenzhou.com/posts/Go/go_menu/">Go语言学习之路/Go语言教程-李文周</a></li>
-<li><a href="https://books.studygolang.com/The-Golang-Standard-Library-by-Example/">简介 · Go语言标准库</a></li>
 <li><a href="https://tour.go-zh.org/welcome/1">简介 · Go语言标准库</a></li>
-<li><a href="https://draveness.me/golang/">Go 语言设计与实现 | Go 语言设计与实现</a><ul>
-<li><a href="https://www.kancloud.cn/shuangdeyu/gin_book/949413">快速入门 · Gin中文文档 · 看云</a></li>
-<li><a href="https://gorm.io/zh_CN/docs/">GORM 指南 | GORM - The fantastic ORM library for Golang, aims to be developer friendly.</a></li>
-</ul>
-</li>
 </ul>
 <h5 id="轮滑"><a href="#轮滑" class="headerlink" title="轮滑"></a>轮滑</h5><ul>
 <li><a href="https://space.bilibili.com/30839640?from=search&seid=11173422905792384920">淼哥轮滑的个人空间 - 哔哩哔哩 ( ゜- ゜)つロ 乾杯~ Bilibili</a></li>
 </ul>
-<h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;下载类资源
+<h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;资源下载
 </font></h2>
+
 
 <hr>
 <ul>
@@ -665,23 +664,25 @@
 <li><a href="https://www.qingcloud.com/products/instances/?source=baidu-zhuji&utm_source=AD&utm_medium=baidu&utm_campaign=NEW-%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8MFPC&utm_content=%E4%BA%91%E6%9C%8D%E5%8A%A1%E5%99%A8+%E5%85%8D%E8%B4%B9&utm_term=%E5%85%8D%E8%B4%B9%E8%AF%95%E7%94%A8%E6%9C%8D%E5%8A%A1%E5%99%A8&bd_vid=9067701640379942604">云服务器-虚拟主机-云主机 | 青云QingCloud</a></li>
 <li><a href="www.codingke.com">扣丁学堂</a></li>
 </ul>
-<h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;框架/模板</font></h2>
+<h2 style="background-color: #EE0000"><font color="white">&nbsp;&nbsp;&nbsp;&nbsp;高效开发 模块/框架/模板</font></h2>
 
 <hr>
 <ul>
+<li><p><a href="https://v4.bootcss.com/">Bootstrap v4 全球最受欢迎的 HTML、CSS 和 JS 框架，开发响应式布局、移动设备优先的 WEB 项目</a></p>
+</li>
 <li><p><a href="https://www.layui.com/">Layui - 经典模块化前端 UI 框架</a></p>
 </li>
 <li><p><a href="https://html5up.net/">HTML5 UP! Responsive HTML5 and CSS3 Site Templates</a></p>
 </li>
 <li><p><a href="https://html5up.net/dimension">Dimension | HTML5 UP</a></p>
 </li>
-<li><p><a href="https://echarts.apache.org/zh/index.html">Apache ECharts (incubating)</a></p>
+<li><p><a href="https://pyecharts.org/#/">Pyecharts文档 百度开源</a></p>
+</li>
+<li><p><a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a></p>
 </li>
 <li><p><a href="http://sc.chinaz.com/jiaoben/caidanhaohang.html">菜单导航 -query导航条_jquery菜单</a></p>
 </li>
 <li><p><a href="https://hexo.io/themes/">Themes | Hexo</a></p>
-</li>
-<li><p><a href="https://echarts.apache.org/zh/index.html">Apache ECharts</a></p>
 </li>
 <li></li>
 </ul>
@@ -723,11 +724,9 @@
 <li><a href="https://www.jianshu.com/p/c9c719821198">51个css时间轴 - 简书</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/26625249">GitHub+Hexo 搭建个人网站详细教程 - 知乎</a></li>
 <li><a href="https://cloud.tencent.com/developer/article/1151858?from=information.detail.%E8%85%BE%E8%AE%AF%E4%BA%91%E5%85%8B%E9%9A%86%E6%9C%8D%E5%8A%A1%E5%99%A8">腾讯云无缝切换服务器 - 云+社区 - 腾讯云</a></li>
-<li><a href="https://blog.csdn.net/weixin_42831477/article/details/81589325?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase">(10条消息)windows下MySQL免安装版配置教程mysql-8.0.12-winx64.zip版本_慕容雪_的博客-CSDN博客</a></li>
 <li><a href="https://www.xp.cn/wenda/394.html">phpstudy v8.0创建本地站点域名教程（图文） - phpStudy交流社区</a></li>
 <li><a href="https://www.cnblogs.com/yuwensong/p/11474032.html">Linux下安装java及配置(yum安装) - 天道酬勤，坚持！ - 博客园</a></li>
 <li><a href="https://dreamer.blue/blog/?tdsourcetag=s_pcqq_aiomsg">bLue’s blog</a></li>
-<li><a href="https://www.xp.cn/jishu-php-3083.html">PhpStudy集成环境升级MySQL数据库版本详解 - phpStudy技术文章</a></li>
 <li><a href="https://www.jb51.net/article/145282.htm">通过jquery的ajax请求本地的json文件方法_jquery_脚本之家</a></li>
 <li><a href="https://pan.baidu.com/s/1TkDqMq1rclY2p44JmwPeoA#list/path=%2Fsharelink2570277420-388567620072073%2F%E5%B1%B1%E4%B8%9C%E7%90%86%E5%B7%A5%E5%A4%A7%E5%AD%A6%E5%AE%9E%E8%AE%AD&parentPath=%2Fsharelink2570277420-388567620072073">山东理工大学实训_免费高速下载|百度网盘-分享无限制</a></li>
 <li></li>
