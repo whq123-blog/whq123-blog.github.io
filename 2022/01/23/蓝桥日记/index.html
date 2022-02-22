@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">146</span>
+            <span class="post-count">475</span>
         </span>
     </span>
 
@@ -82,7 +82,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
+            <span class="post-count">2 min</span>
         </span>
     </span>
 </div>
@@ -138,10 +138,34 @@
 </blockquote>
 <p>这常常出现在测试样例</p>
 <p>最小四位数不是<code>0000</code> 而是<code>1000</code>，回文数的话，是    <code>1001</code></p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//错误遍历</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;<span class="number">10</span>; i++)</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;<span class="number">10</span>; j++)</span><br><span class="line">                <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>; k&lt;<span class="number">10</span>; k++)</span><br><span class="line"><span class="comment">//正确</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;<span class="number">10</span>; i++)</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;<span class="number">10</span>; j++)</span><br><span class="line">                <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>; k&lt;<span class="number">10</span>; k++)</span><br></pre></td></tr></table></figure></li>
+<li><blockquote>
+<p>组合数</p>
+</blockquote>
+<p>A <sub>n</sub><sup>m</sup> = C<sub>n</sub><sup>m</sup> × A<sub>m</sub><sup>m</sup>    其中, A<sub>m</sub><sup>m</sup> = m !      C<sub>n</sub><sup>m</sup> =n!/(  m! (n-m)! </p>
 </li>
+<li><blockquote>
+<p>注意 int 转 double</p>
+</blockquote>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">double</span> res;</span><br><span class="line"></span><br><span class="line">res = <span class="number">6</span>/<span class="number">8</span>;</span><br><span class="line"><span class="comment">//结果 0</span></span><br><span class="line">res = <span class="number">1.0</span>*<span class="number">6</span>/<span class="number">8</span>;</span><br><span class="line"><span class="comment">//有了1.0后，结果 0.75</span></span><br></pre></td></tr></table></figure></li>
+<li><blockquote>
+<p>memset()</p>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string.h&gt;</span></span></span><br><span class="line"><span class="built_in">memset</span>(a,<span class="number">0</span>,<span class="built_in"><span class="keyword">sizeof</span></span>(a));</span><br></pre></td></tr></table></figure></li>
+<li><blockquote>
+<p>scanf()有时候可以解决cin提交出现的TLE</p>
+</blockquote>
+</li>
+<li><blockquote>
+<p>取反函数reverse();</p>
+<p> reverse函数用于反转在[first,last)范围内的顺序（包括first指向的元素，不包括last指向的元素），reverse函数<strong>没有返回值</strong></p>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span> </span></span><br><span class="line"></span><br><span class="line"><span class="keyword">int</span> a[<span class="number">10</span>];</span><br><span class="line"></span><br><span class="line"><span class="built_in">reverse</span>(a,a+m);</span><br></pre></td></tr></table></figure></li>
+<li><blockquote>
+<p>c++ STL sort(); sort（）函数使用的排序方法是类似于快速排序的方法 时间复杂度为n*log2(n)</p>
+</blockquote>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a[<span class="number">10</span>]=&#123;<span class="number">9</span>,<span class="number">6</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">5</span>,<span class="number">2</span>,<span class="number">7</span>,<span class="number">4</span>,<span class="number">1</span>,<span class="number">0</span>&#125;;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)</span><br><span class="line">    cout&lt;&lt;a[i]&lt;&lt;endl;</span><br><span class="line">    <span class="built_in">sort</span>(a,a+<span class="number">10</span>);<span class="comment">//指针</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)</span><br><span class="line">    cout&lt;&lt;a[i]&lt;&lt;endl;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//降序</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="keyword">bool</span> <span class="title">compare</span><span class="params">(<span class="keyword">int</span> a,<span class="keyword">int</span> b)</span></span></span><br><span class="line"><span class="function"></span>&#123;   </span><br><span class="line"><span class="keyword">return</span> a&gt;b;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line"><span class="keyword">int</span> a[<span class="number">10</span>]=&#123;<span class="number">9</span>,<span class="number">6</span>,<span class="number">3</span>,<span class="number">8</span>,<span class="number">5</span>,<span class="number">2</span>,<span class="number">7</span>,<span class="number">4</span>,<span class="number">1</span>,<span class="number">0</span>&#125;;</span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)</span><br><span class="line">cout&lt;&lt;a[i]&lt;&lt;endl;  </span><br><span class="line"><span class="built_in">sort</span>(a,a+<span class="number">10</span>,compare);<span class="comment">//在这里就不需要对compare函数传入参数了   </span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;<span class="number">10</span>;i++)</span><br><span class="line">cout&lt;&lt;a[i]&lt;&lt;endl;</span><br><span class="line"><span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
 </ol>
-<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//错误遍历</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>; i&lt;<span class="number">10</span>; i++)</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;<span class="number">10</span>; j++)</span><br><span class="line">                <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>; k&lt;<span class="number">10</span>; k++)</span><br><span class="line"><span class="comment">//正确</span></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>; i&lt;<span class="number">10</span>; i++)</span><br><span class="line">            <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>; j&lt;<span class="number">10</span>; j++)</span><br><span class="line">                <span class="keyword">for</span>(<span class="keyword">int</span> k=<span class="number">0</span>; k&lt;<span class="number">10</span>; k++)</span><br></pre></td></tr></table></figure>
-
  
       <!-- reward -->
       
@@ -217,7 +241,7 @@
 </div>
 
 <div id="share-mask"></div>  
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%93%9D%E6%A1%A5%EF%BC%8Cc/" rel="tag">蓝桥，c++</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/c/" rel="tag">c++</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E8%93%9D%E6%A1%A5/" rel="tag">蓝桥</a></li></ul>
 
     </footer>
   </div>
