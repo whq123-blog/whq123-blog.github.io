@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">4.6k</span>
+            <span class="post-count">4.7k</span>
         </span>
     </span>
 
@@ -363,8 +363,45 @@
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">例如，存入</span></span><br><span class="line"><span class="comment">aaaaaaa</span></span><br><span class="line"><span class="comment">bbbb</span></span><br><span class="line"><span class="comment">ccccccccc</span></span><br><span class="line"><span class="comment">用 vector&lt;int&gt;temp 存 aaaaaaaa</span></span><br><span class="line"><span class="comment">再 array.push_back(temp)</span></span><br><span class="line"><span class="comment">依次按行存入整个二维矩阵</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">vector&lt;vector&lt;<span class="keyword">int</span>&gt;&gt;array;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;array.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;array[i].<span class="built_in">size</span>();j++)&#123;</span><br><span class="line">      <span class="comment">//array[i][j]</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><strong>9.集合 set</strong></p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//</span></span><br></pre></td></tr></table></figure>
-
+<table>
+<thead>
+<tr>
+<th>作用</th>
+<th>方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>定义</td>
+<td>set<type> s;</type></td>
+<td>type 可以是任何基本类型或者容器</td>
+</tr>
+<tr>
+<td>插入元素</td>
+<td>s.insert(x)</td>
+<td>将元素插入到集合中</td>
+</tr>
+<tr>
+<td>删除元素</td>
+<td>s.erase(x)</td>
+<td>移除元素</td>
+</tr>
+<tr>
+<td>查找元素</td>
+<td>s.count(x)</td>
+<td>判断集合中是否存在该元素</td>
+</tr>
+<tr>
+<td>获取元素个数</td>
+<td>s.size()</td>
+<td>不会删除队尾元素</td>
+</tr>
+<tr>
+<td>清空集合</td>
+<td>s.clear()</td>
+<td>删除集合中所有元素</td>
+</tr>
+</tbody></table>
 <h3 id="复数比较"><a href="#复数比较" class="headerlink" title="复数比较"></a>复数比较</h3><p><strong>如何用结构体重载 &lt;实现复数比较？</strong></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//比较复数a+bi 重载&lt;</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Complex</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> a;</span><br><span class="line">    <span class="keyword">int</span> b;</span><br><span class="line">    <span class="keyword">bool</span> <span class="keyword">operator</span>&lt; (Complex c) <span class="keyword">const</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a*a+b*b &lt; c.a*c.a+c.b*c.b;<span class="comment">//比较模大小</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 

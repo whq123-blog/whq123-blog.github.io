@@ -112,6 +112,59 @@
       </tags>
   </entry>
   <entry>
+    <title>FAQ</title>
+    <url>/2021/04/13/FAQ/</url>
+    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
+<li>cannot GET categories / cannot GET tags</li>
+</ul>
+<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
+<ul>
+<li>如何使用无后台评论API–Valine</li>
+</ul>
+<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
+<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
+<span id="more"></span>
+
+<ul>
+<li>寻找合适的【Hexo主题】框架</li>
+</ul>
+<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<ul>
+<li> 8个顶级图标网站【favicon.ico】</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
+<p>推送到github总是443</p>
+<p><font color="grey">方法一：更换网络或使用国外节点</font></p>
+<p><font color="grey">方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+<p><font color="grey">方法三：开手机热点，贼好用（贼都说好用了，推荐）</font></p>
+<ul>
+<li>md文档上传并附带照片</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/f72aaad7b852">https://www.jianshu.com/p/f72aaad7b852</a></p>
+<ul>
+<li>md文档RGB查询</li>
+</ul>
+<p><a href="https://bj.96weixin.com/tools/rgb">https://bj.96weixin.com/tools/rgb</a></p>
+<ul>
+<li> Hexo（CSS样式自定义）</li>
+</ul>
+<p><a href="https://www.pianshen.com/article/4686790693/">https://www.pianshen.com/article/4686790693/</a></p>
+<ul>
+<li>嵌入视频</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">height</span>=<span class="string">450</span> <span class="attr">width</span>=<span class="string">800</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span>  </span><br><span class="line"><span class="comment">&lt;!-- height=450 width=800 可能是最合适的 ，md上的效果与实际html效果有出入，需要调试。</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>说明类文档</category>
+      </categories>
+      <tags>
+        <tag>FAQ</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Disaster</title>
     <url>/2021/05/21/Disaster/</url>
     <content><![CDATA[<p>1、手机</p>
@@ -184,56 +237,25 @@
       </tags>
   </entry>
   <entry>
-    <title>FAQ</title>
-    <url>/2021/04/13/FAQ/</url>
-    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
-<li>cannot GET categories / cannot GET tags</li>
-</ul>
-<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
-<ul>
-<li>如何使用无后台评论API–Valine</li>
-</ul>
-<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
-<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
-<span id="more"></span>
+    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
+    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
+    <content><![CDATA[<p><font size="5px">为了积极响应并行计算的号召，也为了毕设铺路…我在狗(Go)语言的身上还是下了一点功夫。</font></p>
+<div style="background-color:#FFA07A;"> 
+<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
+<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
+<input type="checkbox"> gin视频正在跟<br><br>
+<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
+<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
+</div>    
 
-<ul>
-<li>寻找合适的【Hexo主题】框架</li>
-</ul>
-<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
-<ul>
-<li> 8个顶级图标网站【favicon.ico】</li>
-</ul>
-<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
-<p>推送到github总是443</p>
-<p><font color="grey">方法一：更换网络或使用国外节点</font></p>
-<p><font color="grey">方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
 
-<p><font color="grey">方法三：开手机热点，贼好用（贼都说好用了，推荐）</font></p>
-<ul>
-<li>md文档上传并附带照片</li>
-</ul>
-<p><a href="https://www.jianshu.com/p/f72aaad7b852">https://www.jianshu.com/p/f72aaad7b852</a></p>
-<ul>
-<li>md文档RGB查询</li>
-</ul>
-<p><a href="https://bj.96weixin.com/tools/rgb">https://bj.96weixin.com/tools/rgb</a></p>
-<ul>
-<li> Hexo（CSS样式自定义）</li>
-</ul>
-<p><a href="https://www.pianshen.com/article/4686790693/">https://www.pianshen.com/article/4686790693/</a></p>
-<ul>
-<li>嵌入视频</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">height</span>=<span class="string">450</span> <span class="attr">width</span>=<span class="string">800</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span>  </span><br><span class="line"><span class="comment">&lt;!-- height=450 width=800 可能是最合适的 ，md上的效果与实际html效果有出入，需要调试。</span></span><br></pre></td></tr></table></figure>
-
+<p>​    </p>
 ]]></content>
       <categories>
-        <category>说明类文档</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>FAQ</tag>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -285,28 +307,6 @@
       </tags>
   </entry>
   <entry>
-    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
-    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
-    <content><![CDATA[<p><font size="5px">为了积极响应并行计算的号召，也为了毕设铺路…我在狗(Go)语言的身上还是下了一点功夫。</font></p>
-<div style="background-color:#FFA07A;"> 
-<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
-<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
-<input type="checkbox"> gin视频正在跟<br><br>
-<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
-<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
-</div>    
-
-
-<p>​    </p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2021/04/15/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -345,6 +345,35 @@
       </tags>
   </entry>
   <entry>
+    <title>run</title>
+    <url>/2022/05/23/run/</url>
+    <content><![CDATA[<p>许久许久前，我眼中的运动只有跑步一种，那时候是为了多一种升学方式，很重视，每次都是心惊肉跳，怕，怕跑步成绩不达标，怕看到失望的神情，怕不被认可，主观客观地促使我一直在坚持，那几年我的成绩一直不错，可能跑步是我当时最在意地和最害怕的存在了。</p>
+<p>步入高中，少了几分动力吧，跑步还是体育课的日常，现在跑步对我来说是一种怀念，不方便洗澡学业紧张之类的，跑步也就是中规中矩的慢跑，少了几分激情，但达到了锻炼身体的效果，比一般同学跑得多一点，跑的快一点点吧，不比以前了，高一拿过长跑第三，之后再没有拿过前三名了，会不会这个时候我就在拒绝吃苦了。</p>
+<p>大学跑步就更少了，没有限制，没有约束地选择兴趣，解放天性，跑步只是在体测中才出现的项目了，大学四年体测跑步仍是在组内第一，但我知道这个成绩已经是大不如前了。毽球，篮球，足球，轮滑，花样太多了，在轮滑社团呆过两年，那是我最快乐的两年，课外的进步总是最有成就感的，就感觉我比大家会的多一些，就更容易得到大家的尊重和认可。考研期间，我没再接触任何运动，只是简单的keep健身，塑形和保持健康罢了。</p>
+<p>考研后我为了减重，开始跑步，从每一次跑步总会想起当初的骄傲，到每一次跑步得酣畅淋漓，怕热，怕流汗这些都不存在了，just run,more run,less pressure.</p>
+<p>最近我在网上看到一位博主谈到冬泳，面对压力、抵制欲望、执行计划会消耗有限的 WillPower，集中注意力，视频中<strong>提到希望提高 WillPower上限，更好地集中注意力</strong> ，以应对生活中的更多的压力，焦虑。冬泳怪鸽坚持冬泳健身这一举动，令他影响深刻，为此<a href="https://www.bilibili.com/video/BV1F5411R7jb">他开展了长达30天的凉水澡实验</a>，实验中提到冷水健身使大脑认为生存受到威胁，会分泌一种神经传导物–<strong>去甲肾上腺素</strong>，暂时忘掉焦虑、烦恼，全身心去对抗寒冷，如果在-14℃下新陈代谢，心率会<strong>有所提高</strong>，长期暴露在寒冷环境多巴胺水平<strong>显著提高</strong>，所以平常会有一种温暖平静，充满动力的感觉。空调偏凉下使我感到兴奋，我对此深有体会。</p>
+<p>你的身体在接触寒冷时后会有<strong>应激反应</strong>，而你恰好需要做的就是适应这个压力，这样可以让你更从容地应对生活中的各种压力。最终你甚至可以在忍受压力的同时还能保持平静。这才是最终目的。</p>
+<p>一位博士说过，WillPower 就像一块肌肉，随着外界压力的不断锻炼，会使我们更从容地面对焦虑和恐惧，更少去逃避。</p>
+<p>我想说的是，跑步也有应激反应，我的老师说过当你处于<strong>临界</strong>，呼吸困难时，加大步伐，大口呼吸，一段时间后，就会适应过来，你的跑步成绩会有一次突破，临界下的那种感觉每当想起总是心跳加速，因为每次你根本不知道你能不能熬过这个阶段。跑前一旦有着打算提高成绩的想法时，总会担心临界熬不过去，还没跑心跳就加快有些喘不过气了，在每节初中体育课上，太怀念这种感觉了，当时感觉生不如死，啥事都不算事了，除了语文，跑步也救不了哈哈哈。</p>
+<p>著名的演说家莱斯·布朗说过：</p>
+<p>当我们做困难的事</p>
+<p>生活就会变得简单</p>
+<p>一直做简单的事</p>
+<p>生活就会变得困难</p>
+<p>——LSE BROWN</p>
+]]></content>
+      <categories>
+        <category>爱好</category>
+      </categories>
+      <tags>
+        <tag>压力</tag>
+        <tag>简单</tag>
+        <tag>困难</tag>
+        <tag>抗压能力</tag>
+        <tag>去甲肾上腺素</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数据结构到了</title>
     <url>/2021/05/12/think-then-go/</url>
     <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
@@ -378,35 +407,6 @@
       </tags>
   </entry>
   <entry>
-    <title>run</title>
-    <url>/2022/05/23/run/</url>
-    <content><![CDATA[<p>许久许久前，我眼中的运动只有跑步一种，那时候是为了多一种升学方式，很重视，每次都是心惊肉跳，怕，怕跑步成绩不达标，怕看到失望的神情，怕不被认可，主观客观地促使我一直在坚持，那几年我的成绩一直不错，可能跑步是我当时最在意地和最害怕的存在了。</p>
-<p>步入高中，少了几分动力吧，跑步还是体育课的日常，现在跑步对我来说是一种怀念，不方便洗澡学业紧张之类的，跑步也就是中规中矩的慢跑，少了几分激情，但达到了锻炼身体的效果，比一般同学跑得多一点，跑的快一点点吧，不比以前了，高一拿过长跑第三，之后再没有拿过前三名了，会不会这个时候我就在拒绝吃苦了。</p>
-<p>大学跑步就更少了，没有限制，没有约束地选择兴趣，解放天性，跑步只是在体测中才出现的项目了，大学四年体测跑步仍是在组内第一，但我知道这个成绩已经是大不如前了。毽球，篮球，足球，轮滑，花样太多了，在轮滑社团呆过两年，那是我最快乐的两年，课外的进步总是最有成就感的，就感觉我比大家会的多一些，就更容易得到大家的尊重和认可。考研期间，我没再接触任何运动，只是简单的keep健身，塑形和保持健康罢了。</p>
-<p>考研后我为了减重，开始跑步，从每一次跑步总会想起当初的骄傲，到每一次跑步得酣畅淋漓，怕热，怕流汗这些都不存在了，just run,more run,less pressure.</p>
-<p>最近我在网上看到一位博主谈到冬泳，面对压力、抵制欲望、执行计划会消耗有限的 WillPower，集中注意力，视频中<strong>提到希望提高 WillPower上限，更好地集中注意力</strong> ，以应对生活中的更多的压力，焦虑。冬泳怪鸽坚持冬泳健身这一举动，令他影响深刻，为此<a href="https://www.bilibili.com/video/BV1F5411R7jb">他开展了长达30天的凉水澡实验</a>，实验中提到冷水健身使大脑认为生存受到威胁，会分泌一种神经传导物–<strong>去甲肾上腺素</strong>，暂时忘掉焦虑、烦恼，全身心去对抗寒冷，如果在-14℃下新陈代谢，心率会<strong>有所提高</strong>，长期暴露在寒冷环境多巴胺水平<strong>显著提高</strong>，所以平常会有一种温暖平静，充满动力的感觉。空调偏凉下使我感到兴奋，我对此深有体会。</p>
-<p>你的身体在接触寒冷时后会有<strong>应激反应</strong>，而你恰好需要做的就是适应这个压力，这样可以让你更从容地应对生活中的各种压力。最终你甚至可以在忍受压力的同时还能保持平静。这才是最终目的。</p>
-<p>一位博士说过，WillPower 就像一块肌肉，随着外界压力的不断锻炼，会使我们更从容地面对焦虑和恐惧，更少去逃避。</p>
-<p>我想说的是，跑步也有应激反应，我的老师说过当你处于<strong>临界</strong>，呼吸困难时，加大步伐，大口呼吸，一段时间后，就会适应过来，你的跑步成绩会有一次突破，临界下的那种感觉每当想起总是心跳加速，因为每次你根本不知道你能不能熬过这个阶段。跑前一旦有着打算提高成绩的想法时，总会担心临界熬不过去，还没跑心跳就加快有些喘不过气了，在每节初中体育课上，太怀念这种感觉了，当时感觉生不如死，啥事都不算事了，除了语文，跑步也救不了哈哈哈。</p>
-<p>著名的演说家莱斯·布朗说过：</p>
-<p>当我们做困难的事</p>
-<p>生活就会变得简单</p>
-<p>一直做简单的事</p>
-<p>生活就会变得困难</p>
-<p>——LSE BROWN</p>
-]]></content>
-      <categories>
-        <category>爱好</category>
-      </categories>
-      <tags>
-        <tag>压力</tag>
-        <tag>简单</tag>
-        <tag>困难</tag>
-        <tag>抗压能力</tag>
-        <tag>去甲肾上腺素</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>下阶段学习路线</title>
     <url>/2021/04/13/%E4%B8%8B%E9%98%B6%E6%AE%B5%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
     <content><![CDATA[<h3 id="1、LSTMs"><a href="#1、LSTMs" class="headerlink" title="1、LSTMs"></a>1、LSTMs</h3><p><a href="https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2">https://machinelearningmastery.com/multi-step-time-series-forecasting-long-short-term-memory-networks-python/?spm=a2c4e.10696291.0.0.5dec19a4ipYVI2</a></p>
@@ -437,6 +437,18 @@
       </tags>
   </entry>
   <entry>
+    <title>东京落幕</title>
+    <url>/2021/08/08/%E4%B8%9C%E4%BA%AC%E8%90%BD%E5%B9%95/</url>
+    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/others/cn38dongjing.jpg"></p>
+]]></content>
+      <categories>
+        <category>奥运会</category>
+      </categories>
+      <tags>
+        <tag>东京奥运会</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>两个典型长难句</title>
     <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
     <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
@@ -451,19 +463,6 @@
       </categories>
       <tags>
         <tag>长难句</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>单词有没背，我吐了</title>
-    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
-    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
-<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -496,15 +495,16 @@
       </tags>
   </entry>
   <entry>
-    <title>东京落幕</title>
-    <url>/2021/08/08/%E4%B8%9C%E4%BA%AC%E8%90%BD%E5%B9%95/</url>
-    <content><![CDATA[<p><img src="https://cdn.jsdelivr.net/gh/whq123-blog/cdn/others/cn38dongjing.jpg"></p>
+    <title>单词有没背，我吐了</title>
+    <url>/2021/04/12/%E5%8D%95%E8%AF%8D%E5%8F%88%E6%B2%A1%E8%83%8C%EF%BC%8C%E6%88%91%E5%90%90%E4%BA%86/</url>
+    <content><![CDATA[<p>  上午忘带钥匙，回去洗了个头，还把课记错了</p>
+<p>下午下课回去就学了数学，晚上还被骗去上防诈骗班会，晚上修修补补博客搜索引擎，就这样结束了，外面雨停了，我似乎又行了。</p>
 ]]></content>
       <categories>
-        <category>奥运会</category>
+        <category>生活</category>
       </categories>
       <tags>
-        <tag>东京奥运会</tag>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -578,31 +578,6 @@
       </categories>
       <tags>
         <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>张三的内心独白</title>
-    <url>/2022/01/10/%E5%BC%A0%E4%B8%89%E7%9A%84%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</url>
-    <content><![CDATA[<h2 id="张三的内心独白"><a href="#张三的内心独白" class="headerlink" title="张三的内心独白"></a>张三的内心独白</h2><p>1、我是一个<strong>慢热</strong>的人，节奏慢，学习进入状态慢，容易受环境影响，不自律，在<strong>不监督</strong>的情况下很容易松懈，需要被监督，施加压力，或许是我身处舒适圈，或许是我没有找到自己的路，亦或许缺少一个强大的内心。</p>
-<p>2、同时，我也是一个<strong>追求逻辑缜密</strong>的人，</p>
-<p>3、我是一个<strong>讨厌抽象</strong>的人，学东西不喜欢不带例子的理论，喜欢通过例子去理解规律（或者说，由浅入深，由特殊到一般？）,别人凝练的总归不是自己的，即使是自己凝练出来的，生怕忘了也会附上例子的。<br>4、我是一个<strong>沉迷联系</strong>的人，举一反三，总想把很多东西都串联起来，在生活中几乎病态，特别希望让所有的事情全部都是联系起来，比如一呆就是一上午，不会挪一个地方，哪怕那天洗澡就会因为某一件事情会改变这个安排，所有的安排都会在无时无刻的变着，一切都是按着一个最省路子或者是最省时间的一个顺序去做，同时我也这次感到心烦，我希望解耦合，所有的事情相互联系之间太紧密了，这让我无时无刻不感到累。</p>
-<p>5、我是一个<strong>贼爱做整理</strong>的人，整理相册，云盘，电脑，学习资料，博客，“扬弃”，整理整理再整理，让我的资源井井有条又实用是我最大的快乐，我总喜欢尽可能地保留，前面的项目就是今后的模板，今后理解遗忘理论的可行案例。</p>
-<p>6、我是一个<strong>不自信</strong>的人，因为还是不够好，忘了自己不够好后会获得短暂的快乐，清醒后又纠结自己这是否值得。</p>
-<p>7、我是一个<strong>幸运</strong>的人，有李*学姐，李 *学长，郭 * * 学长，等等实验室一大帮人研究生学姐学长，社团爱好，web学习环境，父母的支持，可爱的徒弟，活泼开朗的薛同位。。。</p>
-<p>8、我<strong>不喜欢背诵</strong>，哪怕背诵也得有逻辑，政治就是积累语料，压题中了只是更好。</p>
-<p>9、我太<strong>喜欢一手好字</strong>,他照出了我的生活态度，我的心态，有时自己也不知道。</p>
-<p>10、我<strong>离不开运动</strong>，因为运动和游戏一样可以提高神经系统兴奋性，（提高代谢）从而提高效率，提高身体素质</p>
-<p>11、我或许<strong>多愁善感</strong>，格外地，我瞧不起影响别人心态的，或者说是不顾别人情绪的那类人，时间是可以冲淡我对这件事的反感，渐渐再去接受那个人的积极阳光，人都是自私的，我也不例外，但同时创伤他人（无视集体利益）的注定会被瞧不起。</p>
-<p>12、凡事预则立，不预则废，我总爱<strong>设立计划</strong>，这是态度问题，从一开始的不切实际，到后来的精打细算，争分夺秒，这个过程我过得很充实，至少真的没后悔过。</p>
-<p>13、<strong>爱吃</strong>，心情好的时候还吃，观摩影视作品时候心情就好，就爱吃。</p>
-<p>14、初中升学梦，宿舍催人懒，时光不待人，无负韶华时…</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>研后总结</tag>
-        <tag>一脸研诉</tag>
       </tags>
   </entry>
   <entry>
@@ -862,6 +837,31 @@ height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=24733
       <tags>
         <tag>杂记</tag>
         <tag>水文</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>张三的内心独白</title>
+    <url>/2022/01/10/%E5%BC%A0%E4%B8%89%E7%9A%84%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</url>
+    <content><![CDATA[<h2 id="张三的内心独白"><a href="#张三的内心独白" class="headerlink" title="张三的内心独白"></a>张三的内心独白</h2><p>1、我是一个<strong>慢热</strong>的人，节奏慢，学习进入状态慢，容易受环境影响，不自律，在<strong>不监督</strong>的情况下很容易松懈，需要被监督，施加压力，或许是我身处舒适圈，或许是我没有找到自己的路，亦或许缺少一个强大的内心。</p>
+<p>2、同时，我也是一个<strong>追求逻辑缜密</strong>的人，</p>
+<p>3、我是一个<strong>讨厌抽象</strong>的人，学东西不喜欢不带例子的理论，喜欢通过例子去理解规律（或者说，由浅入深，由特殊到一般？）,别人凝练的总归不是自己的，即使是自己凝练出来的，生怕忘了也会附上例子的。<br>4、我是一个<strong>沉迷联系</strong>的人，举一反三，总想把很多东西都串联起来，在生活中几乎病态，特别希望让所有的事情全部都是联系起来，比如一呆就是一上午，不会挪一个地方，哪怕那天洗澡就会因为某一件事情会改变这个安排，所有的安排都会在无时无刻的变着，一切都是按着一个最省路子或者是最省时间的一个顺序去做，同时我也这次感到心烦，我希望解耦合，所有的事情相互联系之间太紧密了，这让我无时无刻不感到累。</p>
+<p>5、我是一个<strong>贼爱做整理</strong>的人，整理相册，云盘，电脑，学习资料，博客，“扬弃”，整理整理再整理，让我的资源井井有条又实用是我最大的快乐，我总喜欢尽可能地保留，前面的项目就是今后的模板，今后理解遗忘理论的可行案例。</p>
+<p>6、我是一个<strong>不自信</strong>的人，因为还是不够好，忘了自己不够好后会获得短暂的快乐，清醒后又纠结自己这是否值得。</p>
+<p>7、我是一个<strong>幸运</strong>的人，有李*学姐，李 *学长，郭 * * 学长，等等实验室一大帮人研究生学姐学长，社团爱好，web学习环境，父母的支持，可爱的徒弟，活泼开朗的薛同位。。。</p>
+<p>8、我<strong>不喜欢背诵</strong>，哪怕背诵也得有逻辑，政治就是积累语料，压题中了只是更好。</p>
+<p>9、我太<strong>喜欢一手好字</strong>,他照出了我的生活态度，我的心态，有时自己也不知道。</p>
+<p>10、我<strong>离不开运动</strong>，因为运动和游戏一样可以提高神经系统兴奋性，（提高代谢）从而提高效率，提高身体素质</p>
+<p>11、我或许<strong>多愁善感</strong>，格外地，我瞧不起影响别人心态的，或者说是不顾别人情绪的那类人，时间是可以冲淡我对这件事的反感，渐渐再去接受那个人的积极阳光，人都是自私的，我也不例外，但同时创伤他人（无视集体利益）的注定会被瞧不起。</p>
+<p>12、凡事预则立，不预则废，我总爱<strong>设立计划</strong>，这是态度问题，从一开始的不切实际，到后来的精打细算，争分夺秒，这个过程我过得很充实，至少真的没后悔过。</p>
+<p>13、<strong>爱吃</strong>，心情好的时候还吃，观摩影视作品时候心情就好，就爱吃。</p>
+<p>14、初中升学梦，宿舍催人懒，时光不待人，无负韶华时…</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>研后总结</tag>
+        <tag>一脸研诉</tag>
       </tags>
   </entry>
   <entry>
@@ -1156,40 +1156,6 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
       </categories>
   </entry>
   <entry>
-    <title>脱胎换骨</title>
-    <url>/2021/05/09/%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8/</url>
-    <content><![CDATA[<p>从一开始 一脸懵的华为云 ，</p>
-<p>到 白嫖上瘾的 阿里云，</p>
-<p>又到 付费 购买阿里云、腾讯云（薅羊毛），</p>
-<p>再到 <strong>GitHub + Domain</strong>，</p>
-<p>我的上云之路 ,已经过了有 2-3 个年头了吧</p>
-<hr>
-<hr>
-<p>版本上，从 <strong>Windows Server 2003</strong> 到 <strong>CentOS</strong> 的系统转变…</p>
-<p><strong>web</strong> 服务器上，从 <strong>Apache</strong> 到 <strong>Nginx</strong> 的偶然;</p>
-<p>云主机上，从 <strong>ESC</strong> 到 轻量级服务器 的变心;</p>
-<p>部署上，从主机虚拟 到 域名分级 的思路转换;</p>
-<p>带宽上，从1M 到 5M 的狂热</p>
-<p>…</p>
-<hr>
-<hr>
-<p>up-to-date,</p>
-<p>开始渐渐清楚了我想要什么，制约我的又是什么。</p>
-<p>1、经济原因和需求较低<br>经济原因和需求较低，在这两个条件促使下，我决定不再租用服务器，淘汰以服务器为核心，在同一台服务器上采用 主机虚拟化（ <strong>Port</strong> 划分） 去部署多个项目的方案：改为采用以 二级域名 为核心，划分n个三级域名，与n个<strong>GitHub</strong>仓库（个人/组织和 静态展示仓库在数量上，一对一；三级域名与仓库在数量上，一对一）的方案。 </p>
-<p>当前阶段，一个静态项目（主页导航级别）与其它静态项目捆绑。</p>
-<p>2、环境不再可控（制约）</p>
-<p>由于对服务器失去控制权，沦为旁观者，并不可能去改变它，因此需要为后面需要后台的（<strong>Flask</strong> + <strong>VUE3</strong>、<strong>Go</strong> + <strong>VUE3</strong>）的项目寻找一条出路。</p>
-<p><a href="https://leancloud.cn/docs/leanengine_webhosting_guide-python.html">leanCloud</a>┅素有后端云之称，可以学习一下。</p>
-<p>由于 在 hexo 使用过程中，有一个<a href="https://valine.js.org/">Valine</a>，“传说中的无后台评论”，事项，如果可以在哪里做一个接口服务，并且这个成本很低，那么 <strong>Flask</strong> +<strong>Go</strong> 是很有可能的。</p>
-]]></content>
-      <categories>
-        <category>上云之路</category>
-      </categories>
-      <tags>
-        <tag>阶段性总结</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>现代杂记，边写边回忆</title>
     <url>/2021/05/07/%E7%8E%B0%E4%BB%A3%E6%9D%82%E8%AE%B0%EF%BC%8C%E8%BE%B9%E5%86%99%E8%BE%B9%E5%9B%9E%E5%BF%86/</url>
     <content><![CDATA[<hr>
@@ -1277,6 +1243,40 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
       </categories>
       <tags>
         <tag>线性代数</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>脱胎换骨</title>
+    <url>/2021/05/09/%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8/</url>
+    <content><![CDATA[<p>从一开始 一脸懵的华为云 ，</p>
+<p>到 白嫖上瘾的 阿里云，</p>
+<p>又到 付费 购买阿里云、腾讯云（薅羊毛），</p>
+<p>再到 <strong>GitHub + Domain</strong>，</p>
+<p>我的上云之路 ,已经过了有 2-3 个年头了吧</p>
+<hr>
+<hr>
+<p>版本上，从 <strong>Windows Server 2003</strong> 到 <strong>CentOS</strong> 的系统转变…</p>
+<p><strong>web</strong> 服务器上，从 <strong>Apache</strong> 到 <strong>Nginx</strong> 的偶然;</p>
+<p>云主机上，从 <strong>ESC</strong> 到 轻量级服务器 的变心;</p>
+<p>部署上，从主机虚拟 到 域名分级 的思路转换;</p>
+<p>带宽上，从1M 到 5M 的狂热</p>
+<p>…</p>
+<hr>
+<hr>
+<p>up-to-date,</p>
+<p>开始渐渐清楚了我想要什么，制约我的又是什么。</p>
+<p>1、经济原因和需求较低<br>经济原因和需求较低，在这两个条件促使下，我决定不再租用服务器，淘汰以服务器为核心，在同一台服务器上采用 主机虚拟化（ <strong>Port</strong> 划分） 去部署多个项目的方案：改为采用以 二级域名 为核心，划分n个三级域名，与n个<strong>GitHub</strong>仓库（个人/组织和 静态展示仓库在数量上，一对一；三级域名与仓库在数量上，一对一）的方案。 </p>
+<p>当前阶段，一个静态项目（主页导航级别）与其它静态项目捆绑。</p>
+<p>2、环境不再可控（制约）</p>
+<p>由于对服务器失去控制权，沦为旁观者，并不可能去改变它，因此需要为后面需要后台的（<strong>Flask</strong> + <strong>VUE3</strong>、<strong>Go</strong> + <strong>VUE3</strong>）的项目寻找一条出路。</p>
+<p><a href="https://leancloud.cn/docs/leanengine_webhosting_guide-python.html">leanCloud</a>┅素有后端云之称，可以学习一下。</p>
+<p>由于 在 hexo 使用过程中，有一个<a href="https://valine.js.org/">Valine</a>，“传说中的无后台评论”，事项，如果可以在哪里做一个接口服务，并且这个成本很低，那么 <strong>Flask</strong> +<strong>Go</strong> 是很有可能的。</p>
+]]></content>
+      <categories>
+        <category>上云之路</category>
+      </categories>
+      <tags>
+        <tag>阶段性总结</tag>
       </tags>
   </entry>
   <entry>
@@ -1564,8 +1564,45 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">例如，存入</span></span><br><span class="line"><span class="comment">aaaaaaa</span></span><br><span class="line"><span class="comment">bbbb</span></span><br><span class="line"><span class="comment">ccccccccc</span></span><br><span class="line"><span class="comment">用 vector&lt;int&gt;temp 存 aaaaaaaa</span></span><br><span class="line"><span class="comment">再 array.push_back(temp)</span></span><br><span class="line"><span class="comment">依次按行存入整个二维矩阵</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">vector&lt;vector&lt;<span class="keyword">int</span>&gt;&gt;array;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;array.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;array[i].<span class="built_in">size</span>();j++)&#123;</span><br><span class="line">      <span class="comment">//array[i][j]</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><strong>9.集合 set</strong></p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//</span></span><br></pre></td></tr></table></figure>
-
+<table>
+<thead>
+<tr>
+<th>作用</th>
+<th>方法</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>定义</td>
+<td>set<type> s;</type></td>
+<td>type 可以是任何基本类型或者容器</td>
+</tr>
+<tr>
+<td>插入元素</td>
+<td>s.insert(x)</td>
+<td>将元素插入到集合中</td>
+</tr>
+<tr>
+<td>删除元素</td>
+<td>s.erase(x)</td>
+<td>移除元素</td>
+</tr>
+<tr>
+<td>查找元素</td>
+<td>s.count(x)</td>
+<td>判断集合中是否存在该元素</td>
+</tr>
+<tr>
+<td>获取元素个数</td>
+<td>s.size()</td>
+<td>不会删除队尾元素</td>
+</tr>
+<tr>
+<td>清空集合</td>
+<td>s.clear()</td>
+<td>删除集合中所有元素</td>
+</tr>
+</tbody></table>
 <h3 id="复数比较"><a href="#复数比较" class="headerlink" title="复数比较"></a>复数比较</h3><p><strong>如何用结构体重载 &lt;实现复数比较？</strong></p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//比较复数a+bi 重载&lt;</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Complex</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> a;</span><br><span class="line">    <span class="keyword">int</span> b;</span><br><span class="line">    <span class="keyword">bool</span> <span class="keyword">operator</span>&lt; (Complex c) <span class="keyword">const</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a*a+b*b &lt; c.a*c.a+c.b*c.b;<span class="comment">//比较模大小</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
