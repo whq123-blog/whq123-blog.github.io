@@ -1564,6 +1564,7 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*</span></span><br><span class="line"><span class="comment">例如，存入</span></span><br><span class="line"><span class="comment">aaaaaaa</span></span><br><span class="line"><span class="comment">bbbb</span></span><br><span class="line"><span class="comment">ccccccccc</span></span><br><span class="line"><span class="comment">用 vector&lt;int&gt;temp 存 aaaaaaaa</span></span><br><span class="line"><span class="comment">再 array.push_back(temp)</span></span><br><span class="line"><span class="comment">依次按行存入整个二维矩阵</span></span><br><span class="line"><span class="comment">*/</span></span><br><span class="line">vector&lt;vector&lt;<span class="keyword">int</span>&gt;&gt;array;</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">0</span>;i&lt;array.<span class="built_in">size</span>();i++)&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j=<span class="number">0</span>;j&lt;array[i].<span class="built_in">size</span>();j++)&#123;</span><br><span class="line">      <span class="comment">//array[i][j]</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p><strong>9.集合 set</strong></p>
+<p>set容器内默认有序，升序</p>
 <table>
 <thead>
 <tr>
@@ -1603,6 +1604,12 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
 <td>删除集合中所有元素</td>
 </tr>
 </tbody></table>
+<p>头文件&amp;定义</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line">set&lt;<span class="keyword">int</span>&gt;s;</span><br></pre></td></tr></table></figure>
+
+<p>遍历</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//by iterator迭代器</span></span><br><span class="line"><span class="keyword">for</span>(set&lt;<span class="keyword">int</span>&gt;::iterator i=s.<span class="built_in">begin</span>();i!=s.<span class="built_in">end</span>();i++)</span><br><span class="line">    cout&lt;&lt;*i&lt;&lt;endl; <span class="comment">//注意指针运算符</span></span><br></pre></td></tr></table></figure>
+
 <h3 id="复数比较"><a href="#复数比较" class="headerlink" title="复数比较"></a>复数比较</h3><p><strong>如何用结构体重载 &lt;实现复数比较？</strong></p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="comment">//比较复数a+bi 重载&lt;</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Complex</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> a;</span><br><span class="line">    <span class="keyword">int</span> b;</span><br><span class="line">    <span class="keyword">bool</span> <span class="keyword">operator</span>&lt; (Complex c) <span class="keyword">const</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a*a+b*b &lt; c.a*c.a+c.b*c.b;<span class="comment">//比较模大小</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
 
