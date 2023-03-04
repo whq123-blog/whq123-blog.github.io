@@ -112,6 +112,27 @@
       </tags>
   </entry>
   <entry>
+    <title>Disaster</title>
+    <url>/2021/05/21/Disaster/</url>
+    <content><![CDATA[<p>1、手机</p>
+<p>2、熬夜</p>
+<p>3、状态</p>
+<p>4、压力调节</p>
+<p>5、体态</p>
+<p>6、计划执行效率低下</p>
+<p>7、运动 - -</p>
+<p>8、学习积极性 - -</p>
+<p>9、英语训练 - -</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>warning</tag>
+        <tag>Miscellaneous notes</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>FAQ</title>
     <url>/2021/04/13/FAQ/</url>
     <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
@@ -165,24 +186,44 @@
       </tags>
   </entry>
   <entry>
-    <title>Disaster</title>
-    <url>/2021/05/21/Disaster/</url>
-    <content><![CDATA[<p>1、手机</p>
-<p>2、熬夜</p>
-<p>3、状态</p>
-<p>4、压力调节</p>
-<p>5、体态</p>
-<p>6、计划执行效率低下</p>
-<p>7、运动 - -</p>
-<p>8、学习积极性 - -</p>
-<p>9、英语训练 - -</p>
+    <title>GoodNotes</title>
+    <url>/2021/05/30/GoodNotes/</url>
+    <content><![CDATA[<h3 id="笔记整理1——针对理论化应试教育的笔记"><a href="#笔记整理1——针对理论化应试教育的笔记" class="headerlink" title="笔记整理1——针对理论化应试教育的笔记"></a>笔记整理1——针对理论化应试教育的笔记</h3><p><strong>原因：</strong>别人的笔记再有调理，也不是自己的，天然的排斥感，自己记过的是一个同化学习的过程。</p>
+<p><strong>描述：</strong></p>
+<p>1、基础学习时，只记录自己不熟悉的知识点</p>
+<p>2、刷题目时，将错题、好题、自己就是想记下来的题整理到基础的后面【这里要说的是，电子版，直接在新建尾页，非常方面，如果是纸质版，撕开，重加一页，整理到资料册中】。</p>
+<p>3、做真题时，和2做题一样对待。</p>
+<p><strong>特点：</strong>各科通用，</p>
+<p><strong>优点：</strong>内容上有针对性，内容之间有条理性</p>
+<p><strong>缺点：</strong>时间开销大</p>
+]]></content>
+      <categories>
+        <category>笔记</category>
+      </categories>
+      <tags>
+        <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
+    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
+    <content><![CDATA[<p><font size="5px">为了积极响应并行计算的号召，也为了毕设铺路…我在狗(Go)语言的身上还是下了一点功夫。</font></p>
+<div style="background-color:#FFA07A;"> 
+<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
+<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
+<input type="checkbox"> gin视频正在跟<br><br>
+<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
+<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
+</div>    
+
+
+<p>​    </p>
 ]]></content>
       <categories>
         <category>生活</category>
       </categories>
       <tags>
-        <tag>warning</tag>
-        <tag>Miscellaneous notes</tag>
+        <tag>杂记</tag>
       </tags>
   </entry>
   <entry>
@@ -234,47 +275,6 @@
       </categories>
       <tags>
         <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
-    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
-    <content><![CDATA[<p><font size="5px">为了积极响应并行计算的号召，也为了毕设铺路…我在狗(Go)语言的身上还是下了一点功夫。</font></p>
-<div style="background-color:#FFA07A;"> 
-<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
-<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
-<input type="checkbox"> gin视频正在跟<br><br>
-<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
-<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
-</div>    
-
-
-<p>​    </p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>GoodNotes</title>
-    <url>/2021/05/30/GoodNotes/</url>
-    <content><![CDATA[<h3 id="笔记整理1——针对理论化应试教育的笔记"><a href="#笔记整理1——针对理论化应试教育的笔记" class="headerlink" title="笔记整理1——针对理论化应试教育的笔记"></a>笔记整理1——针对理论化应试教育的笔记</h3><p><strong>原因：</strong>别人的笔记再有调理，也不是自己的，天然的排斥感，自己记过的是一个同化学习的过程。</p>
-<p><strong>描述：</strong></p>
-<p>1、基础学习时，只记录自己不熟悉的知识点</p>
-<p>2、刷题目时，将错题、好题、自己就是想记下来的题整理到基础的后面【这里要说的是，电子版，直接在新建尾页，非常方面，如果是纸质版，撕开，重加一页，整理到资料册中】。</p>
-<p>3、做真题时，和2做题一样对待。</p>
-<p><strong>特点：</strong>各科通用，</p>
-<p><strong>优点：</strong>内容上有针对性，内容之间有条理性</p>
-<p><strong>缺点：</strong>时间开销大</p>
-]]></content>
-      <categories>
-        <category>笔记</category>
-      </categories>
-      <tags>
-        <tag>笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -800,6 +800,31 @@
       </tags>
   </entry>
   <entry>
+    <title>张三的内心独白</title>
+    <url>/2022/01/10/%E5%BC%A0%E4%B8%89%E7%9A%84%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</url>
+    <content><![CDATA[<h2 id="张三的内心独白"><a href="#张三的内心独白" class="headerlink" title="张三的内心独白"></a>张三的内心独白</h2><p>1、我是一个<strong>慢热</strong>的人，节奏慢，学习进入状态慢，容易受环境影响，不自律，在<strong>不监督</strong>的情况下很容易松懈，需要被监督，施加压力，或许是我身处舒适圈，或许是我没有找到自己的路，亦或许缺少一个强大的内心。</p>
+<p>2、同时，我也是一个<strong>追求逻辑缜密</strong>的人，</p>
+<p>3、我是一个<strong>讨厌抽象</strong>的人，学东西不喜欢不带例子的理论，喜欢通过例子去理解规律（或者说，由浅入深，由特殊到一般？）,别人凝练的总归不是自己的，即使是自己凝练出来的，生怕忘了也会附上例子的。<br>4、我是一个<strong>沉迷联系</strong>的人，举一反三，总想把很多东西都串联起来，在生活中几乎病态，特别希望让所有的事情全部都是联系起来，比如一呆就是一上午，不会挪一个地方，哪怕那天洗澡就会因为某一件事情会改变这个安排，所有的安排都会在无时无刻的变着，一切都是按着一个最省路子或者是最省时间的一个顺序去做，同时我也这次感到心烦，我希望解耦合，所有的事情相互联系之间太紧密了，这让我无时无刻不感到累。</p>
+<p>5、我是一个<strong>贼爱做整理</strong>的人，整理相册，云盘，电脑，学习资料，博客，“扬弃”，整理整理再整理，让我的资源井井有条又实用是我最大的快乐，我总喜欢尽可能地保留，前面的项目就是今后的模板，今后理解遗忘理论的可行案例。</p>
+<p>6、我是一个<strong>不自信</strong>的人，因为还是不够好，忘了自己不够好后会获得短暂的快乐，清醒后又纠结自己这是否值得。</p>
+<p>7、我是一个<strong>幸运</strong>的人，有李*学姐，李 *学长，郭 * * 学长，等等实验室一大帮人研究生学姐学长，社团爱好，web学习环境，父母的支持，可爱的徒弟，活泼开朗的薛同位。。。</p>
+<p>8、我<strong>不喜欢背诵</strong>，哪怕背诵也得有逻辑，政治就是积累语料，压题中了只是更好。</p>
+<p>9、我太<strong>喜欢一手好字</strong>,他照出了我的生活态度，我的心态，有时自己也不知道。</p>
+<p>10、我<strong>离不开运动</strong>，因为运动和游戏一样可以提高神经系统兴奋性，（提高代谢）从而提高效率，提高身体素质</p>
+<p>11、我或许<strong>多愁善感</strong>，格外地，我瞧不起影响别人心态的，或者说是不顾别人情绪的那类人，时间是可以冲淡我对这件事的反感，渐渐再去接受那个人的积极阳光，人都是自私的，我也不例外，但同时创伤他人（无视集体利益）的注定会被瞧不起。</p>
+<p>12、凡事预则立，不预则废，我总爱<strong>设立计划</strong>，这是态度问题，从一开始的不切实际，到后来的精打细算，争分夺秒，这个过程我过得很充实，至少真的没后悔过。</p>
+<p>13、<strong>爱吃</strong>，心情好的时候还吃，观摩影视作品时候心情就好，就爱吃。</p>
+<p>14、初中升学梦，宿舍催人懒，时光不待人，无负韶华时…</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>研后总结</tag>
+        <tag>一脸研诉</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇github博文</title>
     <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E6%96%87/</url>
     <content><![CDATA[<p> 面试学弟，</p>
@@ -837,31 +862,6 @@ height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=24733
       <tags>
         <tag>杂记</tag>
         <tag>水文</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>张三的内心独白</title>
-    <url>/2022/01/10/%E5%BC%A0%E4%B8%89%E7%9A%84%E5%86%85%E5%BF%83%E7%8B%AC%E7%99%BD/</url>
-    <content><![CDATA[<h2 id="张三的内心独白"><a href="#张三的内心独白" class="headerlink" title="张三的内心独白"></a>张三的内心独白</h2><p>1、我是一个<strong>慢热</strong>的人，节奏慢，学习进入状态慢，容易受环境影响，不自律，在<strong>不监督</strong>的情况下很容易松懈，需要被监督，施加压力，或许是我身处舒适圈，或许是我没有找到自己的路，亦或许缺少一个强大的内心。</p>
-<p>2、同时，我也是一个<strong>追求逻辑缜密</strong>的人，</p>
-<p>3、我是一个<strong>讨厌抽象</strong>的人，学东西不喜欢不带例子的理论，喜欢通过例子去理解规律（或者说，由浅入深，由特殊到一般？）,别人凝练的总归不是自己的，即使是自己凝练出来的，生怕忘了也会附上例子的。<br>4、我是一个<strong>沉迷联系</strong>的人，举一反三，总想把很多东西都串联起来，在生活中几乎病态，特别希望让所有的事情全部都是联系起来，比如一呆就是一上午，不会挪一个地方，哪怕那天洗澡就会因为某一件事情会改变这个安排，所有的安排都会在无时无刻的变着，一切都是按着一个最省路子或者是最省时间的一个顺序去做，同时我也这次感到心烦，我希望解耦合，所有的事情相互联系之间太紧密了，这让我无时无刻不感到累。</p>
-<p>5、我是一个<strong>贼爱做整理</strong>的人，整理相册，云盘，电脑，学习资料，博客，“扬弃”，整理整理再整理，让我的资源井井有条又实用是我最大的快乐，我总喜欢尽可能地保留，前面的项目就是今后的模板，今后理解遗忘理论的可行案例。</p>
-<p>6、我是一个<strong>不自信</strong>的人，因为还是不够好，忘了自己不够好后会获得短暂的快乐，清醒后又纠结自己这是否值得。</p>
-<p>7、我是一个<strong>幸运</strong>的人，有李*学姐，李 *学长，郭 * * 学长，等等实验室一大帮人研究生学姐学长，社团爱好，web学习环境，父母的支持，可爱的徒弟，活泼开朗的薛同位。。。</p>
-<p>8、我<strong>不喜欢背诵</strong>，哪怕背诵也得有逻辑，政治就是积累语料，压题中了只是更好。</p>
-<p>9、我太<strong>喜欢一手好字</strong>,他照出了我的生活态度，我的心态，有时自己也不知道。</p>
-<p>10、我<strong>离不开运动</strong>，因为运动和游戏一样可以提高神经系统兴奋性，（提高代谢）从而提高效率，提高身体素质</p>
-<p>11、我或许<strong>多愁善感</strong>，格外地，我瞧不起影响别人心态的，或者说是不顾别人情绪的那类人，时间是可以冲淡我对这件事的反感，渐渐再去接受那个人的积极阳光，人都是自私的，我也不例外，但同时创伤他人（无视集体利益）的注定会被瞧不起。</p>
-<p>12、凡事预则立，不预则废，我总爱<strong>设立计划</strong>，这是态度问题，从一开始的不切实际，到后来的精打细算，争分夺秒，这个过程我过得很充实，至少真的没后悔过。</p>
-<p>13、<strong>爱吃</strong>，心情好的时候还吃，观摩影视作品时候心情就好，就爱吃。</p>
-<p>14、初中升学梦，宿舍催人懒，时光不待人，无负韶华时…</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>研后总结</tag>
-        <tag>一脸研诉</tag>
       </tags>
   </entry>
   <entry>
@@ -1296,6 +1296,205 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
       </tags>
   </entry>
   <entry>
+    <title>轮滑小记</title>
+    <url>/2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/</url>
+    <content><![CDATA[<p><img src="/2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/1.jpg" alt="1"></p>
+<p><font color="#8470FF">个人拙见，<strong>滑</strong>是轮滑的要领。</font></p>
+<ul>
+<li><input checked disabled type="checkbox"> :完成  </li>
+<li><input disabled type="checkbox"> ：尚未达标</li>
+</ul>
+<h3 id="Tip："><a href="#Tip：" class="headerlink" title="Tip："></a>Tip：</h3><hr>
+<ul>
+<li><input checked disabled type="checkbox"> 1.<strong>滑行</strong></li>
+<li>屈膝，大角度滑，找到滑的感觉和节奏</li>
+<li><font color="#00BFFF">【问题】左腿压韧，注意滑一脚后往外一下</font></li>
+<li>双脚要蹬起来，力度不够</li>
+<li>膝盖可以再弯一点</li>
+<li>滑行转弯时身体要前倾，右脚外搭以此为中心，身体带动左脚滑弧</li>
+<li><font color="#00BFFF">【问题】现在停下来要外八字（起步还有力）</font></li>
+<li>直行，水平蹬.不要后蹬，太丑<span id="more"></span></li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 2.<strong>T刹</strong></li>
+<li>学姐，那种踢刹虽然会拐弯，还行吧</li>
+<li>另一种T刹，前腿弯曲至顶到鞋前盖，用力，身体向左前方倾</li>
+<li>后脚与前脚留有一定距离，脚尖向上颠，脚后跟用力压住（整个过程需要腰的灵活）</li>
+<li><font color="#00BFFF">【问题】压韧，所以要时常做压外韧练习</font></li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 3.<strong>双鱼</strong></li>
+<li>那不有腿就行</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 4.<strong>正剪和倒剪</strong></li>
+<li>关键就是一种节奏感，有缓有急，<strong>倒剪</strong>就是画弧，就能做好</li>
+<li>倒剪，注意 身子直起来，头向肩后方看，腿下压，这样就不会歪了</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 5.<strong>正蛇</strong></li>
+<li>注意，前脚提供发力，后脚跟的时候留有一定空隙 ，并且两脚的动作不同步，正剪的步伐，双鱼的姿态，两手伸平伸平伸直！腿下压</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 6.<strong>压弯道</strong></li>
+<li>左手后背，右手外张</li>
+<li>左腿弯曲，右腿伸直，抬到左腿前面，画圆</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 7.<strong>sun</strong></li>
+<li>上身张开才不会越滑越急，转圈要定住圆心自然的滑，而不是用力地扭过去，不要看桩</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 8.<strong>volt</strong></li>
+<li>转的关键是两个腿加紧，这样重心可以掌控在点轮上</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 9.<strong>double 点轮</strong></li>
+<li>靠右脚为动力做倒剪的轨迹，左脚下去后单轮压外刃支撑变换方向，显的很流畅</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 10.<strong>后单脚</strong></li>
+<li>右脚直角一直不动，作为方向辅助甩，作家为主动力使劲扭身子尽量直，倒蛇高速，，！！放开甩（我师父是这么坑我的）</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 11.<strong>volt</strong></li>
+<li>转的时候，后脚滑到左脚左侧一点点位置，就是说交叉一下，你就可以实现先靠近转的点，再点轮了，点轮时两膝盖夹紧</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 12.<strong>X步</strong></li>
+<li>纯扭腰，要把右脚扭到最大程度</li>
+<li>关键在于摆臂动作</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 13.<strong>蛇步</strong></li>
+<li>一个空一个蛇步，五个轮子的话，前脚单轮，感觉要使劲扭</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 14.<strong>蛇形转圈</strong></li>
+<li>上身先转，手要低于肩部高于腰部，好看(｡･ω･｡)ﾉ♡，平时多练对转圈动作有好处，转过去，朝着回来转一圈</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 15.<strong>反倒尼</strong></li>
+<li>右脚走蛇步，左脚切</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 16.<strong>小汽车</strong></li>
+<li>几乎要坐在轮子上，然后直着身子过四个大桩即可</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 17.<strong>玛丽转</strong></li>
+<li>双腿稍曲，慢慢的初速度，转</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 18.<strong>倒八字</strong></li>
+<li>有视频</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 19.<strong>漂移</strong></li>
+<li>漂移的时候后脚中心不要在脚后跟上</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 20.<strong>右单脚</strong></li>
+<li>原地起步，练脚力，从每个桩右侧向左侧发力，单脚要回蹲</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 21.<strong>combo</strong></li>
+<li>大桩 小汽车 蟹步波浪 z蟹…</li>
+<li>小庄 小马跳 蛇步…</li>
+<li>中桩 摆脱僵硬感 ，展开双手即可…</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 22.<strong>天鹅蟹</strong></li>
+<li>自己的左脚不灵活，把它放上面</li>
+<li>尤其是右脚，起来的时候要压韧，用左脚顶住右脚</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 23.<strong>tocross【旋转类】</strong></li>
+<li>旋转动作一律用上身带动去转最简单做出来</li>
+<li>可以提高其他动作的流畅感，奶牛的起步，剪过去，点轮，重复，越流畅越好</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 24.<strong>crab【跳跃类】</strong></li>
+<li>表演的时候要控制表情，不然人家看到的是你板着脸，同志，不帅不骚好吧，正大睁大眼睛也好！</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 25.<strong>total cross</strong></li>
+<li>crazy 上，右脚先剪过桩，左脚再反韧，左脚外圈，右脚内圈，画圈，点轮点住，crazy 后半部分不上，也就是奶牛最后一步</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 26.<strong>j turn</strong></li>
+<li>crazy 上去以后，右脚往后收，带着左脚转小圈，然后左脚转到桩上以后，两脚下蹲，在桩前左脚外点，左脚在桩前，右脚在桩后画圈</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 27.<strong>Z蟹</strong></li>
+<li>向右滑右脚在前，然后右脚要向前压韧，提供转向空间，速度越够转向越流畅</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 28.<strong>双轮倒蛇</strong></li>
+<li>重心在后脚，两脚间距不宜过大</li>
+</ul>
+<hr>
+<ul>
+<li><input disabled type="checkbox"> 29.<strong>小马跳</strong></li>
+<li>哔哩哔哩 天策轮滑</li>
+</ul>
+<hr>
+<ul>
+<li><input checked disabled type="checkbox"> 30.<strong>内蟹</strong></li>
+<li>内八字横向绕桩再加压韧</li>
+<li>可能 crazy 起步然后蟹步重心，靠一只脚带着，呈坐姿过桩</li>
+</ul>
+<hr>
+<ul>
+<li><p><input checked disabled type="checkbox">  31.<strong>双轮蟹</strong></p>
+</li>
+<li><p>这是我学会的最后一个动作</p>
+</li>
+</ul>
+<hr>
+<iframe src="//player.bilibili.com/player.html?aid=46383259&bvid=BV1Fb411p741&cid=81263217&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+
+
+<iframe src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
+
+]]></content>
+      <categories>
+        <category>爱好</category>
+      </categories>
+      <tags>
+        <tag>轮滑</tag>
+        <tag>社团</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>蓝桥日记</title>
     <url>/2022/01/23/%E8%93%9D%E6%A1%A5%E6%9D%AF%E5%A4%87%E8%B5%9B%E9%9A%8F%E7%AC%94/</url>
     <content><![CDATA[<h3 id="查漏补缺"><a href="#查漏补缺" class="headerlink" title="查漏补缺"></a>查漏补缺</h3><h2 id="补充："><a href="#补充：" class="headerlink" title="补充："></a>补充：</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span>若开超大数组爆栈 ,开全局</span><br><span class="line"><span class="number">2.</span>四位数的隐含条件？最小四位数不是 <span class="number">0000</span> 而是 <span class="number">1000</span>，回文数的话，是	<span class="number">1001</span></span><br><span class="line"><span class="number">3.</span>scanf有时候可以解决cin提交出现的TLE（比如要求在<span class="number">150</span>ms内），大概可以提高个<span class="number">2</span>~<span class="number">450</span>ms，数据规模越大，提升越好</span><br><span class="line"><span class="number">5.</span>多组输入，参数初始化，要给放到循环中，好久不写忘了</span><br><span class="line">6.RE错误，runtime error(运行时错误)就是程序运行到一半,程序就崩溃了。</span><br><span class="line"><span class="number">7.</span><span class="keyword">while</span>(cin&gt;&gt;n)多组输入 重复输入结果变了？Ⅰ.初始化没有做好，检查有没有需要初始化的Ⅱ.输入设计的不合理</span><br><span class="line"><span class="number">8.</span>递归：<span class="number">1</span>、缩小规模 <span class="number">2</span>、有结束条件</span><br><span class="line"><span class="number">9.</span><span class="keyword">const</span> 只是一个修饰符，不管怎么样 <span class="keyword">const</span> <span class="keyword">int</span> a;仍然是一个整型变量</span><br><span class="line"><span class="number">10.</span>位操作运算符，参与运算的量，按二进制位进行运算。包括位与(&amp;)、位或(|)、位非(~)、位异或(^)左移(&lt;&lt;)、右移(&gt;&gt;)六种 。</span><br></pre></td></tr></table></figure>
@@ -1692,205 +1891,6 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
       <tags>
         <tag>蓝桥</tag>
         <tag>c++</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>轮滑小记</title>
-    <url>/2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/</url>
-    <content><![CDATA[<p><img src="/2021/04/14/%E8%BD%AE%E6%BB%91%E5%B0%8F%E8%AE%B0/1.jpg" alt="1"></p>
-<p><font color="#8470FF">个人拙见，<strong>滑</strong>是轮滑的要领。</font></p>
-<ul>
-<li><input checked disabled type="checkbox"> :完成  </li>
-<li><input disabled type="checkbox"> ：尚未达标</li>
-</ul>
-<h3 id="Tip："><a href="#Tip：" class="headerlink" title="Tip："></a>Tip：</h3><hr>
-<ul>
-<li><input checked disabled type="checkbox"> 1.<strong>滑行</strong></li>
-<li>屈膝，大角度滑，找到滑的感觉和节奏</li>
-<li><font color="#00BFFF">【问题】左腿压韧，注意滑一脚后往外一下</font></li>
-<li>双脚要蹬起来，力度不够</li>
-<li>膝盖可以再弯一点</li>
-<li>滑行转弯时身体要前倾，右脚外搭以此为中心，身体带动左脚滑弧</li>
-<li><font color="#00BFFF">【问题】现在停下来要外八字（起步还有力）</font></li>
-<li>直行，水平蹬.不要后蹬，太丑<span id="more"></span></li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 2.<strong>T刹</strong></li>
-<li>学姐，那种踢刹虽然会拐弯，还行吧</li>
-<li>另一种T刹，前腿弯曲至顶到鞋前盖，用力，身体向左前方倾</li>
-<li>后脚与前脚留有一定距离，脚尖向上颠，脚后跟用力压住（整个过程需要腰的灵活）</li>
-<li><font color="#00BFFF">【问题】压韧，所以要时常做压外韧练习</font></li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 3.<strong>双鱼</strong></li>
-<li>那不有腿就行</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 4.<strong>正剪和倒剪</strong></li>
-<li>关键就是一种节奏感，有缓有急，<strong>倒剪</strong>就是画弧，就能做好</li>
-<li>倒剪，注意 身子直起来，头向肩后方看，腿下压，这样就不会歪了</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 5.<strong>正蛇</strong></li>
-<li>注意，前脚提供发力，后脚跟的时候留有一定空隙 ，并且两脚的动作不同步，正剪的步伐，双鱼的姿态，两手伸平伸平伸直！腿下压</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 6.<strong>压弯道</strong></li>
-<li>左手后背，右手外张</li>
-<li>左腿弯曲，右腿伸直，抬到左腿前面，画圆</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 7.<strong>sun</strong></li>
-<li>上身张开才不会越滑越急，转圈要定住圆心自然的滑，而不是用力地扭过去，不要看桩</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 8.<strong>volt</strong></li>
-<li>转的关键是两个腿加紧，这样重心可以掌控在点轮上</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 9.<strong>double 点轮</strong></li>
-<li>靠右脚为动力做倒剪的轨迹，左脚下去后单轮压外刃支撑变换方向，显的很流畅</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 10.<strong>后单脚</strong></li>
-<li>右脚直角一直不动，作为方向辅助甩，作家为主动力使劲扭身子尽量直，倒蛇高速，，！！放开甩（我师父是这么坑我的）</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 11.<strong>volt</strong></li>
-<li>转的时候，后脚滑到左脚左侧一点点位置，就是说交叉一下，你就可以实现先靠近转的点，再点轮了，点轮时两膝盖夹紧</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 12.<strong>X步</strong></li>
-<li>纯扭腰，要把右脚扭到最大程度</li>
-<li>关键在于摆臂动作</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 13.<strong>蛇步</strong></li>
-<li>一个空一个蛇步，五个轮子的话，前脚单轮，感觉要使劲扭</li>
-</ul>
-<hr>
-<ul>
-<li><input disabled type="checkbox"> 14.<strong>蛇形转圈</strong></li>
-<li>上身先转，手要低于肩部高于腰部，好看(｡･ω･｡)ﾉ♡，平时多练对转圈动作有好处，转过去，朝着回来转一圈</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 15.<strong>反倒尼</strong></li>
-<li>右脚走蛇步，左脚切</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 16.<strong>小汽车</strong></li>
-<li>几乎要坐在轮子上，然后直着身子过四个大桩即可</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 17.<strong>玛丽转</strong></li>
-<li>双腿稍曲，慢慢的初速度，转</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 18.<strong>倒八字</strong></li>
-<li>有视频</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 19.<strong>漂移</strong></li>
-<li>漂移的时候后脚中心不要在脚后跟上</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 20.<strong>右单脚</strong></li>
-<li>原地起步，练脚力，从每个桩右侧向左侧发力，单脚要回蹲</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 21.<strong>combo</strong></li>
-<li>大桩 小汽车 蟹步波浪 z蟹…</li>
-<li>小庄 小马跳 蛇步…</li>
-<li>中桩 摆脱僵硬感 ，展开双手即可…</li>
-</ul>
-<hr>
-<ul>
-<li><input disabled type="checkbox"> 22.<strong>天鹅蟹</strong></li>
-<li>自己的左脚不灵活，把它放上面</li>
-<li>尤其是右脚，起来的时候要压韧，用左脚顶住右脚</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 23.<strong>tocross【旋转类】</strong></li>
-<li>旋转动作一律用上身带动去转最简单做出来</li>
-<li>可以提高其他动作的流畅感，奶牛的起步，剪过去，点轮，重复，越流畅越好</li>
-</ul>
-<hr>
-<ul>
-<li><input disabled type="checkbox"> 24.<strong>crab【跳跃类】</strong></li>
-<li>表演的时候要控制表情，不然人家看到的是你板着脸，同志，不帅不骚好吧，正大睁大眼睛也好！</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 25.<strong>total cross</strong></li>
-<li>crazy 上，右脚先剪过桩，左脚再反韧，左脚外圈，右脚内圈，画圈，点轮点住，crazy 后半部分不上，也就是奶牛最后一步</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 26.<strong>j turn</strong></li>
-<li>crazy 上去以后，右脚往后收，带着左脚转小圈，然后左脚转到桩上以后，两脚下蹲，在桩前左脚外点，左脚在桩前，右脚在桩后画圈</li>
-</ul>
-<hr>
-<ul>
-<li><input disabled type="checkbox"> 27.<strong>Z蟹</strong></li>
-<li>向右滑右脚在前，然后右脚要向前压韧，提供转向空间，速度越够转向越流畅</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 28.<strong>双轮倒蛇</strong></li>
-<li>重心在后脚，两脚间距不宜过大</li>
-</ul>
-<hr>
-<ul>
-<li><input disabled type="checkbox"> 29.<strong>小马跳</strong></li>
-<li>哔哩哔哩 天策轮滑</li>
-</ul>
-<hr>
-<ul>
-<li><input checked disabled type="checkbox"> 30.<strong>内蟹</strong></li>
-<li>内八字横向绕桩再加压韧</li>
-<li>可能 crazy 起步然后蟹步重心，靠一只脚带着，呈坐姿过桩</li>
-</ul>
-<hr>
-<ul>
-<li><p><input checked disabled type="checkbox">  31.<strong>双轮蟹</strong></p>
-</li>
-<li><p>这是我学会的最后一个动作</p>
-</li>
-</ul>
-<hr>
-<iframe src="//player.bilibili.com/player.html?aid=46383259&bvid=BV1Fb411p741&cid=81263217&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-
-
-<iframe src="//player.bilibili.com/player.html?aid=247337864&bvid=BV1zv41187cx&cid=315485653&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>  
-
-]]></content>
-      <categories>
-        <category>爱好</category>
-      </categories>
-      <tags>
-        <tag>轮滑</tag>
-        <tag>社团</tag>
       </tags>
   </entry>
   <entry>
