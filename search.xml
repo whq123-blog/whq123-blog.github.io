@@ -1574,7 +1574,7 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
 </thead>
 <tbody><tr>
 <td>定义</td>
-<td>set<type> s;</type></td>
+<td>set&lt;type&gt; s;</td>
 <td>type 可以是任何基本类型或者容器</td>
 </tr>
 <tr>
