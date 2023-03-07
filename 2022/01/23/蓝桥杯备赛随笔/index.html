@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">4.8k</span>
+            <span class="post-count">5k</span>
         </span>
     </span>
 
@@ -82,7 +82,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">22 min</span>
+            <span class="post-count">23 min</span>
         </span>
     </span>
 </div>
@@ -136,7 +136,7 @@
 
 <p><strong>若给结构体排序出现失灵？</strong></p>
 <p>用于比较大小的变量肯定用错了</p>
-<p><strong>7.char[] 如何转 string？如何用 printf 输出？</strong></p>
+<p><strong>7. char[] 如何转 string ？如何用 printf 输出？</strong></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> c[<span class="number">20</span>];</span><br><span class="line">string str = c;<span class="comment">//直接赋值，完成转换</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,str.<span class="built_in">c_str</span>());<span class="comment">//c 输出 string</span></span><br><span class="line">cout&lt;&lt;str&lt;&lt;endl; <span class="comment">//c++ 输出 string</span></span><br></pre></td></tr></table></figure>
 
 <p><strong>8.无长度输入字符数组？转整数？</strong></p>
@@ -144,6 +144,19 @@
 
 <p><strong>9.如何定义无穷大？</strong></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>  INF 0x3f3f3f3f</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>10. string 转换为 char 类型？</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string str=<span class="string">&quot;&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span> *c = str.<span class="built_in">data</span>();</span><br></pre></td></tr></table></figure>
+
+<p>11.如何字符串转 int？</p>
+<p><code>atoi()</code>函数&amp;头文件</p>
+<p>全称： ascii to integer </p>
+<p>反之,也有<code>itoa()</code>；</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdlib&gt;</span></span></span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> res = <span class="built_in">atoi</span>(x);<span class="comment">//x 为char类型 ，</span></span><br><span class="line"><span class="comment">//若 x 为 string 需先转 char 再转 int</span></span><br></pre></td></tr></table></figure>
+
+
 
 <h3 id="输入输出问题"><a href="#输入输出问题" class="headerlink" title="输入输出问题"></a>输入输出问题</h3><p><strong>如何输出制表符？</strong> </p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;\t&quot;</span>);</span><br></pre></td></tr></table></figure>
@@ -322,17 +335,28 @@
 <p>按下标查找</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;abcda&quot;</span>;</span><br><span class="line"><span class="comment">//</span></span><br><span class="line">s.<span class="built_in">find</span>(<span class="string">&#x27;a&#x27;</span>);                     <span class="comment">//first position output:0</span></span><br><span class="line">s.<span class="built_in">rfind</span>(<span class="string">&#x27;a&#x27;</span>);                    <span class="comment">//last position output:4</span></span><br></pre></td></tr></table></figure>
 
+<p><strong>如果找不到返回什么？</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">string <span class="title">st1</span><span class="params">(<span class="string">&quot;babbabab&quot;</span>)</span></span>;</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cout &lt;&lt; (st1.<span class="built_in">find</span>(<span class="string">&#x27;c&#x27;</span>, <span class="number">0</span>) == <span class="number">-1</span>) &lt;&lt; endl;<span class="comment">//1 string:npos</span></span><br><span class="line">cout &lt;&lt; (st1.<span class="built_in">find</span>(<span class="string">&#x27;c&#x27;</span>, <span class="number">0</span>) == <span class="number">4294967295</span>) &lt;&lt; endl;<span class="comment">//1   两句均输出1，原因是计算机中-1和4294967295都表示为32个1（二进制）</span></span><br><span class="line">cout &lt;&lt; st1.<span class="built_in">find</span>(<span class="string">&#x27;a&#x27;</span>, <span class="number">100</span>) &lt;&lt; endl;<span class="comment">//4294967295   当查找的起始位置超出字符串长度时，按查找失败处理，返回npos</span></span><br></pre></td></tr></table></figure>
+
 <p>替换</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">s.replace(0,1,&#x27;11&#x27;)              //下标0开始，连续占用1个位置替换：11bcda</span><br></pre></td></tr></table></figure>
 
 <p>比较</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string s2=<span class="string">&quot;abcda&quot;</span>;</span><br><span class="line">s.<span class="built_in">compare</span>(s2)                    <span class="comment">//  s&gt;s2返回值为1    =:0   &lt;:-1</span></span><br></pre></td></tr></table></figure>
 
-<p>切片</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">str =  s.<span class="built_in">substr</span>(<span class="number">0</span>,<span class="number">3</span>)                   <span class="comment">//0开始，截取3字节  abc</span></span><br></pre></td></tr></table></figure>
+<p>截取一段(重要)</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;abcdef&quot;</span>;</span><br><span class="line">str =  s.<span class="built_in">substr</span>(<span class="number">0</span>,<span class="number">3</span>)                   <span class="comment">//0开始，截取3字节  abc</span></span><br></pre></td></tr></table></figure>
 
 <p>插入删除</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">s.<span class="built_in">insert</span>(<span class="number">3</span>,<span class="string">&quot;asd&quot;</span>)                <span class="comment">//插入到第三个位置</span></span><br><span class="line">s.<span class="built_in">erase</span>(<span class="number">0</span>,<span class="number">2</span>)                     <span class="comment">//0开始，删除2字节 ,删除超过存在字节数，不要紧，结果就是空</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>删除字符串全部空格的一般思路？</strong></p>
+<p>一个是找，再一个是删</p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//delete all x from s</span></span><br><span class="line">string x = <span class="string">&quot; &quot;</span>;</span><br><span class="line"><span class="keyword">while</span>(s.<span class="built_in">find</span>(x) != <span class="number">-1</span>)</span><br><span class="line">&#123;</span><br><span class="line">    p = s.<span class="built_in">find</span>(x);</span><br><span class="line">	s.<span class="built_in">erase</span>(p,x_size);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
 
 <p><strong>8.可变数组 vector</strong></p>
 <p>头文件&amp;定义</p>
@@ -465,7 +489,7 @@
 <h3 id="并查集模板"><a href="#并查集模板" class="headerlink" title="并查集模板"></a>并查集模板</h3><p>用于判断连通图、求连通分量</p>
 <blockquote>
 <p>1.初始化 Initial() </p>
-<p>2.合并 Union()   路径压缩</p>
+<p>2.合并 Union(x,y)   路径压缩,合并顶点 x，y</p>
 <p>3.查询 Find()  找爹</p>
 </blockquote>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="keyword">int</span> n,m;</span><br><span class="line"><span class="keyword">int</span> father[<span class="number">1010</span>];</span><br><span class="line"><span class="keyword">int</span> height[<span class="number">1010</span>];</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Initial</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">        father[i]=i;<span class="comment">//自己是自己的父亲</span></span><br><span class="line">        height[i]=<span class="number">0</span>;<span class="comment">//高度为0</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">Find</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;<span class="comment">//找爹</span></span><br><span class="line">    <span class="keyword">if</span>(x !=father[x])&#123;<span class="comment">//找到根节点 才返回</span></span><br><span class="line">        father[x] = <span class="built_in">Find</span>(father[x]);</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> father[x];</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Union</span><span class="params">(<span class="keyword">int</span> x,<span class="keyword">int</span> y)</span></span>&#123;</span><br><span class="line">    x =<span class="built_in">Find</span>(x);</span><br><span class="line">    y =<span class="built_in">Find</span>(y);</span><br><span class="line">    <span class="keyword">if</span>(x!=y)&#123;</span><br><span class="line">            <span class="keyword">if</span>(height[x] &lt; height[y])&#123; <span class="comment">//矮子合并到高个子树上，整体高度不变</span></span><br><span class="line">            father[x] =y;</span><br><span class="line"></span><br><span class="line">        &#125;<span class="keyword">else</span> <span class="keyword">if</span>(height[x]&gt;height[y])&#123;</span><br><span class="line">            father[y]=x;</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            father[y] =x;</span><br><span class="line">            height[x]++;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span>(cin&gt;&gt;n&gt;&gt;m)&#123;</span><br><span class="line">        <span class="keyword">if</span>(n == m &amp;&amp; n == <span class="number">0</span>)<span class="keyword">break</span>;</span><br><span class="line">        <span class="built_in">Initial</span>();</span><br><span class="line">        <span class="keyword">while</span>(m--)&#123;</span><br><span class="line">            <span class="keyword">int</span> x,y;</span><br><span class="line">                cin&gt;&gt;x&gt;&gt;y;</span><br><span class="line">            <span class="built_in">Union</span>(x,y);</span><br><span class="line">            </span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">int</span> compenent =<span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=n;i++)&#123;</span><br><span class="line">            <span class="keyword">if</span>(<span class="built_in">Find</span>(i) == i)compenent++;<span class="comment">//连通分量个数，数数根节点</span></span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span>(compenent == <span class="number">1</span>)&#123;</span><br><span class="line">            cout&lt;&lt;<span class="string">&quot;YES&quot;</span>&lt;&lt;endl;</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            cout&lt;&lt;<span class="string">&quot;NO&quot;</span>&lt;&lt;endl;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
