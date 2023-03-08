@@ -82,7 +82,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">23 min</span>
+            <span class="post-count">24 min</span>
         </span>
     </span>
 </div>
@@ -356,8 +356,6 @@
 <p>一个是找，再一个是删</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//delete all x from s</span></span><br><span class="line">string x = <span class="string">&quot; &quot;</span>;</span><br><span class="line"><span class="keyword">while</span>(s.<span class="built_in">find</span>(x) != <span class="number">-1</span>)</span><br><span class="line">&#123;</span><br><span class="line">    p = s.<span class="built_in">find</span>(x);</span><br><span class="line">	s.<span class="built_in">erase</span>(p,x_size);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-
-
 <p><strong>8.可变数组 vector</strong></p>
 <p>头文件&amp;定义</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;vector&gt;</span></span></span><br><span class="line">vector &lt;<span class="keyword">int</span>&gt;arr;<span class="comment">//一维可变数组，存遍历结果贼好用</span></span><br></pre></td></tr></table></figure>
@@ -431,7 +429,7 @@
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line">set&lt;<span class="keyword">int</span>&gt;s;</span><br></pre></td></tr></table></figure>
 
 <p>遍历</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//by iterator迭代器</span></span><br><span class="line"><span class="keyword">for</span>(set&lt;<span class="keyword">int</span>&gt;::iterator i=s.<span class="built_in">begin</span>();i!=s.<span class="built_in">end</span>();i++)</span><br><span class="line">    cout&lt;&lt;*i&lt;&lt;endl; <span class="comment">//注意指针运算符</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//by iterator迭代器</span></span><br><span class="line"><span class="keyword">for</span>(set&lt;<span class="keyword">int</span>&gt;::iterator i=s.<span class="built_in">begin</span>();i!=s.<span class="built_in">end</span>();i++)<span class="comment">//不总是 set&lt;int&gt; 这里的 int 是向 set&lt;int&gt;s 定义看齐</span></span><br><span class="line">    cout&lt;&lt;*i&lt;&lt;endl; <span class="comment">//注意指针运算符</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="复数比较"><a href="#复数比较" class="headerlink" title="复数比较"></a>复数比较</h3><p><strong>如何用结构体重载 &lt;实现复数比较？</strong></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//比较复数a+bi 重载&lt;</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Complex</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">int</span> a;</span><br><span class="line">    <span class="keyword">int</span> b;</span><br><span class="line">    <span class="keyword">bool</span> <span class="keyword">operator</span>&lt; (Complex c) <span class="keyword">const</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> a*a+b*b &lt; c.a*c.a+c.b*c.b;<span class="comment">//比较模大小</span></span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
