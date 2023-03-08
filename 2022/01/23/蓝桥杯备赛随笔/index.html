@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">5k</span>
+            <span class="post-count">5.1k</span>
         </span>
     </span>
 
@@ -148,13 +148,16 @@
 <p><strong>10. string 转换为 char 类型？</strong></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string str=<span class="string">&quot;&quot;</span>;</span><br><span class="line"><span class="keyword">const</span> <span class="keyword">char</span> *c = str.<span class="built_in">data</span>();</span><br></pre></td></tr></table></figure>
 
-<p>11.如何字符串转 int？</p>
+<p><strong>11.如何字符串转 int？</strong></p>
 <p><code>atoi()</code>函数&amp;头文件</p>
 <p>全称： ascii to integer </p>
 <p>反之,也有<code>itoa()</code>；</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;cstdlib&gt;</span></span></span><br></pre></td></tr></table></figure>
 
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> res = <span class="built_in">atoi</span>(x);<span class="comment">//x 为char类型 ，</span></span><br><span class="line"><span class="comment">//若 x 为 string 需先转 char 再转 int</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> res = <span class="built_in">atoi</span>(x);<span class="comment">//x 为char类型 ，必须是字符数组</span></span><br><span class="line"><span class="comment">//若 x 为 string 需先转 char 再转 int</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>如果是单字符 <code>char a</code> 或者 <code>string s[i]</code>这又该怎么办？</strong></p>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//method 1</span></span><br><span class="line">string s;</span><br><span class="line"><span class="keyword">char</span> a[<span class="number">1</span>];</span><br><span class="line">a[<span class="number">0</span>] =s[i];</span><br><span class="line"><span class="built_in">atoi</span>(a);</span><br><span class="line"></span><br><span class="line"><span class="comment">//method 2</span></span><br><span class="line"><span class="keyword">int</span> res = s[i]-<span class="string">&#x27;0&#x27;</span>;</span><br><span class="line"><span class="keyword">char</span> b;</span><br><span class="line"><span class="keyword">int</span> res = b-<span class="string">&#x27;0&#x27;</span>; </span><br></pre></td></tr></table></figure>
 
 
 
@@ -332,6 +335,7 @@
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">priority_queue&lt;<span class="keyword">int</span>,vector&lt;<span class="keyword">int</span>&gt;,greater&lt;<span class="keyword">int</span>&gt; &gt;q;</span><br></pre></td></tr></table></figure>
 
 <p><strong>7.字符串 string</strong></p>
+<p>仔细观察不难发现，下面讲到的方法中的字符无论是不是单个字符全都是双引号括起来的，单引号报错我记得是const char 错误，遇到了就是引号出问题了。</p>
 <p>按下标查找</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">string s=<span class="string">&quot;abcda&quot;</span>;</span><br><span class="line"><span class="comment">//</span></span><br><span class="line">s.<span class="built_in">find</span>(<span class="string">&#x27;a&#x27;</span>);                     <span class="comment">//first position output:0</span></span><br><span class="line">s.<span class="built_in">rfind</span>(<span class="string">&#x27;a&#x27;</span>);                    <span class="comment">//last position output:4</span></span><br></pre></td></tr></table></figure>
 
@@ -341,7 +345,7 @@
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">cout &lt;&lt; (st1.<span class="built_in">find</span>(<span class="string">&#x27;c&#x27;</span>, <span class="number">0</span>) == <span class="number">-1</span>) &lt;&lt; endl;<span class="comment">//1 string:npos</span></span><br><span class="line">cout &lt;&lt; (st1.<span class="built_in">find</span>(<span class="string">&#x27;c&#x27;</span>, <span class="number">0</span>) == <span class="number">4294967295</span>) &lt;&lt; endl;<span class="comment">//1   两句均输出1，原因是计算机中-1和4294967295都表示为32个1（二进制）</span></span><br><span class="line">cout &lt;&lt; st1.<span class="built_in">find</span>(<span class="string">&#x27;a&#x27;</span>, <span class="number">100</span>) &lt;&lt; endl;<span class="comment">//4294967295   当查找的起始位置超出字符串长度时，按查找失败处理，返回npos</span></span><br></pre></td></tr></table></figure>
 
 <p>替换</p>
-<figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">s.replace(0,1,&#x27;11&#x27;)              //下标0开始，连续占用1个位置替换：11bcda</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">s.<span class="built_in">replace</span>(<span class="number">0</span>,<span class="number">1</span>,<span class="string">&quot;11&quot;</span>)              <span class="comment">//下标0开始，连续占用1个位置替换：11bcda</span></span><br></pre></td></tr></table></figure>
 
 <p>比较</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">string s2=<span class="string">&quot;abcda&quot;</span>;</span><br><span class="line">s.<span class="built_in">compare</span>(s2)                    <span class="comment">//  s&gt;s2返回值为1    =:0   &lt;:-1</span></span><br></pre></td></tr></table></figure>
