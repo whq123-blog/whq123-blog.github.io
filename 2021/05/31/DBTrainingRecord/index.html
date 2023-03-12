@@ -131,14 +131,10 @@
 
 <h3 id="（8）解压"><a href="#（8）解压" class="headerlink" title="（8）解压"></a>（8）解压</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tar -xzvf xxx</span><br><span class="line">tar -xzvf xxx -C /usr/local       解压到指定路径         习惯上，/usr/local  /usr/opt</span><br></pre></td></tr></table></figure>
 
-
-
 <h3 id="（9）shell编程"><a href="#（9）shell编程" class="headerlink" title="（9）shell编程"></a>（9）shell编程</h3><p><code>!#/bin/bash</code>:开头加上，这个注释有啥用，增加可读性？</p>
 <p>应用：多台机器一键安装，</p>
 <p><a target="_blank" rel="noopener" href="https://www.runoob.com/linux/linux-shell-basic-operators.html">菜鸟</a></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">变量：</span><br><span class="line">常亮：</span><br><span class="line">循环：</span><br><span class="line">流程控制语句：</span><br><span class="line">流程控制，使用关系运算符 -</span><br><span class="line">lt  小于 </span><br><span class="line">-gt  大于</span><br><span class="line">-eq  等于</span><br><span class="line">-o  或</span><br><span class="line">-a  且</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">touch dd.txt   #创建文件</span><br><span class="line">bash demo2.sh  #调用另一个脚本</span><br><span class="line">echo &quot;小丛丛 是猪&quot;| cat &gt;&gt; dd.txt   #输出并管道进文件中</span><br><span class="line">read -p &quot;请输入一个数字:&quot; SCORE    #输入</span><br><span class="line">if [ $SCORE -lt 10 -o $SCORE -gt 100 ];then #[] 前后必须有空格隔开  &lt;10 ||&gt;100</span><br><span class="line">	echo &quot;$SCORE小于10 或者大于100&quot;</span><br><span class="line"></span><br><span class="line">fi                                         #if then ....elif... if收尾</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">一个安装例子：</span><br><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">source ..&#x2F;........</span><br><span class="line">$PATH&#x3D;</span><br><span class="line"></span><br><span class="line">source ..&#x2F;.......</span><br><span class="line">$PATH&#x3D;</span><br></pre></td></tr></table></figure>
-
-
 
 <h3 id="（10）系统配置文件"><a href="#（10）系统配置文件" class="headerlink" title="（10）系统配置文件"></a>（10）系统配置文件</h3><p>目录：<code>/etc/hosts</code></p>
 <p>环境变量：<code>/etc/profile</code></p>
@@ -156,10 +152,6 @@
 <p>爬下来文本</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">curl https://www.baidu.com/</span><br></pre></td></tr></table></figure>
 
-
-
-
-
 <p>欠账：</p>
 <p>flume的采集操作没有做，</p>
 <p>sqoop的传输操作没有做</p>
@@ -171,8 +163,6 @@
 <p>​    hadoop 改名为hadoop</p>
 <p>2、环境变量</p>
 <figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">Java</span></span><br><span class="line">export JAVA_HOME=/usr/local/jdk</span><br><span class="line">export PATH=$PATH:$JAVA_HOME/bin</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash">hadoop</span></span><br><span class="line">export HADOOP_HOME=/usr/local/hadoop</span><br><span class="line">export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-
 
 <p>hadoop数据操作</p>
 <p>（1）上传，<code>hdfs dfs -put  xxxx /</code>上传xxx到hdfs的根路径下</p>
@@ -275,9 +265,9 @@
       </a>
     
     
-      <a href="/2021/05/30/GoodNotes/" class="article-nav-link">
+      <a href="/2021/05/30/%E4%BB%80%E4%B9%88%E6%98%AF%E5%A5%BD%E7%9A%84%E7%AC%94%E8%AE%B0/" class="article-nav-link">
         <strong class="article-nav-caption">下一篇</strong>
-        <div class="article-nav-title">GoodNotes</div>
+        <div class="article-nav-title">什么是好的笔记</div>
       </a>
     
   </nav>
