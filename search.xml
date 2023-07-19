@@ -104,59 +104,6 @@
       </tags>
   </entry>
   <entry>
-    <title>FAQ</title>
-    <url>/2021/04/13/FAQ/</url>
-    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
-<li>cannot GET categories / cannot GET tags</li>
-</ul>
-<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
-<ul>
-<li>如何使用无后台评论API–Valine</li>
-</ul>
-<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
-<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
-<span id="more"></span>
-
-<ul>
-<li>寻找合适的【Hexo主题】框架</li>
-</ul>
-<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
-<ul>
-<li> 8个顶级图标网站【favicon.ico】</li>
-</ul>
-<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
-<p>推送到github总是443</p>
-<p><font color="grey">方法一：更换网络或使用国外节点</font></p>
-<p><font color="grey">方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p>
-<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
-
-<p><font color="grey">方法三：开手机热点，贼好用（贼都说好用了，推荐）</font></p>
-<ul>
-<li>md文档上传并附带照片</li>
-</ul>
-<p><a href="https://www.jianshu.com/p/f72aaad7b852">https://www.jianshu.com/p/f72aaad7b852</a></p>
-<ul>
-<li>md文档RGB查询</li>
-</ul>
-<p><a href="https://bj.96weixin.com/tools/rgb">https://bj.96weixin.com/tools/rgb</a></p>
-<ul>
-<li> Hexo（CSS样式自定义）</li>
-</ul>
-<p><a href="https://www.pianshen.com/article/4686790693/">https://www.pianshen.com/article/4686790693/</a></p>
-<ul>
-<li>嵌入视频</li>
-</ul>
-<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">height</span>=<span class="string">450</span> <span class="attr">width</span>=<span class="string">800</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span>  </span><br><span class="line"><span class="comment">&lt;!-- height=450 width=800 可能是最合适的 ，md上的效果与实际html效果有出入，需要调试。</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>说明类文档</category>
-      </categories>
-      <tags>
-        <tag>FAQ</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2023研究生复试——机试随笔（CSDN已上传）</title>
     <url>/2023/03/31/2023%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E2%80%94%E2%80%94%E6%9C%BA%E8%AF%95%E9%9A%8F%E7%AC%94%EF%BC%88CSDN%E5%B7%B2%E4%B8%8A%E4%BC%A0%EF%BC%89/</url>
     <content><![CDATA[<h2 id="查漏补缺"><a href="#查漏补缺" class="headerlink" title="查漏补缺"></a>查漏补缺</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span>sqrt 在math库</span><br><span class="line"><span class="number">2.</span>计算年月日，计算时间就是进位问题吧，用算法解决问题也是蛮有趣的的哈</span><br><span class="line"><span class="number">3.</span>数据合法无处不在，有时候会很善意的告诉你</span><br><span class="line"><span class="number">4.</span>题目要求是不是多组输入？</span><br><span class="line"><span class="number">5.</span>位数不等于被<span class="number">10</span>整除数值，【<span class="number">17</span>，两位，一个零（<span class="number">10</span>）表示两位数</span><br><span class="line"><span class="number">6.</span>PE错误 presentation error</span><br><span class="line"><span class="number">7.</span>输出结果是否为正整数？要不要<span class="number">0</span>？被用例卡了一次</span><br><span class="line"><span class="number">8.</span>总感觉我这算法学的不系统，不牢固。</span><br><span class="line"><span class="number">12.</span>结构体用起来真的感觉书写麻烦头大，尽量简化代码量</span><br><span class="line"><span class="number">13.</span>用<span class="keyword">double</span>做结果小数点后好多位总出精度问题，<span class="keyword">float</span>就不会，为啥？？？？？？保存整数我们不能使用<span class="keyword">double</span>这类的浮点型，因为，<span class="keyword">double</span>在存储数据并不是整的，比如存储<span class="number">0</span>，<span class="keyword">double</span>实际存储为<span class="number">0.00000001</span>，这就导致了我们使用浮点型计算出来的有误差！</span><br><span class="line"><span class="number">14.</span>蓝桥杯整理的笔记还需要细细打磨，都是考研抄作各家博主《作业》的成果</span><br><span class="line"><span class="number">15.f</span><span class="keyword">or</span>(<span class="keyword">int</span> i=n; i&lt;<span class="number">2</span>*m-n; i++) 每次取n，i范围[<span class="number">0</span>,<span class="number">2</span>*m),i的终止条件是？取特值，n=<span class="number">0</span>时，一目了然</span><br><span class="line"><span class="number">16.</span>打印一个菱形？？螺旋矩阵。。。这些图形的，我弱爆了。</span><br><span class="line"><span class="number">17.</span>基础漏洞太多了，很多数学基本常识还有些基本推算都如何实现都不记得了。</span><br><span class="line"><span class="number">18.</span>用注释把一些未实现的功能写在合适的位置，思路清晰了不少，不确定的数据用问号表示，少了不少干扰</span><br><span class="line"><span class="number">19.</span>字符串要想读空格只能整行读取</span><br><span class="line"><span class="number">20.</span> <span class="number">0</span>经常可以作为一个特殊样例卡住你不让你AC，比如遇到过的进制转换，计算小数点后几位都容易忽略<span class="number">0</span></span><br><span class="line"><span class="number">21.</span>字符串处理函数，stl容器函数，数值处理函数掌握不好，很多函数的使用都有问题。</span><br><span class="line"><span class="number">22.</span>之所以判定乒乓球是中等题，应该就是需要看懂繁琐的规则，模拟出来相对麻烦一点 </span><br><span class="line"><span class="number">23.</span>给容器vector、string排序和数组首地址加长度是行不通的，需要用begin和end。   </span><br><span class="line"><span class="number">24.</span>reverse函数的头文件是？</span><br><span class="line"><span class="number">25.</span>判断素数容易手误，可疑因数容易写死 %i 写成 %<span class="number">2</span>。</span><br><span class="line"><span class="number">26.</span>《结构体问题》写代码是真的冗长，《字符串问题》处理起来是真的有很多基础思路要积累，很多基本函数要记得非常熟悉。 </span><br><span class="line"><span class="number">27.</span>结构体最常用的用途就是结构体排序（捆绑数据，甚至按指定序列要求输出），有些输出顺序是在离谱，无法循环输出，用结构体捆绑数值后，排序就可以循环输出。</span><br><span class="line"><span class="number">28.</span>简单题，模板题；中等题，题意得多读几遍，代码长点；难题，有特殊情况考虑不全/没思路/代码长。</span><br><span class="line"><span class="number">29.</span>矩阵的<span class="number">0</span>次幂是单位矩阵E   </span><br><span class="line"><span class="number">30.</span>进阶题，就是算法题，特点是会手算，数量规模大了就算漏了，代码实现起来思路不清晰。</span><br><span class="line"><span class="number">31.</span>懂了，dfs 最基础的，是走通一条路，   若要搜索所有情况，就要标记，回溯时解除标记</span><br><span class="line"><span class="number">32.</span>有时候程序会崩溃返回<span class="number">-1</span>内存泄漏？为啥重新执行有时又没问题？数组访问越界，访问m[<span class="number">2007</span>],<span class="number">2007</span>未指定，会导致这种执行的不稳定。</span><br><span class="line"><span class="number">33.</span>写日历题的时候，为啥有的月有错误？相邻的月没错？年循环中，数组下标写死了，一年的二月直接影响了之后的每月周<span class="number">1</span>-周<span class="number">7</span>的分布规律，会导致有的样例对，有的就不对。，所以出现跨过一年<span class="number">12</span>月开始出问题。</span><br><span class="line"><span class="number">34.</span>东华oj存在样例每个数据后面都有空格，比如写日历，还比如根本看不出来的PE错误（<span class="number">41</span> 盾神与条状项链），就是每个元素后面都有空格，就是行末元素我习惯是去掉空格</span><br><span class="line"><span class="number">35.</span>每题要提交<span class="number">3</span><span class="number">-4</span>才AC？永远猜不到oj不给展示的样例有多变态，多健全，而标程上的有多么理想，搞得我三番五次改bug。</span><br><span class="line"><span class="number">36.</span>dfs题目总是超时。。。暴力不动。</span><br><span class="line"><span class="number">37.</span>没说多组输入，卡我的一个样例文件竟然设计成多组输入。就算是不强调多组输入，改成多组输入，也AC。</span><br><span class="line"><span class="number">38.</span>大数乘法我会用<span class="keyword">char</span> a b c，但是这样<span class="number">10</span><span class="number">-99</span>我做乘法，做进位都没法搞啊，所以说我应该用<span class="keyword">int</span>存 a b c，和处理</span><br><span class="line"><span class="number">39.</span>CodeBlocks红点之间调试，可以反复横跳，爽。</span><br><span class="line"><span class="number">40.</span>我发现,对Σ取余和对Σ每一项取模，最后再整体取模一样，这样过程值规模小。s =a+b+c; s%mod = (a%mod + b%mod + c%mod)%mod</span><br><span class="line"><span class="number">41.</span>找出所有可能年份三部分不知道那个是年月日，可能要去重<span class="number">2029</span><span class="number">-02</span><span class="number">-02</span>，<span class="number">2029</span><span class="number">-02</span><span class="number">-02</span></span><br><span class="line"><span class="number">42.</span>当map元素值为<span class="keyword">int</span>类型或者常量时候，默认值为<span class="number">0</span></span><br></pre></td></tr></table></figure>
@@ -459,26 +406,56 @@
       </tags>
   </entry>
   <entry>
-    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
-    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
-    <content><![CDATA[<p><font size="5px">为了积极响应并行计算的号召，也为了毕设铺路…我在狗(Go)语言的身上还是下了一点功夫。</font></p>
-<div style="background-color:#FFA07A;"> 
-<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
-<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
-<input type="checkbox"> gin视频正在跟<br><br>
-<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
-<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
-</div>    
+    <title>FAQ</title>
+    <url>/2021/04/13/FAQ/</url>
+    <content><![CDATA[<h3 id="初步阶段可能遇到的问题："><a href="#初步阶段可能遇到的问题：" class="headerlink" title="初步阶段可能遇到的问题："></a>初步阶段可能遇到的问题：</h3><ul>
+<li>cannot GET categories / cannot GET tags</li>
+</ul>
+<p><a href="https://blog.csdn.net/Winter_chen001/article/details/79719154">https://blog.csdn.net/Winter_chen001/article/details/79719154</a></p>
+<ul>
+<li>如何使用无后台评论API–Valine</li>
+</ul>
+<p> <a href="https://www.cnblogs.com/Timesi/p/9556236.html">Leancloud+Valine打造Hexo个人博客极简评论系统</a></p>
+<p> <a href="https://zhuanlan.zhihu.com/p/158120667">LeanCloud-Valine保姆级配置教程</a></p>
+<span id="more"></span>
 
+<ul>
+<li>寻找合适的【Hexo主题】框架</li>
+</ul>
+<p><a href="https://hexo.io/themes/">https://hexo.io/themes/</a></p>
+<ul>
+<li> 8个顶级图标网站【favicon.ico】</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/b06ddcdb2de8">https://www.jianshu.com/p/b06ddcdb2de8</a></p>
+<p>推送到github总是443</p>
+<p><font color="grey">方法一：更换网络或使用国外节点</font></p>
+<p><font color="grey">方法二：根目录配置文件_config.yml的deploy这部分，仓库地址repository原来是写了https开头，改成如下即可：</font></p>
+<figure class="highlight xml"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">#  repo: https://github.com/youname/youname.github.io.git</span><br><span class="line">  repo: git@github.com:youname/youname.github.io.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
 
-<p>​    </p>
+<p><font color="grey">方法三：开手机热点，贼好用（贼都说好用了，推荐）</font></p>
+<ul>
+<li>md文档上传并附带照片</li>
+</ul>
+<p><a href="https://www.jianshu.com/p/f72aaad7b852">https://www.jianshu.com/p/f72aaad7b852</a></p>
+<ul>
+<li>md文档RGB查询</li>
+</ul>
+<p><a href="https://bj.96weixin.com/tools/rgb">https://bj.96weixin.com/tools/rgb</a></p>
+<ul>
+<li> Hexo（CSS样式自定义）</li>
+</ul>
+<p><a href="https://www.pianshen.com/article/4686790693/">https://www.pianshen.com/article/4686790693/</a></p>
+<ul>
+<li>嵌入视频</li>
+</ul>
+<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">iframe</span> <span class="attr">height</span>=<span class="string">450</span> <span class="attr">width</span>=<span class="string">800</span> <span class="attr">src</span>=<span class="string">&quot;&quot;</span> <span class="attr">scrolling</span>=<span class="string">&quot;no&quot;</span> <span class="attr">border</span>=<span class="string">&quot;0&quot;</span> <span class="attr">frameborder</span>=<span class="string">&quot;no&quot;</span> <span class="attr">framespacing</span>=<span class="string">&quot;0&quot;</span> <span class="attr">allowfullscreen</span>=<span class="string">&quot;true&quot;</span>&gt;</span> <span class="tag">&lt;/<span class="name">iframe</span>&gt;</span>  </span><br><span class="line"><span class="comment">&lt;!-- height=450 width=800 可能是最合适的 ，md上的效果与实际html效果有出入，需要调试。</span></span><br></pre></td></tr></table></figure>
+
 ]]></content>
       <categories>
-        <category>WEB开发之旅</category>
+        <category>说明类文档</category>
       </categories>
       <tags>
-        <tag>猪猪生活</tag>
-        <tag>闲聊</tag>
+        <tag>FAQ</tag>
       </tags>
   </entry>
   <entry>
@@ -510,38 +487,26 @@
       </tags>
   </entry>
   <entry>
-    <title>My Faith</title>
-    <url>/2023/03/12/My-Faith/</url>
-    <content><![CDATA[<h1 id="我的信仰"><a href="#我的信仰" class="headerlink" title="我的信仰"></a>我的信仰</h1><h3 id="越努力！-越幸运！"><a href="#越努力！-越幸运！" class="headerlink" title="越努力！ 越幸运！"></a>越努力！ 越幸运！</h3><blockquote>
-<p>宇哥说过，努力就一定会有收获，一定会有好的结果。</p>
-<p>永乐大帝也说过，努力的重要。</p>
-<p>半年来，我每天的挑灯看剑，即便状态不佳，考试结果不是也不错嘛。</p>
-</blockquote>
-<h3 id="任务驱动"><a href="#任务驱动" class="headerlink" title="任务驱动"></a>任务驱动</h3><blockquote>
-<p>没有计划安排的日子是平庸乏味的，时间如流水，毫无察觉的流失，麻木度日。</p>
-<p>无论是必须要做的，亦或是想要做的，</p>
-<p>还是学习，还是娱乐，定下一个目标，细化到明天的安排上，今天的复盘上，</p>
-<p>你待时间若香蜜，时间待你如知己</p>
-<p>时间不够的问题不复存在，只有那完成任务的成就感和过程使你充实度过每一天。</p>
-</blockquote>
-<h3 id="动手去做！就这么简单"><a href="#动手去做！就这么简单" class="headerlink" title="动手去做！就这么简单"></a>动手去做！就这么简单</h3><blockquote>
-<p>很多时候，两个方案，拿不定主意，患得患失。</p>
-<p>想千遍万遍不如做一次，用实践去帮你辨别最佳方案，改进你的方案缺陷。</p>
-<p>要知道，实现任务的是自己，是自己去实践，</p>
-<p>有任务，迟迟不肯实践，结果就是陷入内耗。</p>
-<p>哪怕去做最笨最无脑的实践，你自己也会主动产生想法避免它的发生。</p>
-</blockquote>
-<h3 id="现在开始！永远都不晚"><a href="#现在开始！永远都不晚" class="headerlink" title="现在开始！永远都不晚"></a>现在开始！永远都不晚</h3><blockquote>
-<p>不要总说时间来不及，再不开始时间才是真的来不及。</p>
-</blockquote>
+    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
+    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
+    <content><![CDATA[<p><font size="5px">为了积极响应并行计算的号召，也为了毕设铺路…我在狗(Go)语言的身上还是下了一点功夫。</font></p>
+<div style="background-color:#FFA07A;"> 
+<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
+<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
+<input type="checkbox"> gin视频正在跟<br><br>
+<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
+<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
+</div>    
+
+
+<p>​    </p>
 ]]></content>
       <categories>
-        <category>讲给自己听</category>
+        <category>WEB开发之旅</category>
       </categories>
       <tags>
-        <tag>信仰</tag>
-        <tag>方向</tag>
-        <tag>未来</tag>
+        <tag>猪猪生活</tag>
+        <tag>闲聊</tag>
       </tags>
   </entry>
   <entry>
@@ -610,6 +575,41 @@
       </categories>
       <tags>
         <tag>入门指令</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>My Faith</title>
+    <url>/2023/03/12/My-Faith/</url>
+    <content><![CDATA[<h1 id="我的信仰"><a href="#我的信仰" class="headerlink" title="我的信仰"></a>我的信仰</h1><h3 id="越努力！-越幸运！"><a href="#越努力！-越幸运！" class="headerlink" title="越努力！ 越幸运！"></a>越努力！ 越幸运！</h3><blockquote>
+<p>宇哥说过，努力就一定会有收获，一定会有好的结果。</p>
+<p>永乐大帝也说过，努力的重要。</p>
+<p>半年来，我每天的挑灯看剑，即便状态不佳，考试结果不是也不错嘛。</p>
+</blockquote>
+<h3 id="任务驱动"><a href="#任务驱动" class="headerlink" title="任务驱动"></a>任务驱动</h3><blockquote>
+<p>没有计划安排的日子是平庸乏味的，时间如流水，毫无察觉的流失，麻木度日。</p>
+<p>无论是必须要做的，亦或是想要做的，</p>
+<p>还是学习，还是娱乐，定下一个目标，细化到明天的安排上，今天的复盘上，</p>
+<p>你待时间若香蜜，时间待你如知己</p>
+<p>时间不够的问题不复存在，只有那完成任务的成就感和过程使你充实度过每一天。</p>
+</blockquote>
+<h3 id="动手去做！就这么简单"><a href="#动手去做！就这么简单" class="headerlink" title="动手去做！就这么简单"></a>动手去做！就这么简单</h3><blockquote>
+<p>很多时候，两个方案，拿不定主意，患得患失。</p>
+<p>想千遍万遍不如做一次，用实践去帮你辨别最佳方案，改进你的方案缺陷。</p>
+<p>要知道，实现任务的是自己，是自己去实践，</p>
+<p>有任务，迟迟不肯实践，结果就是陷入内耗。</p>
+<p>哪怕去做最笨最无脑的实践，你自己也会主动产生想法避免它的发生。</p>
+</blockquote>
+<h3 id="现在开始！永远都不晚"><a href="#现在开始！永远都不晚" class="headerlink" title="现在开始！永远都不晚"></a>现在开始！永远都不晚</h3><blockquote>
+<p>不要总说时间来不及，再不开始时间才是真的来不及。</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>讲给自己听</category>
+      </categories>
+      <tags>
+        <tag>信仰</tag>
+        <tag>方向</tag>
+        <tag>未来</tag>
       </tags>
   </entry>
   <entry>
@@ -1125,6 +1125,24 @@
       </tags>
   </entry>
   <entry>
+    <title>数据结构到了，忙起来</title>
+    <url>/2021/05/12/%E5%BF%99%E8%B5%B7%E6%9D%A5/</url>
+    <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
+<p>机器学习大作业得交了，IT项目管理考试要来了，并行计算大作业也下来了，这周忙碌命啊</p>
+<p>英语，失宠好久了，自从核心词汇和基础词汇过了一遍，每天零零散散地刷一套在线题目（20），记了很多笔记，貌似也没重视起来，进度…进度…进度，你的语法题什么时候开始啊也别等到周末了，那个时候计划永远赶不上变换，贼难安排，每周周五的时候吧，拿出半天，看看英语（在线学习系统词组笔记、iPad记录的形近词汇、纸质笔记本上的单词语法、） </p>
+<p>等等，今天数据结构的书也到了，二手的，卖家出于好心，把题也给做了。。408 3月初开始，这周就要 renew 了，散装英语在自己博客秀一把，不过分吧。</p>
+<p>宇哥，你的视频是我学现代唯一的依靠了，跟着你走，我做题踏实多了，课本都没你讲的好，不过多吐槽了，赶快跟你学完，线代我都今天下载完成了。</p>
+<p>不说了，不说了，把之前留下来的英语问题收收尾。</p>
+]]></content>
+      <categories>
+        <category>备研之旅</category>
+      </categories>
+      <tags>
+        <tag>杂记</tag>
+        <tag>阶段性总结</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇github博文</title>
     <url>/2021/04/11/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87github%E5%8D%9A%E6%96%87/</url>
     <content><![CDATA[<p> 面试学弟，</p>
@@ -1161,24 +1179,6 @@ height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=24733
       </categories>
       <tags>
         <tag>测试文章</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数据结构到了，忙起来</title>
-    <url>/2021/05/12/%E5%BF%99%E8%B5%B7%E6%9D%A5/</url>
-    <content><![CDATA[<p>今天仅仅是复习完了矩阵，还有4章呢，听说内容挺少的，赶赶干</p>
-<p>机器学习大作业得交了，IT项目管理考试要来了，并行计算大作业也下来了，这周忙碌命啊</p>
-<p>英语，失宠好久了，自从核心词汇和基础词汇过了一遍，每天零零散散地刷一套在线题目（20），记了很多笔记，貌似也没重视起来，进度…进度…进度，你的语法题什么时候开始啊也别等到周末了，那个时候计划永远赶不上变换，贼难安排，每周周五的时候吧，拿出半天，看看英语（在线学习系统词组笔记、iPad记录的形近词汇、纸质笔记本上的单词语法、） </p>
-<p>等等，今天数据结构的书也到了，二手的，卖家出于好心，把题也给做了。。408 3月初开始，这周就要 renew 了，散装英语在自己博客秀一把，不过分吧。</p>
-<p>宇哥，你的视频是我学现代唯一的依靠了，跟着你走，我做题踏实多了，课本都没你讲的好，不过多吐槽了，赶快跟你学完，线代我都今天下载完成了。</p>
-<p>不说了，不说了，把之前留下来的英语问题收收尾。</p>
-]]></content>
-      <categories>
-        <category>备研之旅</category>
-      </categories>
-      <tags>
-        <tag>杂记</tag>
-        <tag>阶段性总结</tag>
       </tags>
   </entry>
   <entry>
@@ -1465,6 +1465,29 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
       </tags>
   </entry>
   <entry>
+    <title>能用就行？</title>
+    <url>/2021/06/26/%E8%83%BD%E7%94%A8%E5%B0%B1%E8%A1%8C%EF%BC%9F/</url>
+    <content><![CDATA[<p>电脑能用就行吗？</p>
+<p>虚拟机起不来，</p>
+<p>内部不够大，还不能扩展，</p>
+<p>我不用就行，进行简单的操作，日常需求也有很高的配置需求</p>
+<p>那…</p>
+<p>省钱最好</p>
+<p>拷贝文件拷半天，</p>
+<p>删除文件也要搜索很久，</p>
+<p>每天都要面对这些问题，是每天，</p>
+<p>那…</p>
+<p>不是省钱的事情了，真的是在浪费时间了</p>
+<p>试问，一个生产工具，达不到基本要求（Label：做好），只能实现（Label：做到），是不是该把他辞了？</p>
+]]></content>
+      <categories>
+        <category>讲给自己听</category>
+      </categories>
+      <tags>
+        <tag>极简生活</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>脱胎换骨</title>
     <url>/2021/05/09/%E8%84%B1%E8%83%8E%E6%8D%A2%E9%AA%A8/</url>
     <content><![CDATA[<p>从一开始 一脸懵的华为云 ，</p>
@@ -1497,29 +1520,6 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
       <tags>
         <tag>阶段性总结</tag>
         <tag>服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>能用就行？</title>
-    <url>/2021/06/26/%E8%83%BD%E7%94%A8%E5%B0%B1%E8%A1%8C%EF%BC%9F/</url>
-    <content><![CDATA[<p>电脑能用就行吗？</p>
-<p>虚拟机起不来，</p>
-<p>内部不够大，还不能扩展，</p>
-<p>我不用就行，进行简单的操作，日常需求也有很高的配置需求</p>
-<p>那…</p>
-<p>省钱最好</p>
-<p>拷贝文件拷半天，</p>
-<p>删除文件也要搜索很久，</p>
-<p>每天都要面对这些问题，是每天，</p>
-<p>那…</p>
-<p>不是省钱的事情了，真的是在浪费时间了</p>
-<p>试问，一个生产工具，达不到基本要求（Label：做好），只能实现（Label：做到），是不是该把他辞了？</p>
-]]></content>
-      <categories>
-        <category>讲给自己听</category>
-      </categories>
-      <tags>
-        <tag>极简生活</tag>
       </tags>
   </entry>
   <entry>
@@ -1628,6 +1628,38 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
         <tag>失败的笔记</tag>
         <tag>线性代数</tag>
         <tag>不恰当的记录方式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>该给你的思想减减负</title>
+    <url>/2021/05/24/%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F/</url>
+    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
+<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
+<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
+<p>时间和精力是有限的，</p>
+<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
+<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
+<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
+<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
+<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
+<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
+<p>逛淘宝 *****</p>
+<p>听小说 ****</p>
+<p>写博客 ***</p>
+<p>玩游戏 *</p>
+<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
+<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
+<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
+<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
+<p>在能承受最坏代价的前提下多尝试，</p>
+<p>对自己高要求，</p>
+]]></content>
+      <categories>
+        <category>讲给自己听</category>
+      </categories>
+      <tags>
+        <tag>极简生活</tag>
+        <tag>减负</tag>
       </tags>
   </entry>
   <entry>
@@ -2096,35 +2128,31 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
       </tags>
   </entry>
   <entry>
-    <title>该给你的思想减减负</title>
-    <url>/2021/05/24/%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F/</url>
-    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
-<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
-<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
-<p>时间和精力是有限的，</p>
-<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
-<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
-<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
-<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
-<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
-<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
-<p>逛淘宝 *****</p>
-<p>听小说 ****</p>
-<p>写博客 ***</p>
-<p>玩游戏 *</p>
-<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
-<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
-<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
-<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
-<p>在能承受最坏代价的前提下多尝试，</p>
-<p>对自己高要求，</p>
+    <title>马克思喊我去休息</title>
+    <url>/2021/04/25/%E9%A9%AC%E5%85%8B%E6%80%9D%E5%96%8A%E6%88%91%E5%8E%BB%E4%BC%91%E6%81%AF/</url>
+    <content><![CDATA[<p><img src="/2021/04/25/%E9%A9%AC%E5%85%8B%E6%80%9D%E5%96%8A%E6%88%91%E5%8E%BB%E4%BC%91%E6%81%AF/1.jpg" alt="1"></p>
+<p>放松不要等到等周末，周末也不要放纵，</p>
+<p>当前阶段 <strong>主要矛盾</strong> 是学习与娱乐的矛盾，（还有度的感念）</p>
+<p>一周有七天，六七是周末，为什么会有周末？</p>
+<p>我想，周末的存在就是让人有间歇性的休息，换言之，周末是一个充电的时间。</p>
+<p>当然，对于周末的利用，每个人都是不同的，如果你选择将所有的时间集中起来分配，集中去玩，集中去学习了，感觉是很爽的，</p>
+<p>但是也会有逆反很疲劳的那一刻，或早或晚，因人而异，学习的疲劳，他会不断的累加，对我来说是消除疲劳似乎并不容易。我常常会处于一个比较稳定的轻度疲劳状态下，很难走出。</p>
+<p>如果你选择一整天 or 总之就是很长的一段时间，去学习，或者是去玩的话，要么你收不回来心，而且还感觉很累；要么就是我之前说的那种，一直都迷迷糊糊，眼睛无神，那种很糟糕的状态中，一直出不来，</p>
+<p>但如果你上今天上午你运动了，休息了，你要是发自内心的告诉自己，你真的感觉到放松了(//∇//)【注意，不是去解决没做完的事情，这叫减轻精神负担，不能称作放松】，下午再去学习的时候可能会有点遗忘，这个没关系，说明你开始注意到了什么，你的的注意力慢慢恢复，更加集中了，然后你就会发现那些低级错误，现在做的还是一如既往的慢，但最起码所以才相比效率高多了。</p>
+<p>周六上午休息的罪恶感，也基本没了，</p>
+<p>早上、上午、下午、晚上学习，中午、傍晚、夜里休息，</p>
+<p>之前的眼疲劳的问题也明显改善了。</p>
+<p>以此告诫自己适 <strong>度</strong> 用眼。</p>
+<p>关于 <strong>度</strong> 的事情想再多说一点，大家都会放松，做一个有趣的比喻，</p>
+<p>短期合适的放松（清空内存重启后的电脑），长期放松（硬盘格式化），</p>
+<p>不断学习的真谛不太懂（高中、大学都这么说，但都在强调这一点），以前只理解表面意思，盲目性不间断、长时间去做一件事（高CPU的电脑），好多时间都被低效浪费。</p>
 ]]></content>
       <categories>
         <category>讲给自己听</category>
       </categories>
       <tags>
-        <tag>极简生活</tag>
-        <tag>减负</tag>
+        <tag>适度</tag>
+        <tag>休息</tag>
       </tags>
   </entry>
   <entry>
@@ -2325,34 +2353,6 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
         <tag>爱好</tag>
         <tag>轮滑</tag>
         <tag>社团</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>马克思喊我去休息</title>
-    <url>/2021/04/25/%E9%A9%AC%E5%85%8B%E6%80%9D%E5%96%8A%E6%88%91%E5%8E%BB%E4%BC%91%E6%81%AF/</url>
-    <content><![CDATA[<p><img src="/2021/04/25/%E9%A9%AC%E5%85%8B%E6%80%9D%E5%96%8A%E6%88%91%E5%8E%BB%E4%BC%91%E6%81%AF/1.jpg" alt="1"></p>
-<p>放松不要等到等周末，周末也不要放纵，</p>
-<p>当前阶段 <strong>主要矛盾</strong> 是学习与娱乐的矛盾，（还有度的感念）</p>
-<p>一周有七天，六七是周末，为什么会有周末？</p>
-<p>我想，周末的存在就是让人有间歇性的休息，换言之，周末是一个充电的时间。</p>
-<p>当然，对于周末的利用，每个人都是不同的，如果你选择将所有的时间集中起来分配，集中去玩，集中去学习了，感觉是很爽的，</p>
-<p>但是也会有逆反很疲劳的那一刻，或早或晚，因人而异，学习的疲劳，他会不断的累加，对我来说是消除疲劳似乎并不容易。我常常会处于一个比较稳定的轻度疲劳状态下，很难走出。</p>
-<p>如果你选择一整天 or 总之就是很长的一段时间，去学习，或者是去玩的话，要么你收不回来心，而且还感觉很累；要么就是我之前说的那种，一直都迷迷糊糊，眼睛无神，那种很糟糕的状态中，一直出不来，</p>
-<p>但如果你上今天上午你运动了，休息了，你要是发自内心的告诉自己，你真的感觉到放松了(//∇//)【注意，不是去解决没做完的事情，这叫减轻精神负担，不能称作放松】，下午再去学习的时候可能会有点遗忘，这个没关系，说明你开始注意到了什么，你的的注意力慢慢恢复，更加集中了，然后你就会发现那些低级错误，现在做的还是一如既往的慢，但最起码所以才相比效率高多了。</p>
-<p>周六上午休息的罪恶感，也基本没了，</p>
-<p>早上、上午、下午、晚上学习，中午、傍晚、夜里休息，</p>
-<p>之前的眼疲劳的问题也明显改善了。</p>
-<p>以此告诫自己适 <strong>度</strong> 用眼。</p>
-<p>关于 <strong>度</strong> 的事情想再多说一点，大家都会放松，做一个有趣的比喻，</p>
-<p>短期合适的放松（清空内存重启后的电脑），长期放松（硬盘格式化），</p>
-<p>不断学习的真谛不太懂（高中、大学都这么说，但都在强调这一点），以前只理解表面意思，盲目性不间断、长时间去做一件事（高CPU的电脑），好多时间都被低效浪费。</p>
-]]></content>
-      <categories>
-        <category>讲给自己听</category>
-      </categories>
-      <tags>
-        <tag>适度</tag>
-        <tag>休息</tag>
       </tags>
   </entry>
 </search>
