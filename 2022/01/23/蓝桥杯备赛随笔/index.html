@@ -73,7 +73,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">5.6k</span>
+            <span class="post-count">6k</span>
         </span>
     </span>
 
@@ -82,7 +82,7 @@
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">26 min</span>
+            <span class="post-count">27 min</span>
         </span>
     </span>
 </div>
@@ -137,8 +137,30 @@
 <p><strong>若给结构体排序出现失灵？</strong></p>
 <p>用于比较大小的变量肯定用错了</p>
 <p><strong>7. char[] 如何转 string ？如何用 printf 输出 string ？</strong></p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> c[<span class="number">20</span>];</span><br><span class="line">string str = c;<span class="comment">//直接赋值，完成转换</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,str.<span class="built_in">c_str</span>());<span class="comment">//c 输出 string</span></span><br><span class="line">cout&lt;&lt;str&lt;&lt;endl; <span class="comment">//c++ 输出 string</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> c[<span class="number">20</span>];</span><br><span class="line">string str = c;<span class="comment">//直接初始化，完成转换</span></span><br><span class="line"></span><br><span class="line"><span class="built_in">printf</span>(<span class="string">&quot;%s\n&quot;</span>,str.<span class="built_in">c_str</span>());<span class="comment">//c 输出 string</span></span><br><span class="line">cout&lt;&lt;str&lt;&lt;endl; <span class="comment">//c++ 输出 string</span></span><br></pre></td></tr></table></figure>
 
+<blockquote>
+<p>如果是单字符 char 转 string，上述如果照搬：【定义并立即初始化，<font color="red">初始化过程进行隐式类型转换</font>】</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> c =<span class="string">&#x27;a&#x27;</span>;</span><br><span class="line"><span class="built_in">string</span> str = c;<span class="comment">//直接初始化，完成转换</span></span><br></pre></td></tr></table></figure>
+
+<p><strong>编译报错。。。那该怎么做？</strong></p>
+<p>1）把定义和赋值分开，竟然是可行的。【定义未初始化，<font color="red">赋值过程进行隐式类型转换</font>】</p>
+<p>也就是说，string 初始化只能用字符串，想赋予一个字符。只能在初始化之外的操作（比如赋值）寻求可行性。当然这个问题2023-07-19才注意到，是因为平时习惯不初始化，只定义，另起一行赋值的习惯，<strong>所以一直以来初始化和赋值这两个概念我是模糊的</strong>，新习惯，新思路的养成确实会找补不少以前的问题。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> c = <span class="string">&#x27;a&#x27;</span>;</span><br><span class="line"><span class="built_in">string</span> str ;</span><br><span class="line">str = c;<span class="comment">//跳过初始化直接赋值，完成转换</span></span><br></pre></td></tr></table></figure>
+
+<p>2）使用频率上和逻辑合理性上，我更推荐这个拼接。</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> c = <span class="string">&#x27;a&#x27;</span>;</span><br><span class="line"><span class="built_in">string</span> str =<span class="string">&quot;&quot;</span>;</span><br><span class="line">str += c;</span><br></pre></td></tr></table></figure>
+
+<p>3）chatgpt 提供的一种，显式类型转换</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"> <span class="keyword">char</span> c = <span class="string">&#x27;a&#x27;</span>;</span><br><span class="line"><span class="built_in">string</span> str;</span><br><span class="line">str = <span class="built_in">string</span>(<span class="number">1</span>, c);</span><br></pre></td></tr></table></figure>
+
+<p><strong>补充一下 初始化和赋值的概念</strong></p>
+<p>初始化：初始化是在创建变量时，为其赋予初始值。</p>
+<p>赋值：赋值是将一个已经存在的变量重新赋予新的值。在赋值过程中，变量已经被声明和初始化</p>
+<blockquote>
+<p><code>string str;</code>不要以为这样就没有初始化了，<code>int num;</code>还记得不赋值直接用它是个随机值嘛，所以str是有默认值的，是个空串。</p>
+</blockquote>
+</blockquote>
 <p><strong>8.如何定义无穷大？</strong></p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span>  INF 0x3f3f3f3f</span></span><br></pre></td></tr></table></figure>
 
