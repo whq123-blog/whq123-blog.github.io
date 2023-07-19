@@ -200,6 +200,12 @@
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(j&lt;n)</span><br><span class="line">&#123;</span><br><span class="line">    s+=a[j++];</span><br><span class="line">    <span class="keyword">if</span>(s%<span class="number">11</span> == <span class="number">0</span>)ct++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>它累加的最后一项是不是 a[n-1] ？ 看终止条件，j=n不满足条件，所以是a[n-1]，符合初衷。</p>
+<p>3.结束时候 循环因ct =0结束，所以ct=0吗？</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">while</span>(ct--)</span><br><span class="line">&#123;</span><br><span class="line">    ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p>执行结束后发现是 ct=-1，我常常用 ct 做的是实现循环执行几次，并不关注ct的具体值，所以才忽视了循环结束仍要执行一次 ct–操作。——2023-07-19</p>
+</blockquote>
 <h3 id="判断分支"><a href="#判断分支" class="headerlink" title="判断分支"></a>判断分支</h3><p>有一种不常见的错误：</p>
 <p>连锁反应</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(s == <span class="string">&#x27;U&#x27;</span>)s=<span class="string">&#x27;L&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(s == <span class="string">&#x27;D&#x27;</span>)s=<span class="string">&#x27;R&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(s == <span class="string">&#x27;L&#x27;</span>)s=<span class="string">&#x27;D&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(s == <span class="string">&#x27;R&#x27;</span>)s=<span class="string">&#x27;U&#x27;</span>;</span><br><span class="line"><span class="comment">//这就更适合用else if</span></span><br></pre></td></tr></table></figure>
