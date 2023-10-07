@@ -17,93 +17,6 @@
       </tags>
   </entry>
   <entry>
-    <title>DBTrainingRecord</title>
-    <url>/2021/05/31/DBTrainingRecord/</url>
-    <content><![CDATA[<h3 id="linux命令的补充"><a href="#linux命令的补充" class="headerlink" title="linux命令的补充"></a>linux命令的补充</h3><hr>
-<h3 id="（1）查找find"><a href="#（1）查找find" class="headerlink" title="（1）查找find"></a>（1）查找<code>find</code></h3><p><code>find -name &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code> 的文件/目录</p>
-<p><code>find -iname &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code>的文件/目录 ，不分大小写</p>
-<p><code>find /root -name &#39;hadoop&#39;</code>: 在``/root<code>目录下，查找后缀为</code>.o`的文件</p>
-<p><code>find  -name &#39;*.o&#39;</code>: 当前目录下，查找后缀为<code>.o</code>的文件</p>
-<p><code>find  -iname &#39;*ha*&#39;</code>: 在规定 root 下查找名 包含<code>ha</code>的文件/目录</p>
-<h3 id="（2）管道"><a href="#（2）管道" class="headerlink" title="（2）管道|"></a>（2）管道<code>|</code></h3><p><code>/usr/root |grep hadoop</code>:|左边的输出成为右边的输入</p>
-<p><font color="red">用到再说…</font></p>
-<h3 id="（3）软连接-gt-符号"><a href="#（3）软连接-gt-符号" class="headerlink" title="（3）软连接 -&gt;符号"></a>（3）软连接 <code>-&gt;</code>符号</h3><p>执行<code>ll -n </code>就可以看到<code>lrwxrwxrwx 1 root root   13 5月  31 11:32 tio.o -&gt; /root/1/tio.o</code>后者就是前者的快捷方式</p>
-<p><font color="grey"> 软连接，带着<code>-s</code></font></p>
-<div style="background-color:#1E90FF;"><font color="white">不必重复的占用磁盘空间，文件保持同步</font></div>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ln -s /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
-
-<p><font color="grey">硬链接,不带<code>-s</code></font></p>
-<div style="background-color:#1E90FF;"><font color="white">占用磁盘空间，文件保持同步</font></div>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ln  /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="（4）列举ls"><a href="#（4）列举ls" class="headerlink" title="（4）列举ls"></a>（4）列举<code>ls</code></h3><p><code>ll -a</code>:显示隐藏文件</p>
-<p><code>ll -h</code> <code>ll -n</code>：显示更多属性（大小）</p>
-<h3 id="（5）Vim"><a href="#（5）Vim" class="headerlink" title="（5）Vim"></a>（5）Vim</h3><p><code>:%s/java/JAVA/g</code>:<code>%s</code>:全文件开始查找和替换，将<code>java</code>全部替换为<code>JAVA</code>，<code>g</code>：global 全局替换</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">特别的，</span><br><span class="line">$&#123;system:Java.io.tmpdir&#125; 替换为 &#x2F;usr&#x2F;local&#x2F;hive&#x2F;iotmp</span><br><span class="line">:%s#$&#123;system:Java.io.tmpdir&#125;#&#x2F;usr&#x2F;local&#x2F;hive&#x2F;iotmp#g</span><br><span class="line">用#分隔</span><br></pre></td></tr></table></figure>
-
-<p>输入g，直接到底部</p>
-<h3 id="（6）权限"><a href="#（6）权限" class="headerlink" title="（6）权限"></a>（6）权限</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">r</span><br><span class="line">w</span><br><span class="line">x：执行权限</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="（7）服务启停"><a href="#（7）服务启停" class="headerlink" title="（7）服务启停"></a>（7）服务启停</h3><p><code>systemctl status httpd </code>：查看<code>httpd</code>状态</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">systemctl -[start|stop|status|enable|disable|] servername</span><br><span class="line"></span><br><span class="line">enable &#x3D;&gt; 开机默认开启</span><br><span class="line">disable &#x3D;&gt;开机不自启</span><br><span class="line">status &#x3D;&gt;    可以看到</span><br><span class="line"></span><br><span class="line"> Loaded: loaded (&#x2F;usr&#x2F;lib&#x2F;systemd&#x2F;system&#x2F;httpd.service; disabled不自启; vendor preset: disabled)</span><br><span class="line">   Active: inactive (dead)   #当前是关闭状态</span><br><span class="line">     Docs: man:httpd(8)</span><br><span class="line">           man:apachectl(8)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<h3 id="（8）解压"><a href="#（8）解压" class="headerlink" title="（8）解压"></a>（8）解压</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tar -xzvf xxx</span><br><span class="line">tar -xzvf xxx -C /usr/local       解压到指定路径         习惯上，/usr/local  /usr/opt</span><br></pre></td></tr></table></figure>
-
-<h3 id="（9）shell编程"><a href="#（9）shell编程" class="headerlink" title="（9）shell编程"></a>（9）shell编程</h3><p><code>!#/bin/bash</code>:开头加上，这个注释有啥用，增加可读性？</p>
-<p>应用：多台机器一键安装，</p>
-<p><a href="https://www.runoob.com/linux/linux-shell-basic-operators.html">菜鸟</a></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">变量：</span><br><span class="line">常亮：</span><br><span class="line">循环：</span><br><span class="line">流程控制语句：</span><br><span class="line">流程控制，使用关系运算符 -</span><br><span class="line">lt  小于 </span><br><span class="line">-gt  大于</span><br><span class="line">-eq  等于</span><br><span class="line">-o  或</span><br><span class="line">-a  且</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">touch dd.txt   #创建文件</span><br><span class="line">bash demo2.sh  #调用另一个脚本</span><br><span class="line">echo &quot;小丛丛 是猪&quot;| cat &gt;&gt; dd.txt   #输出并管道进文件中</span><br><span class="line">read -p &quot;请输入一个数字:&quot; SCORE    #输入</span><br><span class="line">if [ $SCORE -lt 10 -o $SCORE -gt 100 ];then #[] 前后必须有空格隔开  &lt;10 ||&gt;100</span><br><span class="line">	echo &quot;$SCORE小于10 或者大于100&quot;</span><br><span class="line"></span><br><span class="line">fi                                         #if then ....elif... if收尾</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">一个安装例子：</span><br><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">source ..&#x2F;........</span><br><span class="line">$PATH&#x3D;</span><br><span class="line"></span><br><span class="line">source ..&#x2F;.......</span><br><span class="line">$PATH&#x3D;</span><br></pre></td></tr></table></figure>
-
-<h3 id="（10）系统配置文件"><a href="#（10）系统配置文件" class="headerlink" title="（10）系统配置文件"></a>（10）系统配置文件</h3><p>目录：<code>/etc/hosts</code></p>
-<p>环境变量：<code>/etc/profile</code></p>
-<p><code>source profile</code></p>
-<h3 id="（11）内网穿透"><a href="#（11）内网穿透" class="headerlink" title="（11）内网穿透"></a>（11）内网穿透</h3><p>将自己的网段和端口暴露到公网</p>
-<h3 id="（12）监听"><a href="#（12）监听" class="headerlink" title="（12）监听"></a>（12）监听</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">netstat -antp |grep 8802</span><br></pre></td></tr></table></figure>
-
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">netstat -antp |grep nginx</span><br></pre></td></tr></table></figure>
-
-<h3 id="curl"><a href="#curl" class="headerlink" title="curl"></a>curl</h3><p>http命令，</p>
-<ul>
-<li>可以下载文件，</li>
-<li>像浏览器一样，可以测试</li>
-</ul>
-<p>爬下来文本</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">curl https://www.baidu.com/</span><br></pre></td></tr></table></figure>
-
-<p>欠账：</p>
-<p>flume的采集操作没有做，</p>
-<p>sqoop的传输操作没有做</p>
-<p>脚本采集与监控</p>
-<p>（行为日志采集、新闻采集）</p>
-<p>temp:</p>
-<p>1、tar安装hadoop、java：</p>
-<p>​    放java   改名为jdk</p>
-<p>​    hadoop 改名为hadoop</p>
-<p>2、环境变量</p>
-<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">Java</span></span><br><span class="line">export JAVA_HOME=/usr/local/jdk</span><br><span class="line">export PATH=$PATH:$JAVA_HOME/bin</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash">hadoop</span></span><br><span class="line">export HADOOP_HOME=/usr/local/hadoop</span><br><span class="line">export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin</span><br><span class="line"></span><br></pre></td></tr></table></figure>
-
-<p>hadoop数据操作</p>
-<p>（1）上传，<code>hdfs dfs -put  xxxx /</code>上传xxx到hdfs的根路径下</p>
-<p>（2）列举，<code>hdfs dfs -ls /</code>列举根路径文件</p>
-<p>3、配置hadoop</p>
-<p>​     df port8020</p>
-<p>4、集群格式化（bug）<code>exiting with  stauts 0</code></p>
-<p>但凡格式化，就说明数据全不要了，会生成新的集群id和新块池，和原来的其他节点无法关联。</p>
-<p>解决：每一台节点的<code>/usr/local/hadoop/</code>删除<code>tmp</code>,再启动集群</p>
-]]></content>
-      <categories>
-        <category>WEB开发之旅</category>
-      </categories>
-      <tags>
-        <tag>数据库实训</tag>
-        <tag>linux命令</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>2023研究生复试——机试随笔（CSDN已上传）</title>
     <url>/2023/03/31/2023%E7%A0%94%E7%A9%B6%E7%94%9F%E5%A4%8D%E8%AF%95%E2%80%94%E2%80%94%E6%9C%BA%E8%AF%95%E9%9A%8F%E7%AC%94%EF%BC%88CSDN%E5%B7%B2%E4%B8%8A%E4%BC%A0%EF%BC%89/</url>
     <content><![CDATA[<h2 id="查漏补缺"><a href="#查漏补缺" class="headerlink" title="查漏补缺"></a>查漏补缺</h2><figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="number">1.</span>sqrt 在math库</span><br><span class="line"><span class="number">2.</span>计算年月日，计算时间就是进位问题吧，用算法解决问题也是蛮有趣的的哈</span><br><span class="line"><span class="number">3.</span>数据合法无处不在，有时候会很善意的告诉你</span><br><span class="line"><span class="number">4.</span>题目要求是不是多组输入？</span><br><span class="line"><span class="number">5.</span>位数不等于被<span class="number">10</span>整除数值，【<span class="number">17</span>，两位，一个零（<span class="number">10</span>）表示两位数</span><br><span class="line"><span class="number">6.</span>PE错误 presentation error</span><br><span class="line"><span class="number">7.</span>输出结果是否为正整数？要不要<span class="number">0</span>？被用例卡了一次</span><br><span class="line"><span class="number">8.</span>总感觉我这算法学的不系统，不牢固。</span><br><span class="line"><span class="number">12.</span>结构体用起来真的感觉书写麻烦头大，尽量简化代码量</span><br><span class="line"><span class="number">13.</span>用<span class="keyword">double</span>做结果小数点后好多位总出精度问题，<span class="keyword">float</span>就不会，为啥？？？？？？保存整数我们不能使用<span class="keyword">double</span>这类的浮点型，因为，<span class="keyword">double</span>在存储数据并不是整的，比如存储<span class="number">0</span>，<span class="keyword">double</span>实际存储为<span class="number">0.00000001</span>，这就导致了我们使用浮点型计算出来的有误差！</span><br><span class="line"><span class="number">14.</span>蓝桥杯整理的笔记还需要细细打磨，都是考研抄作各家博主《作业》的成果</span><br><span class="line"><span class="number">15.f</span><span class="keyword">or</span>(<span class="keyword">int</span> i=n; i&lt;<span class="number">2</span>*m-n; i++) 每次取n，i范围[<span class="number">0</span>,<span class="number">2</span>*m),i的终止条件是？取特值，n=<span class="number">0</span>时，一目了然</span><br><span class="line"><span class="number">16.</span>打印一个菱形？？螺旋矩阵。。。这些图形的，我弱爆了。</span><br><span class="line"><span class="number">17.</span>基础漏洞太多了，很多数学基本常识还有些基本推算都如何实现都不记得了。</span><br><span class="line"><span class="number">18.</span>用注释把一些未实现的功能写在合适的位置，思路清晰了不少，不确定的数据用问号表示，少了不少干扰</span><br><span class="line"><span class="number">19.</span>字符串要想读空格只能整行读取</span><br><span class="line"><span class="number">20.</span> <span class="number">0</span>经常可以作为一个特殊样例卡住你不让你AC，比如遇到过的进制转换，计算小数点后几位都容易忽略<span class="number">0</span></span><br><span class="line"><span class="number">21.</span>字符串处理函数，stl容器函数，数值处理函数掌握不好，很多函数的使用都有问题。</span><br><span class="line"><span class="number">22.</span>之所以判定乒乓球是中等题，应该就是需要看懂繁琐的规则，模拟出来相对麻烦一点 </span><br><span class="line"><span class="number">23.</span>给容器vector、string排序和数组首地址加长度是行不通的，需要用begin和end。   </span><br><span class="line"><span class="number">24.</span>reverse函数的头文件是？</span><br><span class="line"><span class="number">25.</span>判断素数容易手误，可疑因数容易写死 %i 写成 %<span class="number">2</span>。</span><br><span class="line"><span class="number">26.</span>《结构体问题》写代码是真的冗长，《字符串问题》处理起来是真的有很多基础思路要积累，很多基本函数要记得非常熟悉。 </span><br><span class="line"><span class="number">27.</span>结构体最常用的用途就是结构体排序（捆绑数据，甚至按指定序列要求输出），有些输出顺序是在离谱，无法循环输出，用结构体捆绑数值后，排序就可以循环输出。</span><br><span class="line"><span class="number">28.</span>简单题，模板题；中等题，题意得多读几遍，代码长点；难题，有特殊情况考虑不全/没思路/代码长。</span><br><span class="line"><span class="number">29.</span>矩阵的<span class="number">0</span>次幂是单位矩阵E   </span><br><span class="line"><span class="number">30.</span>进阶题，就是算法题，特点是会手算，数量规模大了就算漏了，代码实现起来思路不清晰。</span><br><span class="line"><span class="number">31.</span>懂了，dfs 最基础的，是走通一条路，   若要搜索所有情况，就要标记，回溯时解除标记</span><br><span class="line"><span class="number">32.</span>有时候程序会崩溃返回<span class="number">-1</span>内存泄漏？为啥重新执行有时又没问题？数组访问越界，访问m[<span class="number">2007</span>],<span class="number">2007</span>未指定，会导致这种执行的不稳定。</span><br><span class="line"><span class="number">33.</span>写日历题的时候，为啥有的月有错误？相邻的月没错？年循环中，数组下标写死了，一年的二月直接影响了之后的每月周<span class="number">1</span>-周<span class="number">7</span>的分布规律，会导致有的样例对，有的就不对。，所以出现跨过一年<span class="number">12</span>月开始出问题。</span><br><span class="line"><span class="number">34.</span>东华oj存在样例每个数据后面都有空格，比如写日历，还比如根本看不出来的PE错误（<span class="number">41</span> 盾神与条状项链），就是每个元素后面都有空格，就是行末元素我习惯是去掉空格</span><br><span class="line"><span class="number">35.</span>每题要提交<span class="number">3</span><span class="number">-4</span>才AC？永远猜不到oj不给展示的样例有多变态，多健全，而标程上的有多么理想，搞得我三番五次改bug。</span><br><span class="line"><span class="number">36.</span>dfs题目总是超时。。。暴力不动。</span><br><span class="line"><span class="number">37.</span>没说多组输入，卡我的一个样例文件竟然设计成多组输入。就算是不强调多组输入，改成多组输入，也AC。</span><br><span class="line"><span class="number">38.</span>大数乘法我会用<span class="keyword">char</span> a b c，但是这样<span class="number">10</span><span class="number">-99</span>我做乘法，做进位都没法搞啊，所以说我应该用<span class="keyword">int</span>存 a b c，和处理</span><br><span class="line"><span class="number">39.</span>CodeBlocks红点之间调试，可以反复横跳，爽。</span><br><span class="line"><span class="number">40.</span>我发现,对Σ取余和对Σ每一项取模，最后再整体取模一样，这样过程值规模小。s =a+b+c; s%mod = (a%mod + b%mod + c%mod)%mod</span><br><span class="line"><span class="number">41.</span>找出所有可能年份三部分不知道那个是年月日，可能要去重<span class="number">2029</span><span class="number">-02</span><span class="number">-02</span>，<span class="number">2029</span><span class="number">-02</span><span class="number">-02</span></span><br><span class="line"><span class="number">42.</span>当map元素值为<span class="keyword">int</span>类型或者常量时候，默认值为<span class="number">0</span></span><br></pre></td></tr></table></figure>
@@ -469,6 +382,116 @@
       </tags>
   </entry>
   <entry>
+    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
+    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
+    <content><![CDATA[<p><font size="5px">为了积极响应并行计算的号召，也为了毕设铺路…我在狗(Go)语言的身上还是下了一点功夫。</font></p>
+<div style="background-color:#FFA07A;"> 
+<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
+<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
+<input type="checkbox"> gin视频正在跟<br><br>
+<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
+<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
+</div>    
+
+
+<p>​    </p>
+]]></content>
+      <categories>
+        <category>WEB开发之旅</category>
+      </categories>
+      <tags>
+        <tag>猪猪生活</tag>
+        <tag>闲聊</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>DBTrainingRecord</title>
+    <url>/2021/05/31/DBTrainingRecord/</url>
+    <content><![CDATA[<h3 id="linux命令的补充"><a href="#linux命令的补充" class="headerlink" title="linux命令的补充"></a>linux命令的补充</h3><hr>
+<h3 id="（1）查找find"><a href="#（1）查找find" class="headerlink" title="（1）查找find"></a>（1）查找<code>find</code></h3><p><code>find -name &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code> 的文件/目录</p>
+<p><code>find -iname &#39;hadoop&#39;</code>: 当前目录下，查找 名为<code>hadoop</code>的文件/目录 ，不分大小写</p>
+<p><code>find /root -name &#39;hadoop&#39;</code>: 在``/root<code>目录下，查找后缀为</code>.o`的文件</p>
+<p><code>find  -name &#39;*.o&#39;</code>: 当前目录下，查找后缀为<code>.o</code>的文件</p>
+<p><code>find  -iname &#39;*ha*&#39;</code>: 在规定 root 下查找名 包含<code>ha</code>的文件/目录</p>
+<h3 id="（2）管道"><a href="#（2）管道" class="headerlink" title="（2）管道|"></a>（2）管道<code>|</code></h3><p><code>/usr/root |grep hadoop</code>:|左边的输出成为右边的输入</p>
+<p><font color="red">用到再说…</font></p>
+<h3 id="（3）软连接-gt-符号"><a href="#（3）软连接-gt-符号" class="headerlink" title="（3）软连接 -&gt;符号"></a>（3）软连接 <code>-&gt;</code>符号</h3><p>执行<code>ll -n </code>就可以看到<code>lrwxrwxrwx 1 root root   13 5月  31 11:32 tio.o -&gt; /root/1/tio.o</code>后者就是前者的快捷方式</p>
+<p><font color="grey"> 软连接，带着<code>-s</code></font></p>
+<div style="background-color:#1E90FF;"><font color="white">不必重复的占用磁盘空间，文件保持同步</font></div>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ln -s /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
+
+<p><font color="grey">硬链接,不带<code>-s</code></font></p>
+<div style="background-color:#1E90FF;"><font color="white">占用磁盘空间，文件保持同步</font></div>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">ln  /root/1/tio.o  /root/tio.o</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="（4）列举ls"><a href="#（4）列举ls" class="headerlink" title="（4）列举ls"></a>（4）列举<code>ls</code></h3><p><code>ll -a</code>:显示隐藏文件</p>
+<p><code>ll -h</code> <code>ll -n</code>：显示更多属性（大小）</p>
+<h3 id="（5）Vim"><a href="#（5）Vim" class="headerlink" title="（5）Vim"></a>（5）Vim</h3><p><code>:%s/java/JAVA/g</code>:<code>%s</code>:全文件开始查找和替换，将<code>java</code>全部替换为<code>JAVA</code>，<code>g</code>：global 全局替换</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">特别的，</span><br><span class="line">$&#123;system:Java.io.tmpdir&#125; 替换为 &#x2F;usr&#x2F;local&#x2F;hive&#x2F;iotmp</span><br><span class="line">:%s#$&#123;system:Java.io.tmpdir&#125;#&#x2F;usr&#x2F;local&#x2F;hive&#x2F;iotmp#g</span><br><span class="line">用#分隔</span><br></pre></td></tr></table></figure>
+
+<p>输入g，直接到底部</p>
+<h3 id="（6）权限"><a href="#（6）权限" class="headerlink" title="（6）权限"></a>（6）权限</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">r</span><br><span class="line">w</span><br><span class="line">x：执行权限</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="（7）服务启停"><a href="#（7）服务启停" class="headerlink" title="（7）服务启停"></a>（7）服务启停</h3><p><code>systemctl status httpd </code>：查看<code>httpd</code>状态</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">systemctl -[start|stop|status|enable|disable|] servername</span><br><span class="line"></span><br><span class="line">enable &#x3D;&gt; 开机默认开启</span><br><span class="line">disable &#x3D;&gt;开机不自启</span><br><span class="line">status &#x3D;&gt;    可以看到</span><br><span class="line"></span><br><span class="line"> Loaded: loaded (&#x2F;usr&#x2F;lib&#x2F;systemd&#x2F;system&#x2F;httpd.service; disabled不自启; vendor preset: disabled)</span><br><span class="line">   Active: inactive (dead)   #当前是关闭状态</span><br><span class="line">     Docs: man:httpd(8)</span><br><span class="line">           man:apachectl(8)</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="（8）解压"><a href="#（8）解压" class="headerlink" title="（8）解压"></a>（8）解压</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">tar -xzvf xxx</span><br><span class="line">tar -xzvf xxx -C /usr/local       解压到指定路径         习惯上，/usr/local  /usr/opt</span><br></pre></td></tr></table></figure>
+
+<h3 id="（9）shell编程"><a href="#（9）shell编程" class="headerlink" title="（9）shell编程"></a>（9）shell编程</h3><p><code>!#/bin/bash</code>:开头加上，这个注释有啥用，增加可读性？</p>
+<p>应用：多台机器一键安装，</p>
+<p><a href="https://www.runoob.com/linux/linux-shell-basic-operators.html">菜鸟</a></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">变量：</span><br><span class="line">常亮：</span><br><span class="line">循环：</span><br><span class="line">流程控制语句：</span><br><span class="line">流程控制，使用关系运算符 -</span><br><span class="line">lt  小于 </span><br><span class="line">-gt  大于</span><br><span class="line">-eq  等于</span><br><span class="line">-o  或</span><br><span class="line">-a  且</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">touch dd.txt   #创建文件</span><br><span class="line">bash demo2.sh  #调用另一个脚本</span><br><span class="line">echo &quot;小丛丛 是猪&quot;| cat &gt;&gt; dd.txt   #输出并管道进文件中</span><br><span class="line">read -p &quot;请输入一个数字:&quot; SCORE    #输入</span><br><span class="line">if [ $SCORE -lt 10 -o $SCORE -gt 100 ];then #[] 前后必须有空格隔开  &lt;10 ||&gt;100</span><br><span class="line">	echo &quot;$SCORE小于10 或者大于100&quot;</span><br><span class="line"></span><br><span class="line">fi                                         #if then ....elif... if收尾</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">一个安装例子：</span><br><span class="line">#!&#x2F;bin&#x2F;bash</span><br><span class="line">source ..&#x2F;........</span><br><span class="line">$PATH&#x3D;</span><br><span class="line"></span><br><span class="line">source ..&#x2F;.......</span><br><span class="line">$PATH&#x3D;</span><br></pre></td></tr></table></figure>
+
+<h3 id="（10）系统配置文件"><a href="#（10）系统配置文件" class="headerlink" title="（10）系统配置文件"></a>（10）系统配置文件</h3><p>目录：<code>/etc/hosts</code></p>
+<p>环境变量：<code>/etc/profile</code></p>
+<p><code>source profile</code></p>
+<h3 id="（11）内网穿透"><a href="#（11）内网穿透" class="headerlink" title="（11）内网穿透"></a>（11）内网穿透</h3><p>将自己的网段和端口暴露到公网</p>
+<h3 id="（12）监听"><a href="#（12）监听" class="headerlink" title="（12）监听"></a>（12）监听</h3><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">netstat -antp |grep 8802</span><br></pre></td></tr></table></figure>
+
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">netstat -antp |grep nginx</span><br></pre></td></tr></table></figure>
+
+<h3 id="curl"><a href="#curl" class="headerlink" title="curl"></a>curl</h3><p>http命令，</p>
+<ul>
+<li>可以下载文件，</li>
+<li>像浏览器一样，可以测试</li>
+</ul>
+<p>爬下来文本</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line">curl https://www.baidu.com/</span><br></pre></td></tr></table></figure>
+
+<p>欠账：</p>
+<p>flume的采集操作没有做，</p>
+<p>sqoop的传输操作没有做</p>
+<p>脚本采集与监控</p>
+<p>（行为日志采集、新闻采集）</p>
+<p>temp:</p>
+<p>1、tar安装hadoop、java：</p>
+<p>​    放java   改名为jdk</p>
+<p>​    hadoop 改名为hadoop</p>
+<p>2、环境变量</p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"><span class="meta">#</span><span class="bash">Java</span></span><br><span class="line">export JAVA_HOME=/usr/local/jdk</span><br><span class="line">export PATH=$PATH:$JAVA_HOME/bin</span><br><span class="line"></span><br><span class="line"><span class="meta">#</span><span class="bash">hadoop</span></span><br><span class="line">export HADOOP_HOME=/usr/local/hadoop</span><br><span class="line">export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>hadoop数据操作</p>
+<p>（1）上传，<code>hdfs dfs -put  xxxx /</code>上传xxx到hdfs的根路径下</p>
+<p>（2）列举，<code>hdfs dfs -ls /</code>列举根路径文件</p>
+<p>3、配置hadoop</p>
+<p>​     df port8020</p>
+<p>4、集群格式化（bug）<code>exiting with  stauts 0</code></p>
+<p>但凡格式化，就说明数据全不要了，会生成新的集群id和新块池，和原来的其他节点无法关联。</p>
+<p>解决：每一台节点的<code>/usr/local/hadoop/</code>删除<code>tmp</code>,再启动集群</p>
+]]></content>
+      <categories>
+        <category>WEB开发之旅</category>
+      </categories>
+      <tags>
+        <tag>数据库实训</tag>
+        <tag>linux命令</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Just Run</title>
     <url>/2022/05/23/Just-Run/</url>
     <content><![CDATA[<p>许久许久前，我眼中的运动只有跑步一种，那时候是为了多一种升学方式，很重视，每次都是心惊肉跳，怕，怕跑步成绩不达标，怕看到失望的神情，怕不被认可，主观客观地促使我一直在坚持，那几年我的成绩一直不错，可能跑步是我当时最在意地和最害怕的存在了。</p>
@@ -494,29 +517,6 @@
         <tag>坚持</tag>
         <tag>抗压</tag>
         <tag>二战</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>I secretly broadcast on the dormitory LAN to praise my roommate</title>
-    <url>/2021/06/05/I-secretly-broadcast-on-the-dormitory-LAN-to-praise-my-roommate/</url>
-    <content><![CDATA[<p><font size="5px">为了积极响应并行计算的号召，也为了毕设铺路…我在狗(Go)语言的身上还是下了一点功夫。</font></p>
-<div style="background-color:#FFA07A;"> 
-<input type="checkbox" checked="checked"> vscode故障基本排除，正常使用<br><br>
-<input type="checkbox" checked="checked"> gin中文文档过了一遍<br><br>
-<input type="checkbox"> gin视频正在跟<br><br>
-<input type="checkbox" checked="checked"> postman 学会了POST请求、和runner的配置使用<br><br>
-<input type="checkbox" checked="checked"> gin广播，并成功地‘赞美’了舍友是猪，连上wifi，大家都可见<br><br>
-</div>    
-
-
-<p>​    </p>
-]]></content>
-      <categories>
-        <category>WEB开发之旅</category>
-      </categories>
-      <tags>
-        <tag>猪猪生活</tag>
-        <tag>闲聊</tag>
       </tags>
   </entry>
   <entry>
@@ -679,23 +679,6 @@
       </tags>
   </entry>
   <entry>
-    <title>两个典型长难句</title>
-    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
-    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
-<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
-<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
-<p>3、确定主干，进而确定其他成分</p>
-<p><strong>举两个栗子：</strong></p>
-<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
-]]></content>
-      <categories>
-        <category>备研之旅</category>
-      </categories>
-      <tags>
-        <tag>长难句</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>什么是好的笔记</title>
     <url>/2021/05/30/%E4%BB%80%E4%B9%88%E6%98%AF%E5%A5%BD%E7%9A%84%E7%AC%94%E8%AE%B0/</url>
     <content><![CDATA[<h3 id="笔记整理1"><a href="#笔记整理1" class="headerlink" title="笔记整理1"></a>笔记整理1</h3><p>——<strong>针对理论化应试教育的笔记</strong></p>
@@ -714,6 +697,23 @@
       <tags>
         <tag>笔记排版</tag>
         <tag>应试笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>两个典型长难句</title>
+    <url>/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/</url>
+    <content><![CDATA[<p><strong>分析长难句步骤：</strong></p>
+<p>1、先找连词（连接主从关系的句子or并列关系的句子，    总之连的是句子！！！）</p>
+<p>2、再找谓语动词（连词数量 = 谓语动词-1）</p>
+<p>3、确定主干，进而确定其他成分</p>
+<p><strong>举两个栗子：</strong></p>
+<p><img src="/2021/04/17/%E4%B8%A4%E4%B8%AA%E5%85%B8%E5%9E%8B%E9%95%BF%E9%9A%BE%E5%8F%A5/bj1.JPG" alt="bj1"></p>
+]]></content>
+      <categories>
+        <category>备研之旅</category>
+      </categories>
+      <tags>
+        <tag>长难句</tag>
       </tags>
   </entry>
   <entry>
@@ -1366,6 +1366,29 @@ height: 100%; left: 0; top: 0;" src="//player.bilibili.com/player.html?aid=24733
       </tags>
   </entry>
   <entry>
+    <title>每日安排</title>
+    <url>/2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
+    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
+  <script id="hbeData" type="hbeData" data-hmacdigest="c5b67de500902adfdce8712a1bbd5d1b86f49bbcc82b29da84eada49dd67dc68">864cb16dec9f54c6b2ab440ca95f2b2787879dca1efffda258336d5eb9aa067f262866d181fa9287dee76c8394375c8c53f945d46fc083fea341fbca93c1444a83ed0391d0166f2e384461044bb7917405c0826dc7f5124938f2da22f31d99754b1252847679323b1893883be609ad95c147e68901a5a69655ba3061eacf5dddbf4d981e1c62c7030c14916bd3f06b5d33618ced679dfe2ce4804003b5896aad978cc3a1fbbed04a410f333961899b5de5d23d25feb0f6de83d345daafded0744502188198844d4bbb74f2b59ec2ec1d3975ee2188f83c48476cf34cf2d94e32ea55a54a73fbce3beee13ee32fa89205bfb3de4d0dfd0678cbf24c9b8cbbf57c01c4def5f105333a0ad3b027a606200de735a2c7c30372e39bcf76711db7d2e8efdcd240536ee2326e7311dd44c8bdab2d23e6d99d2cab530060561333df3f3d10b8e39e465c81a1c7d0615d66a99fffd97df279fd0806be90586500dd0ac97bf434a6de1c7b242c92344e23d9421b533fee85d7d633012be6d373d78102f2e7df02afee9da4f78bb17558936e1515c23e9f6e3ec1bf544469addeee57c0890dcbe776442734993e620ae31d091981a65a5baefe51a4a9e32b42d45b573fe231be41e7d87ca618554ed3734aa363e6a8153dd6a60b517189c443fd927c9d70aca0556e4c827be44de384170241ba0fbe85a3a397f2f349089fadc87ae62dc477690ab2becf5625f3c4bcfcba7caa65707a5604340b9c590d9ad3056558b769d21443fb472d309890c63155766e8dd97f941611ea4c931edbc8a68315bd5c599f750fa5d734e851d847bf18e4831f5cbcc1a922494ba36f1183bc86cb18f21cdb67969004318ccf251b05ada18f4d5b3462ef854d148ba1c7d7246129cae324f32a6553a5362c63f9998c363b3745135010bb57a2227cfddfaab241540452857dfbc3025a3f3c5ef6d86d02793f998961623b358508a4002acfd13ba213d6cf7970ccbcc4e7920c8cbc0ccff51a27a934faf42ec8ed08e424d5a63a902c1dacaeb85e0a9dceae359819e1abacfdbe582c23d07189da26ccd4be6136d83d5256d29806c641045cb402c35084011868c3bf4def573e0c8e14842a576c6c29386c688f8529ea6071e07c3012b274d1295edbe3b99d9c5cf5277fe67e36088300075ec458560ade85cf8fbe61095dba71c0b97cce60165473fc359b29e11e784963b8</script>
+  <div class="hbe hbe-content">
+    <div class="hbe hbe-input hbe-input-default">
+      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
+      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
+        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>
+      </label>
+    </div>
+  </div>
+</div>
+<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+      <categories>
+        <category>学业之旅</category>
+      </categories>
+      <tags>
+        <tag>日常自律</tag>
+        <tag>计划</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>毕设不搞开发？后续学啥</title>
     <url>/2022/01/13/%E6%AF%95%E8%AE%BE%E4%B8%8D%E6%90%9E%E5%BC%80%E5%8F%91%E5%90%8E%E7%BB%AD%E5%AD%A6%E5%95%A5/</url>
     <content><![CDATA[<blockquote>
@@ -1428,29 +1451,6 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
         <tag>serveless云开发</tag>
         <tag>vue</tag>
         <tag>uni-app</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>每日安排</title>
-    <url>/2021/04/17/%E6%AF%8F%E6%97%A5%E5%AE%89%E6%8E%92/</url>
-    <content><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="抱歉，这个密码看着不太对，请再试试。" data-whm="抱歉，这个文章不能被纠正，不过您还是能看看解密后的内容。">
-  <script id="hbeData" type="hbeData" data-hmacdigest="c5b67de500902adfdce8712a1bbd5d1b86f49bbcc82b29da84eada49dd67dc68">864cb16dec9f54c6b2ab440ca95f2b2787879dca1efffda258336d5eb9aa067f262866d181fa9287dee76c8394375c8c53f945d46fc083fea341fbca93c1444a83ed0391d0166f2e384461044bb7917405c0826dc7f5124938f2da22f31d99754b1252847679323b1893883be609ad95c147e68901a5a69655ba3061eacf5dddbf4d981e1c62c7030c14916bd3f06b5d33618ced679dfe2ce4804003b5896aad978cc3a1fbbed04a410f333961899b5de5d23d25feb0f6de83d345daafded0744502188198844d4bbb74f2b59ec2ec1d3975ee2188f83c48476cf34cf2d94e32ea55a54a73fbce3beee13ee32fa89205bfb3de4d0dfd0678cbf24c9b8cbbf57c01c4def5f105333a0ad3b027a606200de735a2c7c30372e39bcf76711db7d2e8efdcd240536ee2326e7311dd44c8bdab2d23e6d99d2cab530060561333df3f3d10b8e39e465c81a1c7d0615d66a99fffd97df279fd0806be90586500dd0ac97bf434a6de1c7b242c92344e23d9421b533fee85d7d633012be6d373d78102f2e7df02afee9da4f78bb17558936e1515c23e9f6e3ec1bf544469addeee57c0890dcbe776442734993e620ae31d091981a65a5baefe51a4a9e32b42d45b573fe231be41e7d87ca618554ed3734aa363e6a8153dd6a60b517189c443fd927c9d70aca0556e4c827be44de384170241ba0fbe85a3a397f2f349089fadc87ae62dc477690ab2becf5625f3c4bcfcba7caa65707a5604340b9c590d9ad3056558b769d21443fb472d309890c63155766e8dd97f941611ea4c931edbc8a68315bd5c599f750fa5d734e851d847bf18e4831f5cbcc1a922494ba36f1183bc86cb18f21cdb67969004318ccf251b05ada18f4d5b3462ef854d148ba1c7d7246129cae324f32a6553a5362c63f9998c363b3745135010bb57a2227cfddfaab241540452857dfbc3025a3f3c5ef6d86d02793f998961623b358508a4002acfd13ba213d6cf7970ccbcc4e7920c8cbc0ccff51a27a934faf42ec8ed08e424d5a63a902c1dacaeb85e0a9dceae359819e1abacfdbe582c23d07189da26ccd4be6136d83d5256d29806c641045cb402c35084011868c3bf4def573e0c8e14842a576c6c29386c688f8529ea6071e07c3012b274d1295edbe3b99d9c5cf5277fe67e36088300075ec458560ade85cf8fbe61095dba71c0b97cce60165473fc359b29e11e784963b8</script>
-  <div class="hbe hbe-content">
-    <div class="hbe hbe-input hbe-input-default">
-      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">
-      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">
-        <span class="hbe hbe-input-label-content hbe-input-label-content-default">您好，这里需要密码。</span>
-      </label>
-    </div>
-  </div>
-</div>
-<script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
-      <categories>
-        <category>学业之旅</category>
-      </categories>
-      <tags>
-        <tag>日常自律</tag>
-        <tag>计划</tag>
       </tags>
   </entry>
   <entry>
@@ -1530,54 +1530,6 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
       <tags>
         <tag>阶段性总结</tag>
         <tag>服务器</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语阅读</title>
-    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
-    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
-<span id="more"></span>
-
-<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
-<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
-]]></content>
-      <categories>
-        <category>备研之旅</category>
-      </categories>
-      <tags>
-        <tag>英语阅读</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>该给你的思想减减负</title>
-    <url>/2021/05/24/%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F/</url>
-    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
-<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
-<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
-<p>时间和精力是有限的，</p>
-<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
-<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
-<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
-<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
-<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
-<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
-<p>逛淘宝 *****</p>
-<p>听小说 ****</p>
-<p>写博客 ***</p>
-<p>玩游戏 *</p>
-<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
-<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
-<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
-<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
-<p>在能承受最坏代价的前提下多尝试，</p>
-<p>对自己高要求，</p>
-]]></content>
-      <categories>
-        <category>讲给自己听</category>
-      </categories>
-      <tags>
-        <tag>极简生活</tag>
-        <tag>减负</tag>
       </tags>
   </entry>
   <entry>
@@ -1670,6 +1622,22 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
         <tag>失败的笔记</tag>
         <tag>线性代数</tag>
         <tag>不恰当的记录方式</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语阅读</title>
+    <url>/2021/04/13/%E8%8B%B1%E8%AF%AD%E9%98%85%E8%AF%BB/</url>
+    <content><![CDATA[<h4 id="阅读做题步骤："><a href="#阅读做题步骤：" class="headerlink" title="阅读做题步骤："></a>阅读做题步骤：</h4><p><font color="red">先读文章</font><br>  1.先读首段，以及各段首句尾端，抓住文章中心— 一句话表达文中叙述的主要内容，（读不懂呢，就当作提前定位了）</p>
+<span id="more"></span>
+
+<p>  2.文中核心词——不同段可能会同义替换<br>  3.作者大概态度</p>
+<p><font color="grey">在7月前，目标是单词，语法长难句，遇到不会的单词查</font></p>
+]]></content>
+      <categories>
+        <category>备研之旅</category>
+      </categories>
+      <tags>
+        <tag>英语阅读</tag>
       </tags>
   </entry>
   <entry>
@@ -2141,6 +2109,38 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
         <tag>c++</tag>
         <tag>蓝桥杯</tag>
         <tag>笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>该给你的思想减减负</title>
+    <url>/2021/05/24/%E8%AF%A5%E7%BB%99%E4%BD%A0%E7%9A%84%E6%80%9D%E6%83%B3%E5%87%8F%E5%87%8F%E8%B4%9F/</url>
+    <content><![CDATA[<h3 id="谁说吃饭就一定要玩手机？"><a href="#谁说吃饭就一定要玩手机？" class="headerlink" title="谁说吃饭就一定要玩手机？"></a><font color="#00BFFF">谁说吃饭就一定要玩手机？</font></h3><p>吃饭的时候玩手机让你开心了吗？还是曾经令你开心，现在只是机械的重复这个行为</p>
+<h3 id="一门心思专注可以有多重要？"><a href="#一门心思专注可以有多重要？" class="headerlink" title="一门心思专注可以有多重要？"></a><font color="#6495ED">一门心思专注可以有多重要？</font></h3><p>一天可以不回宿舍，中午不睡觉，晚上睡前也不会累，期间只是休息20min，得到的是计划的顺利执行，最关心的事情第一时间被解决</p>
+<h3 id="这么做有意义吗？"><a href="#这么做有意义吗？" class="headerlink" title="这么做有意义吗？"></a><font color="#1E90FF">这么做有意义吗？</font></h3><p>直接地，回报大于代价？</p>
+<p>时间和精力是有限的，</p>
+<p>睡觉是原则问题，不能随便动摇，他直接决定了我的学习效率，也是我能否提高幸福指数的重要因素，因此是有意义的，</p>
+<p>我是以意义为标准支配自己的时间，安排活动的开展。</p>
+<h3 id="为什么要记笔记？"><a href="#为什么要记笔记？" class="headerlink" title="为什么要记笔记？"></a><font color="#8470FF">为什么要记笔记？</font></h3><p>试问，那么多辅导资料，你会做的比他们更好？更有逻辑性？</p>
+<p>从我自身出发，笔记是为了针对个人的，强化某一次小块知识点而存在的，不必有高度概括性 ，<strong>但一定要有针对性</strong>，如果你后面不去看它，那只是夯实了你的逻辑，时间一久，毫无意义。</p>
+<h3 id="其实吧，每天都是美好的"><a href="#其实吧，每天都是美好的" class="headerlink" title="其实吧，每天都是美好的"></a><font color="#FF8247">其实吧，每天都是美好的</font></h3><p>每一天都是美好的，大多时候是自己没有愿意慢下来，去仔细感受，庆幸自己身边所拥有的，食堂今天吃什么，超市一会买什么，快递到了吧，体重又下来了，晚上买点什么零食，专门挤出个时间看个电影，今天就可以把… 结束了 今天又睡醒了…</p>
+<h3 id="诱惑指数"><a href="#诱惑指数" class="headerlink" title="诱惑指数"></a><font color="#EE9A49">诱惑指数</font></h3><p>掌握一项新的应用能力 ******</p>
+<p>逛淘宝 *****</p>
+<p>听小说 ****</p>
+<p>写博客 ***</p>
+<p>玩游戏 *</p>
+<h3 id="放松和放纵"><a href="#放松和放纵" class="headerlink" title="放松和放纵"></a><font color="#9370DB">放松和放纵</font></h3><p>做不到抵制的诱惑，切勿触碰，那会是你承受不起的代价，这不是用来放松的借口</p>
+<h3 id="为什么要学-GO-？"><a href="#为什么要学-GO-？" class="headerlink" title="为什么要学 GO ？"></a><font color="#6C7B8B">为什么要学 GO ？</font></h3><p><strong>解决一下go初学时的那几个遗留问题</strong>，为什么学 GO （狗语言），还要用 GoLand （够烂的）开发？</p>
+<p>vsCode 不会配，太麻烦了，哎，迫不得已，用 GO 是为了我的项目有更好的性能，可以在软件测试中体现。</p>
+<h3 id="我劝，各位年轻人"><a href="#我劝，各位年轻人" class="headerlink" title="我劝，各位年轻人"></a><font color="#458B00">我劝，各位年轻人</font></h3><p>多总结，</p>
+<p>在能承受最坏代价的前提下多尝试，</p>
+<p>对自己高要求，</p>
+]]></content>
+      <categories>
+        <category>讲给自己听</category>
+      </categories>
+      <tags>
+        <tag>极简生活</tag>
+        <tag>减负</tag>
       </tags>
   </entry>
   <entry>
