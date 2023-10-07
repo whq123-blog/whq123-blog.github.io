@@ -210,6 +210,10 @@
 <p>连锁反应</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>(s == <span class="string">&#x27;U&#x27;</span>)s=<span class="string">&#x27;L&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(s == <span class="string">&#x27;D&#x27;</span>)s=<span class="string">&#x27;R&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(s == <span class="string">&#x27;L&#x27;</span>)s=<span class="string">&#x27;D&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(s == <span class="string">&#x27;R&#x27;</span>)s=<span class="string">&#x27;U&#x27;</span>;</span><br><span class="line"><span class="comment">//这就更适合用else if</span></span><br></pre></td></tr></table></figure>
 
+<p>空语句</p>
+<p>比如有四类情况，第四类不要表达，所以表达另外三类，来间接实现对第四类的表达，但并不是都需要有些实际操作的，就用空语句，连作用域的括号都不要了，直接分号结束。——2023.07.18补充</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">if</span>()</span><br><span class="line">&#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>();</span><br><span class="line"><span class="keyword">else</span> <span class="keyword">if</span>();</span><br><span class="line"><span class="keyword">else</span></span><br><span class="line">&#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
 
 
 <h3 id="进制转换"><a href="#进制转换" class="headerlink" title="进制转换"></a>进制转换</h3><p><strong>10进制转2进制会爆栈？</strong></p>
@@ -1679,6 +1683,12 @@ height: 100%; left: 0; top: 0;" src="https://space.bilibili.com/385521986/video"
 <p>头文件</p>
 <figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdlib.h&gt;</span></span></span><br></pre></td></tr></table></figure>
 
+<blockquote>
+<p>``判断单个字符是不是数：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="keyword">char</span> c =<span class="string">&#x27;5&#x27;</span>;</span><br><span class="line"><span class="keyword">if</span>(<span class="built_in">isdigit</span>(c))</span><br><span class="line">&#123;</span><br><span class="line">    cout&lt;&lt;<span class="string">&quot;yes, is number&quot;</span>&lt;&lt;endl;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+</blockquote>
 <p><strong>2.组合数公式</strong></p>
 <blockquote>
 <p>A <sub>n</sub><sup>m</sup> = C<sub>n</sub><sup>m</sup> × A<sub>m</sub><sup>m</sup>    其中, A<sub>m</sub><sup>m</sup> = m !      C<sub>n</sub><sup>m</sup> =n!/(  m! (n-m)! )</p>
